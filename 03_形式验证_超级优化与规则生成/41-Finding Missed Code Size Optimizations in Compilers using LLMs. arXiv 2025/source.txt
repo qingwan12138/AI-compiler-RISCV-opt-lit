@@ -1,0 +1,10 @@
+Title: Finding Missed Code Size Optimizations in Compilers using LLMs. arXiv 2025.
+Original URL: https://arxiv.org/abs/2501.00655
+Bibliography number: 41
+Downloaded PDF: NO
+Attempts:
+- arxiv_pdf: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>
+Note: PDF may be unavailable, behind publisher access, or this item may be a tool/spec/community page. Use the original URL above.
+Downloaded PDF retry: https://arxiv.org/pdf/2501.00655
+PDF source type: arxiv_pdf_unverified_ssl
+Bytes: 525842

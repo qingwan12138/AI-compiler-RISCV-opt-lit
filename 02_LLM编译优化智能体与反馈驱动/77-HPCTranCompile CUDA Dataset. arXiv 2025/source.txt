@@ -1,0 +1,4 @@
+Title: HPCTranCompile: AI compiler dataset for CUDA transpilation
+Original URL: https://arxiv.org/pdf/2506.10401.pdf
+Bibliography number: 77
+Downloaded PDF: YES

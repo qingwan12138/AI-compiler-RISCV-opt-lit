@@ -1,0 +1,4 @@
+Title: SymRTLo: Enhancing RTL optimization with LLMs and symbolic reasoning
+Original URL: https://arxiv.org/pdf/2504.10369.pdf
+Bibliography number: 144
+Downloaded PDF: YES

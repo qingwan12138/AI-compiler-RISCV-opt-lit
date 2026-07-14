@@ -1,0 +1,10 @@
+Title: Minotaur: A SIMD-Oriented Synthesizing Superoptimizer. 2024.
+Original URL: https://dl.acm.org/doi/10.1145/3689766
+Bibliography number: 20
+Downloaded PDF: NO
+Attempts:
+- acm_pdf_attempt: HTTPError: HTTP Error 403: Forbidden
+Note: PDF may be unavailable, behind publisher access, or this item may be a tool/spec/community page. Use the original URL above.
+Downloaded PDF retry: https://arxiv.org/pdf/2306.00229
+PDF source type: extra_mapping
+Bytes: 1046282

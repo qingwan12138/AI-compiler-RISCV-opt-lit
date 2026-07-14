@@ -1,0 +1,4 @@
+Title: Qimeng-xpiler: Transcompiling tensor programs neural-symbolic
+Original URL: https://arxiv.org/pdf/2505.02146.pdf
+Bibliography number: 39
+Downloaded PDF: YES

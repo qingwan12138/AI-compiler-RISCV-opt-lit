@@ -1,0 +1,10 @@
+Title: STOKE: Stochastic Superoptimization. ASPLOS 2013.
+Original URL: https://arxiv.org/abs/1211.0557
+Bibliography number: 19
+Downloaded PDF: NO
+Attempts:
+- arxiv_pdf: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>
+Note: PDF may be unavailable, behind publisher access, or this item may be a tool/spec/community page. Use the original URL above.
+Downloaded PDF retry: https://arxiv.org/pdf/1211.0557
+PDF source type: arxiv_pdf_unverified_ssl
+Bytes: 559231

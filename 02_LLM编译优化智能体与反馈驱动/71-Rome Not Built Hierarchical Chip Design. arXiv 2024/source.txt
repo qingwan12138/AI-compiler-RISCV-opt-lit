@@ -1,0 +1,4 @@
+Title: Hierarchical prompting for LLM-based chip design
+Original URL: https://arxiv.org/pdf/2407.18276.pdf
+Bibliography number: 95
+Downloaded PDF: YES

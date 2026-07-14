@@ -1,0 +1,4 @@
+Title: Rectifier: Code translation with corrector via LLMs
+Original URL: https://arxiv.org/pdf/2407.07472.pdf
+Bibliography number: 155
+Downloaded PDF: YES

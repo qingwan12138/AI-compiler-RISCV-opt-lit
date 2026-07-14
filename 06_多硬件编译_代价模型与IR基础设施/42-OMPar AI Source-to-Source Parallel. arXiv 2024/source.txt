@@ -1,0 +1,4 @@
+Title: OMPar: Automatic Parallelization with AI-Driven Compilation
+Original URL: https://arxiv.org/pdf/2409.14771.pdf
+Bibliography number: 73
+Downloaded PDF: YES

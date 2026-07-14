@@ -1,0 +1,4 @@
+Title: Kevin: MultiTurn RL for Generating CUDA Kernels
+Original URL: https://arxiv.org/pdf/2507.11948.pdf
+Bibliography number: 15
+Downloaded PDF: YES

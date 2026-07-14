@@ -1,0 +1,4 @@
+Title: GPT-4 Technical Report
+Original URL: https://arxiv.org/pdf/2303.08774.pdf
+Bibliography number: 98
+Downloaded PDF: YES

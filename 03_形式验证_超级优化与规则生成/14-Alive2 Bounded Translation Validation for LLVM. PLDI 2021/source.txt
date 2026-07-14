@@ -1,0 +1,10 @@
+Title: Alive2: Bounded Translation Validation for LLVM. PLDI 2021.
+Original URL: https://dl.acm.org/doi/10.1145/3453483.3454030
+Bibliography number: 14
+Downloaded PDF: NO
+Attempts:
+- acm_pdf_attempt: HTTPError: HTTP Error 403: Forbidden
+Note: PDF may be unavailable, behind publisher access, or this item may be a tool/spec/community page. Use the original URL above.
+Downloaded PDF retry: https://web.ist.utl.pt/nuno.lopes/pubs/alive2-pldi21.pdf
+PDF source type: extra_mapping
+Bytes: 669022

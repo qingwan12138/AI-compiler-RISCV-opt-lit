@@ -1,0 +1,4 @@
+Title: STARK: Strategic Team of Agents for Refining Kernels
+Original URL: https://arxiv.org/pdf/2510.16996.pdf
+Bibliography number: 41
+Downloaded PDF: YES

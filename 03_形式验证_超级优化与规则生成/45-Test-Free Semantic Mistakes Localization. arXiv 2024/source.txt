@@ -1,0 +1,4 @@
+Title: Test-free semantic mistakes localization in code translation
+Original URL: https://arxiv.org/pdf/2410.22818.pdf
+Bibliography number: 31
+Downloaded PDF: YES

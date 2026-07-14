@@ -1,0 +1,4 @@
+Title: XGrammar: Flexible Structured Generation Engine for LLMs
+Original URL: https://arxiv.org/pdf/2411.15100.pdf
+Bibliography number: 37
+Downloaded PDF: YES

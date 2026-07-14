@@ -1,0 +1,10 @@
+Title: Closer in the Gap: Towards Portable Performance on RISC-V Vector Processors. arXiv 2026.
+Original URL: https://arxiv.org/abs/2605.10860
+Bibliography number: 23
+Downloaded PDF: NO
+Attempts:
+- arxiv_pdf: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>
+Note: PDF may be unavailable, behind publisher access, or this item may be a tool/spec/community page. Use the original URL above.
+Downloaded PDF retry: https://arxiv.org/pdf/2605.10860
+PDF source type: arxiv_pdf_unverified_ssl
+Bytes: 717999

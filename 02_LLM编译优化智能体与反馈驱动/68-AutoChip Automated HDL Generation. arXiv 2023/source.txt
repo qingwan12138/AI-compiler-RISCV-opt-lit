@@ -1,0 +1,4 @@
+Title: AutoChip: Automating HDL generation using LLM feedback
+Original URL: https://arxiv.org/pdf/2311.04887.pdf
+Bibliography number: 126
+Downloaded PDF: YES

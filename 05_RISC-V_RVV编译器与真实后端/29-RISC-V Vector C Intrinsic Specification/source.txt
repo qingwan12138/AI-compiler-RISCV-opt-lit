@@ -1,0 +1,5 @@
+Title: RISC-V Vector C Intrinsic Specification.
+Original URL: https://docs.riscv.org/reference/vector-c-intrinsics/v1.0/index.html
+Bibliography number: 29
+Downloaded PDF: NO
+Note: PDF may be unavailable, behind publisher access, or this item may be a tool/spec/community page. Use the original URL above.

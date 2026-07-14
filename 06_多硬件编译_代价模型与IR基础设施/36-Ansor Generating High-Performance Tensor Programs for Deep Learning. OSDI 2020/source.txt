@@ -1,0 +1,6 @@
+Title: Ansor: Generating High-Performance Tensor Programs for Deep Learning. OSDI 2020.
+Original URL: https://www.usenix.org/conference/osdi20/presentation/zheng
+Bibliography number: 36
+Downloaded PDF: https://www.usenix.org/system/files/osdi20-zheng.pdf
+PDF source type: usenix_pdf
+Bytes: 1300727

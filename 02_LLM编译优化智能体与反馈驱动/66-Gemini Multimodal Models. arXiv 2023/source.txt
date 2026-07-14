@@ -1,0 +1,4 @@
+Title: Gemini: A family of highly capable multimodal models
+Original URL: https://arxiv.org/pdf/2312.11805.pdf
+Bibliography number: 44
+Downloaded PDF: YES

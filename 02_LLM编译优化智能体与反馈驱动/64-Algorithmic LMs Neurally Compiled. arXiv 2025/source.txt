@@ -1,0 +1,4 @@
+Title: Algorithmic Language Models with Neurally Compiled Libraries
+Original URL: https://arxiv.org/pdf/2407.04899.pdf
+Bibliography number: 118
+Downloaded PDF: YES

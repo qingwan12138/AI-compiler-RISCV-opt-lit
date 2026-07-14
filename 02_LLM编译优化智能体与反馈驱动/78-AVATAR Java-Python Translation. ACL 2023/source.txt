@@ -1,0 +1,4 @@
+Title: AVATAR: A parallel corpus for Java-Python program translation
+Original URL: https://aclanthology.org/2023.findings-acl.143.pdf
+Bibliography number: 12
+Downloaded PDF: YES

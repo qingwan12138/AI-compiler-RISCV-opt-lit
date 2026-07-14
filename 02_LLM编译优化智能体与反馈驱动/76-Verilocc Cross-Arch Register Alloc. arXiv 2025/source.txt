@@ -1,0 +1,4 @@
+Title: Verilocc: Cross-architecture register allocation via LLM
+Original URL: https://arxiv.org/pdf/2506.17506.pdf
+Bibliography number: 68
+Downloaded PDF: YES

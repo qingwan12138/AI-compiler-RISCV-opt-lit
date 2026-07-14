@@ -1,0 +1,4 @@
+Title: CompileAgent: Automated repo-level compilation with LLM agent
+Original URL: https://aclanthology.org/2025.acl-long.103.pdf
+Bibliography number: 55
+Downloaded PDF: YES

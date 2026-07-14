@@ -1,0 +1,8 @@
+Title: LLM-Vectorizer: LLM-Based Verified Loop Vectorizer. CGO 2025.
+Original URL: https://dl.acm.org/doi/10.1145/3696443.3708929
+Bibliography number: 13
+Downloaded PDF: NO
+Attempts:
+- acm_pdf_attempt: HTTPError: HTTP Error 403: Forbidden
+Note: PDF may be unavailable, behind publisher access, or this item may be a tool/spec/community page. Use the original URL above.
+Local PDF copied from: C:\Users\2025111355\Desktop\文献\编译器IR编译加LLM自动调优\LLM-Vwxrorizer 基于LLM的经过验证的循环向量化器\LLM-向量化器：基于LLM的经过验证的循环向量化器.pdf

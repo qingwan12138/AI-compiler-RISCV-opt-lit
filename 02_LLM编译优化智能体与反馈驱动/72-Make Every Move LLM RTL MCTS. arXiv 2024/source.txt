@@ -1,0 +1,4 @@
+Title: Make every move count: LLM-based RTL code generation using MCTS
+Original URL: https://arxiv.org/pdf/2402.03289.pdf
+Bibliography number: 33
+Downloaded PDF: YES

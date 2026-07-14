@@ -1,0 +1,481 @@
+[
+  {
+    "num": 1,
+    "title": "AutoPhase: Juggling HLS Phase Orderings in Random Forests with Deep Reinforcement Learning. MLSys 2020.",
+    "url": "https://arxiv.org/abs/2003.00671",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\01-AutoPhase Juggling HLS Phase Orderings in Random Forests with Deep Reinforcement Learning. MLSy",
+    "status": "pdf",
+    "errors": [
+      "arxiv_pdf: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2003.00671",
+    "bytes": 3279583
+  },
+  {
+    "num": 2,
+    "title": "Compiler Phase-Ordering for High-Level Synthesis with Deep Reinforcement Learning. FCCM 2019 / arXiv.",
+    "url": "https://arxiv.org/abs/1901.04615",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\02-Compiler Phase-Ordering for High-Level Synthesis with Deep Reinforcement Learning. FCCM 2019 ar",
+    "status": "pdf",
+    "errors": [
+      "arxiv_pdf: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/1901.04615",
+    "bytes": 101010
+  },
+  {
+    "num": 3,
+    "title": "CompilerGym: Robust, Performant Compiler Optimization Environments for AI Research. CGO 2022.",
+    "url": "https://arxiv.org/abs/2109.08267",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\03-CompilerGym Robust, Performant Compiler Optimization Environments for AI Research. CGO 2022",
+    "status": "pdf",
+    "errors": [
+      "arxiv_pdf: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2109.08267",
+    "bytes": 1943463
+  },
+  {
+    "num": 4,
+    "title": "Compiler-R1: Towards Agentic Compiler Auto-tuning with Reinforcement Learning. arXiv 2025.",
+    "url": "https://arxiv.org/abs/2506.15701",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\04-Compiler-R1 Towards Agentic Compiler Auto-tuning with Reinforcement Learning. arXiv 2025",
+    "status": "pdf",
+    "errors": [
+      "arxiv_pdf: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2506.15701",
+    "bytes": 763606
+  },
+  {
+    "num": 5,
+    "title": "MileStone: A Multi-Objective Compiler Phase Ordering Framework. arXiv 2026.",
+    "url": "https://arxiv.org/html/2605.23435",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\05-MileStone A Multi-Objective Compiler Phase Ordering Framework. arXiv 2026",
+    "status": "pdf",
+    "errors": [
+      "arxiv_pdf: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.23435",
+    "bytes": 1043287
+  },
+  {
+    "num": 6,
+    "title": "Exploiting Booster Pass Chain for Compiler Phase Ordering. 2025.",
+    "url": "https://dl.acm.org/doi/10.1145/3755881.3755899",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\06-Exploiting Booster Pass Chain for Compiler Phase Ordering. 2025",
+    "status": "source_only",
+    "errors": [
+      "acm_pdf_attempt: HTTPError: HTTP Error 403: Forbidden"
+    ]
+  },
+  {
+    "num": 7,
+    "title": "Meta Large Language Model Compiler: Foundation Models of Compiler Optimization. arXiv 2024.",
+    "url": "https://arxiv.org/abs/2407.02524",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\07-Meta Large Language Model Compiler Foundation Models of Compiler Optimization. arXiv 2024",
+    "status": "pdf",
+    "errors": [
+      "arxiv_pdf: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2407.02524",
+    "bytes": 1524275
+  },
+  {
+    "num": 8,
+    "title": "Foundation Language Models for Compiler Optimization. 2025.",
+    "url": "https://dl.acm.org/doi/10.1145/3708493.3712691",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\08-Foundation Language Models for Compiler Optimization. 2025",
+    "status": "source_only",
+    "errors": [
+      "acm_pdf_attempt: HTTPError: HTTP Error 403: Forbidden"
+    ]
+  },
+  {
+    "num": 9,
+    "title": "A Survey on the Synergy of LLMs and Compilers. arXiv 2026.",
+    "url": "https://arxiv.org/html/2601.02045",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\09-A Survey on the Synergy of LLMs and Compilers. arXiv 2026",
+    "status": "pdf",
+    "errors": [
+      "arxiv_pdf: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2601.02045",
+    "bytes": 1234795
+  },
+  {
+    "num": 10,
+    "title": "Compiler Optimization via LLM Reasoning for Efficient Model Serving. arXiv 2025.",
+    "url": "https://arxiv.org/abs/2506.01374",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\10-Compiler Optimization via LLM Reasoning for Efficient Model Serving. arXiv 2025",
+    "status": "pdf",
+    "errors": [
+      "arxiv_pdf: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2506.01374",
+    "bytes": 2112022
+  },
+  {
+    "num": 11,
+    "title": "Agentic Code Optimization via Compiler-LLM Cooperation. arXiv 2026.",
+    "url": "https://arxiv.org/abs/2604.04238",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\11-Agentic Code Optimization via Compiler-LLM Cooperation. arXiv 2026",
+    "status": "pdf",
+    "errors": [
+      "arxiv_pdf: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2604.04238",
+    "bytes": 857959
+  },
+  {
+    "num": 12,
+    "title": "LLM-VeriOpt: Verification-Guided Reinforcement Learning for LLM-Based Compiler Optimization. CGO 2026.",
+    "url": "https://2026.cgo.org/details/cgo-2026-papers/37/LLM-VeriOpt-Verification-Guided-Reinforcement-Learning-for-LLM-Based-Compiler-Optimi",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\12-LLM-VeriOpt Verification-Guided Reinforcement Learning for LLM-Based Compiler Optimization. CGO",
+    "status": "pdf",
+    "errors": [],
+    "pdf_url": "C:\\Users\\2025111355\\Desktop\\文献\\编译器IR编译加LLM自动调优\\LLM-VeriOpt 基于大语言模型的编译器优化的验证引导强化学习\\LLM-VeriOpt 基于大语言模型的编译器优化的验证引导强化学习.pdf",
+    "bytes": 1569411
+  },
+  {
+    "num": 13,
+    "title": "LLM-Vectorizer: LLM-Based Verified Loop Vectorizer. CGO 2025.",
+    "url": "https://dl.acm.org/doi/10.1145/3696443.3708929",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\13-LLM-Vectorizer LLM-Based Verified Loop Vectorizer. CGO 2025",
+    "status": "pdf",
+    "errors": [
+      "acm_pdf_attempt: HTTPError: HTTP Error 403: Forbidden"
+    ],
+    "pdf_url": "C:\\Users\\2025111355\\Desktop\\文献\\编译器IR编译加LLM自动调优\\LLM-Vwxrorizer 基于LLM的经过验证的循环向量化器\\LLM-向量化器：基于LLM的经过验证的循环向量化器.pdf",
+    "bytes": 1028163
+  },
+  {
+    "num": 14,
+    "title": "Alive2: Bounded Translation Validation for LLVM. PLDI 2021.",
+    "url": "https://dl.acm.org/doi/10.1145/3453483.3454030",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\14-Alive2 Bounded Translation Validation for LLVM. PLDI 2021",
+    "status": "pdf",
+    "errors": [
+      "acm_pdf_attempt: HTTPError: HTTP Error 403: Forbidden"
+    ],
+    "pdf_url": "https://web.ist.utl.pt/nuno.lopes/pubs/alive2-pldi21.pdf",
+    "bytes": 669022
+  },
+  {
+    "num": 15,
+    "title": "Verified Learning for Compiler Optimization: An LLM-Based Approach.",
+    "url": "https://openreview.net/forum?id=qJVRXIVaVQ",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\15-Verified Learning for Compiler Optimization An LLM-Based Approach",
+    "status": "source_only",
+    "errors": [],
+    "retry_errors": [
+      "extra_mapping: HTTPError: HTTP Error 403: Forbidden"
+    ]
+  },
+  {
+    "num": 16,
+    "title": "Beyond Pass-by-Pass Optimization: Intent-Driven IR Optimization with Large Language Models. arXiv 2026.",
+    "url": "https://arxiv.org/abs/2602.18511",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\16-Beyond Pass-by-Pass Optimization Intent-Driven IR Optimization with Large Language Models. arXi",
+    "status": "pdf",
+    "errors": [
+      "arxiv_pdf: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2602.18511",
+    "bytes": 4295099
+  },
+  {
+    "num": 17,
+    "title": "Souper: A Synthesizing Superoptimizer. arXiv 2017.",
+    "url": "https://arxiv.org/abs/1711.04422",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\17-Souper A Synthesizing Superoptimizer. arXiv 2017",
+    "status": "pdf",
+    "errors": [
+      "arxiv_pdf: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/1711.04422",
+    "bytes": 341362
+  },
+  {
+    "num": 18,
+    "title": "Souper GitHub Repository.",
+    "url": "https://github.com/google/souper",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\18-Souper GitHub Repository",
+    "status": "source_only",
+    "errors": []
+  },
+  {
+    "num": 19,
+    "title": "STOKE: Stochastic Superoptimization. ASPLOS 2013.",
+    "url": "https://arxiv.org/abs/1211.0557",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\19-STOKE Stochastic Superoptimization. ASPLOS 2013",
+    "status": "pdf",
+    "errors": [
+      "arxiv_pdf: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/1211.0557",
+    "bytes": 559231
+  },
+  {
+    "num": 20,
+    "title": "Minotaur: A SIMD-Oriented Synthesizing Superoptimizer. 2024.",
+    "url": "https://dl.acm.org/doi/10.1145/3689766",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\20-Minotaur A SIMD-Oriented Synthesizing Superoptimizer. 2024",
+    "status": "pdf",
+    "errors": [
+      "acm_pdf_attempt: HTTPError: HTTP Error 403: Forbidden"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2306.00229",
+    "bytes": 1046282
+  },
+  {
+    "num": 21,
+    "title": "A Performance Analysis of Autovectorization on RVV RISC-V. 2025.",
+    "url": "https://ieeexplore.ieee.org/document/10974828",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\21-A Performance Analysis of Autovectorization on RVV RISC-V. 2025",
+    "status": "source_only",
+    "errors": []
+  },
+  {
+    "num": 22,
+    "title": "RISC-V Vectorization Coverage for HPC: A TSVC-Based Analysis. 2025.",
+    "url": "https://dl.acm.org/doi/abs/10.1145/3731599.3767535",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\22-RISC-V Vectorization Coverage for HPC A TSVC-Based Analysis. 2025",
+    "status": "source_only",
+    "errors": []
+  },
+  {
+    "num": 23,
+    "title": "Closer in the Gap: Towards Portable Performance on RISC-V Vector Processors. arXiv 2026.",
+    "url": "https://arxiv.org/abs/2605.10860",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\23-Closer in the Gap Towards Portable Performance on RISC-V Vector Processors. arXiv 2026",
+    "status": "pdf",
+    "errors": [
+      "arxiv_pdf: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2605.10860",
+    "bytes": 717999
+  },
+  {
+    "num": 24,
+    "title": "Tensor Program Optimization for the RISC-V Vector Extension Using Probabilistic Programs. arXiv 2025.",
+    "url": "https://arxiv.org/abs/2507.01457",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\24-Tensor Program Optimization for the RISC-V Vector Extension Using Probabilistic Programs. arXiv",
+    "status": "pdf",
+    "errors": [
+      "arxiv_pdf: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2507.01457",
+    "bytes": 406441
+  },
+  {
+    "num": 25,
+    "title": "RISC-V LLVM backend optimization incubator / RVCC discussion.",
+    "url": "https://discourse.llvm.org/t/rfc-rvcc-an-llvm-incubator-for-high-performance-risc-v-compiler-optimizations/90376",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\25-RISC-V LLVM backend optimization incubator RVCC discussion",
+    "status": "source_only",
+    "errors": []
+  },
+  {
+    "num": 26,
+    "title": "IntrinTrans: LLM-based Intrinsic Code Translator for RISC-V Vector. arXiv 2025.",
+    "url": "https://arxiv.org/abs/2510.10119",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\26-IntrinTrans LLM-based Intrinsic Code Translator for RISC-V Vector. arXiv 2025",
+    "status": "pdf",
+    "errors": [
+      "arxiv_pdf: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2510.10119",
+    "bytes": 391872
+  },
+  {
+    "num": 27,
+    "title": "VecIntrinBench: Benchmarking Cross-Architecture Intrinsic Code Migration for RISC-V Vector. arXiv 2025.",
+    "url": "https://arxiv.org/abs/2511.18867",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\27-VecIntrinBench Benchmarking Cross-Architecture Intrinsic Code Migration for RISC-V Vector. arXi",
+    "status": "pdf",
+    "errors": [
+      "arxiv_pdf: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2511.18867",
+    "bytes": 445224
+  },
+  {
+    "num": 28,
+    "title": "neon2rvv: A Translator from ARM NEON Intrinsics to RISC-V Vector Extension.",
+    "url": "https://github.com/howjmay/neon2rvv",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\28-neon2rvv A Translator from ARM NEON Intrinsics to RISC-V Vector Extension",
+    "status": "source_only",
+    "errors": []
+  },
+  {
+    "num": 29,
+    "title": "RISC-V Vector C Intrinsic Specification.",
+    "url": "https://docs.riscv.org/reference/vector-c-intrinsics/v1.0/index.html",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\29-RISC-V Vector C Intrinsic Specification",
+    "status": "source_only",
+    "errors": []
+  },
+  {
+    "num": 30,
+    "title": "Alive: Automatic LLVM InstCombine Verification. PLDI 2015.",
+    "url": "https://dl.acm.org/doi/10.1145/2737924.2737965",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\30-Alive Automatic LLVM InstCombine Verification. PLDI 2015",
+    "status": "pdf",
+    "errors": [
+      "acm_pdf_attempt: HTTPError: HTTP Error 403: Forbidden"
+    ],
+    "pdf_url": "https://web.ist.utl.pt/nuno.lopes/pubs/alive-pldi15.pdf",
+    "bytes": 377869
+  },
+  {
+    "num": 31,
+    "title": "TVM: An Automated End-to-End Optimizing Compiler for Deep Learning. OSDI 2018.",
+    "url": "https://www.usenix.org/conference/osdi18/presentation/chen",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\31-TVM An Automated End-to-End Optimizing Compiler for Deep Learning. OSDI 2018",
+    "status": "pdf",
+    "pdf_url": "https://www.usenix.org/system/files/osdi18-chen.pdf",
+    "bytes": 1292153
+  },
+  {
+    "num": 32,
+    "title": "Learning to Optimize Tensor Programs. NeurIPS 2018.",
+    "url": "https://proceedings.neurips.cc/paper/2018/hash/8b5700012be65c9da25f49408d959ca0-Abstract.html",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\32-Learning to Optimize Tensor Programs. NeurIPS 2018",
+    "status": "pdf",
+    "errors": [],
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2018/file/8b5700012be65c9da25f49408d959ca0-Paper.pdf",
+    "bytes": 2863796
+  },
+  {
+    "num": 33,
+    "title": "Ithemal: Accurate, Portable and Fast Basic Block Throughput Estimation using Deep Neural Networks. ICML 2019.",
+    "url": "https://proceedings.mlr.press/v97/mendis19a.html",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\33-Ithemal Accurate, Portable and Fast Basic Block Throughput Estimation using Deep Neural Network",
+    "status": "pdf",
+    "pdf_url": "https://proceedings.mlr.press/v97/mendis19a/mendis19a.pdf",
+    "bytes": 672858
+  },
+  {
+    "num": 34,
+    "title": "ProGraML: A Graph-based Program Representation for Data Flow Analysis and Compiler Optimizations. ICML 2021.",
+    "url": "https://proceedings.mlr.press/v139/cummins21a.html",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\34-ProGraML A Graph-based Program Representation for Data Flow Analysis and Compiler Optimizations",
+    "status": "pdf",
+    "pdf_url": "https://proceedings.mlr.press/v139/cummins21a/cummins21a.pdf",
+    "bytes": 504999
+  },
+  {
+    "num": 35,
+    "title": "MLIR: Scaling Compiler Infrastructure for Domain Specific Computation. CGO 2021.",
+    "url": "https://ieeexplore.ieee.org/document/9370308",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\35-MLIR Scaling Compiler Infrastructure for Domain Specific Computation. CGO 2021",
+    "status": "pdf",
+    "errors": [],
+    "pdf_url": "https://arxiv.org/pdf/2002.11054",
+    "bytes": 501183
+  },
+  {
+    "num": 36,
+    "title": "Ansor: Generating High-Performance Tensor Programs for Deep Learning. OSDI 2020.",
+    "url": "https://www.usenix.org/conference/osdi20/presentation/zheng",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\36-Ansor Generating High-Performance Tensor Programs for Deep Learning. OSDI 2020",
+    "status": "pdf",
+    "pdf_url": "https://www.usenix.org/system/files/osdi20-zheng.pdf",
+    "bytes": 1300727
+  },
+  {
+    "num": 37,
+    "title": "Faster sorting algorithms discovered using deep reinforcement learning. Nature 2023.",
+    "url": "https://www.nature.com/articles/s41586-023-06004-9",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\37-Faster sorting algorithms discovered using deep reinforcement learning. Nature 2023",
+    "status": "pdf",
+    "errors": [],
+    "pdf_url": "https://www.nature.com/articles/s41586-023-06004-9.pdf",
+    "bytes": 3077082
+  },
+  {
+    "num": 38,
+    "title": "Compiler generated feedback for Large Language Models. arXiv 2024.",
+    "url": "https://arxiv.org/abs/2403.14714",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\38-Compiler generated feedback for Large Language Models. arXiv 2024",
+    "status": "pdf",
+    "errors": [
+      "arxiv_pdf: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2403.14714",
+    "bytes": 1262549
+  },
+  {
+    "num": 39,
+    "title": "Enhancing Translation Validation of Compiler Transformations with Large Language Models. arXiv 2024.",
+    "url": "https://arxiv.org/abs/2401.16797",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\39-Enhancing Translation Validation of Compiler Transformations with Large Language Models. arXiv",
+    "status": "pdf",
+    "errors": [
+      "arxiv_pdf: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2401.16797",
+    "bytes": 574654
+  },
+  {
+    "num": 40,
+    "title": "VecTrans: Enhancing Compiler Auto-Vectorization through LLM-Assisted Code Transformations. arXiv 2025.",
+    "url": "https://arxiv.org/abs/2503.19449",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\40-VecTrans Enhancing Compiler Auto-Vectorization through LLM-Assisted Code Transformations. arXiv",
+    "status": "pdf",
+    "errors": [
+      "arxiv_pdf: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2503.19449",
+    "bytes": 433732
+  },
+  {
+    "num": 41,
+    "title": "Finding Missed Code Size Optimizations in Compilers using LLMs. arXiv 2025.",
+    "url": "https://arxiv.org/abs/2501.00655",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\41-Finding Missed Code Size Optimizations in Compilers using LLMs. arXiv 2025",
+    "status": "pdf",
+    "errors": [
+      "arxiv_pdf: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2501.00655",
+    "bytes": 525842
+  },
+  {
+    "num": 42,
+    "title": "CompilerGPT: Leveraging Large Language Models for Analyzing and Acting on Compiler Optimization Reports. arXiv 2025.",
+    "url": "https://arxiv.org/abs/2506.06227",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\42-CompilerGPT Leveraging Large Language Models for Analyzing and Acting on Compiler Optimization",
+    "status": "pdf",
+    "errors": [
+      "arxiv_pdf: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2506.06227",
+    "bytes": 568254
+  },
+  {
+    "num": 44,
+    "title": "Leveraging Large Language Models for Generalizing Peephole Optimizations. arXiv 2026.",
+    "url": "https://arxiv.org/abs/2603.18477",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\43-Leveraging Large Language Models for Generalizing Peephole Optimizations. arXiv 2026",
+    "status": "pdf",
+    "errors": [
+      "arxiv_pdf: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2603.18477",
+    "bytes": 985527
+  },
+  {
+    "num": 45,
+    "title": "Beyond Pass-by-Pass Optimization: Intent-Driven IR Optimization with Large Language Models (IntOpt)",
+    "url": "https://arxiv.org/abs/2602.18511",
+    "folder": "C:\\Users\\2025111355\\Desktop\\文献\\AI编译器与RISC-V优化相关文献\\44-Beyond Pass-by-Pass Optimization Intent-Driven IR Optimization with Large Language Models (IntO",
+    "status": "pdf",
+    "errors": [
+      "arxiv_pdf: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2602.18511",
+    "bytes": 4295099
+  }
+]

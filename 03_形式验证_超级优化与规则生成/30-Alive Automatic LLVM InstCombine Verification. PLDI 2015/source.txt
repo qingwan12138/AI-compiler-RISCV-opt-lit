@@ -1,0 +1,10 @@
+Title: Alive: Automatic LLVM InstCombine Verification. PLDI 2015.
+Original URL: https://dl.acm.org/doi/10.1145/2737924.2737965
+Bibliography number: 30
+Downloaded PDF: NO
+Attempts:
+- acm_pdf_attempt: HTTPError: HTTP Error 403: Forbidden
+Note: PDF may be unavailable, behind publisher access, or this item may be a tool/spec/community page. Use the original URL above.
+Downloaded PDF retry: https://web.ist.utl.pt/nuno.lopes/pubs/alive-pldi15.pdf
+PDF source type: extra_mapping
+Bytes: 377869

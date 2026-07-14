@@ -1,0 +1,6 @@
+Title: LLM-VeriOpt: Verification-Guided Reinforcement Learning for LLM-Based Compiler Optimization. CGO 2026.
+Original URL: https://2026.cgo.org/details/cgo-2026-papers/37/LLM-VeriOpt-Verification-Guided-Reinforcement-Learning-for-LLM-Based-Compiler-Optimi
+Bibliography number: 12
+Downloaded PDF: NO
+Note: PDF may be unavailable, behind publisher access, or this item may be a tool/spec/community page. Use the original URL above.
+Local PDF copied from: C:\Users\2025111355\Desktop\文献\编译器IR编译加LLM自动调优\LLM-VeriOpt 基于大语言模型的编译器优化的验证引导强化学习\LLM-VeriOpt 基于大语言模型的编译器优化的验证引导强化学习.pdf
