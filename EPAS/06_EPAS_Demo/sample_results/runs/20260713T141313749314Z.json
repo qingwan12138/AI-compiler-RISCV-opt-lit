@@ -1,0 +1,435 @@
+{
+  "contract": "runtime_efficiency",
+  "kernel": "branch",
+  "knowledge_id": "K1",
+  "measurement": {
+    "compiler": "D:\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\gcc.EXE",
+    "compiler_version": "gcc.EXE (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 8.1.0",
+    "host": "Windows-10-10.0.26200-SP0",
+    "repeats": 2,
+    "runner": null,
+    "size": 200000,
+    "source_sha256": "bde9cea81ab4fddd0d3d5d58ed871a7eaa33dc2af9211cb7c227be0629efc2c9",
+    "timeout_seconds": 60.0,
+    "warmups": 1
+  },
+  "platform": "x86_local_gcc",
+  "run_id": "20260713T141313749314Z",
+  "selection": {
+    "status": "selected",
+    "winner": {
+      "assembly_path": "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\O3_no_vector.s",
+      "binary_bytes": 57914,
+      "branch_count": 17,
+      "candidate": "O3_no_vector",
+      "compile_commands": {
+        "assembly": [
+          "D:\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\gcc.EXE",
+          "-std=c11",
+          "-O3",
+          "-fno-tree-vectorize",
+          "-S",
+          "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\bench.c",
+          "-o",
+          "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\O3_no_vector.s"
+        ],
+        "executable": [
+          "D:\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\gcc.EXE",
+          "-std=c11",
+          "-O3",
+          "-fno-tree-vectorize",
+          "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\bench.c",
+          "-o",
+          "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\O3_no_vector.exe"
+        ]
+      },
+      "contract_error": 0.0,
+      "correct": true,
+      "delta_cost": 1.0,
+      "effects": {
+        "branch_reduction": 0.0,
+        "runtime_gain": 0.14922192880053498,
+        "size_reduction": 0.0,
+        "vector_increase": 0.0
+      },
+      "executable_path": "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\O3_no_vector.exe",
+      "execution_command": [
+        "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\O3_no_vector.exe",
+        "branch",
+        "200000"
+      ],
+      "flags": [
+        "-O3",
+        "-fno-tree-vectorize"
+      ],
+      "measured": true,
+      "repeats": 2,
+      "runtime_mad_seconds": 0.0002176999999999995,
+      "runtime_max_seconds": 0.0152307,
+      "runtime_min_seconds": 0.0147953,
+      "runtime_seconds": 0.015013,
+      "selection_role": "selected",
+      "status": "measured",
+      "stdout": "3073730\n",
+      "timings_seconds": [
+        0.0152307,
+        0.0147953
+      ],
+      "vector_count": 0,
+      "warmups": 1
+    }
+  },
+  "status": "selected",
+  "timestamp_utc": "2026-07-13T14:13:16.853685+00:00",
+  "trials": [
+    {
+      "assembly_path": "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\O2_baseline.s",
+      "binary_bytes": 57914,
+      "branch_count": 17,
+      "candidate": "O2_baseline",
+      "compile_commands": {
+        "assembly": [
+          "D:\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\gcc.EXE",
+          "-std=c11",
+          "-O2",
+          "-S",
+          "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\bench.c",
+          "-o",
+          "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\O2_baseline.s"
+        ],
+        "executable": [
+          "D:\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\gcc.EXE",
+          "-std=c11",
+          "-O2",
+          "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\bench.c",
+          "-o",
+          "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\O2_baseline.exe"
+        ]
+      },
+      "correct": true,
+      "executable_path": "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\O2_baseline.exe",
+      "execution_command": [
+        "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\O2_baseline.exe",
+        "branch",
+        "200000"
+      ],
+      "flags": [
+        "-O2"
+      ],
+      "measured": true,
+      "repeats": 2,
+      "role": "baseline",
+      "runtime_mad_seconds": 0.0005491000000000003,
+      "runtime_max_seconds": 0.0181953,
+      "runtime_min_seconds": 0.0170971,
+      "runtime_seconds": 0.0176462,
+      "status": "measured",
+      "stdout": "3073730\n",
+      "timings_seconds": [
+        0.0181953,
+        0.0170971
+      ],
+      "vector_count": 0,
+      "warmups": 1
+    },
+    {
+      "assembly_path": "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\O3_generic.s",
+      "binary_bytes": 57914,
+      "branch_count": 26,
+      "candidate": "O3_generic",
+      "compile_commands": {
+        "assembly": [
+          "D:\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\gcc.EXE",
+          "-std=c11",
+          "-O3",
+          "-S",
+          "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\bench.c",
+          "-o",
+          "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\O3_generic.s"
+        ],
+        "executable": [
+          "D:\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\gcc.EXE",
+          "-std=c11",
+          "-O3",
+          "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\bench.c",
+          "-o",
+          "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\O3_generic.exe"
+        ]
+      },
+      "contract_error": 0.02941176470588236,
+      "correct": true,
+      "delta_cost": 1.0,
+      "effects": {
+        "branch_reduction": -0.5294117647058824,
+        "runtime_gain": 0.020109145311738522,
+        "size_reduction": 0.0,
+        "vector_increase": 36.0
+      },
+      "executable_path": "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\O3_generic.exe",
+      "execution_command": [
+        "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\O3_generic.exe",
+        "branch",
+        "200000"
+      ],
+      "flags": [
+        "-O3"
+      ],
+      "measured": true,
+      "repeats": 2,
+      "runtime_mad_seconds": 0.0002499499999999988,
+      "runtime_max_seconds": 0.0175413,
+      "runtime_min_seconds": 0.0170414,
+      "runtime_seconds": 0.01729135,
+      "selection_role": "not_selected",
+      "status": "measured",
+      "stdout": "3073730\n",
+      "timings_seconds": [
+        0.0175413,
+        0.0170414
+      ],
+      "vector_count": 36,
+      "warmups": 1
+    },
+    {
+      "assembly_path": "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\Os_generic.s",
+      "binary_bytes": 57576,
+      "branch_count": 14,
+      "candidate": "Os_generic",
+      "compile_commands": {
+        "assembly": [
+          "D:\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\gcc.EXE",
+          "-std=c11",
+          "-Os",
+          "-S",
+          "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\bench.c",
+          "-o",
+          "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\Os_generic.s"
+        ],
+        "executable": [
+          "D:\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\gcc.EXE",
+          "-std=c11",
+          "-Os",
+          "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\bench.c",
+          "-o",
+          "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\Os_generic.exe"
+        ]
+      },
+      "contract_error": 0.34462377169022174,
+      "correct": true,
+      "delta_cost": 1.0,
+      "effects": {
+        "branch_reduction": 0.17647058823529413,
+        "runtime_gain": -0.11487459056340724,
+        "size_reduction": 0.0058362399419829404,
+        "vector_increase": 0.0
+      },
+      "executable_path": "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\Os_generic.exe",
+      "execution_command": [
+        "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\Os_generic.exe",
+        "branch",
+        "200000"
+      ],
+      "flags": [
+        "-Os"
+      ],
+      "measured": true,
+      "repeats": 2,
+      "runtime_mad_seconds": 0.0010688999999999994,
+      "runtime_max_seconds": 0.0207422,
+      "runtime_min_seconds": 0.0186044,
+      "runtime_seconds": 0.019673299999999998,
+      "selection_role": "not_selected",
+      "status": "measured",
+      "stdout": "3073730\n",
+      "timings_seconds": [
+        0.0186044,
+        0.0207422
+      ],
+      "vector_count": 0,
+      "warmups": 1
+    },
+    {
+      "assembly_path": "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\O3_unroll.s",
+      "binary_bytes": 59450,
+      "branch_count": 48,
+      "candidate": "O3_unroll",
+      "compile_commands": {
+        "assembly": [
+          "D:\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\gcc.EXE",
+          "-std=c11",
+          "-O3",
+          "-funroll-loops",
+          "-S",
+          "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\bench.c",
+          "-o",
+          "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\O3_unroll.s"
+        ],
+        "executable": [
+          "D:\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\gcc.EXE",
+          "-std=c11",
+          "-O3",
+          "-funroll-loops",
+          "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\bench.c",
+          "-o",
+          "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\O3_unroll.exe"
+        ]
+      },
+      "contract_error": 1.3235294117647058,
+      "correct": true,
+      "delta_cost": 1.0,
+      "effects": {
+        "branch_reduction": -1.8235294117647058,
+        "runtime_gain": 0.018845417143634375,
+        "size_reduction": -0.02652208447007632,
+        "vector_increase": 278.0
+      },
+      "executable_path": "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\O3_unroll.exe",
+      "execution_command": [
+        "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\O3_unroll.exe",
+        "branch",
+        "200000"
+      ],
+      "flags": [
+        "-O3",
+        "-funroll-loops"
+      ],
+      "measured": true,
+      "repeats": 2,
+      "runtime_mad_seconds": 0.0010982499999999985,
+      "runtime_max_seconds": 0.0184119,
+      "runtime_min_seconds": 0.0162154,
+      "runtime_seconds": 0.01731365,
+      "selection_role": "not_selected",
+      "status": "measured",
+      "stdout": "3073730\n",
+      "timings_seconds": [
+        0.0162154,
+        0.0184119
+      ],
+      "vector_count": 278,
+      "warmups": 1
+    },
+    {
+      "assembly_path": "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\O3_no_vector.s",
+      "binary_bytes": 57914,
+      "branch_count": 17,
+      "candidate": "O3_no_vector",
+      "compile_commands": {
+        "assembly": [
+          "D:\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\gcc.EXE",
+          "-std=c11",
+          "-O3",
+          "-fno-tree-vectorize",
+          "-S",
+          "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\bench.c",
+          "-o",
+          "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\O3_no_vector.s"
+        ],
+        "executable": [
+          "D:\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\gcc.EXE",
+          "-std=c11",
+          "-O3",
+          "-fno-tree-vectorize",
+          "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\bench.c",
+          "-o",
+          "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\O3_no_vector.exe"
+        ]
+      },
+      "contract_error": 0.0,
+      "correct": true,
+      "delta_cost": 1.0,
+      "effects": {
+        "branch_reduction": 0.0,
+        "runtime_gain": 0.14922192880053498,
+        "size_reduction": 0.0,
+        "vector_increase": 0.0
+      },
+      "executable_path": "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\O3_no_vector.exe",
+      "execution_command": [
+        "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\O3_no_vector.exe",
+        "branch",
+        "200000"
+      ],
+      "flags": [
+        "-O3",
+        "-fno-tree-vectorize"
+      ],
+      "measured": true,
+      "repeats": 2,
+      "runtime_mad_seconds": 0.0002176999999999995,
+      "runtime_max_seconds": 0.0152307,
+      "runtime_min_seconds": 0.0147953,
+      "runtime_seconds": 0.015013,
+      "selection_role": "selected",
+      "status": "measured",
+      "stdout": "3073730\n",
+      "timings_seconds": [
+        0.0152307,
+        0.0147953
+      ],
+      "vector_count": 0,
+      "warmups": 1
+    },
+    {
+      "assembly_path": "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\O3_native.s",
+      "binary_bytes": 57914,
+      "branch_count": 34,
+      "candidate": "O3_native",
+      "compile_commands": {
+        "assembly": [
+          "D:\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\gcc.EXE",
+          "-std=c11",
+          "-O3",
+          "-march=native",
+          "-S",
+          "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\bench.c",
+          "-o",
+          "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\O3_native.s"
+        ],
+        "executable": [
+          "D:\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\gcc.EXE",
+          "-std=c11",
+          "-O3",
+          "-march=native",
+          "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\bench.c",
+          "-o",
+          "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\O3_native.exe"
+        ]
+      },
+      "contract_error": 0.5,
+      "correct": true,
+      "delta_cost": 2.0,
+      "effects": {
+        "branch_reduction": -1.0,
+        "runtime_gain": 0.13316748081739987,
+        "size_reduction": 0.0,
+        "vector_increase": 43.0
+      },
+      "executable_path": "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\O3_native.exe",
+      "execution_command": [
+        "C:\\Users\\2025111355\\Documents\\Codex\\2026-07-13\\referenced-chatgpt-conversation-this-is-untrusted\\work\\epas_demo\\build\\20260713T141313749314Z\\O3_native.exe",
+        "branch",
+        "200000"
+      ],
+      "flags": [
+        "-O3",
+        "-march=native"
+      ],
+      "measured": true,
+      "repeats": 2,
+      "runtime_mad_seconds": 0.00044269999999999986,
+      "runtime_max_seconds": 0.015739,
+      "runtime_min_seconds": 0.0148536,
+      "runtime_seconds": 0.015296299999999999,
+      "selection_role": "not_selected",
+      "status": "measured",
+      "stdout": "3073730\n",
+      "timings_seconds": [
+        0.0148536,
+        0.015739
+      ],
+      "vector_count": 43,
+      "warmups": 1
+    }
+  ]
+}

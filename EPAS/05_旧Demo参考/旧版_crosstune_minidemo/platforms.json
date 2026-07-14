@@ -1,0 +1,15 @@
+{
+  "x86": {
+    "description": "Native x86 host",
+    "clang_target": null,
+    "runner": [],
+    "features": {"vector": 1.0, "code_size_sensitive": 0.2, "branch_cost": 0.7}
+  },
+  "riscv64": {
+    "description": "RISC-V cross target (edit sysroot and runner)",
+    "clang_target": "riscv64-linux-gnu",
+    "sysroot": "",
+    "runner": ["qemu-riscv64"],
+    "features": {"vector": 0.0, "code_size_sensitive": 0.8, "branch_cost": 0.5}
+  }
+}

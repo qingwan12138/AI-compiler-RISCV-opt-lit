@@ -1,0 +1,20 @@
+{
+  "platforms": {
+    "x86_local_gcc": {
+      "description": "Local x86-64 execution with GCC",
+      "compiler": "gcc",
+      "runner": [],
+      "executable_suffix": ".exe",
+      "isa": "x86"
+    },
+    "riscv64_template": {
+      "description": "RISC-V cross-compiler and QEMU template",
+      "compiler": "riscv64-linux-gnu-gcc",
+      "runner": [
+        "qemu-riscv64"
+      ],
+      "executable_suffix": "",
+      "isa": "riscv"
+    }
+  }
+}

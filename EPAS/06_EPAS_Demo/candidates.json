@@ -1,0 +1,94 @@
+{
+  "candidates": [
+    {
+      "name": "O2_baseline",
+      "flags": [
+        "-O2"
+      ],
+      "base_recipe": null,
+      "delta_slots": [],
+      "architecture_specific": false,
+      "platforms": [
+        "x86_local_gcc",
+        "riscv64_template"
+      ]
+    },
+    {
+      "name": "O3_generic",
+      "flags": [
+        "-O3"
+      ],
+      "base_recipe": "O2_baseline",
+      "delta_slots": [
+        "optimization_level"
+      ],
+      "architecture_specific": false,
+      "platforms": [
+        "x86_local_gcc",
+        "riscv64_template"
+      ]
+    },
+    {
+      "name": "Os_generic",
+      "flags": [
+        "-Os"
+      ],
+      "base_recipe": "O2_baseline",
+      "delta_slots": [
+        "optimization_level"
+      ],
+      "architecture_specific": false,
+      "platforms": [
+        "x86_local_gcc",
+        "riscv64_template"
+      ]
+    },
+    {
+      "name": "O3_unroll",
+      "flags": [
+        "-O3",
+        "-funroll-loops"
+      ],
+      "base_recipe": "O3_generic",
+      "delta_slots": [
+        "loop_unroll"
+      ],
+      "architecture_specific": false,
+      "platforms": [
+        "x86_local_gcc",
+        "riscv64_template"
+      ]
+    },
+    {
+      "name": "O3_no_vector",
+      "flags": [
+        "-O3",
+        "-fno-tree-vectorize"
+      ],
+      "base_recipe": "O3_generic",
+      "delta_slots": [
+        "vectorization"
+      ],
+      "architecture_specific": false,
+      "platforms": [
+        "x86_local_gcc",
+        "riscv64_template"
+      ]
+    },
+    {
+      "name": "O3_native",
+      "flags": [
+        "-O3",
+        "-march=native"
+      ],
+      "base_recipe": "O3_generic",
+      "delta_slots": [
+        "target_architecture"
+      ],
+      "architecture_specific": true,
+      "platforms": [
+        "x86_local_gcc"
+      ]
+    }
+  ]
+}

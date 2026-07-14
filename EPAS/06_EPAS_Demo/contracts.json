@@ -1,0 +1,59 @@
+{
+  "contracts": {
+    "runtime_efficiency": {
+      "knowledge_id": "K1",
+      "description": "Improve measured runtime without severe code or branch growth",
+      "kernel": "branch",
+      "baseline": "O2_baseline",
+      "effects": {
+        "runtime_gain": {
+          "min": 0.0,
+          "weight": 3.0
+        },
+        "size_reduction": {
+          "min": -0.25,
+          "weight": 1.0
+        },
+        "branch_reduction": {
+          "min": -0.5,
+          "weight": 1.0
+        }
+      },
+      "threshold": 0.05
+    },
+    "code_compaction": {
+      "knowledge_id": "K2",
+      "description": "Reduce measured binary size with bounded runtime degradation",
+      "kernel": "branch",
+      "baseline": "O2_baseline",
+      "effects": {
+        "size_reduction": {
+          "min": 0.0,
+          "weight": 3.0
+        },
+        "runtime_gain": {
+          "min": -0.15,
+          "weight": 1.0
+        }
+      },
+      "threshold": 0.05
+    },
+    "vector_exposure": {
+      "knowledge_id": "K3",
+      "description": "Preserve or increase measured vector evidence",
+      "kernel": "vector",
+      "baseline": "O2_baseline",
+      "effects": {
+        "vector_increase": {
+          "min": 0.0,
+          "weight": 3.0
+        },
+        "runtime_gain": {
+          "min": -0.15,
+          "weight": 1.0
+        }
+      },
+      "threshold": 0.05
+    }
+  }
+}
