@@ -1,118 +1,148 @@
-# 代码翻译：向量语义中间层驱动的可伸缩跨 ISA 迁移
+# 类别四：向量化与跨 ISA 迁移——固定宽度 SIMD 到 VLA 的语义契约恢复
 
-> **学术状态：候选创新，尚需针对性查新。** 跨 ISA intrinsic 翻译、LLM 向量化和 NEON→RVV 工具均已有工作；本候选点聚焦固定宽度 SIMD 与 RVV 可变向量长度之间的语义桥接。
->
-> **当前定位调整（2026-07-13）**：本文是[创新 06：EPAS](06_多硬件编译_效应保持的最小架构增量知识特化.md)的第二阶段代码翻译扩展，不进入第一版主实验。VSIR 可作为通用知识 `K^m` 的语义载体；源/目标 ISA lowering、VLEN、mask 和 intrinsic 选择可作为 `Slots_m`；差分测试和向量语义检查可作为 `Verify_m`。研究重点仍是效应保持和最小架构增量，而不是把代码翻译与编译调优简单拼接。
+> 审阅结论：不再把“设计一个平台无关向量 IR”作为创新；MLIR Vector dialect 已提供通用、可重定向且支持 scalable vector 的抽象。
+> 文献范围：本类 4 篇逐篇阅读笔记；重点参考 LLM-Vectorizer、IntrinTrans、VecIntrinBench、neon2rvv。
+> 证据强度：高，但数据规模仅约 50 个函数级任务，需扩展。
+> 日期：2026-07-15
 
-## 1. 候选创新点名称与命名拆解
+## 1. 先说结论
 
-- **研究对象**：向量 intrinsic/向量代码的跨 ISA 翻译。
-- **核心新机制**：先恢复 ISA 无关、向量长度感知的语义中间层，再向目标 ISA 降低。
-- **目标或约束**：在 RVV 的 vector-length-agnostic（VLA）约束下保持语义正确并获得可伸缩性能。
+NEON/SSE/AVX 到 RVV 的难点不是换函数名，而是把“固定宽度、固定 lane 数”的源程序恢复成“向量长度运行时可变”的算法契约。
 
-候选名称：**向量语义中间层驱动的可伸缩跨 ISA 代码迁移**。
+推荐创新点名称：**面向多 VLEN 验证的固定宽度 SIMD—VLA 语义契约恢复与反例修正**。
 
-## 2. 对应论文组与主要文献依据
+它不发明新的通用向量 IR，而是把 MLIR Vector dialect 或 LLVM scalable vector 当作实现底座，研究源 intrinsic 中没有显式写出的 mask、tail、VL、归约顺序和跨寄存器分组语义如何被恢复、验证和修正。
 
-| 证据 | 已提供的基础/边界 |
-|---|---|
-| [LLM-Vectorizer](https://doi.org/10.1145/3696443.3708929) | LLM 向量化、正确性验证和性能评测；说明验证闭环必要。 |
-| [IntrinTrans](https://arxiv.org/abs/2510.10119) | NEON→RVV intrinsic 翻译、多 Agent 编译/测试/优化流程；说明直接迁移已有强基线。 |
-| [VecIntrinBench](https://arxiv.org/abs/2511.18867) | intrinsic 翻译基准与评测任务。 |
-| [neon2rvv](https://github.com/zzh-wisdom/neon2rvv) | 规则/API 兼容层工程基线。 |
+## 2. 已有工作做到哪里了
 
-neon2rvv 是来源受限项目页，不承担论文方法结论；关键判断以其工程接口和其余三篇全文为依据。
+| 工作 | 已覆盖 | 主要缺口 |
+|---|---|---|
+| neon2rvv | 头文件规则映射，快速把 NEON 映射到 RVV | 常采用固定 VLEN 假设，覆盖和性能有限 |
+| VecIntrinBench | 约 50 个跨架构 intrinsic 迁移任务和多维评测 | 规模小，复杂 VLA 语义覆盖不足 |
+| IntrinTrans | LLM + 编译 + 测试 + 活跃性反馈闭环 | 正确性依赖有限测试，VLA 契约未显式化 |
+| LLM-Vectorizer | LLM 生成、Checksum 和 Alive2 验证 | 重点是 x86 向量化，验证覆盖率受限 |
 
-## 3. 已有工作已经解决的问题
+同时，[MLIR Vector dialect](https://mlir.llvm.org/docs/Dialects/Vector/)已经提供面向多硬件的机器无关向量抽象和 scalable vector 支持；[LLVM 的 RVV 文档](https://llvm.org/docs/RISCV/RISCVVectorExtension.html)也采用 scalable vector 类型表达 RVV。因此，不能再声称“首次提出平台无关向量语义中间层”。
 
-当前工作已能用规则、LLM 或多 Agent 完成 intrinsic 映射、编译修复、测试和局部性能优化，也已有专门基准。因而“LLM 把 NEON 翻译成 RVV”“多 Agent 编译—测试闭环”或“加入正确性验证”均不能单独作为新意。
+## 3. 真正的研究空白
 
-## 4. 尚未解决的研究空白
+固定宽度 SIMD 代码里常有隐含假设：
 
-NEON/x86 SIMD 常把固定 lane 数和固定寄存器宽度写入 API；RVV 的有效向量长度由 `VL/VTYPE` 和硬件 `VLEN` 共同决定。逐 API 翻译容易保留源 ISA 的宽度假设，产生尾部处理、mask、lane 重排、归约顺序、饱和/舍入和越界访存错误，也可能生成只在某一 VLEN 上有效的“伪移植”代码。
+- 每次恰好处理 4/8/16 个元素；
+- 尾部由标量循环处理，或调用方保证长度整除；
+- mask 的未激活 lane 应保留、归零或不关心；
+- shuffle 依赖固定 lane 编号；
+- reduction 的组合顺序和浮点结果容忍度；
+- 多个寄存器共同表示一个逻辑向量。
 
-## 5. 核心机制与数学表示
+如果直接逐 intrinsic 映射到 RVV，代码可能：
 
-定义向量语义中间层（Vector Semantic IR, VSIR）节点：
+- 只在 VLEN=128 时正确；
+- 换到 VLEN=256/512 时重复或漏算元素；
+- 在最后一次迭代错误处理 tail；
+- 因 mask/tail policy 不同读入未定义值；
+- 浮点归约结果与原程序的允许误差不一致。
 
-$$
-v=(op,type,shape,mask,mem,reduce,sat,round,VL\_dep,side\_effect).
-$$
+这些问题不能仅靠“编译通过”发现，也不能由一个通用 IR 自动解决。
 
-翻译分两步：
+## 4. 推荐创新点
 
-$$
-Code_{src}\xrightarrow{Recover}VSIR
-\xrightarrow{Lower(ISA,e_h)}Code_{tgt}.
-$$
+### 4.1 一句话解释
 
-VSIR 不记录“NEON 的某个 API 对应 RVV 的某个 API”，而记录 lane 关系、有效元素域、mask 传播、内存访问模式和数值语义。正确性目标为：
+先把源 SIMD 代码还原成一份不依赖固定向量宽度的“算法说明书”，再据此生成 RVV；如果它在某个 VLEN 或边界输入上失败，就用最小反例指出是哪条语义假设恢复错了。
 
-$$
-\forall x,\forall VL\in\mathcal V_h:\quad
-Sem(Code_{src},x)=Sem(Lower(VSIR,VL),x),
-$$
+### 4.2 VLA 语义契约
 
-性能目标在正确性约束下最小化：
-
-$$
-\min_{Lowering}\;T_h(Code)+\lambda Size(Code)+\mu N_{fallback}.
-$$
-
-LLM 负责语义恢复和候选 lowering，编译器/解释器/差分测试负责证据；不能让 LLM 自述替代验证。
-
-## 6. 系统组成与数据流
+对每个待迁移函数恢复：
 
 ```text
-NEON / x86 intrinsic / 向量 C 代码
-  → 语义恢复器（LLM + API 规范 + 数据流）
-  → VSIR：lane、mask、memory、reduction、rounding、VL 依赖
-  → 目标 lowering 候选（RVV，可扩展其他 ISA）
-  → 编译检查 + 多 VLEN 语义执行/差分测试
-  → RISC-V 实机性能与后端诊断
-  → 失败证据回写语义节点或 lowering 规则
+Iteration domain : 处理的逻辑元素范围
+Lane mapping     : 源 lane 与逻辑索引的关系
+Mask policy      : 激活/未激活 lane 的行为
+Tail policy      : 最后不足一个向量时的行为
+VL discipline    : setvl 的位置与循环推进关系
+Reduction law    : 结合律、顺序约束与浮点容忍度
+Memory contract  : 对齐、stride、越界禁止条件
 ```
 
-## 7. 可检验的研究问题与假设
+契约先由静态分析和规则恢复确定性部分，LLM 只提出歧义部分的候选解释。每条解释必须通过执行或形式工具验证，不能采信 LLM 自我判断。
 
-- **RQ1**：VSIR 是否比逐 API/直接 LLM 翻译提高功能正确率和多 VLEN 正确率？
-- **RQ2**：语义恢复与目标 lowering 分离，是否提高对未见 intrinsic 组合的泛化？
-- **RQ3**：VLA 感知 lowering 是否比固定 VL 模板在不同 RVV 设备上具有更稳定性能？
-- **H1**：显式 mask、tail、reduction 和 rounding 语义会显著减少“可编译但语义错误”的样本。
+### 4.3 翻译流程
 
-## 8. 最小可行 Demo
+1. 解析源 intrinsic 和控制流，恢复固定宽度 lane 行为；
+2. 把行为提升到 VLA 契约；
+3. 在 MLIR Vector/scalable vector 上生成中间实现；
+4. lowering 到 RVV intrinsic 或 LLVM RVV；
+5. 在多个 VLEN 配置、随机输入和边界输入上差分执行；
+6. 对失败样本做 delta debugging，得到最小 `(VLEN, n, mask, data)` 反例；
+7. 将反例归类为 lane、tail、mask、reduction 或 memory contract 错误；
+8. 只修正对应契约字段，再重新生成。
 
-从 20–30 个常见 NEON intrinsic 组合开始，覆盖算术、load/store、shuffle、比较/mask、归约、饱和运算六类。手工定义一个小型 VSIR schema；用 Clang AST/LLVM IR + LLM 恢复语义；生成 RVV intrinsic；在 QEMU/Spike 做多 `VLEN` 测试，在一台 RISC-V 实机测性能。第一版不追求任意 C/C++，只做函数级纯计算内核。
+### 4.4 为什么这比“直接让 LLM 翻译”更强
 
-## 9. 实验平台、基线、消融与指标
+- 失败位置从一整段代码缩小到一个契约字段；
+- 同一契约可生成不同 RVV 实现，便于性能搜索；
+- 多 VLEN 验证直接检查可伸缩性，而不是默认 128 位；
+- 规则工具可处理常见一对一映射，LLM 只负责真正有歧义的组合语义。
 
-- **平台**：x86 开发机；RISC-V 模拟环境（多 VLEN）+ 至少一台 RVV 实机。
-- **数据**：VecIntrinBench 子集、IntrinTrans 可比任务、自建组合/尾部边界样本。
-- **基线**：neon2rvv、直接 LLM 翻译、IntrinTrans 风格 Agent、规则 API 映射、完整 VSIR 方法。
-- **消融**：无 VL 语义、无 mask/tail 节点、无数值语义、直接 source→target、无失败回写。
-- **指标**：编译通过率、功能正确率、多 VLEN 正确率、未见组合泛化、实机加速比、代码膨胀、修复轮数。
+## 5. 最小可行实验
 
-## 10. 与已有工作的创新边界
+### 5.1 数据集扩展
 
-边界不在“跨 ISA 翻译”，而在：**以长度无关的向量语义作为学习和验证对象，显式桥接固定宽度 SIMD 与 VLA ISA，并将源语义恢复和目标实现优化解耦**。必须查新 vector IR、portable SIMD IR、VLA translation、RVV intrinsic migration、SIMD semantics 和 superword-level parallelism。
+从 VecIntrinBench 起步，新增以下高风险类别：
 
-## 11. 主要风险与降级方案
+- 非整除长度与多种 tail；
+- mask merge/zero/agnostic 行为；
+- 固定 lane shuffle 与跨寄存器拼接；
+- widening/narrowing；
+- 整数和浮点 reduction；
+- stride、gather/scatter。
 
-- **语义覆盖爆炸**：限定函数内、无异常、无复杂别名的 intrinsic 内核。
-- **形式证明困难**：先做多 VLEN 差分测试与属性测试，关键算子再接 Alive2/SMT。
-- **真实 RVV 平台有限**：模拟器验证语义，实机验证性能；明确两种证据不能互换。
-- **VSIR 被认为只是新 IR**：必须通过未见组合泛化、多 VLEN 正确率和 lowering 复用证明其作用。
+至少覆盖 VLEN=128/256/512；若真实硬件不足，可用模拟器做功能验证，但性能必须在真实硬件上测。
 
-## 12. 与当前研究方向的关系
+### 5.2 基线
 
-这是六点中最直接命中“RISC-V + AI + 代码翻译 + 编译器”的候选方向。RISC-V/RVV 是高价值目标后端，同时 VSIR 可扩展到 SVE、AVX 等，使方法不局限于单一 ISA。
+1. neon2rvv 规则翻译；
+2. LLM 一次性翻译；
+3. IntrinTrans 风格编译—测试反馈；
+4. 使用通用 IR 但没有显式 VLA 契约的版本；
+5. 完整契约恢复 + 多 VLEN 反例修正。
 
-## 13. 综合评分
+### 5.3 指标
 
-| 维度 | 评分（5分制） | 判断 |
+- 编译通过率；
+- 单 VLEN 与多 VLEN 功能正确率；
+- VLEN 泛化率：未参与修正的 VLEN 上是否正确；
+- 各类语义错误检出率；
+- 平均修正轮数；
+- 与手写 RVV 的真实硬件性能比；
+- 代码是否保持 VLEN-agnostic。
+
+## 6. 可证伪假设
+
+主假设：显式 VLA 契约和多 VLEN 反例反馈能显著降低“单一 VLEN 通过、换 VLEN 失败”的隐蔽错误，并减少翻译修正轮数。
+
+失败信号：
+
+- 契约抽取本身比直接翻译更不稳定；
+- 通用 IR 基线已自动处理绝大多数问题，显式契约没有增益；
+- 多 VLEN 正确率提高但代码性能大幅下降且无法再优化；
+- 复杂 shuffle/reduction 无法用所定义契约表达。
+
+## 7. 论文边界
+
+可主张：固定宽度到 VLA 的契约恢复、多 VLEN 测试协议、契约级反例定位与修正。
+
+不可主张：首次跨 ISA intrinsic 翻译、首次 LLM+编译反馈、首次平台无关向量 IR、仅凭 QEMU 获得真实加速结论。
+
+## 8. 综合判断
+
+| 维度 | 评分（5 分） | 说明 |
 |---|---:|---|
-| 创新性 | 4.6 | 固定 SIMD→VLA 的语义桥接具有清晰问题特征，仍需查 portable vector IR。 |
-| 可行性 | 4.2 | 小型 VSIR 和有限 intrinsic 子集可快速起步。 |
-| 硕士适配度 | 4.8 | 问题集中、Demo 明确、RISC-V 特色强。 |
-| 工程成本 | 3.7 | 需要解析、生成和多 VLEN 测试，但范围可控。 |
-| 重合风险 | 3.0 | IntrinTrans 很近，必须突出语义中间层与 VLA 验证。 |
+| 新颖性 | 4.2 | 从“代码翻译”收窄到“VLA 隐含语义恢复” |
+| 可实现性 | 3.6 | 高风险语义和多 VLEN 测试工程量较大 |
+| 实验清晰度 | 4.6 | 多 VLEN 隐蔽错误可直接量化 |
+| RISC-V 相关性 | 5.0 | 直接针对 RVV 可伸缩语义 |
+| 风险 | 中高 | 形式验证覆盖和浮点语义是难点 |
+
+最终建议：作为类别四主创新。实现时复用 MLIR/LLVM 现有向量抽象，把论文贡献集中在语义恢复、反例和验证协议上。
