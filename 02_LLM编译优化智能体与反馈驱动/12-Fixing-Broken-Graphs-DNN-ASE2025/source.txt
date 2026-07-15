@@ -1,0 +1,8 @@
+Paper: Fixing Broken Graphs: LLM-Powered Automatic Code Optimization for DNN Programs
+Conference: ASE 2025 (IEEE/ACM)
+DOI: 10.1109/ASE63991.2025.00144
+Status: IEEE/IEEEXplore, need subscription or institutional access.
+GitHub: https://github.com/Jamesswang/GraphGlue
+Institute: Nankai University
+Note: Paper available via IEEE Xplore.
+
