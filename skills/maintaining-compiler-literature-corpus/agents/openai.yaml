@@ -1,0 +1,4 @@
+interface:
+  display_name: "编译器文献语料库维护"
+  short_description: "从关键词检索到下载阅读及三类索引同步的编译器文献管理流程"
+  default_prompt: "Use $maintaining-compiler-literature-corpus to expand a research direction into 2024–2026 literature and maintain the local corpus end to end."
