@@ -1,2 +1,3 @@
 # Local extraction, rendering, and download intermediates
 tmp/
+.worktrees/
