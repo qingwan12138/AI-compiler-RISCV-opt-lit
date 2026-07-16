@@ -96,15 +96,11 @@ IntOpt进一步确认"intent-driven IR optimization"已是相邻工作。其核�
 
 见第16条。本条目为重复副本。
 
-## 12. 最小可行Demo
-
-见第16条。
-
-## 13. 与其他已读文献的关系
+## 12. 与其他已读文献的关系
 
 本条目与第16条重复。与LLMs for Compiler Optimization（46）相比，IntOpt增加了意图表述维度。与CompilerAPI（42）思路类似（自然语言意图驱动），但IntOpt在IR层面操作。
 
-## 14. 一页式总结
+## 13. 一页式总结
 
 | 项目 | 内容 |
 |------|------|

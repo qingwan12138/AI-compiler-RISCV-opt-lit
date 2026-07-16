@@ -112,44 +112,11 @@ ONNX/MLIR 模型 → 候选布局与归约映射
 
 可先复用公开 OML-vect 工件并限制 8 个 attention kernel；风险是硬件稀缺、测量噪声、搜索成本和浮点重排语义。
 
-## 12. 最小可行 Demo
-
-### 12.1 Demo 目标
-
-复现一个 BERT attention MatMul，从默认 MLIR 无法向量化到“归约映射 + 编译期转置”成功生成 RVV，并解释每个门槛。
-
-### 12.2 输入数据
-
-两个 128×768/768×768 的 FP32 MatMul/attention 小核，静态权重版与运行时 transpose 版各一份。
-
-### 12.3 执行流程
-
-```text
-ONNX → affine IR
-→ 记录默认 reduction/成本诊断
-→ 加 OML-reduction → 再记录拒绝原因
-→ 加布局 pass → vector/LLVM IR
-→ RVV 编译 → Spike/QEMU 差分 → 真机计时
-```
-
-### 12.4 需要的工具
-
-OML-vect Docker/Zenodo 工件、LLVM/MLIR 20、ONNX-MLIR、QEMU/Spike、RVV 设备或 Atrevido 环境。
-
-### 12.5 输出结果
-
-| 配置 | 识别归约数 | 是否向量化 | load/store | 编译时间 | 运行时间 | 正确性 |
-|---|---:|---|---:|---:|---:|---|
-
-### 12.6 成功标准
-
-重现“只识别归约仍不向量化”的中间态；联合布局后生成 RVV，结果误差在规定容差内，且相对手工 baseline 有可重复收益。
-
-## 13. 与其他已读文献的关系
+## 12. 与其他已读文献的关系
 
 与 C12 xDSL→RVV lowering 都补齐 MLIR 到 RVV 的缺口：C12 以自定义 xDSL lowering 生成 intrinsic C，OML-vect 尽量复用上游 affine/vector/LLVM 链；与 C20 形式规格驱动指令选择互补，本文解决中层布局/归约，C20 解决 gMIR→ISA 规则；与 Closer in the Gap 的真机成本模型诊断形成后续验证路线；与 IntrinTrans/VecIntrinBench 的手工 intrinsic 迁移不同，本文目标是避免源级架构专用代码。
 
-## 14. 一页式总结
+## 13. 一页式总结
 
 | 项目 | 内容 |
 |---|---|

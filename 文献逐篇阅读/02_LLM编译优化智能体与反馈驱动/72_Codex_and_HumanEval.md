@@ -69,15 +69,11 @@ HumanEval可作为LLM候选生成的背景评测参考，但其设计目标（�
 
 基于pass@k设计编译优化评测指标（pass@k of performance improvement）。将HumanEval扩展到编译优化场景（HumanEval-Opt，要求生成的代码不仅功能正确还要性能最优）。探索pass@k在不同采样策略下的行为差异。
 
-## 12. 最小可行Demo
-
-在HumanEval的10-20道题上复现Codex的评估流程：使用现有开源代码LLM（如CodeLlama或StarCoder），实现pass@k评估，对比不同采样参数下的pass率变化。
-
-## 13. 与其他已读文献的关系
+## 12. 与其他已读文献的关系
 
 本文为大量后续代码生成工作奠定了基础。第55篇Program Synthesis提供了前驱方法，本文在此基础上正式定义了HumanEval和pass@k。与第79篇PIE（性能改进代码编辑）在评测范式上有延续关系——PIE将pass@k思想扩展到性能优化评估。第73篇DeepSeekMath的评估方法论也受到pass@k的影响。
 
-## 14. 一页式总结 (表格)
+## 13. 一页式总结 (表格)
 
 | 维度 | 描述 |
 |------|------|

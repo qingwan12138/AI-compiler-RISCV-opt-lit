@@ -55,15 +55,11 @@ OMPar与编译器优化中的"失配驱动修正"思路相关——可以将其�
 
 将OMPar的自动并行化方法迁移到RISC-V多核场景：在RISC-V平台（如Sifive U74等支持多核的RISC-V处理器）上评估OMPar生成的OpenMP并行代码的功能正确性和加速比，并根据RISC-V特有的缓存层次结构和核间通信特性对OMPar的并行化策略进行调整。
 
-## 12. 最小可行的Demo (1个即可)
-
-选取一个简单的可并行循环（如数组逐个元素加法），使用OMPar的OMPify判断可并行性，使用MonoCoder-OMP生成"#pragma omp parallel for" pragma，在支持OpenMP的多核RISC-V平台（如通过QEMU模拟多核RISC-V或使用VisionFive等真实硬件）上编译运行，验证加速效果。
-
-## 13. 与其他已读文献的关系
+## 12. 与其他已读文献的关系
 
 OMPar与103号文献本身是同一篇。与47号文献（Priority Sampling of LLMs for Compilers）在应用LLM于编译器任务的大方向上有交集。与3号文献（CompilerGym）在利用编译器环境反馈的理念上相关——OMPar使用编译运行验证，CompilerGym提供编译器优化环境。与15号文献（Verified Learning for Compiler Optimization）在"验证引导优化"的理念上有共同点。在自动并行化的具体任务上，OMPar是传统自动并行化研究（如基于依赖分析的方法）的LLM升级版。
 
-## 14. 一页式总结 (表格)
+## 13. 一页式总结 (表格)
 
 | 维度 | 内容 |
 |------|------|

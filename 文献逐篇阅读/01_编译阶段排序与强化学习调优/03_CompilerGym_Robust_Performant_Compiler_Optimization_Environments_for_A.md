@@ -236,32 +236,7 @@ CompilerGym使用IR指令数作为代理奖励，如何在CompilerGym框架中�
 #### 主要风险
 真实硬件的可用性、测量噪声、以及评估时间的增加可能影响RL训练的样本效率。
 
-## 12. 最小可行Demo
-
-### 12.1 Demo目标
-展示CompilerGym的基本工作流程：创建一个llvm-autophase环境，运行一个简单的RL算法（如随机搜索或PPO），并展示优化前后的IR指令数变化。
-
-### 12.2 输入数据
-CompilerGym内置的cBench数据集中的一个程序（如`cbench-v1/crc32`）。
-
-### 12.3 执行流程
-1. 安装CompilerGym和Stable Baselines3；2. 创建`llvm-autophase-v0`环境；3. 运行随机搜索或简单的RL策略；4. 记录优化前后的IR指令数变化；5. 使用状态重放功能验证结果的可复现性。
-
-### 12.4 需要的工具
-CompilerGym Python包、Stable Baselines3（可选）、LLVM工具链（CompilerGym通常会附带）。
-
-### 12.5 输出结果
-
-| 指标 | 优化前 | 优化后 | 改善比例 |
-|---|---|---|---|
-| IR指令数 | 1000 | ~850 | ~15% |
-| Step数 | - | ~1000 | - |
-| 总时间 | - | ~5分钟 | - |
-
-### 12.6 成功标准
-成功创建CompilerGym环境并运行至少一个episode的Pass搜索，能够记录和重放环境状态，且最终选择的Pass序列性能优于随机序列。
-
-## 13. 与其他已读文献的关系
+## 12. 与其他已读文献的关系
 
 【分析内容】CompilerGym与AutoPhase的关系最为直接——CompilerGym的llvm-autophase环境正是基于AutoPhase的56维IR特征向量设计的。AutoPhase在HLS场景中的特征设计和RL方法被CompilerGym标准化为可复用的环境。反过来，CompilerGym使AutoPhase类的工作的复现和扩展变得更加便捷。
 
@@ -271,7 +246,7 @@ CompilerGym与Compiler-R1的关系体现在：Compiler-R1正是基于CompilerGym
 
 CompilerGym对各篇论文的作用定位如下：AutoPhase是"方法提供者"，提供了特征设计和RL搜索的具体方法；Compiler Phase-Ordering for HLS with DRL是"范式奠基者"，建立了MDP框架；CompilerGym是"基础设施提供者"，将前两者的方法标准化为可复用的环境；Compiler-R1是"方法创新者"，在前三者基础上引入了LLM的新范式。
 
-## 14. 一页式总结
+## 13. 一页式总结
 
 | 项目 | 内容 |
 |---|---|

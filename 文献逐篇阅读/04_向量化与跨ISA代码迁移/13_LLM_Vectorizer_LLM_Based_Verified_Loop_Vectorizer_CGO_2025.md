@@ -197,38 +197,11 @@ Alive2对RISC-V V扩展的支持可能非常有限，需要大量开发工作。
 #### 主要风险
 奖励函数的稀疏性——大多数优化尝试可能验证失败，导致RL训练信号稀疏。
 
-## 12. 最小可行Demo
-
-### 12.1 Demo目标
-实现一个针对简单归约循环的LLM+Alive2向量化流程，展示"生成-验证-修复"的基本能力。
-
-### 12.2 输入数据
-一个简单的数组求和循环（标量C代码），以及对应的LLVM IR表示。
-
-### 12.3 执行流程
-(1) LLM生成SIMD intrinsic版本（使用SSE向量化指令）；(2) Checksum测试验证输出一致性；(3) Alive2形式验证IR等价性；(4) 输出验证通过的向量化代码。
-
-### 12.4 需要的工具
-LLM API（GPT-4或Claude）、LLVM工具链（clang、opt）、Alive2验证工具、x86平台（用于Checksum测试和性能评估）。
-
-### 12.5 输出结果
-
-| 组件 | 结果描述 |
-|---|---|
-| 输入标量循环 | 10个元素的数组求和循环 |
-| LLM生成的向量化代码 | 使用_mm_add_ps和_mm_hadd_ps的SSE版本 |
-| Checksum测试 | 通过（100组随机输入，输出一致） |
-| Alive2验证 | 通过（bounded范围内语义等价） |
-| 性能加速 | 约3-4倍加速（相对于标量版本） |
-
-### 12.6 成功标准
-LLM生成正确的向量化代码，通过Checksum测试和Alive2验证，且向量化版本在x86平台上比标量版本加速至少2倍。
-
-## 13. 与其他已读文献的关系
+## 12. 与其他已读文献的关系
 
 【分析内容】LLM-Vectorizer与Alive2（第14篇）有直接的技术依赖关系——前者使用后者作为验证引擎。LLM-Vectorizer的工作揭示了Alive2在向量化验证上的局限性（对SIMD intrinsic支持有限），这对Alive2的发展方向具有指导意义。LLM-Vectorizer与IntOpt（第16篇）相比，两者都使用"生成-验证-修复"的基本范式，但侧重点不同——LLM-Vectorizer聚焦于循环向量化这一具体优化领域，而IntOpt在更通用的IR优化层面上工作。LLM-Vectorizer与"Verified Learning for Compiler Optimization"（第15篇）在方法论上最为接近，两者都尝试将形式验证与LLM生成相结合。对于CrossTune-RL方向，LLM-Vectorizer提供了FSM驱动的agent管理设计模式，这在设计多架构优化agent时具有很高的参考价值。
 
-## 14. 一页式总结
+## 13. 一页式总结
 
 | 项目 | 内容 |
 |---|---|

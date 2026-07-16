@@ -200,38 +200,11 @@ IntOpt不涉及强化学习训练或梯度下降优化，因此没有严格的�
 #### 主要风险
 RL训练的计算成本高，且需要通过Alive2验证来获取奖励信号，验证瓶颈可能拖慢训练速度。
 
-## 12. 最小可行Demo
-
-### 12.1 Demo目标
-实现IntOpt三阶段框架的简化版本，展示从意图表达到验证实现的端到端流程。
-
-### 12.2 输入数据
-一个简单的循环密集型LLVM IR函数（如数组求和循环）。
-
-### 12.3 执行流程
-(1) Formulation：LLM分析IR代码，生成意图（如"减少循环中冗余的内存访问"）；(2) Refinement：LLM检索知识库，细化为"循环不变代码外提+冗余加载消除"；(3) Realization：逐条实现为IR变换，通过Alive2验证；(4) 输出优化后的IR。
-
-### 12.4 需要的工具
-LLM API（如GPT-4）、LLVM（clang、opt等）、Alive2验证工具。
-
-### 12.5 输出结果
-
-| 阶段 | 输出描述 |
-|---|---|
-| Intent Formulation | 意图：优化性能，区域：主循环，策略：减少冗余内存访问 |
-| Intent Refinement | 细化动作：[循环不变代码外提, 冗余加载消除] |
-| Intent Realization - 变换1 | 循环不变代码外提实现，Alive2通过 |
-| Intent Realization - 变换2 | 冗余加载消除实现，Alive2通过 |
-| 最终IR | 优化后的LLVM IR，预期加速1.5-2倍 |
-
-### 12.6 成功标准
-端到端流程在5分钟内完成，所有Realization步骤通过Alive2验证，优化后版本在目标平台上比-O2基线加速至少1.2倍。
-
-## 13. 与其他已读文献的关系
+## 12. 与其他已读文献的关系
 
 【分析内容】IntOpt与LLM-Vectorizer（第13篇）在"生成-验证-修复"基本范式上有共同点，但IntOpt的意图驱动方法在系统化程度上更进一步——LLM-Vectorizer使用FSM管理agent行为来生成向量化代码，而IntOpt通过三阶段分解决策过程实现了更结构化的优化。IntOpt与Alive2（第14篇）有直接的依赖关系——Alive2是IntOpt Realization阶段的核心验证工具。IntOpt的90.5%验证通过率远高于LLM-Vectorizer的38.2%，但这主要是因为IntOpt在IR层面的变换验证相对简单，而向量化验证涉及复杂的SIMD intrinsic。IntOpt与"Verified Learning for Compiler Optimization"（第15篇）在验证引导优化的方向上可能有重叠，但IntOpt更强调意图的结构化分解而非学习过程本身。对于CrossTune-RL方向，IntOpt是最直接相关的竞争工作——已提出意图驱动的IR优化框架，但还未将跨架构后端优化纳入其体系，这为在RISC-V后端方向上做出差异化贡献留下了空间。
 
-## 14. 一页式总结
+## 13. 一页式总结
 
 | 项目 | 内容 |
 |---|---|

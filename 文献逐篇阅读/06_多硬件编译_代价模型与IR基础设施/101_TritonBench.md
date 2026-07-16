@@ -55,15 +55,11 @@ TritonBench的评测设计原则——只有同时通过执行正确性检查并
 
 借鉴TritonBench的评测框架，构建一个面向RISC-V Vector算子的benchmark：从PyTorch/CUDA参考实现生成等价的RVV算子，评测LLM的编译通过率、执行正确率和相对于标量参考实现的向量化加速比。
 
-## 12. 最小可行的Demo (1个即可)
-
-选取一个TritonBench中的简单算子（如向量加法），使用GPT-4生成Triton实现，在A100 GPU上依次进行编译检查、执行正确性验证和性能测量，展示TritonBench的完整评测流水线。
-
-## 13. 与其他已读文献的关系
+## 12. 与其他已读文献的关系
 
 TritonBench与100号文献（CodeBLEU）在评价指标的采用上直接相关——使用CodeBLEU作为评测维度之一。与87号文献（HPCTransCompile）在GPU算子生成的大方向上相关，但87号关注的是CUDA到CPU的转编译数据集构建，101号关注的是Triton算子生成的benchmark。与31号文献（TVM）在深度学习编译器的大领域上相关。在编译器优化领域，TritonBench的主要价值在于提供了"同时评测正确性和效率"的benchmark设计范式。
 
-## 14. 一页式总结 (表格)
+## 13. 一页式总结 (表格)
 
 | 维度 | 内容 |
 |------|------|

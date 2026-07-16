@@ -177,44 +177,11 @@ IR级别优化的效果最终需要通过硬件执行来验证，完整的编译
 #### 主要风险
 形式化验证的可扩展性有限，对于复杂的向量化代码，等价性检查的计算开销可能非常高，甚至无法在合理时间内完成。
 
-## 12. 最小可行Demo
-
-### 12.1 Demo目标
-实现IntrinTrans框架的核心功能子集：一个基于LLM和编译器反馈的NEON到RVV intrinsic翻译原型系统，支持单函数级别的翻译验证。
-
-### 12.2 输入数据
-一个NEON intrinsic实现的向量加法函数，使用int32x4_t类型和vaddq_s32 intrinsic，包含标准的向量运算模式。同时提供对应的测试用例（几组输入向量和期望输出）。
-
-### 12.3 执行流程
-1. Translator Agent接收NEON函数代码和翻译指令，生成RVV翻译
-2. Compilation Executor使用支持RVV的GCC编译翻译后的代码，捕获编译错误
-3. 如果编译失败，错误信息反馈给Translator，迭代修正
-4. 编译成功后，Test Executor运行测试用例，验证正确性
-5. 如果测试失败，错误反馈给Translator，迭代修正
-6. 通过验证后，Optimizer Agent建议寄存器优化方案
-7. 输出最终的RVV intrinsic代码和翻译报告
-
-### 12.4 需要的工具
-Python脚本（协调多Agent执行流程）、支持RVV的GCC或LLVM编译器（用于编译验证）、QEMU（用于运行测试）、一个支持API调用的LLM（如通过vLLM或API服务部署的Qwen-2-72B）、活跃性分析工具（可使用LLVM的现有分析pass）。
-
-### 12.5 输出结果（表格）
-
-| 阶段 | 状态 | 详细信息 |
-|---|---|---|
-| 初始翻译 | 通过 | NEON vaddq_s32 -> RVV vadd.vv (LMUL=1) |
-| 编译验证 | 通过 | 编译成功，无警告 |
-| 测试验证 | 通过 | 5组测试用例全部通过 |
-| 优化建议 | 无操作 | 寄存器压力合理，无需调整 |
-| 最终翻译 | 成功 | 函数翻译完成，正确性通过，性能比0.92 |
-
-### 12.6 成功标准
-翻译后的RVV代码在QEMU上正确运行并通过所有测试用例。编译和测试反馈循环能够自动运行，无需人工干预。端到端流程在5次迭代以内收敛。最终生成的代码性能不低于专家手写RVV实现的80%（性能比率不超过1.25）。如果迭代达到10次仍未通过验证，系统应输出失败报告和最后一次的错误诊断信息。
-
-## 13. 与其他已读文献的关系
+## 12. 与其他已读文献的关系
 
 IntrinTrans与交叉阅读的其他文献之间存在多个维度的关联。首先，IntrinTrans是CrossTune-RL等涉及LLM Agent的编译器调优工作中最重要的直接基线之一。IntrinTrans的compile-test feedback机制是Agent-in-the-loop编译器优化范式的具体实现，而CrossTune-RL进一步将这一范式从代码翻译扩展到后端优化策略探索，两者的技术路线具有明显的延续性。其次，IntrinTrans与"RISC-V LLVM backend optimization incubator / RVCC discussion"中提出的分层验证思想高度互补——IntrinTrans提供的是自动化翻译和验证的方法，而RVCC提供的是验证基础设施的组织形式。IntrinTrans的验证组件可以直接嵌入到RVCC的分层验证流水线中。第三，IntrinTrans使用活跃性分析等传统编译器技术来指导LLM优化的思路与MuCoLa（Multi-task Compiler LLM Agent）等工作中利用编译器中端分析指导LLM决策的方法论一致，反映了编译器与LLM深度融合这一趋势。第四，与"Formal Verification of RISC-V Processor Implementations"等工作相比，IntrinTrans在正确性保证方面还停留在动态测试层面，这既是其局限性也是未来改进方向。最后，IntrinTrans所关注的RVV intrinsic翻译问题本身就属于RISC-V编译器生态中的具体应用场景，与RISC-V相关的其他文献在研究目标和应用领域上形成了从底层验证到上层应用的完整链路。
 
-## 14. 一页式总结
+## 13. 一页式总结
 
 | 项目 | 内容 |
 |---|---|

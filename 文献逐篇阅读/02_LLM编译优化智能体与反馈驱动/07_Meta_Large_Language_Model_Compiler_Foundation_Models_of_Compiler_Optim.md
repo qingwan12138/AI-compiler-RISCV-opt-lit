@@ -243,32 +243,7 @@ Meta LLM Compiler的评估不包含正确性验证环节。本研究将设计和
 #### 主要风险
 验证环节增加了编译和测试的时间开销，可能削弱LLM相对于Autotuning的速度优势。
 
-## 12. 最小可行Demo
-
-### 12.1 Demo目标
-在x86平台上，使用Meta LLM Compiler对一个小型C程序进行Flag Tuning优化，验证其能否生成比-Oz更小的二进制文件，并对比推理时间与Autotuning的搜索时间。
-
-### 12.2 输入数据
-小型C程序（如CRC32校验函数或快速排序实现），约50-100行代码。
-
-### 12.3 执行流程
-输入C程序到Meta LLM Compiler -> 模型推理生成Flag组合 -> 使用clang以生成的Flag组合编译程序 -> 测量生成代码尺寸 -> 对比-Oz和Autotuning结果。
-
-### 12.4 需要的工具
-Meta LLM Compiler模型权重（开源）、Hugging Face Transformers（模型加载与推理）、LLVM/Clang工具链、编译时间测量脚本。
-
-### 12.5 输出结果
-
-| 优化方法 | 代码尺寸(字节) | 尺寸缩减率(%) | 生成时间 |
-|---|---|---|---|
-| -Oz基线 | 基准值 | 0 | 即时 |
-| Meta LLM Compiler | 较基准-X% | X% | ~1秒（推理） |
-| Autotuning最优 | 较基准-Y% | Y% | ~30分钟（搜索） |
-
-### 12.6 成功标准
-Meta LLM Compiler生成的Flag组合在代码尺寸上达到Autotuning最优解的至少60%效果，且推理时间在10秒以内。
-
-## 13. 与其他已读文献的关系
+## 12. 与其他已读文献的关系
 
 【分析内容】
 
@@ -280,7 +255,7 @@ Meta LLM Compiler与本批次阅读的其他文献在研究范式和技术路径
 
 与Foundation Language Models for Compiler Optimization（编号08）的关系最密切——编号08很可能是Meta LLM Compiler的同行评审会议版本或一项独立的同主题工作。两者的主要差异和增量内容需要在获取编号08的PDF后进行对比分析。
 
-## 14. 一页式总结
+## 13. 一页式总结
 
 | 项目 | 内容 |
 |---|---|

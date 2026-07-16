@@ -221,43 +221,11 @@ MLIR Linalg → 高层变换候选
 
 可复用 MLIR RL 工件；主要风险是历史策略覆盖不足和离线外推导致错误选择。
 
-## 12. 最小可行 Demo
-
-### 12.1 Demo 目标
-
-在不训练大模型的条件下，验证“平面动作表”与“多离散动作”对 2–3 层 MLIR Linalg 循环的小规模搜索覆盖率和最佳运行时间。
-
-### 12.2 输入数据
-
-20 个固定尺寸的 MatMul、Add、MaxPool MLIR kernel；每个最多 3 层循环、4 个 tile size，动作限于 tiling、interchange、vectorization 和 stop。
-
-### 12.3 执行流程
-
-```text
-生成 MLIR kernel → 枚举/采样两种动作表示
-→ mlir-opt 合法化 → clang 编译
-→ 每候选运行 7 次取中位数
-→ 比较合法候选覆盖、搜索时间和最佳 speedup
-```
-
-### 12.4 需要的工具
-
-LLVM/MLIR 19、Clang、Python、MLIR RL 环境；可选 Stable-Baselines3，不要求重新训练论文规模 PPO。
-
-### 12.5 输出结果
-
-| Kernel | 动作表示 | 尝试数 | 合法率 | 搜索时间 | 最佳 speedup |
-|---|---|---:|---:|---:|---:|
-
-### 12.6 成功标准
-
-两种表示都能产生可执行代码；多离散表示在相同尝试预算下覆盖更多唯一合法参数组合，并至少在部分 kernel 找到不差于平面候选表的结果。
-
-## 13. 与其他已读文献的关系
+## 12. 与其他已读文献的关系
 
 与 CompilerGym/AutoPhase 类工作相比，本文不只选固定 pass，而是同时选择变换参数和作用循环。与现有 C05 CITROEN、C10 Protean 等 phase-ordering 条目相比，它更接近循环级 autotuning 环境。与 C21 OML-vect 的规则化 MLIR→RVV 向量化不同，MLIR RL 学习变换序列但没有 RISC-V 实验；二者可组合为“高层策略选择 + RVV 后端真实性能反馈”。与 C23 的多层 RISC-V 后端相比，本文依赖通用 LLVM CPU lowering，而 C23 通过保留目标语义获得专用后端性能，揭示了只优化高层 Linalg 仍可能被后端信息瓶颈限制。
 
-## 14. 一页式总结
+## 13. 一页式总结
 
 | 项目 | 内容 |
 |---|---|

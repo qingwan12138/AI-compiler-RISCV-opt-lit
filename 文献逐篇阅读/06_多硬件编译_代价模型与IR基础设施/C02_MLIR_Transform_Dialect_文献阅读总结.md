@@ -108,40 +108,11 @@ MLIR → 热点/remark → 候选 Transform IR
 
 基础设施成熟；风险是 Transform Dialect 版本变化和不同后端支持不对称。
 
-## 12. 最小可行 Demo
-
-### 12.1 Demo 目标
-
-对 10 个 Linalg kernel 自动搜索 tile、unroll、vectorize 的 Transform script。
-
-### 12.2 输入数据
-
-GEMM、conv、reduction、elementwise 等小型 MLIR kernel。
-
-### 12.3 执行流程
-
-```text
-参数化脚本 → 静态检查 → 编译 → x86/K3 实测 → 保留 Pareto 最优脚本
-```
-
-### 12.4 需要的工具
-
-MLIR Transform Dialect、LLVM、BACO/Optuna、perf、K3。
-
-### 12.5 输出结果
-
-| Kernel | 合法脚本率 | x86 加速 | K3 加速 | 搜索次数 |
-|---|---:|---:|---:|---:|
-
-### 12.6 成功标准
-
-所有保留脚本通过静态检查与数值测试，且在至少一架构上稳定优于固定 pipeline。
-
-## 13. 与其他已读文献的关系
+## 12. 与其他已读文献的关系
 
 与 MLIR 基础论文相比，本文重点是“控制变换”而非定义多层 IR；与 Ansor/TCL 等搜索系统互补，可把 Transform script 作为结构化搜索空间；与 LLM 编译智能体结合时，它能承担比自由文本 pass 序列更安全的动作接口。
 
-## 14. 一页式总结
+## 13. 一页式总结
 
 | 项目 | 内容 |
 |---|---|

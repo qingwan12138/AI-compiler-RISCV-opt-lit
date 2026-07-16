@@ -4,7 +4,7 @@ param(
     [string]$Root,
 
     [ValidateRange(1, 99)]
-    [int]$ExpectedNoteSections = 14,
+    [int]$ExpectedNoteSections = 13,
 
     [string]$PdfInfoPath,
 

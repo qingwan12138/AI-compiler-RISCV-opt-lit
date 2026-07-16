@@ -176,36 +176,11 @@ LLM + MCTS在几乎所有测试算子上都优于纯MCTS和随机搜索，达到
 #### 主要风险
 跨架构知识迁移的策略需要谨慎设计，负迁移风险存在（在x86上有效的策略在RISC-V上可能有反效果）。
 
-## 12. 最小可行Demo
-
-### 12.1 Demo目标
-复现ReasoningCompiler的核心流程：对一个简单的GEMM算子，使用LLM（如GPT-4-mini或Llama-3）作为proposal policy，通过MCTS搜索最优tile size。
-
-### 12.2 输入数据
-一个固定大小的GEMM算子（如M=N=K=512），TVM中定义的tile size搜索空间。
-
-### 12.3 执行流程
-程序状态编码（算子结构文本化） -> LLM生成tile size proposal -> 编译评估 -> 反馈加入历史 -> 重复迭代
-
-### 12.4 需要的工具
-TVM或Triton编译器、LLM API（如OpenAI API或本地部署的Llama）、MCTS框架实现
-
-### 12.5 输出结果（表格）
-
-| 搜索策略 | 达到最优所需评估次数 | 最终性能(GFLOPs) |
-|---|---|---|
-| 随机搜索 | ~200 | 450 |
-| 纯MCTS | ~150 | 480 |
-| LLM+MCTS（demo） | ~40 | 490 |
-
-### 12.6 成功标准
-LLM+MCTS达到最优性能所需的评估次数显著少于随机搜索和纯MCTS（至少2倍减少）。
-
-## 13. 与其他已读文献的关系
+## 12. 与其他已读文献的关系
 
 【分析内容】ReasoningCompiler与ACCLAIM和LLM-VeriOpt形成互补关系。ReasoningCompiler侧重于单层（tensor程序级）的搜索效率优化，使用LLM但不进行训练；ACCLAIM扩展到了多层级（source/IR/assembly）但同样使用预训练LLM；LLM-VeriOpt则引入了训练（RL）和验证机制。三者的技术路线呈递进关系：从不训练的LLM推理搜索（ReasoningCompiler）到多智能体协作（ACCLAIM）再到验证引导的训练（LLM-VeriOpt）。ReasoningCompiler的MCTS+LLM组合方法可以被ACCLAIM采纳进IR Agent的搜索策略中，同时其缺少的验证机制可以由LLM-VeriOpt的验证框架补充。对于综述（Paper 9）的分类框架，ReasoningCompiler被归类为(selector, pretrained, source-level, optimization)类别。
 
-## 14. 一页式总结
+## 13. 一页式总结
 
 | 项目 | 内容 |
 |---|---|

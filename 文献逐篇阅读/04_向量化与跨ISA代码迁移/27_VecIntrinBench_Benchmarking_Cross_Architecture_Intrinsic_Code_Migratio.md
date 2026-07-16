@@ -98,21 +98,11 @@ VecIntrinBench非常适合作为跨架构intrinsic迁移研究的评测标准，
 
 **框架：** 静态benchmark + 动态性能评测流水线 + 自动化真值生成辅助工具。
 
-## 12. 最小可行Demo
-
-**目标：** 选取VecIntrinBench中的5个代表性任务，复现LLM零样本迁移并评估三维指标。
-
-**数据与流程：** 从VecIntrinBench选取5个函数的NEON实现，通过GPT-4生成RVV代码，依次验证正确性、编译通过率和性能比。
-
-**工具：** GPT-4 API、LLVM/RVV工具链、Spike模拟器。
-
-**成功标准：** 至少3个任务的生成代码通过所有验证，平均性能比大于0.7。
-
-## 13. 与其他已读文献的关系
+## 12. 与其他已读文献的关系
 
 VecIntrinBench与neon2rvv（规则映射方法）和IntrinTrans（LLM方法）形成直接对比关系。它作为评测基准，为CrossTune-RL等跨架构迁移研究提供了标准化的评估框架。同时，其失败模式分类与CompilerGPT的编译器反馈思路互补——VecIntrinBench识别"什么问题"，CompilerGPT解决"如何反馈"。
 
-## 14. 一页式总结
+## 13. 一页式总结
 
 | 项目 | 内容 |
 |------|------|

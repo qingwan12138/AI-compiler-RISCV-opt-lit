@@ -55,15 +55,11 @@ HPCTranCompile的数据构建方法可作为编译器优化领域数据管线的
 
 扩展HPCTranCompile的方法到RISC-V后端：使用TVM或MLIR将CUDA kernel自动编译到RISC-V Vector扩展的目标代码，构建CUDA-RVV的平行数据集，微调LLM实现CUDA到RVV的跨架构代码生成。
 
-## 12. 最小可行的Demo (1个即可)
-
-选取一个简单的CUDA kernel（如SAXPY向量运算），通过TVM的RISC-V后端目标生成其RVV版本，手工验证功能的等价性和性能的正确性，展示"AI编译器自动构造平行代码对"的核心思路。
-
-## 13. 与其他已读文献的关系
+## 12. 与其他已读文献的关系
 
 HPCTranCompile与87号文献本身同一主题。与83号文献（QiMeng-xpiler）在跨平台转编译的目标上一致，但数据构造方法不同（TVM自动生成vs人工收集+符号修复）。与31号文献（TVM）在依赖TVM框架方面直接相关。与102号文献（CodeNet）在数据集构建方法上可对比——CodeNet收集在线判题系统的多语言提交，HPCTranCompile利用编译器自动生成。与21号文献（RVV Auto-Vectorization）在目标平台的相关性上可建立联系，但HPCTranCompile当前覆盖的是CPU而非RVV。
 
-## 14. 一页式总结 (表格)
+## 13. 一页式总结 (表格)
 
 | 维度 | 内容 |
 |------|------|

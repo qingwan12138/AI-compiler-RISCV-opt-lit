@@ -55,15 +55,11 @@ Kevin的多轮RL框架可作为同预算迭代策略的重要基线。其跨轮�
 
 将Kevin的多轮RL框架迁移到编译器Pass序列优化场景：模型在每轮选择LLVM Pass（如-gvn, -inline, -loop-unroll等），接收编译后程序的运行时间反馈，通过多轮RL学习从错误选择中恢复并收敛到最优Pass序列的策略。
 
-## 12. 最小可行的Demo (1个即可)
-
-在CompilerGym环境中实现一个简化的多轮RL实验：选择3个LLVM Pass作为动作空间，定义一个简单的reward函数（运行时间的倒数），使用PPO算法训练模型进行10轮迭代优化，比较串行策略（利用上一轮反馈）与并行采样策略（独立采样）在选择Pass序列上的效果差异。
-
-## 13. 与其他已读文献的关系
+## 12. 与其他已读文献的关系
 
 Kevin与47号文献（Priority Sampling of LLMs for Compilers）在RL训练策略上有方法关联——两者都涉及如何高效利用采样预算。与4号文献（Compiler RL）和2号文献（AutoPhase）在RL+编译器优化的研究主线上高度相关。与38号文献（Compiler-Generated Feedback for LLMs）在利用编译器反馈方面互补——Kevin使用执行反馈，后者使用编译分析反馈。与73号文献（DeepSeekMath and GRPO）在RL训练方法论上可以类比，但应用场景从数学推理转移到代码生成。
 
-## 14. 一页式总结 (表格)
+## 13. 一页式总结 (表格)
 
 | 维度 | 内容 |
 |------|------|

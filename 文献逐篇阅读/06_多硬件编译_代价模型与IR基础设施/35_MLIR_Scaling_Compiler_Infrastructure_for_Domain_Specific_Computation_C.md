@@ -104,21 +104,11 @@ MLIR可以天然承载"高层IR意图-低层目标dialect-后端反馈"的分层
 
 **框架：** MLIR IR --> dialect识别 --> pass依赖图 --> Agent决策 --> dialect间的lowering优化。
 
-## 12. 最小可行Demo
-
-**目标：** 在MLIR上实现从一个高层dialect到低层dialect的lowering流程。
-
-**流程：** 编写tensor dialect操作 --> 使用MLIR pass进行lowering --> 生成LLVM IR。
-
-**工具：** MLIR框架、LLVM工具链。
-
-**成功标准：** 成功完成从tensor到llvm dialect的完整lowering。
-
-## 13. 与其他已读文献的关系
+## 12. 与其他已读文献的关系
 
 MLIR为TVM/Ansor提供了更通用的IR基础设施——TVM的张量表达式层可以在MLIR中表示为特定dialect。与LLVM IR相比，MLIR更适合支持跨架构迁移研究中的多级优化。MLIR的dialect层级天然对应智能体分工边界。
 
-## 14. 一页式总结
+## 13. 一页式总结
 
 | 项目 | 内容 |
 |------|------|

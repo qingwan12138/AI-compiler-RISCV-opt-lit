@@ -101,42 +101,11 @@ MLIR kernel → 静态计算/访存特征
 
 MLIR pass 容易做消融；风险是 K3 CPU 与论文 NPU 的存储体系不同，需选择真正支持异步搬运的目标或缩小研究范围。
 
-## 12. 最小可行 Demo
-
-### 12.1 Demo 目标
-
-先在可访问硬件上实现 `Scalar→Vec→Vec+MT` 三档 MLIR pipeline；若存在明确 DMA 接口，再增加 DB 档。
-
-### 12.2 输入数据
-
-vector add、GELU、RMSNorm、softmax 和一组不同计算强度/尺寸的 kernel。
-
-### 12.3 执行流程
-
-```text
-生成四档配置 → 正确性检查 → 多尺寸计时
-→ 采集带宽/周期/线程开销 → 绘制收益边界
-→ 训练或拟合轻量选择器
-```
-
-### 12.4 需要的工具
-
-LLVM/MLIR、async/scf/vector dialect、目标工具链、perf/PMU；双缓冲实验还需可编程 DMA 与 scratchpad 接口。
-
-### 12.5 输出结果
-
-| Kernel/尺寸 | Scalar | Vec | Vec+MT | Vec+MT+DB | 选择器命中 |
-|---|---:|---:|---:|---:|---:|
-
-### 12.6 成功标准
-
-能稳定复现至少两种优化的适用边界，自动选择器在未见尺寸上接近 oracle，并避免小任务因线程开销而退化。
-
-## 13. 与其他已读文献的关系
+## 12. 与其他已读文献的关系
 
 与 MLIR Transform Dialect 都强调把变换本身表示为可组合、可调度对象；与 Korch 的 kernel orchestration 类似，都在组合层优化并行与数据移动，但本文位于单 kernel 内部；与 TCL/Ansor 等代价模型工作互补，可为 Vec/MT/DB 组合建立学习型选择器。
 
-## 14. 一页式总结
+## 13. 一页式总结
 
 | 项目 | 内容 |
 |---|---|

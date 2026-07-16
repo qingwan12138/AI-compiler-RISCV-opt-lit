@@ -112,40 +112,11 @@ primitive graph → 候选子图 → 代价模型筛选
 
 可从小图和 GEMM/softmax 开始；不同后端的 kernel 生成能力需要统一描述。
 
-## 12. 最小可行 Demo
-
-### 12.1 Demo 目标
-
-在 5–10 个小型 attention/MLP 子图上比较贪心融合与全局编排。
-
-### 12.2 输入数据
-
-ONNX/MLIR 表示的 softmax、layernorm、matmul+elementwise 子图。
-
-### 12.3 执行流程
-
-```text
-primitive 化 → 枚举小规模候选 → 两后端测量 → ILP 选择 → 端到端复测
-```
-
-### 12.4 需要的工具
-
-ONNX/MLIR、TVM 或 Triton、PuLP/OR-Tools、GPU 与 K3。
-
-### 12.5 输出结果
-
-| 子图 | 候选数 | 调优时间 | kernel 数 | 延迟加速 |
-|---|---:|---:|---:|---:|
-
-### 12.6 成功标准
-
-全局方案在相同正确性下稳定优于贪心融合，并显著减少需要真机测量的候选数。
-
-## 13. 与其他已读文献的关系
+## 12. 与其他已读文献的关系
 
 与 Ansor/TCL 相比，Korch 优化的是 kernel 之间的编排，而非单 kernel schedule 的 cost model；与 upstream MLIR 流水互补，可用 Linalg primitive 作为裂解表示；与 MLIR latency-hiding 论文结合后可进一步建模多线程、DMA overlap 和多 kernel 并行。
 
-## 14. 一页式总结
+## 13. 一页式总结
 
 | 项目 | 内容 |
 |---|---|

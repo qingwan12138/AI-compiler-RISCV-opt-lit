@@ -193,46 +193,11 @@ Minotaur面向的是x86 SIMD（固定向量长度、丰富intrinsic集），RVV�
 #### 主要风险
 RVV的验证编码复杂度可能超出预期——RVV指令的语义比x86 SIMD更丰富，可能面临Alive2支持的瓶颈。
 
-## 12. 最小可行Demo
-
-### 12.1 Demo目标
-在已向量化的SIMD LLVM IR上复现Minotaur的优化效果——在Intel Cascade Lake上验证shuffle简化优化对GMP benchmark中某个计算热点的加速效果。
-
-### 12.2 输入数据
-从GMP benchmark中提取的一个已在LLVM -O3下向量化的计算热点（如大整数乘法的SIMD实现部分）。
-
-### 12.3 执行流程
-1. 使用LLVM -O3编译GMP benchmark并提取向量化后的IR
-2. 运行Minotaur的cut提取，识别SIMD可优化模式
-3. 查看Minotaur发现的候选重写（特别是shuffle简化）
-4. 验证候选重写通过Alive2验证
-5. 应用优化并测量性能提升
-
-### 12.4 需要的工具
-- LLVM/Clang工具链（含RISC-V后端支持）
-- Minotaur源码
-- Alive2翻译验证工具
-- Z3 SMT求解器
-- Intel Cascade Lake服务器（或兼容x86平台）
-
-### 12.5 输出结果（表格）
-
-| 测试场景 | 原始指令数 | 优化后指令数 | Speedup | 验证状态 |
-|---|---|---|---|---|
-| GMP大整数乘法 | 20 | 15 | 12% | Alive2通过 |
-| GMP取模运算 | 12 | 9 | 8% | Alive2通过 |
-| SIMD缓存清零 | 8 | 6 | 5% | Alive2通过 |
-
-### 12.6 成功标准
-- 在至少2个GMP benchmark热点的SIMD代码上发现非平凡的优化
-- 所有优化通过Alive2形式验证
-- 在Intel Cascade Lake上实测平均speedup不低于5%
-
-## 13. 与其他已读文献的关系
+## 12. 与其他已读文献的关系
 
 Minotaur（第20篇）在方法论上与Souper（第17篇）最为接近——两者都采用"表达式提取+合成搜索+形式验证+缓存复用"的技术路线。两者的核心区别在于应用领域：Minotaur聚焦于SIMD代码的优化（shuffle、向量比较等），Souper聚焦于标量表达式的优化。Minotaur使用的Alive2验证工具与Souper使用的Z3+SMT验证在技术上一脉相承——Alive2本质上是LLVM IR语义的SMT编码器，底层依赖Z3求解。Minotaur与STOKE（第19篇）的差异最大：STOKE使用随机搜索+测试验证，Minotaur使用合成搜索+形式验证。Minotaur与Souper GitHub Repository（第18篇）在项目性质上不同——第18篇是工程仓库文档，第20篇是研究论文。对于RISC-V V扩展场景，Minotaur的SIMD优化方法论是最值得参考的，因为RVV提供了远比x86 SIMD更丰富的向量操作能力，潜在的优化空间可能更大。Minotaur的"已验证SIMD重写缓存"理念为跨架构SIMD优化知识的迁移和复用提供了可行的技术路径。
 
-## 14. 一页式总结
+## 13. 一页式总结
 
 | 项目 | 内容 |
 |---|---|

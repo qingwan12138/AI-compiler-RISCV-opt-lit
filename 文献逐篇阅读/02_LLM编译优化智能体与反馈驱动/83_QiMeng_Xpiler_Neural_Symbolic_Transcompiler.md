@@ -55,15 +55,11 @@ QiMeng-xpiler的"LLM负责生成候选、符号方法保证正确性、真实运
 
 将QiMeng-xpiler的三阶段框架应用于ARM NEON到RISC-V Vector的指令迁移场景：LLM生成NEON到RVV的映射方案，符号方法修复映射中的局部错误（如向量长度不匹配、masking语义差异），自动调优搜索RVV上的最佳向量化参数配置。
 
-## 12. 最小可行的Demo (1个即可)
-
-选取一个典型的ARM NEON intrinsic函数（如向量加法vaddq_f32），使用LLM生成对应的RVV intrinsic版本，编写一个简单的符号规则集检查两个版本在向量长度、数据类型上的兼容性，并对生成的RVV版本在QEMU模拟器上执行运行时间测量，展示三阶段流水线的端到端流程。
-
-## 13. 与其他已读文献的关系
+## 12. 与其他已读文献的关系
 
 QiMeng-xpiler与26号文献（IntrinTrans）在LLM迁移向量化intrinsic代码的目标上高度相关，但方法不同——IntrinTrans使用指令映射表格+LLM，而QiMeng-xpiler使用三阶段混合方法。与28号文献（neon2rvv）在NEON到RVV迁移的目标上直接相关。与90号文献（LLMLIFT）在"LLM提议+验证器确认"的设计理念上一致。与12号文献（LLM VeriOpt）在验证引导优化的理念上有共同点。与59号文献（Rectifier for Code Translation）在错误修复的目标上相似。
 
-## 14. 一页式总结 (表格)
+## 13. 一页式总结 (表格)
 
 | 维度 | 内容 |
 |------|------|

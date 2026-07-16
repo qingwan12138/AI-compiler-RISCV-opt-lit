@@ -55,15 +55,11 @@
 
 将MCTS搜索框架应用于LLVM Pass序列的搜索优化：以Pass序列中Pass的选择和参数配置为搜索动作，以目标程序在真实硬件上的运行时间为奖励信号，使用MCTS引导LLM选择Pass序列的每一步。
 
-## 12. 最小可行的Demo (1个即可)
-
-在CompilerGym环境中实现一个简化的MCTS搜索变体：将LLVM Pass的选择作为搜索动作（动作空间限制在10个常见Pass内），使用LLM生成Pass序列，以目标程序的运行时间为奖励，比较MCTS搜索与随机搜索和beam search在10个Cbench程序上的Pass序列优化效果。
-
-## 13. 与其他已读文献的关系
+## 12. 与其他已读文献的关系
 
 MCTS-RTL与3号文献（CompilerGym）在搜索引导优化的理念上有共性，但CompilerGym提供了现成的编译器优化环境而MCTS-RTL聚焦于解码阶段搜索。与82号文献（MCTS for PPA Aware RTL Generation）是同一主题的不同表述。与19号文献（STOKE）在搜索策略上有关联——STOKE使用MCMC搜索指令替换方案，MCTS-RTL使用MCTS搜索token序列。与99号文献（Guided Generation）在约束LLM输出方面互补——MCTS-RTL通过搜索约束，后者通过状态机约束。该工作属于芯片设计领域，与编译器优化的关联主要通过搜索方法论实现。
 
-## 14. 一页式总结 (表格)
+## 13. 一页式总结 (表格)
 
 | 维度 | 内容 |
 |------|------|

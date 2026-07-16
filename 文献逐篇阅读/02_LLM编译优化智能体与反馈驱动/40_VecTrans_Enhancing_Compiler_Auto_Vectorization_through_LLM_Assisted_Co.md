@@ -105,21 +105,11 @@ VecTrans与IntOpt、LLM-Vectorizer等工作共同揭示了一个重要趋势：L
 
 **框架：** 编译器诊断分析 --> LLM识别改写机会 --> 代码改写 --> 编译器优化 --> 验证闭环。
 
-## 12. 最小可行Demo
-
-**目标：** 选取5个TSVC中编译器未向量化的循环，使用VecTrans方法进行改写和验证。
-
-**流程：** 选取5个TSVC函数 --> LLM改写 --> 编译器向量化 --> 混合验证 --> 性能测量。
-
-**工具：** LLM API、LLVM编译器、TSVC基准测试集。
-
-**成功标准：** 至少2个函数成功向量化，加速比大于1.5倍。
-
-## 13. 与其他已读文献的关系
+## 12. 与其他已读文献的关系
 
 VecTrans与LLM-Vectorizer目标相同（自动向量化）但方法不同——VecTrans改写源代码而LLM-Vectorizer直接操作IR。与CompilerGPT思路类似（编译器诊断驱动LLM改写），但VecTrans聚焦向量化而CompilerGPT聚焦通用优化。VecTrans验证了"改写前端-信任后端"的协作范式，与CrossTune-RL的"IR Agent-Backend Agent"分层设计有结构相似性。
 
-## 14. 一页式总结
+## 13. 一页式总结
 
 | 项目 | 内容 |
 |------|------|

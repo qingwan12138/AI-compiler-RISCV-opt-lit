@@ -69,15 +69,11 @@ CompileAgent可作为CABLE系统的自动构建前端参考——在进行任何
 
 将CompileAgent的Flow-based设计扩展到编译优化场景——在编译优化中设计类似的诊断-生成-验证工作流。结合更丰富的工具集（如与LLVM Pass管理器、性能分析工具的接口）。研究Agent在处理不同编译器和构建系统时的泛化能力。构建包含更多语言和编译器的扩展版本CompileAgentBench。
 
-## 12. 最小可行Demo
-
-实现简化版CompileAgent：针对单个开源C/C++项目，搭建编译-诊断-修复-验证的flow-based Agent循环。Agent使用预定义工作流：尝试编译->解析错误日志->搜索缺失依赖或修复配置->重新编译。Demo应展示flow-based策略相比零样本生成的编译成功率提升。
-
-## 13. 与其他已读文献的关系
+## 12. 与其他已读文献的关系
 
 本文与第61篇COCOGEN在利用编译反馈修复代码的目标上一致，但COCOGEN聚焦缺失项目上下文的补全，CompileAgent聚焦构建系统问题的修复。与第59篇Rectifier在错误修复的宽泛方向上相关，但Rectifier使用独立纠错模型而CompileAgent使用Agent工作流。与第69篇AIOS在Agent系统的设计层面相关——都涉及LLM Agent的决策流程设计，但CompileAgent的flow-based设计与AIOS的自由解释形成对比。与第42篇CompilerGPT在研究目标上有交集——都涉及LLM诊断和修复编译问题。
 
-## 14. 一页式总结 (表格)
+## 13. 一页式总结 (表格)
 
 | 维度 | 描述 |
 |------|------|

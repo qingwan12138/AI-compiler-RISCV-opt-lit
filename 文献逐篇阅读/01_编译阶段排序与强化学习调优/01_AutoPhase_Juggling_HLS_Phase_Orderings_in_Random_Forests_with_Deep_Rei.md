@@ -227,32 +227,7 @@ AutoPhase仅以时钟周期数为优化目标，但HLS电路中面积和功耗�
 #### 主要风险
 多目标RL的训练复杂度更高，收敛更困难，且不同目标之间的权衡权重需要领域专家定义。
 
-## 12. 最小可行Demo
-
-### 12.1 Demo目标
-在LegUp HLS场景中复现AutoPhase的核心流程：给定一个C程序，使用随机森林+RL的方法自动搜索比-O3更好的HLS Pass序列。
-
-### 12.2 输入数据
-一个简单的C程序（如矩阵乘法或FIR滤波器）+ 56维IR特征提取结果 + LegUp HLS工具链。
-
-### 12.3 执行流程
-1. 输入C程序，使用LLVM前端编译生成IR；2. 提取56维IR特征向量；3. 使用预训练的随机森林模型预测各Pass效果并筛选候选Pass子集；4. 在压缩后的动作空间上运行PPO智能体搜索Pass序列；5. 使用LegUp评估最终Pass序列的性能。
-
-### 12.4 需要的工具
-LLVM+LegUp工具链、Python+PyTorch（RL实现）、scikit-learn（随机森林模型）、ModelSim或类似HLS仿真工具。
-
-### 12.5 输出结果
-
-| 优化方式 | 时钟周期数 | 相比-O3改善 | 搜索时间 |
-|---|---|---|---|
-| -O3固定优化 | 1000（归一化基线） | - | 即时 |
-| 随机搜索 | ~820 | ~18% | ~50分钟 |
-| AutoPhase(PPO) | ~720 | ~28% | ~15分钟 |
-
-### 12.6 成功标准
-在至少3个HLS基准程序上，AutoPhase选择的Pass序列比-O3减少至少15%的时钟周期数，且搜索时间不超过遗传算法的一半。
-
-## 13. 与其他已读文献的关系
+## 12. 与其他已读文献的关系
 
 【分析内容】AutoPhase与Compiler Phase-Ordering for HLS with DRL（2019年FCCM短文）关系最为直接，后者是AutoPhase的直接前身。具体而言，FCCM 2019短文建立了"状态-Pass-奖励-RL"的最小闭环框架，而AutoPhase在此基础上增加了随机森林预筛选机制，并将RL算法从Policy Gradient和DQN扩展为PPO、A3C和ES的系统对比。两者在HLS场景中的局限性和对代理奖励的依赖是一致的。
 
@@ -260,7 +235,7 @@ AutoPhase与CompilerGym的关系在于：CompilerGym的llvm-autophase环境正�
 
 AutoPhase与Compiler-R1的关系在于：AutoPhase是经典的"RL+特征工程"范式代表，而Compiler-R1代表了"LLM+RL"的新范式。两者都解决编译Pass排序问题，但采用的方法不同：AutoPhase使用随机森林预筛选+传统RL，Compiler-R1使用LLM的代码理解能力+GRPO微调。AutoPhase的随机森林预筛选可以视为Compiler-R1中LLM语义理解的"粗糙替代"，两者都旨在减少搜索空间。
 
-## 14. 一页式总结
+## 13. 一页式总结
 
 | 项目 | 内容 |
 |---|---|

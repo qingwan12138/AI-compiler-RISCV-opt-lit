@@ -106,40 +106,11 @@ Linalg IR → 参数化 pack/tile/fuse
 
 可先做 GEMM/MLP；RISC-V 侧 microkernel 覆盖和峰值性能是主要风险。
 
-## 12. 最小可行 Demo
-
-### 12.1 Demo 目标
-
-在 x86 与 K3 上为 10 组 GEMM/MLP shape 自动选择 pack 和 tile 配置。
-
-### 12.2 输入数据
-
-BERT/MLP 常见矩阵 shape，加方阵基准。
-
-### 12.3 执行流程
-
-```text
-生成 Linalg → 搜索布局/分块 → 两后端编译 → 数值校验与计时 → 选择配置
-```
-
-### 12.4 需要的工具
-
-MLIR、libxsmm、RVV intrinsic/microkernel、OpenMP、K3。
-
-### 12.5 输出结果
-
-| Shape | 后端 | 最佳 tile | packing 开销 | 相对库性能 |
-|---|---|---|---:|---:|
-
-### 12.6 成功标准
-
-生成结果全部数值正确，自动选择在两平台均不劣于固定策略，并能解释主要性能差异。
-
-## 13. 与其他已读文献的关系
+## 12. 与其他已读文献的关系
 
 与 MLIR Transform Dialect 相比，本文给出具体高性能 lowering pipeline；与 Korch 的全局 kernel orchestration 不同，本文侧重单个线性代数流水和 microkernel 映射；与 RVV/xDSL 论文可直接组合成 x86 与 RISC-V 两套低层后端。
 
-## 14. 一页式总结
+## 13. 一页式总结
 
 | 项目 | 内容 |
 |---|---|

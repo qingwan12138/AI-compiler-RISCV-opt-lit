@@ -222,47 +222,11 @@ MLIR kernel → 结构/压力特征
 
 可复用公开工件并逐步增加深循环、分支和跨函数 kernel；风险是双路工具链维护和训练数据偏向易例。
 
-## 12. 最小可行 Demo
-
-### 12.1 Demo 目标
-
-复现论文 MatMul 消融的核心趋势：在一个小型 Snitch/RISC-V kernel 上逐步加入 stream、scalar replacement 和 unroll-and-jam，观察 load/store、周期和寄存器压力变化。
-
-### 12.2 输入数据
-
-5 个 `1×K · K×N` 的 `f64` MatMul shape，其中 `K,N∈{20,40,100,200}` 的子集；随机输入与预计算参考输出。
-
-### 12.3 执行流程
-
-```text
-Linalg MatMul + Fill
-→ baseline lowering
-→ + stream
-→ + scalar replacement
-→ + FREP / fill fusion
-→ + unroll-and-jam
-→ Verilator 执行与输出校验
-→ 汇总 cycles、load/store、FPU utilization、registers
-```
-
-### 12.4 需要的工具
-
-论文 Docker 工件、xDSL、MLIR 16、PULP LLVM、Verilator；磁盘不足时只保留 1–2 个 shape 和预构建镜像。
-
-### 12.5 输出结果
-
-| 配置 | 正确性 | Cycles | Loads | Stores | FP regs | Int regs | FPU utilization |
-|---|---|---:|---:|---:|---:|---:|---:|
-
-### 12.6 成功标准
-
-所有阶段输出与参考一致；最终阶段无 spill，显式 load/store 明显减少，且周期与 FPU utilization 相对 baseline 显著改善。Demo 不要求精确复现论文 90.67%，但应复现优化方向。
-
-## 13. 与其他已读文献的关系
+## 12. 与其他已读文献的关系
 
 与 C20 的指令选择后端综合互补：C20 从 RISC-V SAIL/gMIR 语义自动生成 GlobalISel 规则，主攻低层指令选择；本文手写多层 dialect 与渐进 lowering，主攻把高层领域语义保留到定制扩展。与 C21 OML-vect 相比，C21 激活既有 MLIR/LLVM 向量器并生成 RVV，本文则绕过窄 LLVM 后端、直接为 Snitch 扩展建后端。与 C22 MLIR RL 相比，C22 学习高层循环变换但依赖通用 CPU lowering；本文说明若后端丢失目标语义，高层选择仍可能受最终代码生成瓶颈限制。
 
-## 14. 一页式总结
+## 13. 一页式总结
 
 | 项目 | 内容 |
 |---|---|
