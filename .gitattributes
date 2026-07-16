@@ -1,0 +1,3 @@
+# Keep research papers binary regardless of host-level Git attributes.
+*.pdf binary
+*.PDF binary
