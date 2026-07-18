@@ -1,0 +1,152 @@
+{
+  "manifest_version": "2.0",
+  "created": "2026-07-18",
+  "programs": [
+    {
+      "program_id": "polybench_gemm",
+      "family": "linear_algebra",
+      "category": "polybench",
+      "source": "benchmarks/sources/llvm-test-suite/SingleSource/Benchmarks/Polybench/linear-algebra/blas/gemm/gemm.c",
+      "input_mode": "compile_time_dataset",
+      "reference_mode": "stderr_hash",
+      "float_rule": "abstol=1e-5",
+      "polybench_flags": ["-DPOLYBENCH_USE_C99_PROTO", "-DPOLYBENCH_DUMP_ARRAYS", "-DFP_ABSTOLERANCE=1e-5"],
+      "polybench_include": "benchmarks/sources/llvm-test-suite/SingleSource/Benchmarks/Polybench/utilities",
+      "dimensions": {"NI": 60, "NJ": 70, "NK": 80},
+      "input_overrides": {
+        "c01_mini": {"flags": ["-DMINI_DATASET"], "dim_note": "NI=20, NJ=25, NK=30"},
+        "c02_small": {"flags": ["-DSMALL_DATASET"], "dim_note": "NI=60, NJ=70, NK=80"},
+        "c03_small_plus": {"flags": ["-DSMALL_DATASET", "-DNI=90", "-DNJ=100", "-DNK=110"], "dim_note": "NI=90, NJ=100, NK=110"},
+        "c04_medium": {"flags": ["-DMEDIUM_DATASET"], "dim_note": "NI=200, NJ=220, NK=240"},
+        "c05_custom": {"flags": ["-DSMALL_DATASET", "-DNI=15", "-DNJ=20", "-DNK=15"], "dim_note": "NI=15, NJ=20, NK=15"}
+      }
+    },
+    {
+      "program_id": "polybench_atax",
+      "family": "linear_algebra",
+      "category": "polybench",
+      "source": "benchmarks/sources/llvm-test-suite/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/atax/atax.c",
+      "input_mode": "compile_time_dataset",
+      "reference_mode": "stderr_hash",
+      "float_rule": "abstol=1e-5",
+      "polybench_flags": ["-DPOLYBENCH_USE_C99_PROTO", "-DPOLYBENCH_DUMP_ARRAYS", "-DFP_ABSTOLERANCE=1e-5"],
+      "polybench_include": "benchmarks/sources/llvm-test-suite/SingleSource/Benchmarks/Polybench/utilities",
+      "dimensions": {"M": 116, "N": 124},
+      "input_overrides": {
+        "c01_mini": {"flags": ["-DMINI_DATASET"], "dim_note": "M=38, N=42"},
+        "c02_small": {"flags": ["-DSMALL_DATASET"], "dim_note": "M=116, N=124"},
+        "c03_small_plus": {"flags": ["-DSMALL_DATASET", "-DM=200", "-DN=200"], "dim_note": "M=200, N=200"},
+        "c04_medium": {"flags": ["-DMEDIUM_DATASET"], "dim_note": "M=390, N=410"},
+        "c05_custom": {"flags": ["-DSMALL_DATASET", "-DM=20", "-DN=25"], "dim_note": "M=20, N=25"}
+      }
+    },
+    {
+      "program_id": "polybench_jacobi_2d",
+      "family": "stencil",
+      "category": "polybench",
+      "source": "benchmarks/sources/llvm-test-suite/SingleSource/Benchmarks/Polybench/stencils/jacobi-2d/jacobi-2d.c",
+      "input_mode": "compile_time_dataset",
+      "reference_mode": "stderr_hash",
+      "float_rule": "abstol=1e-5",
+      "polybench_flags": ["-DPOLYBENCH_USE_C99_PROTO", "-DPOLYBENCH_DUMP_ARRAYS", "-DFP_ABSTOLERANCE=1e-5"],
+      "polybench_include": "benchmarks/sources/llvm-test-suite/SingleSource/Benchmarks/Polybench/utilities",
+      "dimensions": {"TSTEPS": 40, "N": 90},
+      "input_overrides": {
+        "c01_mini": {"flags": ["-DMINI_DATASET"], "dim_note": "TSTEPS=20, N=30"},
+        "c02_small": {"flags": ["-DSMALL_DATASET"], "dim_note": "TSTEPS=40, N=90"},
+        "c03_small_plus": {"flags": ["-DSMALL_DATASET", "-DTSTEPS=60", "-DN=150"], "dim_note": "TSTEPS=60, N=150"},
+        "c04_medium": {"flags": ["-DMEDIUM_DATASET"], "dim_note": "TSTEPS=100, N=250"},
+        "c05_custom": {"flags": ["-DSMALL_DATASET", "-DTSTEPS=10", "-DN=20"], "dim_note": "TSTEPS=10, N=20"}
+      }
+    },
+    {
+      "program_id": "polybench_correlation",
+      "family": "datamining",
+      "category": "polybench",
+      "source": "benchmarks/sources/llvm-test-suite/SingleSource/Benchmarks/Polybench/datamining/correlation/correlation.c",
+      "input_mode": "compile_time_dataset",
+      "reference_mode": "stderr_hash",
+      "float_rule": "abstol=1e-5",
+      "polybench_flags": ["-DPOLYBENCH_USE_C99_PROTO", "-DPOLYBENCH_DUMP_ARRAYS", "-DFP_ABSTOLERANCE=1e-5", "-ffp-contract=off", "-DFMA_DISABLED=1"],
+      "polybench_include": "benchmarks/sources/llvm-test-suite/SingleSource/Benchmarks/Polybench/utilities",
+      "dimensions": {"M": 80, "N": 100},
+      "fm_disabled": true,
+      "input_overrides": {
+        "c01_mini": {"flags": ["-DMINI_DATASET"], "dim_note": "M=28, N=32"},
+        "c02_small": {"flags": ["-DSMALL_DATASET"], "dim_note": "M=80, N=100"},
+        "c03_small_plus": {"flags": ["-DSMALL_DATASET", "-DM=120", "-DN=150"], "dim_note": "M=120, N=150"},
+        "c04_medium": {"flags": ["-DMEDIUM_DATASET"], "dim_note": "M=240, N=260"},
+        "c05_custom": {"flags": ["-DSMALL_DATASET", "-DM=16", "-DN=20"], "dim_note": "M=16, N=20"}
+      }
+    },
+    {
+      "program_id": "polybench_covariance",
+      "family": "datamining",
+      "category": "polybench",
+      "source": "benchmarks/sources/llvm-test-suite/SingleSource/Benchmarks/Polybench/datamining/covariance/covariance.c",
+      "input_mode": "compile_time_dataset",
+      "reference_mode": "stderr_hash",
+      "float_rule": "abstol=1e-5",
+      "polybench_flags": ["-DPOLYBENCH_USE_C99_PROTO", "-DPOLYBENCH_DUMP_ARRAYS", "-DFP_ABSTOLERANCE=1e-5", "-ffp-contract=off", "-DFMA_DISABLED=1"],
+      "polybench_include": "benchmarks/sources/llvm-test-suite/SingleSource/Benchmarks/Polybench/utilities",
+      "dimensions": {"M": 80, "N": 100},
+      "fm_disabled": true,
+      "input_overrides": {
+        "c01_mini": {"flags": ["-DMINI_DATASET"], "dim_note": "M=28, N=32"},
+        "c02_small": {"flags": ["-DSMALL_DATASET"], "dim_note": "M=80, N=100"},
+        "c03_small_plus": {"flags": ["-DSMALL_DATASET", "-DM=120", "-DN=150"], "dim_note": "M=120, N=150"},
+        "c04_medium": {"flags": ["-DMEDIUM_DATASET"], "dim_note": "M=240, N=260"},
+        "c05_custom": {"flags": ["-DSMALL_DATASET", "-DM=16", "-DN=20"], "dim_note": "M=16, N=20"}
+      }
+    },
+    {
+      "program_id": "polybench_fdtd_2d",
+      "family": "stencil",
+      "category": "polybench",
+      "source": "benchmarks/sources/llvm-test-suite/SingleSource/Benchmarks/Polybench/stencils/fdtd-2d/fdtd-2d.c",
+      "input_mode": "compile_time_dataset",
+      "reference_mode": "stderr_hash",
+      "float_rule": "abstol=1e-5",
+      "polybench_flags": ["-DPOLYBENCH_USE_C99_PROTO", "-DPOLYBENCH_DUMP_ARRAYS", "-DFP_ABSTOLERANCE=1e-5"],
+      "polybench_include": "benchmarks/sources/llvm-test-suite/SingleSource/Benchmarks/Polybench/utilities",
+      "dimensions": {"TMAX": 40, "NX": 60, "NY": 80},
+      "input_overrides": {
+        "c01_mini": {"flags": ["-DMINI_DATASET"], "dim_note": "TMAX=20, NX=20, NY=30"},
+        "c02_small": {"flags": ["-DSMALL_DATASET"], "dim_note": "TMAX=40, NX=60, NY=80"},
+        "c03_small_plus": {"flags": ["-DSMALL_DATASET", "-DTMAX=60", "-DNX=100", "-DNY=120"], "dim_note": "TMAX=60, NX=100, NY=120"},
+        "c04_medium": {"flags": ["-DMEDIUM_DATASET"], "dim_note": "TMAX=100, NX=200, NY=240"},
+        "c05_custom": {"flags": ["-DSMALL_DATASET", "-DTMAX=10", "-DNX=15", "-DNY=20"], "dim_note": "TMAX=10, NX=15, NY=20"}
+      }
+    },
+    {
+      "program_id": "tsvc_controlflow_dbl",
+      "family": "tsvc",
+      "category": "tsvc",
+      "source": "benchmarks/sources/llvm-test-suite/MultiSource/Benchmarks/TSVC/ControlFlow-dbl/tsc.c",
+      "input_mode": "argv",
+      "reference_mode": "stdout_checksum",
+      "float_rule": "exact_match",
+      "other_sources": ["benchmarks/sources/llvm-test-suite/MultiSource/Benchmarks/TSVC/ControlFlow-dbl/dummy.c"],
+      "tsvc_compile_flags": ["-DUSE_CLOCK"],
+      "notes": "TSVC double-precision control flow tests. 5 boundary + 20 fixed seed inputs via argv."
+    },
+    {
+      "program_id": "tsvc_inductionvariable_dbl",
+      "family": "tsvc",
+      "category": "tsvc",
+      "source": "benchmarks/sources/llvm-test-suite/MultiSource/Benchmarks/TSVC/InductionVariable-dbl/tsc.c",
+      "input_mode": "argv",
+      "reference_mode": "stdout_checksum",
+      "float_rule": "exact_match",
+      "other_sources": ["benchmarks/sources/llvm-test-suite/MultiSource/Benchmarks/TSVC/InductionVariable-dbl/dummy.c"],
+      "tsvc_compile_flags": ["-DUSE_CLOCK"],
+      "notes": "TSVC double-precision induction variable tests."
+    }
+  ],
+  "notes": [
+    "correlation 和 covariance 使用 -ffp-contract=off -DFMA_DISABLED=1 确保跨目标输出一致",
+    "TSVC 不使用预编译参考输出文件，直接以同输入 -O0 参考二进制输出作为参考",
+    "所有程序在 input_overrides 中定义 5 个语义不同的配置",
+    "polybench_flags 不含 dataset 宏，dataset 宏由 input_overrides 提供"
+  ]
+}

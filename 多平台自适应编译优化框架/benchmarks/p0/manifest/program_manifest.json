@@ -1,0 +1,113 @@
+{
+  "manifest_version": "1.0",
+  "created": "2026-07-18",
+  "freeze_before_run": true,
+  "programs": [
+    {
+      "program_id": "polybench_gemm",
+      "family": "linear_algebra",
+      "source": "benchmarks/sources/llvm-test-suite/SingleSource/Benchmarks/Polybench/linear-algebra/blas/gemm/gemm.c",
+      "license": "BSD-style (PolyBench)",
+      "input_mode": "compile_time_dataset",
+      "reference_mode": "stderr_hash",
+      "float_rule": "abstol=1e-5",
+      "polybench_flags": ["-DPOLYBENCH_USE_C99_PROTO", "-DPOLYBENCH_DUMP_ARRAYS", "-DFP_ABSTOLERANCE=1e-5"],
+      "polybench_utility": "benchmarks/sources/llvm-test-suite/SingleSource/Benchmarks/Polybench/utilities/polybench.c",
+      "dataset": "SMALL_DATASET",
+      "notes": "Deterministic output via stderr DUMP_ARRAYS. Hash comparison with explicit float tolerance."
+    },
+    {
+      "program_id": "polybench_atax",
+      "family": "linear_algebra",
+      "source": "benchmarks/sources/llvm-test-suite/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/atax/atax.c",
+      "license": "BSD-style (PolyBench)",
+      "input_mode": "compile_time_dataset",
+      "reference_mode": "stderr_hash",
+      "float_rule": "abstol=1e-5",
+      "polybench_flags": ["-DPOLYBENCH_USE_C99_PROTO", "-DPOLYBENCH_DUMP_ARRAYS", "-DFP_ABSTOLERANCE=1e-5"],
+      "polybench_utility": "benchmarks/sources/llvm-test-suite/SingleSource/Benchmarks/Polybench/utilities/polybench.c",
+      "dataset": "SMALL_DATASET",
+      "notes": "Matrix kernel with transpose. Deterministic output."
+    },
+    {
+      "program_id": "polybench_jacobi_2d",
+      "family": "stencil",
+      "source": "benchmarks/sources/llvm-test-suite/SingleSource/Benchmarks/Polybench/stencils/jacobi-2d/jacobi-2d.c",
+      "license": "BSD-style (PolyBench)",
+      "input_mode": "compile_time_dataset",
+      "reference_mode": "stderr_hash",
+      "float_rule": "abstol=1e-5",
+      "polybench_flags": ["-DPOLYBENCH_USE_C99_PROTO", "-DPOLYBENCH_DUMP_ARRAYS", "-DFP_ABSTOLERANCE=1e-5"],
+      "polybench_utility": "benchmarks/sources/llvm-test-suite/SingleSource/Benchmarks/Polybench/utilities/polybench.c",
+      "dataset": "SMALL_DATASET",
+      "notes": "2D stencil, TSTEPS iterations. Deterministic."
+    },
+    {
+      "program_id": "polybench_correlation",
+      "family": "datamining",
+      "source": "benchmarks/sources/llvm-test-suite/SingleSource/Benchmarks/Polybench/datamining/correlation/correlation.c",
+      "license": "BSD-style (PolyBench)",
+      "input_mode": "compile_time_dataset",
+      "reference_mode": "stderr_hash",
+      "float_rule": "abstol=1e-5",
+      "polybench_flags": ["-DPOLYBENCH_USE_C99_PROTO", "-DPOLYBENCH_DUMP_ARRAYS", "-DFP_ABSTOLERANCE=1e-5", "-ffp-contract=off", "-DFMA_DISABLED=1"],
+      "polybench_utility": "benchmarks/sources/llvm-test-suite/SingleSource/Benchmarks/Polybench/utilities/polybench.c",
+      "dataset": "SMALL_DATASET",
+      "notes": "FMA-sensitive. Requires -ffp-contract=off and -DFMA_DISABLED=1 for cross-target output consistency."
+    },
+    {
+      "program_id": "polybench_covariance",
+      "family": "datamining",
+      "source": "benchmarks/sources/llvm-test-suite/SingleSource/Benchmarks/Polybench/datamining/covariance/covariance.c",
+      "license": "BSD-style (PolyBench)",
+      "input_mode": "compile_time_dataset",
+      "reference_mode": "stderr_hash",
+      "float_rule": "abstol=1e-5",
+      "polybench_flags": ["-DPOLYBENCH_USE_C99_PROTO", "-DPOLYBENCH_DUMP_ARRAYS", "-DFP_ABSTOLERANCE=1e-5", "-ffp-contract=off", "-DFMA_DISABLED=1"],
+      "polybench_utility": "benchmarks/sources/llvm-test-suite/SingleSource/Benchmarks/Polybench/utilities/polybench.c",
+      "dataset": "SMALL_DATASET",
+      "notes": "Similar to correlation, FMA-sensitive."
+    },
+    {
+      "program_id": "polybench_fdtd_2d",
+      "family": "stencil",
+      "source": "benchmarks/sources/llvm-test-suite/SingleSource/Benchmarks/Polybench/stencils/fdtd-2d/fdtd-2d.c",
+      "license": "BSD-style (PolyBench)",
+      "input_mode": "compile_time_dataset",
+      "reference_mode": "stderr_hash",
+      "float_rule": "abstol=1e-5",
+      "polybench_flags": ["-DPOLYBENCH_USE_C99_PROTO", "-DPOLYBENCH_DUMP_ARRAYS", "-DFP_ABSTOLERANCE=1e-5"],
+      "polybench_utility": "benchmarks/sources/llvm-test-suite/SingleSource/Benchmarks/Polybench/utilities/polybench.c",
+      "dataset": "SMALL_DATASET",
+      "notes": "Time-domain stencil, deterministic."
+    },
+    {
+      "program_id": "tsvc_controlflow_dbl",
+      "family": "tsvc",
+      "source": "benchmarks/sources/llvm-test-suite/MultiSource/Benchmarks/TSVC/ControlFlow-dbl/tsc.c",
+      "license": "NCSA (LLVM Test Suite)",
+      "input_mode": "argv",
+      "reference_mode": "stdout_text",
+      "float_rule": "exact_match",
+      "other_sources": [
+        "benchmarks/sources/llvm-test-suite/MultiSource/Benchmarks/TSVC/ControlFlow-dbl/dummy.c"
+      ],
+      "reference_output": "benchmarks/sources/llvm-test-suite/MultiSource/Benchmarks/TSVC/ControlFlow-dbl/ControlFlow-dbl.reference_output",
+      "notes": "TSVC double-precision control flow tests. Uses RUN_OPTIONS=2325 14. Output is checksum to stdout."
+    },
+    {
+      "program_id": "tsvc_inductionvariable_dbl",
+      "family": "tsvc",
+      "source": "benchmarks/sources/llvm-test-suite/MultiSource/Benchmarks/TSVC/InductionVariable-dbl/tsc.c",
+      "license": "NCSA (LLVM Test Suite)",
+      "input_mode": "argv",
+      "reference_mode": "stdout_text",
+      "float_rule": "exact_match",
+      "other_sources": [
+        "benchmarks/sources/llvm-test-suite/MultiSource/Benchmarks/TSVC/InductionVariable-dbl/dummy.c"
+      ],
+      "reference_output": "benchmarks/sources/llvm-test-suite/MultiSource/Benchmarks/TSVC/InductionVariable-dbl/InductionVariable-dbl.reference_output",
+      "notes": "TSVC double-precision induction variable tests. Output is checksum to stdout."
+    }
+  ]
+}

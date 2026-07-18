@@ -1,0 +1,87 @@
+{
+  "manifest_version": "2.0",
+  "created": "2026-07-18",
+  "description": "修订版输入协议：PolyBench 5 个真实的编译期配置，TSVC 5+20 参数输入。",
+  "polybench_configs": {
+    "description": "5 个语义不同的编译期 dataset/dimension 配置。程序各自的 header 定义 MINI/SMALL/MEDIUM 数据集，这里使用 -D 宏控制。",
+    "configs": [
+      {"input_id": "c01_mini", "flags": ["-DMINI_DATASET"], "description": "MINI_DATASET: 最小尺寸"},
+      {"input_id": "c02_small", "flags": ["-DSMALL_DATASET"], "description": "SMALL_DATASET: 标准小尺寸"},
+      {"input_id": "c03_small_plus", "flags": ["-DSMALL_DATASET"], "description": "SMALL_DATASET + 自定义放大（各程序独立覆盖）"},
+      {"input_id": "c04_medium", "flags": ["-DMEDIUM_DATASET"], "description": "MEDIUM_DATASET: 中等尺寸"},
+      {"input_id": "c05_custom", "flags": ["-DSMALL_DATASET"], "description": "SMALL_DATASET + 自定义缩小"}
+    ]
+  },
+  "tsvc_configs": {
+    "description": "TSVC 程序的 5 边界 + 20 固定种子输入。每个输入传递不同 RUN_OPTIONS (argv)。",
+    "tsvc_controlflow_dbl": {
+      "boundary": [
+        {"input_id": "b01_min_iter", "args": ["10", "1"]},
+        {"input_id": "b02_single_loop", "args": ["1", "14"]},
+        {"input_id": "b03_many_iters", "args": ["5000", "1"]},
+        {"input_id": "b04_default", "args": ["2325", "14"]},
+        {"input_id": "b05_large", "args": ["5000", "14"]}
+      ],
+      "fixed_seed": [
+        {"input_id": "f01", "args": ["2325", "14"]},
+        {"input_id": "f02", "args": ["1000", "10"]},
+        {"input_id": "f03", "args": ["100", "20"]},
+        {"input_id": "f04", "args": ["500", "5"]},
+        {"input_id": "f05", "args": ["2000", "8"]},
+        {"input_id": "f06", "args": ["50", "30"]},
+        {"input_id": "f07", "args": ["3000", "12"]},
+        {"input_id": "f08", "args": ["1500", "15"]},
+        {"input_id": "f09", "args": ["750", "25"]},
+        {"input_id": "f10", "args": ["4000", "3"]},
+        {"input_id": "f11", "args": ["2500", "18"]},
+        {"input_id": "f12", "args": ["800", "22"]},
+        {"input_id": "f13", "args": ["1200", "7"]},
+        {"input_id": "f14", "args": ["3500", "16"]},
+        {"input_id": "f15", "args": ["1800", "11"]},
+        {"input_id": "f16", "args": ["600", "28"]},
+        {"input_id": "f17", "args": ["4200", "6"]},
+        {"input_id": "f18", "args": ["2800", "13"]},
+        {"input_id": "f19", "args": ["900", "24"]},
+        {"input_id": "f20", "args": ["1600", "9"]}
+      ]
+    },
+    "tsvc_inductionvariable_dbl": {
+      "boundary": [
+        {"input_id": "b01_min_iter", "args": ["10", "1"]},
+        {"input_id": "b02_single_loop", "args": ["1", "14"]},
+        {"input_id": "b03_many_iters", "args": ["5000", "1"]},
+        {"input_id": "b04_default", "args": ["2325", "14"]},
+        {"input_id": "b05_large", "args": ["5000", "14"]}
+      ],
+      "fixed_seed": [
+        {"input_id": "f01", "args": ["2325", "14"]},
+        {"input_id": "f02", "args": ["1000", "10"]},
+        {"input_id": "f03", "args": ["100", "20"]},
+        {"input_id": "f04", "args": ["500", "5"]},
+        {"input_id": "f05", "args": ["2000", "8"]},
+        {"input_id": "f06", "args": ["50", "30"]},
+        {"input_id": "f07", "args": ["3000", "12"]},
+        {"input_id": "f08", "args": ["1500", "15"]},
+        {"input_id": "f09", "args": ["750", "25"]},
+        {"input_id": "f10", "args": ["4000", "3"]},
+        {"input_id": "f11", "args": ["2500", "18"]},
+        {"input_id": "f12", "args": ["800", "22"]},
+        {"input_id": "f13", "args": ["1200", "7"]},
+        {"input_id": "f14", "args": ["3500", "16"]},
+        {"input_id": "f15", "args": ["1800", "11"]},
+        {"input_id": "f16", "args": ["600", "28"]},
+        {"input_id": "f17", "args": ["4200", "6"]},
+        {"input_id": "f18", "args": ["2800", "13"]},
+        {"input_id": "f19", "args": ["900", "24"]},
+        {"input_id": "f20", "args": ["1600", "9"]}
+      ]
+    }
+  },
+  "notes": [
+    "PolyBench configs c01-c05 对每个程序使用不同的编译期 dataset 宏确保语义不同",
+    "c03_small_plus 和 c05_custom 使用 -DSMALL_DATASET 基座 + 维度覆盖宏",
+    "TSVC 的 5 边界输入覆盖极限参数（最小/最大/单循环/大量迭代）",
+    "每个 TSVC 边界和种子输入都使用同输入的 -O0 参考二进制建立参考输出",
+    "TSVC 不改源码，RUN_OPTIONS 通过 argv 传递"
+  ]
+}

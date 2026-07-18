@@ -1,0 +1,6 @@
+# 本地下载的第三方测试套件：其固定提交由运行 manifest 记录。
+sources/llvm-test-suite/
+
+# 本地编译产物与 Python 缓存，不属于可复现实验记录。
+build/
+**/__pycache__/

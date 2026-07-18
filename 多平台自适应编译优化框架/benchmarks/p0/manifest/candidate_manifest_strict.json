@@ -1,0 +1,36 @@
+{
+  "manifest_version": "2.1-strict",
+  "created": "2026-07-18",
+  "description": "严格正确性池。替换 4 个无效 Clang flag 为预检通过的等效候选。O3_fastmath 已移入探索性池。",
+  "strict_pool": [
+    {"candidate_id": "O0_ref", "base": "O0", "clang_flags": ["-O0"], "generation_rule": "reference-baseline"},
+    {"candidate_id": "O1_base", "base": "O1", "clang_flags": ["-O1"], "generation_rule": "optimization-level"},
+    {"candidate_id": "O2_base", "base": "O2", "clang_flags": ["-O2"], "generation_rule": "optimization-level"},
+    {"candidate_id": "O3_base", "base": "O3", "clang_flags": ["-O3"], "generation_rule": "fallback"},
+    {"candidate_id": "Os_base", "base": "Os", "clang_flags": ["-Os"], "generation_rule": "size-optimization"},
+    {"candidate_id": "Oz_base", "base": "Oz", "clang_flags": ["-Oz"], "generation_rule": "aggressive-size"},
+    {"candidate_id": "O3_nounroll", "base": "O3", "clang_flags": ["-O3", "-fno-unroll-loops"], "generation_rule": "disable-loop-unrolling"},
+    {"candidate_id": "O3_novector_noslp", "base": "O3", "clang_flags": ["-O3", "-fno-vectorize", "-fno-slp-vectorize"], "generation_rule": "disable-vectorization"},
+    {"candidate_id": "O3_unroll2", "base": "O3", "clang_flags": ["-O3", "--param", "max-unroll-count=2"], "generation_rule": "conservative-unrolling"},
+    {"candidate_id": "O3_unroll8", "base": "O3", "clang_flags": ["-O3", "--param", "max-unroll-count=8"], "generation_rule": "aggressive-unrolling"},
+    {"candidate_id": "O3_inline10", "base": "O3", "clang_flags": ["-O3", "--param", "inline-threshold=10"], "generation_rule": "conservative-inlining"},
+    {"candidate_id": "O3_inline500", "base": "O3", "clang_flags": ["-O3", "--param", "inline-threshold=500"], "generation_rule": "aggressive-inlining"},
+    {"candidate_id": "O3_novec_nounrl", "base": "O3", "clang_flags": ["-O3", "-fno-vectorize", "-fno-slp-vectorize", "-fno-unroll-loops"], "generation_rule": "no-vector-no-unroll"},
+    {"candidate_id": "O2_nounroll", "base": "O2", "clang_flags": ["-O2", "-fno-unroll-loops"], "generation_rule": "O2-no-unroll"},
+    {"candidate_id": "O3_loopunswitch", "base": "O3", "clang_flags": ["-O3", "-funswitch-loops"], "generation_rule": "enable-loop-unswitch"},
+    {"candidate_id": "O3_nomerge", "base": "O3", "clang_flags": ["-O3", "-fno-merge-all-constants"], "generation_rule": "disable-merge-constants", "replaces": "O3_nogvn"},
+    {"candidate_id": "O3_nofpcontract", "base": "O3", "clang_flags": ["-O3", "-ffp-contract=off"], "generation_rule": "disable-fp-contract", "replaces": "O3_nolicm"},
+    {"candidate_id": "O3_nobuiltin", "base": "O3", "clang_flags": ["-O3", "-fno-builtin"], "generation_rule": "disable-builtin", "replaces": "O3_nosimplifycfg"},
+    {"candidate_id": "O3_noinline", "base": "O3", "clang_flags": ["-O3", "-fno-inline-functions"], "generation_rule": "disable-inlining", "replaces": "O3_nolooprotate"}
+  ],
+  "exploratory_pool": [
+    {"candidate_id": "O3_fastmath", "base": "O3", "clang_flags": ["-O3", "-ffast-math"], "generation_rule": "fast-math"}
+  ],
+  "notes": [
+    "严格池 18 候选：O0-Oz + 12 pass/param 变体 + 4 替换候选",
+    "O3_nogvn/O3_nolicm/O3_nosimplifycfg/O3_nolooprotate 被移除（非有效 Clang flag）",
+    "替换候选已预检通过（clang 接受并生成不同二进制）",
+    "O3_fastmath 移入探索性池（浮点语义改变，不适合严格正确性验证）",
+    "旧 manifest v1 保留不删，历史 compile_failed 记录保留"
+  ]
+}

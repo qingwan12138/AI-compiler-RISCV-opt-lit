@@ -1,0 +1,29 @@
+{
+  "config_version": "1.0",
+  "targets": {
+    "x86_64": {
+      "runner": null,
+      "clang_prefix": []
+    },
+    "aarch64-linux-gnu": {
+      "runner": ["qemu-aarch64", "-L", "/usr/aarch64-linux-gnu"],
+      "clang_prefix": ["--target=aarch64-linux-gnu", "--gcc-toolchain=/usr"]
+    },
+    "riscv64-linux-gnu": {
+      "runner": ["qemu-riscv64", "-L", "/usr/riscv64-linux-gnu"],
+      "clang_prefix": ["--target=riscv64-linux-gnu", "--gcc-toolchain=/usr"]
+    }
+  },
+  "timeouts": {
+    "compile_s": 120,
+    "exec_native_s": 30,
+    "exec_qemu_s": 120,
+    "exec_tsvc_qemu_s": 300
+  },
+  "polybench_include": "benchmarks/sources/llvm-test-suite/SingleSource/Benchmarks/Polybench/utilities",
+  "llvm_test_suite": "benchmarks/sources/llvm-test-suite",
+  "notes": [
+    "QEMU 正确性超时默认 120s，TSVC 在 QEMU 上执行循环密集型测试需要 300s",
+    "时间字段仅用于超时管理，不用于排名或性能结论"
+  ]
+}

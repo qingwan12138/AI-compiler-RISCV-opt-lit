@@ -1,0 +1,216 @@
+{
+  "manifest_version": "1.0",
+  "created": "2026-07-18",
+  "freeze_before_run": true,
+  "seed": 20260718,
+  "description": "Candidates derived from -O3 baseline via pass deletions, parameter adjustments, and level changes.",
+  "candidates": [
+    {
+      "candidate_id": "O0_ref",
+      "base": "O0",
+      "pass_sequence": ["-O0"],
+      "clang_flags": ["-O0"],
+      "generation_rule": "reference-baseline",
+      "seed": 20260718,
+      "expected_scope": "no_optimization",
+      "status": "registered"
+    },
+    {
+      "candidate_id": "O1_base",
+      "base": "O1",
+      "pass_sequence": ["-O1"],
+      "clang_flags": ["-O1"],
+      "generation_rule": "optimization-level",
+      "seed": 20260718,
+      "expected_scope": "basic_optimization",
+      "status": "registered"
+    },
+    {
+      "candidate_id": "O2_base",
+      "base": "O2",
+      "pass_sequence": ["-O2"],
+      "clang_flags": ["-O2"],
+      "generation_rule": "optimization-level",
+      "seed": 20260718,
+      "expected_scope": "standard_optimization",
+      "status": "registered"
+    },
+    {
+      "candidate_id": "O3_base",
+      "base": "O3",
+      "pass_sequence": ["-O3"],
+      "clang_flags": ["-O3"],
+      "generation_rule": "fallback",
+      "seed": 20260718,
+      "expected_scope": "aggressive_optimization",
+      "status": "registered"
+    },
+    {
+      "candidate_id": "Os_base",
+      "base": "Os",
+      "pass_sequence": ["-Os"],
+      "clang_flags": ["-Os"],
+      "generation_rule": "optimization-level",
+      "seed": 20260718,
+      "expected_scope": "size_optimization",
+      "status": "registered"
+    },
+    {
+      "candidate_id": "Oz_base",
+      "base": "Oz",
+      "pass_sequence": ["-Oz"],
+      "clang_flags": ["-Oz"],
+      "generation_rule": "optimization-level",
+      "seed": 20260718,
+      "expected_scope": "aggressive_size_optimization",
+      "status": "registered"
+    },
+    {
+      "candidate_id": "O3_nounroll",
+      "base": "O3",
+      "pass_sequence": ["-O3", "-fno-unroll-loops"],
+      "clang_flags": ["-O3", "-fno-unroll-loops"],
+      "generation_rule": "disable-loop-unrolling",
+      "seed": 20260718,
+      "expected_scope": "loop_unrolling",
+      "status": "registered"
+    },
+    {
+      "candidate_id": "O3_novector_noslp",
+      "base": "O3",
+      "pass_sequence": ["-O3", "-fno-vectorize", "-fno-slp-vectorize"],
+      "clang_flags": ["-O3", "-fno-vectorize", "-fno-slp-vectorize"],
+      "generation_rule": "disable-vectorization",
+      "seed": 20260718,
+      "expected_scope": "vectorization",
+      "status": "registered"
+    },
+    {
+      "candidate_id": "O3_nogvn",
+      "base": "O3",
+      "pass_sequence": ["-O3", "-fno-gvn"],
+      "clang_flags": ["-O3", "-fno-gvn"],
+      "generation_rule": "disable-gvn",
+      "seed": 20260718,
+      "expected_scope": "scalar_optimization",
+      "status": "registered"
+    },
+    {
+      "candidate_id": "O3_nolicm",
+      "base": "O3",
+      "pass_sequence": ["-O3", "-fno-licm"],
+      "clang_flags": ["-O3", "-fno-licm"],
+      "generation_rule": "disable-licm",
+      "seed": 20260718,
+      "expected_scope": "loop_optimization",
+      "status": "registered"
+    },
+    {
+      "candidate_id": "O3_nosimplifycfg",
+      "base": "O3",
+      "pass_sequence": ["-O3", "-fno-simplify-cfg"],
+      "clang_flags": ["-O3", "-fno-simplify-cfg"],
+      "generation_rule": "disable-cfg-simplification",
+      "seed": 20260718,
+      "expected_scope": "code_layout",
+      "status": "registered"
+    },
+    {
+      "candidate_id": "O3_nolooprotate",
+      "base": "O3",
+      "pass_sequence": ["-O3", "-fno-loop-rotate"],
+      "clang_flags": ["-O3", "-fno-loop-rotate"],
+      "generation_rule": "disable-loop-rotation",
+      "seed": 20260718,
+      "expected_scope": "loop_optimization",
+      "status": "registered"
+    },
+    {
+      "candidate_id": "O3_unroll2",
+      "base": "O3",
+      "pass_sequence": ["-O3", "--param", "max-unroll-count=2"],
+      "clang_flags": ["-O3", "--param", "max-unroll-count=2"],
+      "generation_rule": "conservative-unrolling",
+      "seed": 20260718,
+      "expected_scope": "loop_unrolling",
+      "status": "registered"
+    },
+    {
+      "candidate_id": "O3_unroll8",
+      "base": "O3",
+      "pass_sequence": ["-O3", "--param", "max-unroll-count=8"],
+      "clang_flags": ["-O3", "--param", "max-unroll-count=8"],
+      "generation_rule": "aggressive-unrolling",
+      "seed": 20260718,
+      "expected_scope": "loop_unrolling",
+      "status": "registered"
+    },
+    {
+      "candidate_id": "O3_inline10",
+      "base": "O3",
+      "pass_sequence": ["-O3", "--param", "inline-threshold=10"],
+      "clang_flags": ["-O3", "--param", "inline-threshold=10"],
+      "generation_rule": "conservative-inlining",
+      "seed": 20260718,
+      "expected_scope": "inlining",
+      "status": "registered"
+    },
+    {
+      "candidate_id": "O3_inline500",
+      "base": "O3",
+      "pass_sequence": ["-O3", "--param", "inline-threshold=500"],
+      "clang_flags": ["-O3", "--param", "inline-threshold=500"],
+      "generation_rule": "aggressive-inlining",
+      "seed": 20260718,
+      "expected_scope": "inlining",
+      "status": "registered"
+    },
+    {
+      "candidate_id": "O3_novec_nounrl",
+      "base": "O3",
+      "pass_sequence": ["-O3", "-fno-vectorize", "-fno-slp-vectorize", "-fno-unroll-loops"],
+      "clang_flags": ["-O3", "-fno-vectorize", "-fno-slp-vectorize", "-fno-unroll-loops"],
+      "generation_rule": "no-vector-no-unroll",
+      "seed": 20260718,
+      "expected_scope": "loop_vectorization",
+      "status": "registered"
+    },
+    {
+      "candidate_id": "O2_nounroll",
+      "base": "O2",
+      "pass_sequence": ["-O2", "-fno-unroll-loops"],
+      "clang_flags": ["-O2", "-fno-unroll-loops"],
+      "generation_rule": "O2-no-unroll",
+      "seed": 20260718,
+      "expected_scope": "loop_unrolling",
+      "status": "registered"
+    },
+    {
+      "candidate_id": "O3_loopunswitch",
+      "base": "O3",
+      "pass_sequence": ["-O3", "-funswitch-loops"],
+      "clang_flags": ["-O3", "-funswitch-loops"],
+      "generation_rule": "enable-loop-unswitch",
+      "seed": 20260718,
+      "expected_scope": "loop_optimization",
+      "status": "registered"
+    },
+    {
+      "candidate_id": "O3_fastmath",
+      "base": "O3",
+      "pass_sequence": ["-O3", "-ffast-math"],
+      "clang_flags": ["-O3", "-ffast-math"],
+      "generation_rule": "fast-math",
+      "seed": 20260718,
+      "expected_scope": "floating_point",
+      "status": "registered"
+    }
+  ],
+  "notes": [
+    "Total: 20 candidates per program, 8 programs = 160 candidate definitions.",
+    "All candidates use seed 20260718 for reproducibility.",
+    "O3_base is the explicit fallback candidate.",
+    "-ffp-contract=off and -DFMA_DISABLED=1 are added program-specifically for correlation/covariance.",
+    "PolyBench programs always include polybench_flags and polybench.c utility."
+  ]
+}

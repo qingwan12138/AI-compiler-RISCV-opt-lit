@@ -1,0 +1,122 @@
+[
+  {
+    "candidate_id": "O0_ref",
+    "status": "passed",
+    "flags": "-O0",
+    "stderr": ""
+  },
+  {
+    "candidate_id": "O1_base",
+    "status": "passed",
+    "flags": "-O1",
+    "stderr": ""
+  },
+  {
+    "candidate_id": "O2_base",
+    "status": "passed",
+    "flags": "-O2",
+    "stderr": ""
+  },
+  {
+    "candidate_id": "O3_base",
+    "status": "passed",
+    "flags": "-O3",
+    "stderr": ""
+  },
+  {
+    "candidate_id": "Os_base",
+    "status": "passed",
+    "flags": "-Os",
+    "stderr": ""
+  },
+  {
+    "candidate_id": "Oz_base",
+    "status": "passed",
+    "flags": "-Oz",
+    "stderr": ""
+  },
+  {
+    "candidate_id": "O3_nounroll",
+    "status": "passed",
+    "flags": "-O3 -fno-unroll-loops",
+    "stderr": ""
+  },
+  {
+    "candidate_id": "O3_novector_noslp",
+    "status": "passed",
+    "flags": "-O3 -fno-vectorize -fno-slp-vectorize",
+    "stderr": ""
+  },
+  {
+    "candidate_id": "O3_unroll2",
+    "status": "passed",
+    "flags": "-O3 --param max-unroll-count=2",
+    "stderr": ""
+  },
+  {
+    "candidate_id": "O3_unroll8",
+    "status": "passed",
+    "flags": "-O3 --param max-unroll-count=8",
+    "stderr": ""
+  },
+  {
+    "candidate_id": "O3_inline10",
+    "status": "passed",
+    "flags": "-O3 --param inline-threshold=10",
+    "stderr": ""
+  },
+  {
+    "candidate_id": "O3_inline500",
+    "status": "passed",
+    "flags": "-O3 --param inline-threshold=500",
+    "stderr": ""
+  },
+  {
+    "candidate_id": "O3_novec_nounrl",
+    "status": "passed",
+    "flags": "-O3 -fno-vectorize -fno-slp-vectorize -fno-unroll-loops",
+    "stderr": ""
+  },
+  {
+    "candidate_id": "O2_nounroll",
+    "status": "passed",
+    "flags": "-O2 -fno-unroll-loops",
+    "stderr": ""
+  },
+  {
+    "candidate_id": "O3_loopunswitch",
+    "status": "passed",
+    "flags": "-O3 -funswitch-loops",
+    "stderr": ""
+  },
+  {
+    "candidate_id": "O3_nomerge",
+    "status": "passed",
+    "flags": "-O3 -fno-merge-all-constants",
+    "stderr": ""
+  },
+  {
+    "candidate_id": "O3_nofpcontract",
+    "status": "passed",
+    "flags": "-O3 -ffp-contract=off",
+    "stderr": ""
+  },
+  {
+    "candidate_id": "O3_nobuiltin",
+    "status": "passed",
+    "flags": "-O3 -fno-builtin",
+    "stderr": ""
+  },
+  {
+    "candidate_id": "O3_noinline",
+    "status": "passed",
+    "flags": "-O3 -fno-inline-functions",
+    "stderr": ""
+  },
+  {
+    "candidate_id": "O3_fastmath",
+    "status": "passed",
+    "flags": "-O3 -ffast-math",
+    "stderr": ""
+  }
+]

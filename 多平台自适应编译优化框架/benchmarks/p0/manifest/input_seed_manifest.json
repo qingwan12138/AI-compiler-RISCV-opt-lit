@@ -1,0 +1,90 @@
+{
+  "manifest_version": "1.0",
+  "created": "2026-07-18",
+  "freeze_before_run": true,
+  "seed": 20260718,
+  "description": "Input configurations for P0. PolyBench programs generate data internally (compile-time dataset). TSVC programs accept argv. Each program has 5 boundary + 20 fixed inputs (25 total per candidate).",
+  "polybench_passthrough": {
+    "description": "PolyBench programs use SMALL_DATASET and generate data via deterministic init_array. No runtime input needed. 'Inputs' are 25 replicate runs at the same config to verify determinism.",
+    "num_inputs": 25,
+    "input_ids": ["r01", "r02", "r03", "r04", "r05", "r06", "r07", "r08", "r09", "r10", "r11", "r12", "r13", "r14", "r15", "r16", "r17", "r18", "r19", "r20", "r21", "r22", "r23", "r24", "r25"],
+    "float_tolerance": "abstol=1e-5",
+    "reference_strategy": "Build each program with -O0 and same dataset flags, use hash of stderr output as reference. Compare with tolerance for float arrays."
+  },
+  "tsvc_inputs": {
+    "tsvc_controlflow_dbl": {
+      "description": "TSVC ControlFlow-dbl with RUN_OPTIONS. 5 boundary + 20 fixed-seed parameter sets.",
+      "boundary_inputs": [
+        {"input_id": "b01", "args": ["1", "1"]},
+        {"input_id": "b02", "args": ["1", "100"]},
+        {"input_id": "b03", "args": ["2325", "1"]},
+        {"input_id": "b04", "args": ["5000", "100"]},
+        {"input_id": "b05", "args": ["1", "14"]}
+      ],
+      "fixed_seed_inputs": [
+        {"input_id": "f01", "args": ["2325", "14"]},
+        {"input_id": "f02", "args": ["1000", "10"]},
+        {"input_id": "f03", "args": ["100", "20"]},
+        {"input_id": "f04", "args": ["500", "5"]},
+        {"input_id": "f05", "args": ["2000", "8"]},
+        {"input_id": "f06", "args": ["50", "30"]},
+        {"input_id": "f07", "args": ["3000", "12"]},
+        {"input_id": "f08", "args": ["1500", "15"]},
+        {"input_id": "f09", "args": ["750", "25"]},
+        {"input_id": "f10", "args": ["4000", "3"]},
+        {"input_id": "f11", "args": ["2500", "18"]},
+        {"input_id": "f12", "args": ["800", "22"]},
+        {"input_id": "f13", "args": ["1200", "7"]},
+        {"input_id": "f14", "args": ["3500", "16"]},
+        {"input_id": "f15", "args": ["1800", "11"]},
+        {"input_id": "f16", "args": ["600", "28"]},
+        {"input_id": "f17", "args": ["4200", "6"]},
+        {"input_id": "f18", "args": ["2800", "13"]},
+        {"input_id": "f19", "args": ["900", "24"]},
+        {"input_id": "f20", "args": ["1600", "9"]}
+      ],
+      "float_tolerance": "exact_match",
+      "reference_strategy": "Compare stdout against .reference_output file."
+    },
+    "tsvc_inductionvariable_dbl": {
+      "description": "TSVC InductionVariable-dbl with RUN_OPTIONS. 5 boundary + 20 fixed-seed parameter sets.",
+      "boundary_inputs": [
+        {"input_id": "b01", "args": ["1", "1"]},
+        {"input_id": "b02", "args": ["1", "100"]},
+        {"input_id": "b03", "args": ["2325", "1"]},
+        {"input_id": "b04", "args": ["5000", "100"]},
+        {"input_id": "b05", "args": ["1", "14"]}
+      ],
+      "fixed_seed_inputs": [
+        {"input_id": "f01", "args": ["2325", "14"]},
+        {"input_id": "f02", "args": ["1000", "10"]},
+        {"input_id": "f03", "args": ["100", "20"]},
+        {"input_id": "f04", "args": ["500", "5"]},
+        {"input_id": "f05", "args": ["2000", "8"]},
+        {"input_id": "f06", "args": ["50", "30"]},
+        {"input_id": "f07", "args": ["3000", "12"]},
+        {"input_id": "f08", "args": ["1500", "15"]},
+        {"input_id": "f09", "args": ["750", "25"]},
+        {"input_id": "f10", "args": ["4000", "3"]},
+        {"input_id": "f11", "args": ["2500", "18"]},
+        {"input_id": "f12", "args": ["800", "22"]},
+        {"input_id": "f13", "args": ["1200", "7"]},
+        {"input_id": "f14", "args": ["3500", "16"]},
+        {"input_id": "f15", "args": ["1800", "11"]},
+        {"input_id": "f16", "args": ["600", "28"]},
+        {"input_id": "f17", "args": ["4200", "6"]},
+        {"input_id": "f18", "args": ["2800", "13"]},
+        {"input_id": "f19", "args": ["900", "24"]},
+        {"input_id": "f20", "args": ["1600", "9"]}
+      ],
+      "float_tolerance": "exact_match",
+      "reference_strategy": "Compare stdout against .reference_output file."
+    }
+  },
+  "notes": [
+    "For PolyBench programs (compile_time_dataset), each program runs 25 times with identical config to verify determinism.",
+    "For TSVC programs, each program runs 5 boundary + 20 fixed seed parameter combinations via argv.",
+    "PolyBench reference: -O0 build with same flags, output to stderr via DUMP_ARRAYS, hash comparison with float tolerance.",
+    "TSVC reference: .reference_output file shipped with LLVM test-suite, exact stdout text comparison."
+  ]
+}
