@@ -1,0 +1,37 @@
+[
+  {
+    "file": "00_材料索引与使用说明.md",
+    "bytes": 4342,
+    "sha256": "9955061fcaa5cbbe0005e1abbb06191cdb6913e616c4717e481a68629cce4ffc"
+  },
+  {
+    "file": "01_主线研究框架.md",
+    "bytes": 10122,
+    "sha256": "2f815e097b7af1cc09fa509656cf9d9ebd2078ad712ffd93c228903e0ad167a0"
+  },
+  {
+    "file": "02_文献依据与创新边界.md",
+    "bytes": 8996,
+    "sha256": "3d8077ac8493443d5ee94cbac22ae3d6fc1fa87235ee02310629fe0b9291dc45"
+  },
+  {
+    "file": "03_完整实验框架.md",
+    "bytes": 11603,
+    "sha256": "5097dd7ff4d7e1345a8912380c87ff16361be7a31ad650457dad66de2c479e7c"
+  },
+  {
+    "file": "04_预实验Demo.md",
+    "bytes": 9754,
+    "sha256": "04dac2a8e48c90913735f10d75bc956839868f73834c674a37eb44d25c6c3ed9"
+  },
+  {
+    "file": "05_数据记录与评价模板.md",
+    "bytes": 9514,
+    "sha256": "eda0e0e643ecff9c3fd0b7eec4334489ed1f7a00557c982eaa310da084633ca1"
+  },
+  {
+    "file": "06_修订说明.md",
+    "bytes": 5695,
+    "sha256": "d4df67acdbbf7a08288e30e4515e006756489eb165328e4d49b43f22d68610e3"
+  }
+]
