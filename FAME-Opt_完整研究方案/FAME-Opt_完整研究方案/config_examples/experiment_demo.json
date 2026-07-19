@@ -1,0 +1,35 @@
+{
+  "experiment_id": "fameopt_demo_v1",
+  "platform": "x86_64",
+  "compiler": "clang",
+  "baseline_flags": [
+    "-O3",
+    "-march=native"
+  ],
+  "benchmarks": [
+    "dot_product",
+    "saxpy",
+    "stencil_1d",
+    "small_gemm",
+    "branch_filter"
+  ],
+  "candidate_budget_per_program": 8,
+  "llm_rounds": 3,
+  "candidates_per_round": 3,
+  "warmup_runs": 3,
+  "measurement_runs": 10,
+  "minimum_speedup": 1.01,
+  "random_seeds": [
+    11,
+    29,
+    47
+  ],
+  "max_counterfactual_probes_per_program": 2,
+  "baselines": [
+    "O3",
+    "random_search",
+    "llm_no_feedback",
+    "llm_runtime_feedback",
+    "fameopt"
+  ]
+}

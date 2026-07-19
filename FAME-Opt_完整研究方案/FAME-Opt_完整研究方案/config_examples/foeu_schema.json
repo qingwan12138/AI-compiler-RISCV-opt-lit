@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Falsifiable Optimization Experience Unit",
+  "type": "object",
+  "required": [
+    "foeu_id",
+    "program",
+    "environment",
+    "preconditions",
+    "actions",
+    "expected_mechanism",
+    "expected_evidence",
+    "falsifiers",
+    "semantic_certificate_id",
+    "profitability_certificate_id",
+    "final_state"
+  ],
+  "properties": {
+    "foeu_id": {
+      "type": "string"
+    },
+    "program": {
+      "type": "object"
+    },
+    "environment": {
+      "type": "object"
+    },
+    "preconditions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "actions": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "expected_mechanism": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "expected_evidence": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "falsifiers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "semantic_certificate_id": {
+      "type": "string"
+    },
+    "profitability_certificate_id": {
+      "type": "string"
+    },
+    "counterfactual": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "applicability_scope": {
+      "type": "object"
+    },
+    "final_state": {
+      "enum": [
+        "confirmed_success",
+        "accidental_success",
+        "mechanism_without_profit",
+        "failed",
+        "uncertain"
+      ]
+    }
+  }
+}

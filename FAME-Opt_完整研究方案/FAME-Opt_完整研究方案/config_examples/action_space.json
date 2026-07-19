@@ -1,0 +1,70 @@
+{
+  "version": "0.1",
+  "actions": [
+    {
+      "id": "enable_loop_vectorization",
+      "type": "boolean",
+      "allowed": [
+        true,
+        false
+      ]
+    },
+    {
+      "id": "enable_slp_vectorization",
+      "type": "boolean",
+      "allowed": [
+        true,
+        false
+      ]
+    },
+    {
+      "id": "loop_unroll_factor",
+      "type": "enum",
+      "allowed": [
+        1,
+        2,
+        4,
+        8
+      ]
+    },
+    {
+      "id": "loop_interleave_count",
+      "type": "enum",
+      "allowed": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "inline_threshold",
+      "type": "enum",
+      "allowed": [
+        "low",
+        "default",
+        "high"
+      ]
+    },
+    {
+      "id": "loop_distribution",
+      "type": "boolean",
+      "allowed": [
+        true,
+        false
+      ]
+    },
+    {
+      "id": "march_native",
+      "type": "boolean",
+      "allowed": [
+        true,
+        false
+      ]
+    }
+  ],
+  "constraints": [
+    "Only listed actions are allowed",
+    "At most three non-default actions per candidate",
+    "Tests, output and timing regions cannot be changed"
+  ]
+}
