@@ -1,0 +1,5 @@
+﻿{
+    "remote.SSH.remoteEnv":  {
+                                 "CLAUDE_CODE_GIT_BASH_PATH":  ""
+                             }
+}

@@ -1,0 +1,442 @@
+{
+  "contract": "vector_exposure",
+  "kernel": "vector",
+  "knowledge_id": "K3",
+  "measurement": {
+    "compiler": "/usr/bin/gcc",
+    "compiler_version": "gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+    "host": "Linux-6.18.33.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "repeats": 3,
+    "runner": null,
+    "size": 1000000,
+    "source_sha256": "87a7d30bb657f033ce2160bee3e56d918ac89b6e8afbfb6580d7d61f1072cb46",
+    "timeout_seconds": 60.0,
+    "warmups": 1
+  },
+  "platform": "x86_local_gcc",
+  "run_id": "20260717T053920659410Z",
+  "selection": {
+    "status": "selected",
+    "winner": {
+      "assembly_path": "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/O3_unroll.s",
+      "binary_bytes": 16360,
+      "branch_count": 49,
+      "candidate": "O3_unroll",
+      "compile_commands": {
+        "assembly": [
+          "/usr/bin/gcc",
+          "-std=c11",
+          "-O3",
+          "-funroll-loops",
+          "-S",
+          "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/bench.c",
+          "-o",
+          "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/O3_unroll.s"
+        ],
+        "executable": [
+          "/usr/bin/gcc",
+          "-std=c11",
+          "-O3",
+          "-funroll-loops",
+          "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/bench.c",
+          "-o",
+          "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/O3_unroll.exe"
+        ]
+      },
+      "contract_error": 0.0,
+      "correct": true,
+      "delta_cost": 1.0,
+      "effects": {
+        "branch_reduction": -1.7222222222222223,
+        "runtime_gain": 0.013586780771351557,
+        "size_reduction": 0.0,
+        "vector_increase": 281.0
+      },
+      "executable_path": "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/O3_unroll.exe",
+      "execution_command": [
+        "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/O3_unroll.exe",
+        "vector",
+        "1000000"
+      ],
+      "flags": [
+        "-O3",
+        "-funroll-loops"
+      ],
+      "measured": true,
+      "repeats": 3,
+      "runtime_mad_seconds": 0.0002710999999999998,
+      "runtime_max_seconds": 0.010883616,
+      "runtime_min_seconds": 0.010023715,
+      "runtime_seconds": 0.010294815,
+      "selection_role": "selected",
+      "status": "measured",
+      "stdout": "4041834978\n",
+      "timings_seconds": [
+        0.010294815,
+        0.010883616,
+        0.010023715
+      ],
+      "vector_count": 281,
+      "warmups": 1
+    }
+  },
+  "status": "selected",
+  "timestamp_utc": "2026-07-17T05:39:22.828495+00:00",
+  "trials": [
+    {
+      "assembly_path": "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/O2_baseline.s",
+      "binary_bytes": 16360,
+      "branch_count": 18,
+      "candidate": "O2_baseline",
+      "compile_commands": {
+        "assembly": [
+          "/usr/bin/gcc",
+          "-std=c11",
+          "-O2",
+          "-S",
+          "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/bench.c",
+          "-o",
+          "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/O2_baseline.s"
+        ],
+        "executable": [
+          "/usr/bin/gcc",
+          "-std=c11",
+          "-O2",
+          "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/bench.c",
+          "-o",
+          "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/O2_baseline.exe"
+        ]
+      },
+      "correct": true,
+      "executable_path": "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/O2_baseline.exe",
+      "execution_command": [
+        "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/O2_baseline.exe",
+        "vector",
+        "1000000"
+      ],
+      "flags": [
+        "-O2"
+      ],
+      "measured": true,
+      "repeats": 3,
+      "role": "baseline",
+      "runtime_mad_seconds": 0.00012560000000000002,
+      "runtime_max_seconds": 0.010789216,
+      "runtime_min_seconds": 0.010311015,
+      "runtime_seconds": 0.010436615,
+      "status": "measured",
+      "stdout": "4041834978\n",
+      "timings_seconds": [
+        0.010789216,
+        0.010436615,
+        0.010311015
+      ],
+      "vector_count": 0,
+      "warmups": 1
+    },
+    {
+      "assembly_path": "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/O3_generic.s",
+      "binary_bytes": 16360,
+      "branch_count": 26,
+      "candidate": "O3_generic",
+      "compile_commands": {
+        "assembly": [
+          "/usr/bin/gcc",
+          "-std=c11",
+          "-O3",
+          "-S",
+          "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/bench.c",
+          "-o",
+          "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/O3_generic.s"
+        ],
+        "executable": [
+          "/usr/bin/gcc",
+          "-std=c11",
+          "-O3",
+          "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/bench.c",
+          "-o",
+          "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/O3_generic.exe"
+        ]
+      },
+      "contract_error": 0.0,
+      "correct": true,
+      "delta_cost": 1.0,
+      "effects": {
+        "branch_reduction": -0.4444444444444444,
+        "runtime_gain": 0.00032577612568832184,
+        "size_reduction": 0.0,
+        "vector_increase": 49.0
+      },
+      "executable_path": "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/O3_generic.exe",
+      "execution_command": [
+        "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/O3_generic.exe",
+        "vector",
+        "1000000"
+      ],
+      "flags": [
+        "-O3"
+      ],
+      "measured": true,
+      "repeats": 3,
+      "runtime_mad_seconds": 4.920000000000098e-05,
+      "runtime_max_seconds": 0.010482415,
+      "runtime_min_seconds": 0.009219714,
+      "runtime_seconds": 0.010433215,
+      "selection_role": "not_selected",
+      "status": "measured",
+      "stdout": "4041834978\n",
+      "timings_seconds": [
+        0.009219714,
+        0.010433215,
+        0.010482415
+      ],
+      "vector_count": 49,
+      "warmups": 1
+    },
+    {
+      "assembly_path": "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/Os_generic.s",
+      "binary_bytes": 16360,
+      "branch_count": 15,
+      "candidate": "Os_generic",
+      "compile_commands": {
+        "assembly": [
+          "/usr/bin/gcc",
+          "-std=c11",
+          "-Os",
+          "-S",
+          "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/bench.c",
+          "-o",
+          "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/Os_generic.s"
+        ],
+        "executable": [
+          "/usr/bin/gcc",
+          "-std=c11",
+          "-Os",
+          "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/bench.c",
+          "-o",
+          "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/Os_generic.exe"
+        ]
+      },
+      "contract_error": 0.7460006668828926,
+      "correct": true,
+      "delta_cost": 1.0,
+      "effects": {
+        "branch_reduction": 0.16666666666666666,
+        "runtime_gain": -0.8960006668828926,
+        "size_reduction": 0.0,
+        "vector_increase": 0.0
+      },
+      "executable_path": "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/Os_generic.exe",
+      "execution_command": [
+        "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/Os_generic.exe",
+        "vector",
+        "1000000"
+      ],
+      "flags": [
+        "-Os"
+      ],
+      "measured": true,
+      "repeats": 3,
+      "runtime_mad_seconds": 0.00017249999999999904,
+      "runtime_max_seconds": 0.020188829,
+      "runtime_min_seconds": 0.019615329,
+      "runtime_seconds": 0.019787829,
+      "selection_role": "not_selected",
+      "status": "measured",
+      "stdout": "4041834978\n",
+      "timings_seconds": [
+        0.019787829,
+        0.019615329,
+        0.020188829
+      ],
+      "vector_count": 0,
+      "warmups": 1
+    },
+    {
+      "assembly_path": "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/O3_unroll.s",
+      "binary_bytes": 16360,
+      "branch_count": 49,
+      "candidate": "O3_unroll",
+      "compile_commands": {
+        "assembly": [
+          "/usr/bin/gcc",
+          "-std=c11",
+          "-O3",
+          "-funroll-loops",
+          "-S",
+          "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/bench.c",
+          "-o",
+          "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/O3_unroll.s"
+        ],
+        "executable": [
+          "/usr/bin/gcc",
+          "-std=c11",
+          "-O3",
+          "-funroll-loops",
+          "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/bench.c",
+          "-o",
+          "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/O3_unroll.exe"
+        ]
+      },
+      "contract_error": 0.0,
+      "correct": true,
+      "delta_cost": 1.0,
+      "effects": {
+        "branch_reduction": -1.7222222222222223,
+        "runtime_gain": 0.013586780771351557,
+        "size_reduction": 0.0,
+        "vector_increase": 281.0
+      },
+      "executable_path": "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/O3_unroll.exe",
+      "execution_command": [
+        "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/O3_unroll.exe",
+        "vector",
+        "1000000"
+      ],
+      "flags": [
+        "-O3",
+        "-funroll-loops"
+      ],
+      "measured": true,
+      "repeats": 3,
+      "runtime_mad_seconds": 0.0002710999999999998,
+      "runtime_max_seconds": 0.010883616,
+      "runtime_min_seconds": 0.010023715,
+      "runtime_seconds": 0.010294815,
+      "selection_role": "selected",
+      "status": "measured",
+      "stdout": "4041834978\n",
+      "timings_seconds": [
+        0.010294815,
+        0.010883616,
+        0.010023715
+      ],
+      "vector_count": 281,
+      "warmups": 1
+    },
+    {
+      "assembly_path": "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/O3_no_vector.s",
+      "binary_bytes": 16360,
+      "branch_count": 18,
+      "candidate": "O3_no_vector",
+      "compile_commands": {
+        "assembly": [
+          "/usr/bin/gcc",
+          "-std=c11",
+          "-O3",
+          "-fno-tree-vectorize",
+          "-S",
+          "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/bench.c",
+          "-o",
+          "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/O3_no_vector.s"
+        ],
+        "executable": [
+          "/usr/bin/gcc",
+          "-std=c11",
+          "-O3",
+          "-fno-tree-vectorize",
+          "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/bench.c",
+          "-o",
+          "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/O3_no_vector.exe"
+        ]
+      },
+      "contract_error": 0.0,
+      "correct": true,
+      "delta_cost": 1.0,
+      "effects": {
+        "branch_reduction": 0.0,
+        "runtime_gain": -0.01348147842954828,
+        "size_reduction": 0.0,
+        "vector_increase": 0.0
+      },
+      "executable_path": "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/O3_no_vector.exe",
+      "execution_command": [
+        "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/O3_no_vector.exe",
+        "vector",
+        "1000000"
+      ],
+      "flags": [
+        "-O3",
+        "-fno-tree-vectorize"
+      ],
+      "measured": true,
+      "repeats": 3,
+      "runtime_mad_seconds": 0.0001551009999999995,
+      "runtime_max_seconds": 0.011678117,
+      "runtime_min_seconds": 0.010422215,
+      "runtime_seconds": 0.010577316,
+      "selection_role": "not_selected",
+      "status": "measured",
+      "stdout": "4041834978\n",
+      "timings_seconds": [
+        0.010422215,
+        0.010577316,
+        0.011678117
+      ],
+      "vector_count": 0,
+      "warmups": 1
+    },
+    {
+      "assembly_path": "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/O3_native.s",
+      "binary_bytes": 16360,
+      "branch_count": 31,
+      "candidate": "O3_native",
+      "compile_commands": {
+        "assembly": [
+          "/usr/bin/gcc",
+          "-std=c11",
+          "-O3",
+          "-march=native",
+          "-S",
+          "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/bench.c",
+          "-o",
+          "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/O3_native.s"
+        ],
+        "executable": [
+          "/usr/bin/gcc",
+          "-std=c11",
+          "-O3",
+          "-march=native",
+          "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/bench.c",
+          "-o",
+          "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/O3_native.exe"
+        ]
+      },
+      "contract_error": 0.0,
+      "correct": true,
+      "delta_cost": 2.0,
+      "effects": {
+        "branch_reduction": -0.7222222222222222,
+        "runtime_gain": 0.2033804063865534,
+        "size_reduction": 0.0,
+        "vector_increase": 84.0
+      },
+      "executable_path": "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/O3_native.exe",
+      "execution_command": [
+        "/mnt/c/Users/cjh/AI-compiler-RISCV-opt-lit/EPAS/06_EPAS_Demo/build/20260717T053920659410Z/O3_native.exe",
+        "vector",
+        "1000000"
+      ],
+      "flags": [
+        "-O3",
+        "-march=native"
+      ],
+      "measured": true,
+      "repeats": 3,
+      "runtime_mad_seconds": 0.0004757000000000008,
+      "runtime_max_seconds": 0.009027313,
+      "runtime_min_seconds": 0.007838312,
+      "runtime_seconds": 0.008314012,
+      "selection_role": "not_selected",
+      "status": "measured",
+      "stdout": "4041834978\n",
+      "timings_seconds": [
+        0.007838312,
+        0.009027313,
+        0.008314012
+      ],
+      "vector_count": 84,
+      "warmups": 1
+    }
+  ]
+}
