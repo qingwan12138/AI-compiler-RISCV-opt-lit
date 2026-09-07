@@ -1,0 +1,1705 @@
+{
+  "source_commit": "a6cc71496c356c73ecc29dd47679498a4b225397",
+  "created_at": "2026-09-07T10:59:20.851026+00:00",
+  "paper_count": 169,
+  "pdf_count": 164,
+  "note_count": 174,
+  "markdown_count": 383,
+  "files": [
+    {
+      "path": "00_分类索引.md",
+      "kind": "legacy_index",
+      "sha256": "623d30f62647946edbd328be39b2fcd6e6d30bf0a912c760eb4ba17f0614892f"
+    },
+    {
+      "path": "01_编译阶段排序与强化学习调优/01-AutoPhase Juggling HLS Phase Orderings in Random Forests with Deep Reinforcement Learning. MLSy/paper.pdf",
+      "kind": "pdf",
+      "sha256": "aadf7b98cc0023d6322c10656bd4abb741ee839f9c9b01c47c8e96b5b23fe38a"
+    },
+    {
+      "path": "01_编译阶段排序与强化学习调优/02-Compiler Phase-Ordering for High-Level Synthesis with Deep Reinforcement Learning. FCCM 2019 ar/paper.pdf",
+      "kind": "pdf",
+      "sha256": "c4ceeb8dffba65b4a5b0b5cc81a6d9ff6ede08bee2dd65f7574880e663f068f6"
+    },
+    {
+      "path": "01_编译阶段排序与强化学习调优/03-CompilerGym Robust, Performant Compiler Optimization Environments for AI Research. CGO 2022/paper.pdf",
+      "kind": "pdf",
+      "sha256": "62fe7435345a30d46a3acc418ac1caec5eade125af13df688fb6607af4238fe4"
+    },
+    {
+      "path": "01_编译阶段排序与强化学习调优/05-MileStone A Multi-Objective Compiler Phase Ordering Framework. arXiv 2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "fab095e662bd454dd9de872979dd81ffc91c9ee1a5dfa0ef52b19917c7f2150e"
+    },
+    {
+      "path": "01_编译阶段排序与强化学习调优/06-Exploiting Booster Pass Chain for Compiler Phase Ordering. 2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "0a86867d2c848709d1273ec02c98a4adc9136de7dae7ce1450990c0152714d39"
+    },
+    {
+      "path": "01_编译阶段排序与强化学习调优/07-LLM-vs-Classical-Compilers/paper.pdf",
+      "kind": "pdf",
+      "sha256": "9d42e1dae24cee7e2900308f2c519d2f4ff47b506ad5cde37cf44522e8c59c11"
+    },
+    {
+      "path": "01_编译阶段排序与强化学习调优/08-LLMs-Energy-Efficient-Code/paper.pdf",
+      "kind": "pdf",
+      "sha256": "924d51e78a2ee13b53b81ec39812ab7701a143d99d9b485db8ff946857767c24"
+    },
+    {
+      "path": "01_编译阶段排序与强化学习调优/37-Faster sorting algorithms discovered using deep reinforcement learning. Nature 2023/paper.pdf",
+      "kind": "pdf",
+      "sha256": "4b991d29e570924c8bd93684137b0ca6065970627f18e444444bafed9d814d1f"
+    },
+    {
+      "path": "01_编译阶段排序与强化学习调优/38-LLM for Compiler Optimization. arXiv 2023/paper.pdf",
+      "kind": "pdf",
+      "sha256": "e75edd73a49ad1d2efe15d6d41eb2df6be3e870c6e8a2c10d80c05aa4905ea64"
+    },
+    {
+      "path": "01_编译阶段排序与强化学习调优/39-Enhancing Translation Validation of Compiler Transformations with Large Language Models. arXiv 2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "176a79a0b584c83f3302a1e6023179574916e83b268770f7a6d7c684b28d712c"
+    },
+    {
+      "path": "01_编译阶段排序与强化学习调优/39-Priority Sampling LLMs for Compilers. arXiv 2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "e799aa23ebe5f550b2baf54fd134369bfa7cb225aaa53db702e8eb5d03dffb8f"
+    },
+    {
+      "path": "01_编译阶段排序与强化学习调优/40-CompilerDream Compiler World Model. arXiv 2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "cc2c83290ee2a12fb42d736189e4128dd0f9be114b7b1f44ae8fea51a6d3f5d8"
+    },
+    {
+      "path": "01_编译阶段排序与强化学习调优/41-Towards LLM Peephole Optimization. arXiv 2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "c4db3e75b5e41102be520b9c84ad438c1ee75a81f8ded83ca6f8d50b0bfd821d"
+    },
+    {
+      "path": "01_编译阶段排序与强化学习调优/42-AI Powered Compiler Techniques DL. arXiv 2021/paper.pdf",
+      "kind": "pdf",
+      "sha256": "5c5ea4c467e68c59efaf2bc89a8cb3e4bc13cc3bb78adf25e98dafaa36a3c363"
+    },
+    {
+      "path": "01_编译阶段排序与强化学习调优/43-Problem-Oriented Code Optimization. arXiv 2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "ce013d6ffb4455b9431a3e771e50e641f7d946118cc7d12cb7172817280f0427"
+    },
+    {
+      "path": "01_编译阶段排序与强化学习调优/44-PerfRL Small LM Code Optimization. arXiv 2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "dbda78c0a205b6ad1ca1fca4a168915d27b9aa82bcfd2dff21ad8ac0b668a6eb"
+    },
+    {
+      "path": "01_编译阶段排序与强化学习调优/45-BenchDirect Directed LM Benchmarks. arXiv 2023/paper.pdf",
+      "kind": "pdf",
+      "sha256": "ddd5f65e11dccff9637d39794be05a72e2a17085909ca781c540c0b26ca47f39"
+    },
+    {
+      "path": "01_编译阶段排序与强化学习调优/46-Learning Combine Instructions LLVM. arXiv 2022/paper.pdf",
+      "kind": "pdf",
+      "sha256": "95716d6bb4f75be4c944a3bc0989ae8de3083a0c71554781a413c561407e83b2"
+    },
+    {
+      "path": "01_编译阶段排序与强化学习调优/C05-CITROEN-Phase-Ordering-IPDPS2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "0eb43b4475996267a21853e5f760f25de3186ffe9aebdfa1ec873c4c8b8e77ee"
+    },
+    {
+      "path": "01_编译阶段排序与强化学习调优/C06-AwareCompiler-Agentic-Compiler-Optimization-arXiv2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "fb8d83ccf3fa8f519a860589be7278856863f8f125448d22f32d65e5b13aa56c"
+    },
+    {
+      "path": "01_编译阶段排序与强化学习调优/C09-ECCO-Causal-Compiler-Optimization-arXiv2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "d8f5e0db4cbcb85254b25beda074777c6204b5c3c03cec0d9844a0a056fc6be2"
+    },
+    {
+      "path": "01_编译阶段排序与强化学习调优/C10-Protean-Fine-Grain-Phase-Ordering-TACO2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "e6096cbc5a89aa4ae2b5954c789b806ac26187f34fa4a3d6b3156904e086ff3f"
+    },
+    {
+      "path": "01_编译阶段排序与强化学习调优/C22-MLIR-RL-CGO2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "2def7d5ce7b4ba0cdbe74148d4e6ed4f11533a3a3e6733a43838e40e2d1e9c9e"
+    },
+    {
+      "path": "01_编译阶段排序与强化学习调优/C24-Pearl-Automatic-Code-Optimization-ICS2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "ac23c2e6630f98a1747f54e0992b7aea303c6224fb1c8499059da0bac4f06075"
+    },
+    {
+      "path": "01_编译阶段排序与强化学习调优/C25-DeCOS-Compiler-Optimization-Selection-ICS2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "9941a44110d5297a7b980996968714234a819808a1b8b323cc042ec6f2d8dd6c"
+    },
+    {
+      "path": "01_编译阶段排序与强化学习调优/C30-RACE-PLDI2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "7450c61feedffc11cdcc40eb970eaceda856d1a8e64ceead56863f267c346146"
+    },
+    {
+      "path": "01_编译阶段排序与强化学习调优/C31-Poseidon-CGO2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "05496b21efe26bd358a083e261503c5c6fe4cb7822176c15bc094470328d2e13"
+    },
+    {
+      "path": "01_编译阶段排序与强化学习调优/C35-AutoPass-2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "229684f15bd6e9a6b50095a6823078c5a05c68e457137368d21c16f27cd277e2"
+    },
+    {
+      "path": "01_编译阶段排序与强化学习调优/C38-LiteCoOp-2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "fcf1301ebcb784c8814e27b6da5fb0bc52b87d52fdf0016f3fba42896d6e3f05"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/01-StepCoder-RL-Compiler-Feedback-ACL2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "4c3dd4f982516f63bb4bd5eeefc7ac3a1884ddcd7886ad403d4df468288b0fd0"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/02-ECCO-Code-Efficiency-EMNLP2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "57251d1f4967a0edc656dbd36bbc65ec23fc3fce1a6bd558aec714b38effaae8"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/03-Rethinking-Code-Refinement-EMNLP2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "91a901a6bfb6cd3171b014a98be34648e78cc1c8e1b739d52494e4d8072c02ff"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/04-Compiler-R1 Towards Agentic Compiler Auto-tuning with Reinforcement Learning. arXiv 2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "ab156b83510ed6a06df5e5ee75b0265bd135a571a30a2b4d7ea621d4d1086b5c"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/06-Code-Change-Automation-FSE2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "1e7e47443a61c218c5aa64135c874f724cc82d58e7acff11a18cb011d1f111d0"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/07-Meta Large Language Model Compiler Foundation Models of Compiler Optimization. arXiv 2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "1ba375d7b8eadb699d957ab3bd2f1e2152a1d3cf03e25d95d33e0ae3cda08b14"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/08-Foundation Language Models for Compiler Optimization. 2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "a734e3671f33eeef4c381cd592b8ce81c3aab3f5c322c06dbe98fc7ddee2aa6e"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/09-A Survey on the Synergy of LLMs and Compilers. arXiv 2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "e80a2b32d13276c580ae7e1157720dcddeb7034dc5fb75d55c0fd0601de5a63e"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/09-Search-Based-LLMs-Code-Opt-ICSE2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "0554439b8003b2490bfabaa006ae5866bd442b4e2ebe0d0b07d482c3c659457c"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/10-Compiler Optimization via LLM Reasoning for Efficient Model Serving. arXiv 2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "b4195176d59c599dd24a52c32429954803bcafd8c61ada68026531a2d390fede"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/10-Speed-Up-Code-Bidirectional-Tree-ACL2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "43b8250159b8fac3efb39bbb393d2f3239f790832c8c7f7eb2fd5de7ca5a184a"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/11-Agentic Code Optimization via Compiler-LLM Cooperation. arXiv 2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "06d12b57433d315d0d7f7e82c2164ce2767c9931d81456caa6957a9ed3ab9f4d"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/11-DecLLM-Recompilable-Decompilation-ISSTA2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "bebb869f3b94d95807f17acaf62bb8c078e0337e2aa3373cde989da302b21c1c"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/12-Fixing-Broken-Graphs-DNN-ASE2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "60646e6a714f898489095284cc28d3e40ceaa4aac33db01b37691fabcdfd02a2"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/13-PTX-to-CUDA-Decompile-ASE2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "02051a8f48e8ab528eea58ebea5c2be6be66ebe6d6581080afd26d2ffd355001"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/14-Zero-Shot-Parallelization-JSS2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "a91ffa89a27fedd0f5e86de35b74479f7a5b5f4a0e38818919b1efbdeda1300e"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/15-NPUEval-NPU-Kernels-arxiv2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "5acfdfb350a15042f6573e4640066a7fa5d87da7c435fbce99822e8035aeeed3"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/16-Beyond Pass-by-Pass Optimization Intent-Driven IR Optimization with Large Language Models. arXi/paper.pdf",
+      "kind": "pdf",
+      "sha256": "b249f2c96cf13439adc34157b8845b9d8e4502837eece9e7226cf9a4f064865f"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/16-GPU-Kernel-Opt-Minimal-Exec-arxiv2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "30eb161996d9df7af1976b0e94b8b6719408106b192a37f785649c1e11794d2c"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/17-HintPilot-Compiler-Hint-ACL2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "a077ce16d88040cefe7f1318b9adb9848bf934b02a3697bfde47f5ecd86d6f8c"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/18-PerfCoder-Interpretable-ACL2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "13f21a3043a3e3d041f82da97fe17552911a4b5bb86ff2b2c4cb67fde3e8d2c9"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/19-AutoVecCoder-Vectorization-RL-ACL2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "004a989658b1bf17af01cd738529bed93f85ec74080054e1b8a00b801bdb1c33"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/20-Cross-Arch-Code-Migration-ACL2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "0761da56693a04772b814dc3db37c0939b71ff3869f34fc63dade53ce31140db"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/23-Compiling-Code-LLMs-Executables-FSE2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "dfc53220e1eb5640e0c412ebd1acd17f05a82c20c8278b79327a35662ab1438d"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/24-CODMAS-RTL-Opt-EACL2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "41ed370250800eef83ec2850874989c228261518419096dc02e0eaed6cebc32a"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/25-LLMs-to-Agents-Compiler-arxiv2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "e4fbec265dc5e442f72ec4fb2740d6106be3e7f9299c8abcb6bf88ed61ccd71d"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/38-Compiler generated feedback for Large Language Models. arXiv 2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "c5f2feed42f51f28bde6214e3421cb6e9c65c652ea222a08b488b74de2158adf"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/40-VecTrans Enhancing Compiler Auto-Vectorization through LLM-Assisted Code Transformations. arXiv/paper.pdf",
+      "kind": "pdf",
+      "sha256": "41506c806be7d5643450892e6da17ea5e3cb5a16451549abaf8972d30aa59d85"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/42-CompilerGPT Leveraging Large Language Models for Analyzing and Acting on Compiler Optimization/paper.pdf",
+      "kind": "pdf",
+      "sha256": "ccab07fc85de80204da28e5e51d95b6640cfb86538cad3f060eb84ed61b1e74c"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/45-Program Synthesis with LLMs. arXiv 2021/paper.pdf",
+      "kind": "pdf",
+      "sha256": "820a8de4a9fe8aef947a40d5da13db0d660baf3658b4a9cebf6d30ac5ba351ab"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/46-Learning C to x86 Translation. arXiv 2021/paper.pdf",
+      "kind": "pdf",
+      "sha256": "d59d1ae4de40648af4d83b8a90c2b0fa2c771b984543f8f36c7dd592fdff44b6"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/47-Introducing Compiler Semantics LLMs. EMNLP 2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "dce3fa6d5d35d592feb05ec89e4d4366c20dcd3fa25589fc24cc3b1a9b967c8f"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/48-LEGO-Compiler Neural Compilation. arXiv 2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "08062e8a1cb9b716bd8f5adde213a976b82c460eda9e4861e368d578cff2f3c4"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/49-Rectifier Code Translation LLMs. arXiv 2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "f47d2c4bad86b8579222b40e4bb2df32ff88bc87c2bea91fa0a9e0273e304168"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/50-Virtual Compiler Assembly Search. ACL 2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "214d9c07873736ab8154f5c90c244eb4a35b62126a95824f7e0f5df3032ad837"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/51-Iterative Refinement Compiler Feedback. ACL 2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "7b0c683c3aed8fe3a4a7399c670256c4396fee663ba8358db74530cb308bc432"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/52-LLM4Decompile Decompiling Binary. EMNLP 2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "16fdf848ff026fb6661c2ce340916e2e383b35d96682eb3d1bd645553c330f59"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/53-LMPA Decompilation LLM+Program Analysis. arXiv 2023/paper.pdf",
+      "kind": "pdf",
+      "sha256": "fbd78c009aece0e5de04c73a6d0c34b1d4ab48d549df1ce443a79bf1bd8a8e38"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/54-AutoComp LLM Code Opt Tensor. arXiv 2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "25e257da18594e934e1803e6e863b2a1a5fa92bed2d04741926ef50fc26623e2"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/55-ECO LLM Code Optimizer Warehouse. arXiv 2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "f9379d082168e756aa228b0e9ab55b5adedd55d191eb00a893ac088efc058755"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/56-CUDA-L1 Contrastive RL CUDA. arXiv 2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "ada0db1b6214a2fe830b2d80139ceaf3595a7741cf74ffa7bb9bde32bb588ac8"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/57-SLADE Portable SLM Decompiler. arXiv 2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "39f1c0c64343b4b16916bd7b868c600c781e2380da6ebbff885469449495053b"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/58-CompileAgent Repo-Level Compilation. ACL 2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "50fd22d02f8837e50f939a0ed7e3b1d3edaaa7e4a0ad5c02c0e4f7b3a38466d7"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/59-AIOS Compiler LLM as Interpreter. arXiv 2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "b2a88cfe89223e2bab776f3faa63e372a295d62847e839b68561dae5cbc9f511"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/60-Dont Transform Code Code Transforms. arXiv 2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "62e474bdbfcc8804364a25dbe5c0b5e9c5854a49ce9212911cbe776d08cfef6c"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/61-STARK Strategic Team for Kernels. arXiv 2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "a09ceaf9b5e5828b8404e4cd756dde215de3873565a50a2501c71beef77c9a5e"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/62-Evaluating LLMs Trained on Code. arXiv 2021/paper.pdf",
+      "kind": "pdf",
+      "sha256": "ebae72ea0e8a5eb2ecbccdb985aec6cc1254a7c4d29e6d4de7866db1e66c4855"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/63-DeepSeekMath Mathematical Reasoning. arXiv 2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "6cc20b3c5b8d25b8b53868fc4ec1792c144f07d67bdf7395138efd4422197e7b"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/64-Algorithmic LMs Neurally Compiled. arXiv 2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "b16eadbf7ccf93d9e336e8c3c40c35f5d38d02c3d7b5f1ca08afeec9bca244a0"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/65-GPT-4 Technical Report. arXiv 2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "c33a66dadca2388d7b172d6293b00dc32b71110c6f38fafe0d41112e61be7774"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/66-Gemini Multimodal Models. arXiv 2023/paper.pdf",
+      "kind": "pdf",
+      "sha256": "8ca95b27851b09c335fa2abe9b84cec5848195a5914eec7fb0b635ba2d8fe4fe"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/67-LLMs as Compiler Arabic PL. arXiv 2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "dc3b116dbe6d74a9bd9bd2b8707b25f8f95b2752b967786ac1c71ea8fea3a0d9"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/68-AutoChip Automated HDL Generation. arXiv 2023/paper.pdf",
+      "kind": "pdf",
+      "sha256": "2a1c69fedb453165359b6b3c59fa8a61618b943415e076f98365a39d4bb88fd2"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/69-Learning Perf-Improving Code Edits. arXiv 2023/paper.pdf",
+      "kind": "pdf",
+      "sha256": "79d6ad67ce9dad613b185904d77fd99ae1d2a921d8ae04b1f57697289b818955"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/70-SymRTLo RTL LLM Symbolic Reasoning. arXiv 2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "c7e7d46444174604dfd2d474bca8047315bdfdd237ed001f888039f51af1f25b"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/71-Rome Not Built Hierarchical Chip Design. arXiv 2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "010f12fbfe81bdfa977152d1ab8cf8d1bac84a33eec8c6be6d632d6f9c304d4b"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/72-Make Every Move LLM RTL MCTS. arXiv 2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "815f4be6470ccb7a60dcca828a583b5dd89298d09e89b566a9a9c8c31fc44eb4"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/73-Qimeng-xpiler Tensor Transcompile. arXiv 2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "5091a0c629b0bc8896103686b1f81967ca47860068012e3a01f293b87f2a6e93"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/74-Kevin MultiTurn RL CUDA Kernels. arXiv 2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "05849c4017ef957b110acc096c2cfc2d4bdb8596fa5d6b370ba8921cad1b43c6"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/75-Insights Verification Verilog RL. arXiv 2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "302fa3462a2ae73a4bca5dea171345c38468215bd288c2e9003955645d407535"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/76-Verilocc Cross-Arch Register Alloc. arXiv 2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "a097dab2fdba02d620036bb9561163b1d8e99405d92a7d6642065fe337ba2267"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/77-HPCTranCompile CUDA Dataset. arXiv 2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "33985c2c0b023df7a04d09659fc4c823be79cbdc1eddaa92ab130ccf65e9d359"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/78-AVATAR Java-Python Translation. ACL 2023/paper.pdf",
+      "kind": "pdf",
+      "sha256": "f56a49038017b67d39d02cc0b5d86352e0b1b002b2712cee0f0e0ca0408e6009"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/79-Binary Code Summarization Benchmark. arXiv 2023/paper.pdf",
+      "kind": "pdf",
+      "sha256": "16dda2c23b1b41d8300c3d4cc0e4cee0e970db027bbf471d3b77558303e415bb"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/C07-Code-Optimise-NAACL2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "891cdd9f52cb15af6d3c2cf929b15b314232283fe3d01c05be09f96c69a682c3"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/C34-T-LLM-Compiler-2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "6e00064e50ab719d5b5189ef44d67f2523b97d001a4dec0afaaf84d625836dce"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/C36-PassNet-2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "dd246b1aab50c59c0a6259c475559bb5f7be093bee652aa586f3e69926a69192"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/C37-Magellan-2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "4619366bb337eb723bbe882d9efd07d8f57dca53e95fb7e1de6788a011e7f8bb"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/C40-RACL-2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "14057265f4b632666ca223b17d14ccc2d1f958874796cfecdffe6ae582efa8fd"
+    },
+    {
+      "path": "02_LLM编译优化智能体与反馈驱动/C42-POLO-2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "37bdfdaf6e727f0496e07d214d2ffb84788f8aef7c23f36918f4199c8e9fbf39"
+    },
+    {
+      "path": "03_形式验证_超级优化与规则生成/04-Forklift-Neural-Lifter-COLM2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "71db63ff5485666bfa89cedc4c45432fe6160f6fc59ee968d5728d804c2be890"
+    },
+    {
+      "path": "03_形式验证_超级优化与规则生成/05-OpenCL-Polyhedral-LLM-FedCSIS2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "9649adf2622f9d8cd5c326045739fb2d24cd44717ddb1f86cde3395fd0ab29a3"
+    },
+    {
+      "path": "03_形式验证_超级优化与规则生成/12-LLM-VeriOpt Verification-Guided Reinforcement Learning for LLM-Based Compiler Optimization. CGO/paper.pdf",
+      "kind": "pdf",
+      "sha256": "e241b9754bada249774cbb752c5c63b9bda6b45c90d6648b0f73f6f4725fbca0"
+    },
+    {
+      "path": "03_形式验证_超级优化与规则生成/14-Alive2 Bounded Translation Validation for LLVM. PLDI 2021/paper.pdf",
+      "kind": "pdf",
+      "sha256": "424b50072c05be040344be295a88502459694f34e5291441b4df17bab6b698b6"
+    },
+    {
+      "path": "03_形式验证_超级优化与规则生成/15-Verified Learning for Compiler Optimization An LLM-Based Approach/paper.pdf",
+      "kind": "pdf",
+      "sha256": "32cd5a126fa07f790d35bfe75cb3aaf191b77e73dc156fe1cee9a7b0f8daf13f"
+    },
+    {
+      "path": "03_形式验证_超级优化与规则生成/17-Souper A Synthesizing Superoptimizer. arXiv 2017/paper.pdf",
+      "kind": "pdf",
+      "sha256": "b01f936a799c64e049f88028a49cb23a6396cfbc0e52d28eed5b3b817ae0febc"
+    },
+    {
+      "path": "03_形式验证_超级优化与规则生成/19-STOKE Stochastic Superoptimization. ASPLOS 2013/paper.pdf",
+      "kind": "pdf",
+      "sha256": "76ade11ebee36d100ee2eb77e459c4d1af076ecbbbe41e4cc4600c4ab19f8062"
+    },
+    {
+      "path": "03_形式验证_超级优化与规则生成/20-Minotaur A SIMD-Oriented Synthesizing Superoptimizer. 2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "e82b353ace9e9816deae033f15815c80b16d636ad06d0c55abe5ebb797ac5136"
+    },
+    {
+      "path": "03_形式验证_超级优化与规则生成/21-Lifting-Optimized-Binaries-ACL2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "de65494c19f37f2ee79bfaafaabe44f5c3458f85149eeffa0dd5d7f43abc4dbc"
+    },
+    {
+      "path": "03_形式验证_超级优化与规则生成/22-Compiler-Runtime-Co-Verification-CGO2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "ea41770563d817d95252fa452694c2ed9bffac1f54e15a8e1af923d4bc4611ef"
+    },
+    {
+      "path": "03_形式验证_超级优化与规则生成/30-Alive Automatic LLVM InstCombine Verification. PLDI 2015/paper.pdf",
+      "kind": "pdf",
+      "sha256": "097f616de17f2e9308f5f9d8025e5e3c0e5726c262748e8f8ac35c4aae489f44"
+    },
+    {
+      "path": "03_形式验证_超级优化与规则生成/39-Enhancing Translation Validation of Compiler Transformations with Large Language Models. arXiv/paper.pdf",
+      "kind": "pdf",
+      "sha256": "099ce7976a589aa1e2ce2c62d3b64c710336fdfbbc9825c4f5113335790234a0"
+    },
+    {
+      "path": "03_形式验证_超级优化与规则生成/41-Finding Missed Code Size Optimizations in Compilers using LLMs. arXiv 2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "b179bc9d5af2b600e3aa5177d9fe0e23113f9e292d7a67da612271b3e47b6eaa"
+    },
+    {
+      "path": "03_形式验证_超级优化与规则生成/43-Leveraging Large Language Models for Generalizing Peephole Optimizations. arXiv 2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "cc6838c5daf63ea338fcb0a9827988729b1ede6d26060e798dceaa5a18dbd86c"
+    },
+    {
+      "path": "03_形式验证_超级优化与规则生成/44-Verified Code Transpilation LLMs. arXiv 2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "54f8526fe5f9b06c7dc663b59b8ba93927bea9434f14f6165e2596591636e697"
+    },
+    {
+      "path": "03_形式验证_超级优化与规则生成/45-Test-Free Semantic Mistakes Localization. arXiv 2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "78d082ecce1ff778e9d2c00a3837d1f9e5149d31da0fa4419a35ad46d7956981"
+    },
+    {
+      "path": "03_形式验证_超级优化与规则生成/46-Unsupervised Binary Code Security. EMNLP 2023/paper.pdf",
+      "kind": "pdf",
+      "sha256": "8a98b970e38846559bd397442a5e3f49e870ed7870df5c110d64b7724e449beb"
+    },
+    {
+      "path": "03_形式验证_超级优化与规则生成/47-TFix Text-Text Bug Fix. PMLR 2021/paper.pdf",
+      "kind": "pdf",
+      "sha256": "369489e6399195a137b417dd93d564e65c87a770acb56802aeae3ca3ad79f719"
+    },
+    {
+      "path": "03_形式验证_超级优化与规则生成/48-LLM Security Tests Generation. arXiv 2023/paper.pdf",
+      "kind": "pdf",
+      "sha256": "78dc8d6f7dd0f99042beb2527ca4bbc9f11d204366cad3c925d0f0105eb4f8c4"
+    },
+    {
+      "path": "03_形式验证_超级优化与规则生成/49-Critical Review LLM on SE. arXiv 2023/paper.pdf",
+      "kind": "pdf",
+      "sha256": "312c961ea8fbaa6b4f825f6308d3dc5ccb362c5e37389bd712a2c29ece5ab778"
+    },
+    {
+      "path": "03_形式验证_超级优化与规则生成/50-Evaluating LLMs Compilation Errors. arXiv 2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "c5560634b3a17da547598f2a4e084b6036e9b34bf9590a33cf9e2514b1966427"
+    },
+    {
+      "path": "03_形式验证_超级优化与规则生成/51-Can LLMs Understand IR. arXiv 2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "d1bbd2c48f0defa805f7f94e356b9c09d99b8ec5dfe442a99c718c65237e09ce"
+    },
+    {
+      "path": "03_形式验证_超级优化与规则生成/C01-Dynamic-Allocations-Translation-Validation-2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "8ffa21ddbfdf8e086e6d1a200ebd4dd506d5ca43f344323bce2bcae87b6183a7"
+    },
+    {
+      "path": "03_形式验证_超级优化与规则生成/C08-LPO-Missed-Peephole-Optimizations-ASPLOS2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "bb06d76d7a8c2a8af2204c379f22a9d329b5c7002490eeb464f21b9e063275ed"
+    },
+    {
+      "path": "03_形式验证_超级优化与规则生成/C16-Parallel-Customizable-Equality-Saturation-CC2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "2a672ad16701cd9136c8d71547874cf91f380b83cc95267133852ada773b529b"
+    },
+    {
+      "path": "03_形式验证_超级优化与规则生成/C17-EggMind-LLM-Guided-EqSat-arXiv2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "6b26af0f282ed9510a17a085ecce2ba789dcf1b293393d1a0febef3e91b149f0"
+    },
+    {
+      "path": "03_形式验证_超级优化与规则生成/C18-E-Path-Equality-Saturation-CFG-arXiv2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "b2321b0214c3e4ccedc969dcde90d2f4407a173e127ed48f572d53a8e84137f9"
+    },
+    {
+      "path": "03_形式验证_超级优化与规则生成/C19-STENSO-Tensor-Program-Superoptimization-CGO2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "00f6d3fbe419fa1e3185d9134a486afb7104f554618a0fb44420ec31744f7261"
+    },
+    {
+      "path": "03_形式验证_超级优化与规则生成/C27-Removing-Undef-PLDI2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "57d4180031141dfdc03f69fc4f78694b47ca0840cd4a3c9a49e6a7a54414d251"
+    },
+    {
+      "path": "03_形式验证_超级优化与规则生成/C39-SuperCoder-2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "960aa858fed5a02e2020c1f03b602450e1bee9807df1c2e56aebca2e4b8dbb41"
+    },
+    {
+      "path": "04_向量化与跨ISA代码迁移/13-LLM-Vectorizer LLM-Based Verified Loop Vectorizer. CGO 2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "9bb516c30cbd89082a535a8640ed96aca0060cce2efba6626299f0ed55e2defa"
+    },
+    {
+      "path": "04_向量化与跨ISA代码迁移/26-IntrinTrans LLM-based Intrinsic Code Translator for RISC-V Vector. arXiv 2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "d79470368d201b7a25047fc265e1b945f5ecc5504351640cd0b42af68c2b1f2a"
+    },
+    {
+      "path": "04_向量化与跨ISA代码迁移/27-VecIntrinBench Benchmarking Cross-Architecture Intrinsic Code Migration for RISC-V Vector. arXi/paper.pdf",
+      "kind": "pdf",
+      "sha256": "61ceccad4b5e19fe97df4a9a4be9c3c3628640744837ea5685f2475360bd587e"
+    },
+    {
+      "path": "04_向量化与跨ISA代码迁移/C11-TRACE-Code-Translation-Efficiency-ACL2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "d67007ef06182ed48df0d4eaa4ac3883ad8d19edee32bd71f59311095cbb0166"
+    },
+    {
+      "path": "04_向量化与跨ISA代码迁移/C21-OML-vect-Transformer-Vectorization-CGO2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "e1b8eb0ee8aab682c9ce8fc3611cabd626eb2c67817d733e94de6ad1f6d947d2"
+    },
+    {
+      "path": "05_RISC-V_RVV编译器与真实后端/21-A Performance Analysis of Autovectorization on RVV RISC-V. 2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "56924d3473d9fd902c0acb632fd6347d2f29021dfa5887b4655b444e2e8020d6"
+    },
+    {
+      "path": "05_RISC-V_RVV编译器与真实后端/22-RISC-V Vectorization Coverage for HPC A TSVC-Based Analysis. 2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "ea15df2bebb95c064cba092294854773f39e92cd9f64ab21f801aa5e7e0a37ff"
+    },
+    {
+      "path": "05_RISC-V_RVV编译器与真实后端/23-Closer in the Gap Towards Portable Performance on RISC-V Vector Processors. arXiv 2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "46560d8dff2ad1531197fe4a3de790f514a971c60f97a4c9f43e59969dbbc1c3"
+    },
+    {
+      "path": "05_RISC-V_RVV编译器与真实后端/24-Tensor Program Optimization for the RISC-V Vector Extension Using Probabilistic Programs. arXiv/paper.pdf",
+      "kind": "pdf",
+      "sha256": "e36f0aa5b33e37c8d5546f290afba7c1c44e8cc047cecefcb0fafeae59732fd7"
+    },
+    {
+      "path": "05_RISC-V_RVV编译器与真实后端/C12-MLIR-xDSL-RVV-Lowering-arXiv2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "915a6608949fb828c57195145aa929dacdef05d4026c9dfb610c75fba543817a"
+    },
+    {
+      "path": "05_RISC-V_RVV编译器与真实后端/C20-Synthesized-Instruction-Selection-Backends-CGO2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "be0c51da629193d0edbc5d7d128c68a4551c276d03d4f2550fad127c908a786a"
+    },
+    {
+      "path": "05_RISC-V_RVV编译器与真实后端/C23-Multilevel-RISCV-Backend-CGO2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "e2c408dcbfc0b6602e68162fc7e052d9eddf295ad7531fe9377b57bb002a3ba5"
+    },
+    {
+      "path": "06_多硬件编译_代价模型与IR基础设施/31-TVM An Automated End-to-End Optimizing Compiler for Deep Learning. OSDI 2018/paper.pdf",
+      "kind": "pdf",
+      "sha256": "0ddc28deb2d66ce460d019588ea326ce59bb08290dad09bc2f6ca372b64333c6"
+    },
+    {
+      "path": "06_多硬件编译_代价模型与IR基础设施/32-Learning to Optimize Tensor Programs. NeurIPS 2018/paper.pdf",
+      "kind": "pdf",
+      "sha256": "de0e52aa60363670634707e2ccfdd24c33ec9e08a7717a6054e98281d785c56d"
+    },
+    {
+      "path": "06_多硬件编译_代价模型与IR基础设施/33-Ithemal Accurate, Portable and Fast Basic Block Throughput Estimation using Deep Neural Network/paper.pdf",
+      "kind": "pdf",
+      "sha256": "98c3b4eaa7b611855ca233f17c03017eb2558295f2640faecdecdd5831cb8cea"
+    },
+    {
+      "path": "06_多硬件编译_代价模型与IR基础设施/34-ProGraML A Graph-based Program Representation for Data Flow Analysis and Compiler Optimizations/paper.pdf",
+      "kind": "pdf",
+      "sha256": "487dc1734c14c63ed50b88f8b48d3362e33beb2c5eceba1bbe4b3468d4a63a1b"
+    },
+    {
+      "path": "06_多硬件编译_代价模型与IR基础设施/35-MLIR Scaling Compiler Infrastructure for Domain Specific Computation. CGO 2021/paper.pdf",
+      "kind": "pdf",
+      "sha256": "ca9de3d7b4b176e6523e197ec4a83caa82f988d9654af7b6aa5f0b1a48ae2494"
+    },
+    {
+      "path": "06_多硬件编译_代价模型与IR基础设施/36-Ansor Generating High-Performance Tensor Programs for Deep Learning. OSDI 2020/paper.pdf",
+      "kind": "pdf",
+      "sha256": "73ef4169ed3856f016195bc28a7819e7040274e0af8fb90df2e92a964ea04232"
+    },
+    {
+      "path": "06_多硬件编译_代价模型与IR基础设施/37-XGrammar Structured Generation. arXiv 2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "61e94a1a28bb6307250c4f82a9ff0dcd07273fed80011d6ba7535f388a8fa5f0"
+    },
+    {
+      "path": "06_多硬件编译_代价模型与IR基础设施/38-Efficient Guided Generation LLMs. arXiv 2023/paper.pdf",
+      "kind": "pdf",
+      "sha256": "8888aa2043588e41d0f222b59ca6896e5211816eeca8896db215234ba209aa4f"
+    },
+    {
+      "path": "06_多硬件编译_代价模型与IR基础设施/39-CodeBLEU Code Synthesis Eval. arXiv 2020/paper.pdf",
+      "kind": "pdf",
+      "sha256": "7dae089fe44f0d668fc20b1af43bfbde8e8e6f75fad81acc4e3f4398eff5466e"
+    },
+    {
+      "path": "06_多硬件编译_代价模型与IR基础设施/40-TritonBench Triton Operators. ACL 2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "722c6b43aa76d78faa42c03ac102fe12265a978a5b70d3fe79567cc532abaada"
+    },
+    {
+      "path": "06_多硬件编译_代价模型与IR基础设施/41-CodeNet Large-Scale AI Code. arXiv 2021/paper.pdf",
+      "kind": "pdf",
+      "sha256": "25bf18592b14a64b8ab07878e82264a701e2644103aa1a577380ff9b58961724"
+    },
+    {
+      "path": "06_多硬件编译_代价模型与IR基础设施/42-OMPar AI Source-to-Source Parallel. arXiv 2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "6b3ddf9ff213fb451e481e3585b145b2a04ec315bacc35379dba24dc853c2e34"
+    },
+    {
+      "path": "06_多硬件编译_代价模型与IR基础设施/C02-MLIR-Transform-Dialect-arXiv2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "f5628ea208db4243ad93a3d6b6eaafc9b35296a2861252a7ff72e8b95d2948a3"
+    },
+    {
+      "path": "06_多硬件编译_代价模型与IR基础设施/C03-Upstream-MLIR-AI-Compiler-arXiv2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "20d6112f36e468091549b12dc11e549e02e19a28162e88ce7bbc739f3e098c5a"
+    },
+    {
+      "path": "06_多硬件编译_代价模型与IR基础设施/C04-Korch-Kernel-Orchestration-ASPLOS2024/paper.pdf",
+      "kind": "pdf",
+      "sha256": "343fe7949c493a0bf573fe22e9b35aaedaa811a308397af3872e65cd433729d7"
+    },
+    {
+      "path": "06_多硬件编译_代价模型与IR基础设施/C13-TCL-Cross-Hardware-Tensor-Optimization-arXiv2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "70fd4917a4939b14744b3abcf89cfa41832bf13d88f260c67bcae98c0c48bffd"
+    },
+    {
+      "path": "06_多硬件编译_代价模型与IR基础设施/C14-MLIR-Latency-Hiding-Parallelism-arXiv2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "98356a5607fa8cd6611f85e447f2116e6172ac4fccf5b0d087c428970eccc2fa"
+    },
+    {
+      "path": "06_多硬件编译_代价模型与IR基础设施/C15-RIFS-Run-Time-Invariant-Function-Specialization-CC2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "6b190ab044ac7b0bc8760ee7ef89aa95baa2156df2f76d43da894ceca1de789d"
+    },
+    {
+      "path": "06_多硬件编译_代价模型与IR基础设施/C28-Guided-Tensor-Lifting-PLDI2025/paper.pdf",
+      "kind": "pdf",
+      "sha256": "d5522e79fc29da07f81aedede9a93f8f6f6879fe1951aad30ab7efe12202bb94"
+    },
+    {
+      "path": "06_多硬件编译_代价模型与IR基础设施/C29-Neptune-PLDI2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "2b66bbf43235f79d73699934466d43943b95d5f3e194dcee4b1f23425e67d30a"
+    },
+    {
+      "path": "06_多硬件编译_代价模型与IR基础设施/C32-NEURA-PLDI2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "46e781a5b723b650282f4352e4c8d2935443b1dca3ec0a48a213dfa24c7a01f5"
+    },
+    {
+      "path": "06_多硬件编译_代价模型与IR基础设施/C33-SeGaBench-2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "cf4d6076a55e68c0d079c7fd85c4844c9f5064f13a4751642434b24a86fa6628"
+    },
+    {
+      "path": "06_多硬件编译_代价模型与IR基础设施/C41-LLVM-Bench-2026/paper.pdf",
+      "kind": "pdf",
+      "sha256": "7a14852ffcb8cec24a2686817eb6e8b360be7d4b328e9ed4ce535722c3b92b8a"
+    },
+    {
+      "path": "文献逐篇阅读/00_逐篇阅读目录.md",
+      "kind": "note",
+      "sha256": "d2377bc567a0a3a10d843d5563fa3bbdc952328c2524552e162b09d3f4cb7966"
+    },
+    {
+      "path": "文献逐篇阅读/01_编译阶段排序与强化学习调优/01_AutoPhase_Juggling_HLS_Phase_Orderings_in_Random_Forests_with_Deep_Rei.md",
+      "kind": "note",
+      "sha256": "97bb72681922a713d5c51580c6c842f6ab179d15418a5641d75c1cf873dbcac8"
+    },
+    {
+      "path": "文献逐篇阅读/01_编译阶段排序与强化学习调优/02_Compiler_Phase_Ordering_for_High_Level_Synthesis_with_Deep_Reinforceme.md",
+      "kind": "note",
+      "sha256": "74664e777719ae34f5686e8097dda9cf0ab47c6687e9b53f824b5ad7e6c9263a"
+    },
+    {
+      "path": "文献逐篇阅读/01_编译阶段排序与强化学习调优/03_CompilerGym_Robust_Performant_Compiler_Optimization_Environments_for_A.md",
+      "kind": "note",
+      "sha256": "d2b382f4ccbff6df57cd7288e5a79ee59f04f42ed553b3d7874319577ed18db3"
+    },
+    {
+      "path": "文献逐篇阅读/01_编译阶段排序与强化学习调优/05_MileStone_A_Multi_Objective_Compiler_Phase_Ordering_Framework_arXiv_20.md",
+      "kind": "note",
+      "sha256": "fed8ab106162edc09be8b0fe63f4f55b1170e0d56c4ff4317725810972516332"
+    },
+    {
+      "path": "文献逐篇阅读/01_编译阶段排序与强化学习调优/06_Exploiting_Booster_Pass_Chain_for_Compiler_Phase_Ordering_2025.md",
+      "kind": "note",
+      "sha256": "4bbd4213d052bad1f05c4e64900b1160d5731f995b36bab14c1b45ea28a89b7e"
+    },
+    {
+      "path": "文献逐篇阅读/01_编译阶段排序与强化学习调优/37_Faster_sorting_algorithms_discovered_using_deep_reinforcement_learning.md",
+      "kind": "note",
+      "sha256": "ffd36da49ddef57d0b6ab16e839646e09aa73a6e8cc3ce5f07147592fd6b1e25"
+    },
+    {
+      "path": "文献逐篇阅读/01_编译阶段排序与强化学习调优/46_Large_Language_Models_for_Compiler_Optimization.md",
+      "kind": "note",
+      "sha256": "63a66d9163061b129fd6edc7ae4ae7c796d7f9297a4017b8d0df96b51cce4751"
+    },
+    {
+      "path": "文献逐篇阅读/01_编译阶段排序与强化学习调优/47_Priority_Sampling_of_LLMs_for_Compilers.md",
+      "kind": "note",
+      "sha256": "224e6efad2c540e6cabe7fbbfd452b6c12381f132032999473091686f7a8f8ea"
+    },
+    {
+      "path": "文献逐篇阅读/01_编译阶段排序与强化学习调优/48_CompilerDream_World_Model.md",
+      "kind": "note",
+      "sha256": "32f5d9efbc9b6af76efd7fe7382a32e1deced3904c94ff337749a5d6c68b6935"
+    },
+    {
+      "path": "文献逐篇阅读/01_编译阶段排序与强化学习调优/49_Reasoning_for_LLM_Peephole_Optimization.md",
+      "kind": "note",
+      "sha256": "0b3eeacdc95215659adec7da3b5a8ba74d1d0aac3c58aed95fc337ac3fec8d79"
+    },
+    {
+      "path": "文献逐篇阅读/01_编译阶段排序与强化学习调优/50_AI_Powered_Compiler_Techniques_for_DL.md",
+      "kind": "note",
+      "sha256": "e6685e0f50a74c0292be2df43637dba3e7dd0f99f8536126c437331ceb3e0df0"
+    },
+    {
+      "path": "文献逐篇阅读/01_编译阶段排序与强化学习调优/51_Problem_Oriented_Code_Optimization.md",
+      "kind": "note",
+      "sha256": "f0b2f9aabc8d9ecb56a2785b26d5520381ea782ff10db89565bd3abdbe91554c"
+    },
+    {
+      "path": "文献逐篇阅读/01_编译阶段排序与强化学习调优/52_PerfRL_Small_Language_Model_Code_Optimization.md",
+      "kind": "note",
+      "sha256": "be425b7be84f97af986e78e720fd78c45f818c1f529e07670571e708eb4544b1"
+    },
+    {
+      "path": "文献逐篇阅读/01_编译阶段排序与强化学习调优/53_BenchDirect_Directed_Compiler_Benchmarks.md",
+      "kind": "note",
+      "sha256": "fb2ca3f20c05e9a99c6f5a03d07f7abdbab60680f4e416d02cc165e318aee89a"
+    },
+    {
+      "path": "文献逐篇阅读/01_编译阶段排序与强化学习调优/54_Neural_Instruction_Combiner_for_LLVM.md",
+      "kind": "note",
+      "sha256": "ac467b05ec5ffd9a71f7035ac4e1c9f5468fc2e91380e895f67a5969d4757aa3"
+    },
+    {
+      "path": "文献逐篇阅读/01_编译阶段排序与强化学习调优/C05_CITROEN_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "0ad980527aa3f374b790c2ef3d115e75dcbd93b148f6bbdfed3de3ce8009f7af"
+    },
+    {
+      "path": "文献逐篇阅读/01_编译阶段排序与强化学习调优/C06_AwareCompiler_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "e2c8d183eb1d63809482102a4779e6d6fb5e674c316a762e08398160d3cd822e"
+    },
+    {
+      "path": "文献逐篇阅读/01_编译阶段排序与强化学习调优/C09_ECCO_Causal_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "5d04498ccbf535da936783f69cd779dc95b22b358d5eff516d93fe879140a7e9"
+    },
+    {
+      "path": "文献逐篇阅读/01_编译阶段排序与强化学习调优/C10_Protean_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "0714d8e1a9e15875c21013f492c5a6fdda74c7cbd822bdc6b0c69bf8e120d6b1"
+    },
+    {
+      "path": "文献逐篇阅读/01_编译阶段排序与强化学习调优/C22_MLIR_RL_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "e5741a7b20ab2e94f277f8bb13c3d97022e4a7e6681631c09e40802fc82b6cd8"
+    },
+    {
+      "path": "文献逐篇阅读/01_编译阶段排序与强化学习调优/C24_Pearl_Automatic_Code_Optimization_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "4de8df9206eba7f6dca49a5bf6307469536d505673f90093f5cabaf0c73c8cf2"
+    },
+    {
+      "path": "文献逐篇阅读/01_编译阶段排序与强化学习调优/C25_DeCOS_Compiler_Optimization_Selection_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "eabf4635387acee3c94cd072c512cb9bdf12f821d41056e0cd33b4cc53a49cdf"
+    },
+    {
+      "path": "文献逐篇阅读/01_编译阶段排序与强化学习调优/C30_RACE_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "fcba5a4fd8eb2f4bd9ca5660e0b4e2fdfaa7cd4e115060da7b731e8b1ac59b2a"
+    },
+    {
+      "path": "文献逐篇阅读/01_编译阶段排序与强化学习调优/C31_Poseidon_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "4f926859bfb52ced607ab9809d7ed5905407b640aa904adb142e20fb452ba65c"
+    },
+    {
+      "path": "文献逐篇阅读/01_编译阶段排序与强化学习调优/C35_AutoPass_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "5da1bc7d5ab1f6ff88817658fcf801ee83f9c306be4f05089c0a012ce775baff"
+    },
+    {
+      "path": "文献逐篇阅读/01_编译阶段排序与强化学习调优/C38_LiteCoOp_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "63ea6b39a37e661a640a5048920b1236454e484721b62376b0e2c18c5e3459d5"
+    },
+    {
+      "path": "文献逐篇阅读/01_编译阶段排序与强化学习调优/N01_Should_AI_Optimize_Your_Code_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "9077626919181cc4d815b7056f26bcfca2afd1994d7b0cebff1f88ffc68a389f"
+    },
+    {
+      "path": "文献逐篇阅读/01_编译阶段排序与强化学习调优/N02_Energy_Efficient_Code_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "d809bbd239c0288968cab6b8c8c8056a9f56e3338faf0351ce29d73c9b7dfd76"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/04_Compiler_R1_Towards_Agentic_Compiler_Auto_tuning_with_Reinforcement_Le.md",
+      "kind": "note",
+      "sha256": "bdfb1118d5c3a899878aaccb52d704262152df36137a2dedbfade1a11fa7134a"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/07_Meta_Large_Language_Model_Compiler_Foundation_Models_of_Compiler_Optim.md",
+      "kind": "note",
+      "sha256": "c920af4c529bbd7f99ea767752afb45169de4399842799e1161af12850f40a7e"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/08_Foundation_Language_Models_for_Compiler_Optimization_2025.md",
+      "kind": "note",
+      "sha256": "dee918c6101a5d94d8bc1cfaf8b3a5bfe31c7530cdedc8c4a4212c7f28ae12a7"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/09_A_Survey_on_the_Synergy_of_LLMs_and_Compilers_arXiv_2026.md",
+      "kind": "note",
+      "sha256": "b6157e839c64604d2e823278de26d0e6123573c1bb22cec778bbeb4bba19545d"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/10_Compiler_Optimization_via_LLM_Reasoning_for_Efficient_Model_Serving_ar.md",
+      "kind": "note",
+      "sha256": "4b8c56bdd0fb6c1984000bf713ebbcd5573ea78285d12e7a6d7585245be1f740"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/11_Agentic_Code_Optimization_via_Compiler_LLM_Cooperation_arXiv_2026.md",
+      "kind": "note",
+      "sha256": "96c3cf81f6ad975f53d3b38b3195b7f69bb16d40ac4c39a18e71a5468c16cebd"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/16_Beyond_Pass_by_Pass_Optimization_Intent_Driven_IR_Optimization_with_La.md",
+      "kind": "note",
+      "sha256": "89f7fc719093c0d2ae2fce03aea03226310a9affb668571c2a4bcefc9b113881"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/38_Compiler_generated_feedback_for_Large_Language_Models_arXiv_2024.md",
+      "kind": "note",
+      "sha256": "7888cfd3eb003157e6f6a0ac9d30d73d5059b9f17eb370456063c8694e3655c0"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/40_VecTrans_Enhancing_Compiler_Auto_Vectorization_through_LLM_Assisted_Co.md",
+      "kind": "note",
+      "sha256": "42e936076fab35b241d7f9f0e963afafdbfa7fa8fda4ec4d6c713abca2ab15cf"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/42_CompilerGPT_Leveraging_Large_Language_Models_for_Analyzing_and_Acting_.md",
+      "kind": "note",
+      "sha256": "308169a7f175c38bfa10ea03cb81be91f48b3cb9ab5ffef0d2ffbe32e7011df5"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/45_Beyond_Pass_by_Pass_Optimization_Intent_Driven_IR_Optimization_with_La.md",
+      "kind": "note",
+      "sha256": "f7b3283b6706e9359a12b700a9d73c1c3f2cbc212fa17f0c0495951ac289e2ad"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/55_Program_Synthesis_with_Large_Language_Models.md",
+      "kind": "note",
+      "sha256": "79c0804eb7f011bfd5bb0d5ec0029520af9a311f24b1b6b3ff4676e2567cfd10"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/56_Learning_C_to_x86_Translation.md",
+      "kind": "note",
+      "sha256": "5ebc44ce3bb350643e3457ec61dfeb5c371b4d64f1c9ff4ecbb3d0fbbc49cd07"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/57_Compiler_Semantics_for_C_to_x86_LLMs.md",
+      "kind": "note",
+      "sha256": "328678089f6a12ab8fd20b9b57ffc96ea564f46763c597fb33ad34545f0c1a4a"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/58_LEGO_Compiler_Composable_Neural_Compilation.md",
+      "kind": "note",
+      "sha256": "087d00122eed8b7e7ea61c16f6613a3cbf027b42cbaeaefea6e2f3850335ad9c"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/59_Rectifier_for_Code_Translation.md",
+      "kind": "note",
+      "sha256": "990136f7989ddd27deab1afe4e516be8fd17f4212b8fb08a02bace1709a536b4"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/60_Virtual_Compiler_for_Assembly_Search.md",
+      "kind": "note",
+      "sha256": "df050d98f4747768e96467805f13ea345d68e8a90b5f70c8aac6fec1774335c4"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/61_COCOGEN_Compiler_Feedback.md",
+      "kind": "note",
+      "sha256": "6d189add00bb714cc70806161e1c733fdb51edd403240923dec0f3daa0b14260"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/62_LLM4Decompile.md",
+      "kind": "note",
+      "sha256": "355b3a4dec4ba05161e2406bb16bc3f4badb1be58768f33a545e6ebac08fa406"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/63_GENNM_Decompiler_Name_Recovery.md",
+      "kind": "note",
+      "sha256": "5b19dd0bbd5fdc6bf8428d39f8c6a82ec81dab12279a183adabb17f373a25d25"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/64_Autocomp_Tensor_Accelerator_Optimization.md",
+      "kind": "note",
+      "sha256": "ad0e0f0e32e254a2c96d735fff958db03f7139645743822f842957cec971265f"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/65_ECO_Warehouse_Scale_Code_Optimizer.md",
+      "kind": "note",
+      "sha256": "8c6b420da2af909c0b2a662577dad0021192eca3187091b6444f514d34503ef5"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/66_CUDA_L1_Contrastive_RL.md",
+      "kind": "note",
+      "sha256": "9425851aa4edcba27d8836e38cce8541ab860160ebd91b1adc6e9f4301fa3185"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/67_SLaDe_Portable_Decompiler.md",
+      "kind": "note",
+      "sha256": "183f3b8ec5b8150426a72ca9ad75c4bc0f3fdafbc9765955739cf48cba0fd178"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/68_CompileAgent_Repo_Level_Compilation.md",
+      "kind": "note",
+      "sha256": "c167be6a6b668fee929bceee80e23a7fad2723653279c04d2585aed3c369cf38"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/69_AIOS_Compiler_Natural_Language_Programming.md",
+      "kind": "note",
+      "sha256": "9a9a17dd4439893b0f021eabe8ee252418b089c851fb37b2acaac0e4a934cfe6"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/70_Code_the_Transforms.md",
+      "kind": "note",
+      "sha256": "2adb68202de068cb1d3b9ef1c20bb1cd38e764efbd634a25ec38bb133a973799"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/71_STARK_Multi_Agent_GPU_Kernels.md",
+      "kind": "note",
+      "sha256": "c995624a25afedcae584bef1335a062eceea245ac774a56364ee0e8d815ef02e"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/72_Codex_and_HumanEval.md",
+      "kind": "note",
+      "sha256": "e648e76ffdbb30731c7a20e03252cccb3a7983d32a991b62283b1631116f7c2c"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/73_DeepSeekMath_and_GRPO.md",
+      "kind": "note",
+      "sha256": "a945fca3916138931ddadd6799a3f35c3df2b7ff9e47bed9d77cb16817021df0"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/74_Algorithmic_LMs_with_Neurally_Compiled_Libraries.md",
+      "kind": "note",
+      "sha256": "b4c63b44eef094c875e16932332fa7191904b92a6911d6d7c4bf724a7d8345ac"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/75_GPT_4_Technical_Report.md",
+      "kind": "note",
+      "sha256": "d9490ae645d01dff7324b9810b2fed1e06a9c342969ccedb27735694337fc954"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/76_Gemini_Multimodal_Models.md",
+      "kind": "note",
+      "sha256": "159bd7a74fc0ecfb2fb5aec1f9b250d49fdf72e114dc5c6bcdabfc8d778c68cd"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/77_Arabic_Programming_Language_with_LLM.md",
+      "kind": "note",
+      "sha256": "0ec7d0e96108491ca5c63b33310d517e4daaa3c933d9da232becae0330c82759"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/78_AutoChip_HDL_Feedback.md",
+      "kind": "note",
+      "sha256": "e6444991c23c5ebba448df33da833b29cff35b93aaac2495678a979e3f8be25c"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/79_PIE_Performance_Improving_Code_Edits.md",
+      "kind": "note",
+      "sha256": "2f36dcec3b6389c127a5fc136f67c7f9e1e50e9fc46d5ff22eca5efee3ae303a"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/80_SymRTLO_Neuro_Symbolic_RTL_Optimization.md",
+      "kind": "note",
+      "sha256": "c03acfec061eda3833439f05df2b708db05d496152fb574e3298da249478e4fd"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/81_Hierarchical_Prompting_for_Chip_Design.md",
+      "kind": "note",
+      "sha256": "2c6e42d19da332d71682843c0df989cf193cb5b807d9ab86283dca251b4003e0"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/82_MCTS_RTL_Generation.md",
+      "kind": "note",
+      "sha256": "0812e825eb3e944165c3ada5ae54a06496216e2209978d27a44fc0adb4ea45e6"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/83_QiMeng_Xpiler_Neural_Symbolic_Transcompiler.md",
+      "kind": "note",
+      "sha256": "cd56be6ff868b5847e8768e3ab258456715dac0186a67b7c27126ddef3ad44ba"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/84_Kevin_Multi_Turn_RL_CUDA.md",
+      "kind": "note",
+      "sha256": "06021c278da4abc103d0f03abc11774ba6bdf77a90967856b191a401806c5643"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/85_Verilog_RL_with_Testbench_Feedback.md",
+      "kind": "note",
+      "sha256": "9e35e06694081f71a5b8d3ea35a8e8286b543f4d42798074100bd517ddd520db"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/86_Verilocc_Cross_Architecture_Register_Allocation.md",
+      "kind": "note",
+      "sha256": "786cc4bd60265fb67fe8cc4a04c7582dd1c52417804cd7cb7cdd16d607e54e06"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/87_HPCTransCompile_CUDA_Transpilation_Dataset.md",
+      "kind": "note",
+      "sha256": "153ff08c5c4ccfd3cc11a58a0939dc8f47d4d5df85bd745b86cdb5bf8158e437"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/88_AVATAR_Java_Python_Translation.md",
+      "kind": "note",
+      "sha256": "41c90cc141cf21ffa1d34956907194a8ebe5d0100b1ea84be74e57740f85bdee"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/89_BinSum_Binary_Code_Summarization.md",
+      "kind": "note",
+      "sha256": "a1b576b3bda677dd4130dd5393ffef80f5c2e1d1f2ed8b9f6fce7f5f916d80ac"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/C07_Code_Optimise_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "57b31abd5296449ddaa59292f72649cfdddfffc87076073754089d41536c04da"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/C34_T-LLM-Compiler_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "647201021a950ebb229e6021d85a4382b169aacc979e7118c1384012e52e8148"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/C36_PassNet_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "5d37c40db03f4911738852c09b195927cfce81ed95607e208ee617cd81233c00"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/C37_Magellan_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "3a1c20bc0c4e4daf08eff153a01bcfc0f16d2231fd535467aa5a7eae152ce96a"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/C40_RACL_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "3edae79f19541df3de54fda110e338fee2d85259ea5a9c5734b8b2e087eaab99"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/C42_POLO_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "61beb5702377a56a4c215165821c88b010315836e3ae97c900b87b0785ffc78d"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/N03_StepCoder_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "670f3d105943bdec53c77821a71e4cf677ea2f059a1663c0e138012664d3fbe4"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/N04_ECCO_Code_Efficiency_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "c552c8ea8070d66ff5ae908bfacfb72954e7821cd830559d18353375905f53bc"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/N05_Judging_Code_Efficiency_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "5576fc0f2b26b738a91a4bedb220b17704488990e21c7eb94c651bd010d00d0b"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/N06_PyCraft_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "07029eaabdadda27b5e2ba8ba3bd3b1414085a55b1d218637d22b0fbba5fc63f"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/N07_SBLLM_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "e09142e671f5efea2dd76a6417c9aedbc37595a839027b9a6571d5746ec777d3"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/N08_BITE_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "fb46ca3d024aefbd6ab77ea3b427fc962e136a86438038983c709b82c19188b1"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/N09_DecLLM_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "c7c06599cd561f9151eac2c3bfb2477936ba23d10e2d35844d17df0ab7d1dcc5"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/N10_GraphGlue_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "b9b1c20e763977d6a1ce925126bba7e3212c705b6a23e8a945510f79226e03a4"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/N11_PtxDec_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "f1efaa7752ba74027c9d5854a644c2a0d479dfbec7105ec6efb1c8f04014e2a7"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/N12_ZeroShot_Parallelization_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "bc504c1ce6fb06405d617ba6bec4f26347abebeb48a9dcbb5b54db221bca39ca"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/N13_NPUEval_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "e6190570737adfa0f77dcca347fff144d22c96172422c2c6625e57eae0813cab"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/N14_MEP_GPU_Optimization_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "495693789991473e1db474121d40f8cacc401b707b6c4467991dc5d256c30ff1"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/N15_HintPilot_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "023d85770b6bf61a77b5bcb28a9824ae73bdb9335027cd85afb6d4f3ba986edc"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/N16_PerfCoder_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "63d48a23aae57c6819d2de8c024866054ce714f48f55b1449b81d5210ebd016e"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/N17_AutoVecCoder_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "4f591a549aebaec0a797c5eb1850cecb931138c6ce531e983ba1914da0143166"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/N18_FSCM_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "06761ff431f99597ea80514f8796718fbecaab48192c806effe50691f74edd70"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/N19_Ditto_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "5afad0342c568984f781ce95d44ef0f64a62b3dca47cfc14e44b23f3ddbfbd7c"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/N20_CODMAS_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "f861ff058456ce5ca98ade1e844be606702bcfeeef40e03edd082edf46ba85a3"
+    },
+    {
+      "path": "文献逐篇阅读/02_LLM编译优化智能体与反馈驱动/N21_Compiler_Agent_Impact_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "8b8f0357fb538084d6c5f53cf4c60d3bb058ab335bfd091925df2ed8f7805ca5"
+    },
+    {
+      "path": "文献逐篇阅读/03_形式验证_超级优化与规则生成/12_LLM_VeriOpt_Verification_Guided_Reinforcement_Learning_for_LLM_Based_C.md",
+      "kind": "note",
+      "sha256": "c21ac16cb456dd9db9ce03d7a8f831bca6791f8baa647f214841bdb14cffa78c"
+    },
+    {
+      "path": "文献逐篇阅读/03_形式验证_超级优化与规则生成/14_Alive2_Bounded_Translation_Validation_for_LLVM_PLDI_2021.md",
+      "kind": "note",
+      "sha256": "57f464e933e32d1f1525d2c5d6bbd1b9914239db161318062f9c886af4fea3b8"
+    },
+    {
+      "path": "文献逐篇阅读/03_形式验证_超级优化与规则生成/15_Verified_Learning_for_Compiler_Optimization_An_LLM_Based_Approach.md",
+      "kind": "note",
+      "sha256": "47023ad9e3ce49cf917be52c476ae48f161fbc52835bfbd671ed4c1b5eeb35d2"
+    },
+    {
+      "path": "文献逐篇阅读/03_形式验证_超级优化与规则生成/17_Souper_A_Synthesizing_Superoptimizer_arXiv_2017.md",
+      "kind": "note",
+      "sha256": "5415a4ddca75f18d69c48605e17dda469df7ef0d56a196d9727284ae07deaebe"
+    },
+    {
+      "path": "文献逐篇阅读/03_形式验证_超级优化与规则生成/18_Souper_GitHub_Repository.md",
+      "kind": "note",
+      "sha256": "ebaff0ba108c914c4a92cec38005c9618da2a2620e430a9b1298a314dacf317a"
+    },
+    {
+      "path": "文献逐篇阅读/03_形式验证_超级优化与规则生成/19_STOKE_Stochastic_Superoptimization_ASPLOS_2013.md",
+      "kind": "note",
+      "sha256": "fe8f92fc9fb82971d86cae2048eb56161c592238b2ca4362f6f8cee1f0d4bfe1"
+    },
+    {
+      "path": "文献逐篇阅读/03_形式验证_超级优化与规则生成/20_Minotaur_A_SIMD_Oriented_Synthesizing_Superoptimizer_2024.md",
+      "kind": "note",
+      "sha256": "9d322c011061c64b12ee12f63ce902e37f07de2cf2187048904125f9e37a6057"
+    },
+    {
+      "path": "文献逐篇阅读/03_形式验证_超级优化与规则生成/30_Alive_Automatic_LLVM_InstCombine_Verification_PLDI_2015.md",
+      "kind": "note",
+      "sha256": "6716eea94c83f28c5720ea3915322ee56732e939b6fe7882c6793011691732f2"
+    },
+    {
+      "path": "文献逐篇阅读/03_形式验证_超级优化与规则生成/39_Enhancing_Translation_Validation_of_Compiler_Transformations_with_Larg.md",
+      "kind": "note",
+      "sha256": "542fe86cdda0e8f09926a95a33e6d04b8aa630731670cfb7e23cce54497edeb0"
+    },
+    {
+      "path": "文献逐篇阅读/03_形式验证_超级优化与规则生成/41_Finding_Missed_Code_Size_Optimizations_in_Compilers_using_LLMs_arXiv_2.md",
+      "kind": "note",
+      "sha256": "d951f36a0032e07a35dd8c446f84f2cf8e0a4e32845764e9265951a18bfab1b9"
+    },
+    {
+      "path": "文献逐篇阅读/03_形式验证_超级优化与规则生成/43_Problem_Oriented_Code_Optimization_Duplicate_Copy.md",
+      "kind": "note",
+      "sha256": "539e688db6990c5d5105443fd9c76d296249b4f40a1ee2047328982daff8eccd"
+    },
+    {
+      "path": "文献逐篇阅读/03_形式验证_超级优化与规则生成/44_Leveraging_Large_Language_Models_for_Generalizing_Peephole_Optimizatio.md",
+      "kind": "note",
+      "sha256": "3120342e052a2513208c071871292042561671a795f9a165a4ed302ae67b8e34"
+    },
+    {
+      "path": "文献逐篇阅读/03_形式验证_超级优化与规则生成/90_LLMLIFT_Verified_Code_Transpilation.md",
+      "kind": "note",
+      "sha256": "aaf7db6433e95e176d4fd781bf0e30cb00af5c72d9b128ac4855ab50898f2083"
+    },
+    {
+      "path": "文献逐篇阅读/03_形式验证_超级优化与规则生成/91_EISP_Test_Free_Semantic_Localization.md",
+      "kind": "note",
+      "sha256": "c2e449fdada9e0aa9374549ac7f6f601025ffbd2b5722ed5dce3d261632192e0"
+    },
+    {
+      "path": "文献逐篇阅读/03_形式验证_超级优化与规则生成/92_UnsupervisedBinTrans_Cross_ISA_Binary_Translation.md",
+      "kind": "note",
+      "sha256": "6c88284af6afbc20d7704a9a1eb616410f1e4c1272b784b82ee37f15e7be4a4b"
+    },
+    {
+      "path": "文献逐篇阅读/03_形式验证_超级优化与规则生成/93_TFix_Text_to_Text_Bug_Repair.md",
+      "kind": "note",
+      "sha256": "b432f16dbbd6922a4872f6f18aaddb0b07ac7945e056e4796aa0754a57ec0e51"
+    },
+    {
+      "path": "文献逐篇阅读/03_形式验证_超级优化与规则生成/94_LLM_Security_Test_Generation.md",
+      "kind": "note",
+      "sha256": "0c04133ed4e3f521841347814fc0a2c9bb98d8f02fd74e8069004952b46cb9ea"
+    },
+    {
+      "path": "文献逐篇阅读/03_形式验证_超级优化与规则生成/95_EvalGPTFix_Data_Leakage_Aware_Repair.md",
+      "kind": "note",
+      "sha256": "85e0f0549d9434446a9602c61f547ca1b779e944f4d6afdc7bc1af653f55f5f3"
+    },
+    {
+      "path": "文献逐篇阅读/03_形式验证_超级优化与规则生成/96_LLMs_for_Compilation_Errors.md",
+      "kind": "note",
+      "sha256": "592e0d0b9aafbb0febadb0de3e66050a5860d1a47fa85aea022c2c487e481f09"
+    },
+    {
+      "path": "文献逐篇阅读/03_形式验证_超级优化与规则生成/97_LLM_Understanding_of_Compiler_IR.md",
+      "kind": "note",
+      "sha256": "24582385fb87b3900fc929376829cd4c89163d4f93e298b4ae559fb37a57a390"
+    },
+    {
+      "path": "文献逐篇阅读/03_形式验证_超级优化与规则生成/C01_Dynamic_Allocations_Translation_Validation_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "799f66924aaa6f9e4f838a6377e44547aeb64f09b4538f7899dbd9732e34e9a1"
+    },
+    {
+      "path": "文献逐篇阅读/03_形式验证_超级优化与规则生成/C08_LPO_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "a73541be2ea82d9128fe9e697ee1b3478ae46b89e7cc95f42c9a4672e486eda5"
+    },
+    {
+      "path": "文献逐篇阅读/03_形式验证_超级优化与规则生成/C16_Foresight_Equality_Saturation_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "2e1766ea7ca0d8a6aff634225d5b605a96485001d3f4c75a5cd9904de70585b0"
+    },
+    {
+      "path": "文献逐篇阅读/03_形式验证_超级优化与规则生成/C17_EggMind_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "10ee6ba93bc4f08962fb9af929373debe9e4204f81376b99201c16a9260e351d"
+    },
+    {
+      "path": "文献逐篇阅读/03_形式验证_超级优化与规则生成/C18_E_Path_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "62ca27b3cece88f4260a4efd341aa6e9410b5b1d63d3157f628073e982694f3c"
+    },
+    {
+      "path": "文献逐篇阅读/03_形式验证_超级优化与规则生成/C19_STENSO_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "a1ad64e94566109d41f4e049aa258627a3d7e8d236aef845a7b8e745f8e697f1"
+    },
+    {
+      "path": "文献逐篇阅读/03_形式验证_超级优化与规则生成/C27_Towards_Removing_Undef_Values_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "8da3922d659605229d966786470a0ec12e0e4b9e0e8f9c2a99eac79e7feab95d"
+    },
+    {
+      "path": "文献逐篇阅读/03_形式验证_超级优化与规则生成/C39_SuperCoder_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "be73fd755a30496b1e243a7a21a88d5de933f6a312bbf5d3dad69f1130572ae2"
+    },
+    {
+      "path": "文献逐篇阅读/03_形式验证_超级优化与规则生成/N22_Forklift_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "76d0105797adc3f49731886b5f640af72bc0efab193d9eba3ed5b301cdf3c674"
+    },
+    {
+      "path": "文献逐篇阅读/03_形式验证_超级优化与规则生成/N23_OpenCL_Polyhedral_LLM_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "f6e805d3cb77a69b26761b20a1f9b95fde17a15d639abf0263fcdc8f250a6fca"
+    },
+    {
+      "path": "文献逐篇阅读/03_形式验证_超级优化与规则生成/N24_BRIDGE_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "3f196ead3e9d5139c3d130059a63c19c34251eaae50d011959768ae2f9301ae5"
+    },
+    {
+      "path": "文献逐篇阅读/03_形式验证_超级优化与规则生成/N25_CoV_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "3dc6d690afc430ce6abb4a1aba3285a4cddcceb4b3af57e8f839d6ff11ecbc13"
+    },
+    {
+      "path": "文献逐篇阅读/04_向量化与跨ISA代码迁移/13_LLM_Vectorizer_LLM_Based_Verified_Loop_Vectorizer_CGO_2025.md",
+      "kind": "note",
+      "sha256": "5a8c63b10d44686cdcc10b92dec203d434eba68360720be5619204581a393cc9"
+    },
+    {
+      "path": "文献逐篇阅读/04_向量化与跨ISA代码迁移/26_IntrinTrans_LLM_based_Intrinsic_Code_Translator_for_RISC_V_Vector_arXi.md",
+      "kind": "note",
+      "sha256": "9eb5e6fedba6d2079cfcc7abc36b04c4bee635236126005051007eb471939b12"
+    },
+    {
+      "path": "文献逐篇阅读/04_向量化与跨ISA代码迁移/27_VecIntrinBench_Benchmarking_Cross_Architecture_Intrinsic_Code_Migratio.md",
+      "kind": "note",
+      "sha256": "12de38dacdfd4b18fc09c63d472b3a8583f7fcbe48dd06da2711c36ef39ccf24"
+    },
+    {
+      "path": "文献逐篇阅读/04_向量化与跨ISA代码迁移/28_neon2rvv_A_Translator_from_ARM_NEON_Intrinsics_to_RISC_V_Vector_Extens.md",
+      "kind": "note",
+      "sha256": "d37af788a9497b2bdadf78b891d1d6e8229b36eb91148c8c99d58e3246ec1263"
+    },
+    {
+      "path": "文献逐篇阅读/04_向量化与跨ISA代码迁移/C11_TRACE_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "f93b37daebacf697493907c23a80c40fbbac5190a3ea2b8d64e6bcdb99ba32c2"
+    },
+    {
+      "path": "文献逐篇阅读/04_向量化与跨ISA代码迁移/C21_OML_vect_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "be52a9759d1dbf809ccea8d55bda79f3a9046176a2c3f3772a570646f2043d16"
+    },
+    {
+      "path": "文献逐篇阅读/05_RISC-V_RVV编译器与真实后端/21_A_Performance_Analysis_of_Autovectorization_on_RVV_RISC_V_2025.md",
+      "kind": "note",
+      "sha256": "6505d308e4428670b332d5e398fd6b7b008dd95826810bf0d07c533225f4b999"
+    },
+    {
+      "path": "文献逐篇阅读/05_RISC-V_RVV编译器与真实后端/22_RISC_V_Vectorization_Coverage_for_HPC_A_TSVC_Based_Analysis_2025.md",
+      "kind": "note",
+      "sha256": "1e1cf46ef88df09139dbe243dd87431fb1fc836a21aff6a6ee6a8c017da48089"
+    },
+    {
+      "path": "文献逐篇阅读/05_RISC-V_RVV编译器与真实后端/23_Closer_in_the_Gap_Towards_Portable_Performance_on_RISC_V_Vector_Proces.md",
+      "kind": "note",
+      "sha256": "2e090c64f5e2762fb1ae3c6f89ce1054fa57d43ab9eda63bb244c4c9883f0ddd"
+    },
+    {
+      "path": "文献逐篇阅读/05_RISC-V_RVV编译器与真实后端/24_Tensor_Program_Optimization_for_the_RISC_V_Vector_Extension_Using_Prob.md",
+      "kind": "note",
+      "sha256": "59d973ba90afebbfce037848f9d13f5764b8e0aa0b9b5046ff420d7a3773cd77"
+    },
+    {
+      "path": "文献逐篇阅读/05_RISC-V_RVV编译器与真实后端/25_RISC_V_LLVM_backend_optimization_incubator_RVCC_discussion.md",
+      "kind": "note",
+      "sha256": "50e6cca4c7d954286fa9c23bd3c9a0e609d4e92f8b2c8f749b01ca448f5f6e27"
+    },
+    {
+      "path": "文献逐篇阅读/05_RISC-V_RVV编译器与真实后端/29_RISC_V_Vector_C_Intrinsic_Specification.md",
+      "kind": "note",
+      "sha256": "b5e40da5049b402e6bd3fe39100c7fba442340a97fbee89a5488882b846d142a"
+    },
+    {
+      "path": "文献逐篇阅读/05_RISC-V_RVV编译器与真实后端/C12_MLIR_xDSL_RVV_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "a7d68aa8b6b7e2f919e7598aa550667371e1b7fa68cf3c69ccbd6e77b6e839b7"
+    },
+    {
+      "path": "文献逐篇阅读/05_RISC-V_RVV编译器与真实后端/C20_指令选择后端综合_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "75a9b6144ccf9d73fa5f0664ab9acb98792d3f82c78c64aa7468837d97b92a39"
+    },
+    {
+      "path": "文献逐篇阅读/05_RISC-V_RVV编译器与真实后端/C23_Multilevel_RISCV_Backend_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "ce11068428aab6bd3136d143a3af4d59dc35627e83250802a93792582a21b7f8"
+    },
+    {
+      "path": "文献逐篇阅读/06_多硬件编译_代价模型与IR基础设施/100_CodeBLEU.md",
+      "kind": "note",
+      "sha256": "f50713ca7d37afa76a05af3696735b98c46ba0c7e1eeca0ec021086aab090232"
+    },
+    {
+      "path": "文献逐篇阅读/06_多硬件编译_代价模型与IR基础设施/101_TritonBench.md",
+      "kind": "note",
+      "sha256": "eef2a9f8ab21dd7d8ff439e4cb4bd882552b5dffa18d7f805e405582b0d07571"
+    },
+    {
+      "path": "文献逐篇阅读/06_多硬件编译_代价模型与IR基础设施/102_CodeNet.md",
+      "kind": "note",
+      "sha256": "faa12cfd623f7995b88e896025d8c5c7d6e021c07beaa3ec3a81d8413867b2d3"
+    },
+    {
+      "path": "文献逐篇阅读/06_多硬件编译_代价模型与IR基础设施/103_OMPar_OpenMP_Parallelization.md",
+      "kind": "note",
+      "sha256": "14fe8deb141fa56c1e0ac0b485f5092f9a2292ecd453c2d56b4e307db48025b2"
+    },
+    {
+      "path": "文献逐篇阅读/06_多硬件编译_代价模型与IR基础设施/31_TVM_An_Automated_End_to_End_Optimizing_Compiler_for_Deep_Learning_OSDI.md",
+      "kind": "note",
+      "sha256": "929320f6ff0006326f10c28ac68d7597f786dde4ea95b41d2dd216f20bcf0ffc"
+    },
+    {
+      "path": "文献逐篇阅读/06_多硬件编译_代价模型与IR基础设施/32_Learning_to_Optimize_Tensor_Programs_NeurIPS_2018.md",
+      "kind": "note",
+      "sha256": "0fe2b285f598bc001733c2df1f2dbe9df2b6fbaaf1e4ff408a4038d58a4af23f"
+    },
+    {
+      "path": "文献逐篇阅读/06_多硬件编译_代价模型与IR基础设施/33_Ithemal_Accurate_Portable_and_Fast_Basic_Block_Throughput_Estimation_u.md",
+      "kind": "note",
+      "sha256": "70d906c79f2dce50a40b6d5616b105eb0984d6a9c3bccaffbb68885138b16913"
+    },
+    {
+      "path": "文献逐篇阅读/06_多硬件编译_代价模型与IR基础设施/34_ProGraML_A_Graph_based_Program_Representation_for_Data_Flow_Analysis_a.md",
+      "kind": "note",
+      "sha256": "c9123cf18abebfa03f2540f8e34d35441f76b6cc55a18c7c60b347808287ba56"
+    },
+    {
+      "path": "文献逐篇阅读/06_多硬件编译_代价模型与IR基础设施/35_MLIR_Scaling_Compiler_Infrastructure_for_Domain_Specific_Computation_C.md",
+      "kind": "note",
+      "sha256": "450f181396dc5ea49bec8597005604efad2dd954e34cafd3ad64b02991dd4fa0"
+    },
+    {
+      "path": "文献逐篇阅读/06_多硬件编译_代价模型与IR基础设施/36_Ansor_Generating_High_Performance_Tensor_Programs_for_Deep_Learning_OS.md",
+      "kind": "note",
+      "sha256": "f5a184bae027928adc051962052f57a1255dd9916f98b55bedb50f4fe2351352"
+    },
+    {
+      "path": "文献逐篇阅读/06_多硬件编译_代价模型与IR基础设施/98_XGrammar_Structured_Generation.md",
+      "kind": "note",
+      "sha256": "260a52168522dd7aaed819268a8cd8032c0dad9426d5eb98729c40639c79c6a4"
+    },
+    {
+      "path": "文献逐篇阅读/06_多硬件编译_代价模型与IR基础设施/99_Efficient_Guided_Generation.md",
+      "kind": "note",
+      "sha256": "a50b24d04ead54fc6a0d18fd6f073db8afbcd85ca3c0db0f34a518b9e9670fa4"
+    },
+    {
+      "path": "文献逐篇阅读/06_多硬件编译_代价模型与IR基础设施/C02_MLIR_Transform_Dialect_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "1e5deb5ef4068ac244d7d064430caa10778d7425becd4b3d90a970b7a121804b"
+    },
+    {
+      "path": "文献逐篇阅读/06_多硬件编译_代价模型与IR基础设施/C03_High_Performance_AI_Compiler_MLIR_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "ba3ad54ee554a031ff3873537b073f9dbbd5004ac85f1c357f010af945b460e4"
+    },
+    {
+      "path": "文献逐篇阅读/06_多硬件编译_代价模型与IR基础设施/C04_Korch_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "d9c2994db70d5593a5c9fdb0fd8959f3a43bf3317974740c28244c35c5b9ffa5"
+    },
+    {
+      "path": "文献逐篇阅读/06_多硬件编译_代价模型与IR基础设施/C13_TCL_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "2343ee4b09f09bf6d6fda2f99c6926e73d100613b7e16538ef93c91e5d1b9039"
+    },
+    {
+      "path": "文献逐篇阅读/06_多硬件编译_代价模型与IR基础设施/C14_MLIR_Latency_Hiding_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "3a0f7bf4845153809d279ee3d545e4516c4483e02b5f99f2243179464ba0468e"
+    },
+    {
+      "path": "文献逐篇阅读/06_多硬件编译_代价模型与IR基础设施/C15_RIFS_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "4a1000b4be169c75127b40f23cc194de4855eebaa44d89c10e60277d0ffe0345"
+    },
+    {
+      "path": "文献逐篇阅读/06_多硬件编译_代价模型与IR基础设施/C28_Guided_Tensor_Lifting_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "4b3e26840b3c81dc132c05b100de47dc0a67507fffa64f90857651ff0b7c13a5"
+    },
+    {
+      "path": "文献逐篇阅读/06_多硬件编译_代价模型与IR基础设施/C29_Neptune_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "f9443d5aa1c158f4db6b4da1a44b01f2290ac036a297162807481e5d9de814db"
+    },
+    {
+      "path": "文献逐篇阅读/06_多硬件编译_代价模型与IR基础设施/C32_NEURA_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "a6652441b8edc72a04f500c1b5b29a87ee76f7ef22d4df8c63237092e8df42b9"
+    },
+    {
+      "path": "文献逐篇阅读/06_多硬件编译_代价模型与IR基础设施/C33_SeGaBench_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "e7e5077f5f958c9bc82c8f73343af58649ac1a9966618601ee8a1245f23ec007"
+    },
+    {
+      "path": "文献逐篇阅读/06_多硬件编译_代价模型与IR基础设施/C41_LLVM-Bench_文献阅读总结.md",
+      "kind": "note",
+      "sha256": "8264023881724c7f8833ab721db74cacf1985d941d2abae4e4230240a82194c3"
+    },
+    {
+      "path": "文献逐篇阅读/2024-2026_LLM与编译器新增文献清单.md",
+      "kind": "note",
+      "sha256": "c88aabfdb884544ee3286895f197762837b33468705046c05744591df3632cb3"
+    },
+    {
+      "path": "文献逐篇阅读/2024-2026_文献年份筛选清单.md",
+      "kind": "note",
+      "sha256": "3308e04bf8f58fed7dbdd207c1984f82978419fe80581b65859bb4b93338d3e1"
+    },
+    {
+      "path": "文献逐篇阅读/2026-09-07_LLM编译器近年文献增补验收.md",
+      "kind": "note",
+      "sha256": "92f3ebc90f2e9e0c9733e99b2c7bba45da96d751b9e62ef5e904f89558429231"
+    },
+    {
+      "path": "文献逐篇阅读/语料库重构建议_面向文献写作_2026-09-07.md",
+      "kind": "note",
+      "sha256": "72c4b7ffe549bbbbc51bea25508a76b6a78cb8adacb009d51151d00c50b0fa86"
+    }
+  ]
+}
