@@ -1,0 +1,644 @@
+{
+  "schema": 1,
+  "purpose": "Preserve all residual files before retiring legacy six-category directories.",
+  "legacy_roots": [
+    "01_编译阶段排序与强化学习调优",
+    "02_LLM编译优化智能体与反馈驱动",
+    "03_形式验证_超级优化与规则生成",
+    "04_向量化与跨ISA代码迁移",
+    "05_RISC-V_RVV编译器与真实后端",
+    "06_多硬件编译_代价模型与IR基础设施"
+  ],
+  "files": [
+    {
+      "source": "01_编译阶段排序与强化学习调优/01-AutoPhase Juggling HLS Phase Orderings in Random Forests with Deep Reinforcement Learning. MLSy/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/01_编译阶段排序与强化学习调优/01-AutoPhase Juggling HLS Phase Orderings in Random Forests with Deep Reinforcement Learning. MLSy/source.txt",
+      "sha256": "51ca07a3c1e0e048e56b565e5b205af7d320ddc5f484903cdcdcf9c6fcbba69f",
+      "bytes": 615
+    },
+    {
+      "source": "01_编译阶段排序与强化学习调优/02-Compiler Phase-Ordering for High-Level Synthesis with Deep Reinforcement Learning. FCCM 2019 ar/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/01_编译阶段排序与强化学习调优/02-Compiler Phase-Ordering for High-Level Synthesis with Deep Reinforcement Learning. FCCM 2019 ar/source.txt",
+      "sha256": "d4afb815c68757cbbe3cab3ac7407805650fe3163271224962996c65077b7182",
+      "bytes": 612
+    },
+    {
+      "source": "01_编译阶段排序与强化学习调优/03-CompilerGym Robust, Performant Compiler Optimization Environments for AI Research. CGO 2022/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/01_编译阶段排序与强化学习调优/03-CompilerGym Robust, Performant Compiler Optimization Environments for AI Research. CGO 2022/source.txt",
+      "sha256": "dcea77147f29566ac3e2e0862c78a18dbb68b4a6550dbcabec98615468723501",
+      "bytes": 605
+    },
+    {
+      "source": "01_编译阶段排序与强化学习调优/05-MileStone A Multi-Objective Compiler Phase Ordering Framework. arXiv 2026/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/01_编译阶段排序与强化学习调优/05-MileStone A Multi-Objective Compiler Phase Ordering Framework. arXiv 2026/source.txt",
+      "sha256": "f185aec7bce6d08f286347a08817644e4c63df1b1a94cfebb64ce832f48e90f7",
+      "bytes": 588
+    },
+    {
+      "source": "01_编译阶段排序与强化学习调优/06-Exploiting Booster Pass Chain for Compiler Phase Ordering. 2025/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/01_编译阶段排序与强化学习调优/06-Exploiting Booster Pass Chain for Compiler Phase Ordering. 2025/source.txt",
+      "sha256": "2fe0fb659adf690c4cb77393bea524366b90108c5de5031c50058f36faaf5f1b",
+      "bytes": 379
+    },
+    {
+      "source": "01_编译阶段排序与强化学习调优/37-Faster sorting algorithms discovered using deep reinforcement learning. Nature 2023/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/01_编译阶段排序与强化学习调优/37-Faster sorting algorithms discovered using deep reinforcement learning. Nature 2023/source.txt",
+      "sha256": "e1f786bc11c1efec1f2081d79e77cacb4e75ec6f70bae13cdd2cf6911dc13c86",
+      "bytes": 462
+    },
+    {
+      "source": "01_编译阶段排序与强化学习调优/38-LLM for Compiler Optimization. arXiv 2023/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/01_编译阶段排序与强化学习调优/38-LLM for Compiler Optimization. arXiv 2023/source.txt",
+      "sha256": "b36574361acdb72fcdf75d80abdd17f2a4c0587ae0457c7cd0d4b9e28289052c",
+      "bytes": 150
+    },
+    {
+      "source": "01_编译阶段排序与强化学习调优/39-Enhancing Translation Validation of Compiler Transformations with Large Language Models. arXiv 2025/paper.pdf",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/01_编译阶段排序与强化学习调优/39-Enhancing Translation Validation of Compiler Transformations with Large Language Models. arXiv 2025/paper.pdf",
+      "sha256": "176a79a0b584c83f3302a1e6023179574916e83b268770f7a6d7c684b28d712c",
+      "bytes": 1670023
+    },
+    {
+      "source": "01_编译阶段排序与强化学习调优/39-Enhancing Translation Validation of Compiler Transformations with Large Language Models. arXiv 2025/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/01_编译阶段排序与强化学习调优/39-Enhancing Translation Validation of Compiler Transformations with Large Language Models. arXiv 2025/source.txt",
+      "sha256": "daaf4916a9dfc3c90aad54ff27069b325675c26ccb2a92eb2b06b20b501fe90a",
+      "bytes": 180
+    },
+    {
+      "source": "01_编译阶段排序与强化学习调优/39-Priority Sampling LLMs for Compilers. arXiv 2024/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/01_编译阶段排序与强化学习调优/39-Priority Sampling LLMs for Compilers. arXiv 2024/source.txt",
+      "sha256": "d8ab1a50aac63ffdd86d94c2b52275754be6b90a188fdc3bfdb3426d61298e38",
+      "bytes": 159
+    },
+    {
+      "source": "01_编译阶段排序与强化学习调优/40-CompilerDream Compiler World Model. arXiv 2024/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/01_编译阶段排序与强化学习调优/40-CompilerDream Compiler World Model. arXiv 2024/source.txt",
+      "sha256": "1109a8db6ec27a209a74616d015f8023ea3bcffe40432558b8ee689a49d6a4fa",
+      "bytes": 179
+    },
+    {
+      "source": "01_编译阶段排序与强化学习调优/41-Towards LLM Peephole Optimization. arXiv 2024/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/01_编译阶段排序与强化学习调优/41-Towards LLM Peephole Optimization. arXiv 2024/source.txt",
+      "sha256": "229ca9a041119d1bc0a3e10a994d684b9e01fc8c9c7e7e8a71b18a8b203febf7",
+      "bytes": 166
+    },
+    {
+      "source": "01_编译阶段排序与强化学习调优/42-AI Powered Compiler Techniques DL. arXiv 2021/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/01_编译阶段排序与强化学习调优/42-AI Powered Compiler Techniques DL. arXiv 2021/source.txt",
+      "sha256": "13e25dba1b8e4ca3e9b60c9f7b57545ad521d801337fcd2da0c51e8475f2a4f3",
+      "bytes": 159
+    },
+    {
+      "source": "01_编译阶段排序与强化学习调优/43-Problem-Oriented Code Optimization. arXiv 2024/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/01_编译阶段排序与强化学习调优/43-Problem-Oriented Code Optimization. arXiv 2024/source.txt",
+      "sha256": "f939abd2b4e9b7a0122e729219121e767425c28945c412ad69f7c4be6ccdec0c",
+      "bytes": 156
+    },
+    {
+      "source": "01_编译阶段排序与强化学习调优/44-PerfRL Small LM Code Optimization. arXiv 2025/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/01_编译阶段排序与强化学习调优/44-PerfRL Small LM Code Optimization. arXiv 2025/source.txt",
+      "sha256": "ff9f8be753608755fa746114caf21d269cd202883b20cac08ff2066228ee371e",
+      "bytes": 165
+    },
+    {
+      "source": "01_编译阶段排序与强化学习调优/45-BenchDirect Directed LM Benchmarks. arXiv 2023/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/01_编译阶段排序与强化学习调优/45-BenchDirect Directed LM Benchmarks. arXiv 2023/source.txt",
+      "sha256": "02713771b7285d322f0518b1c5161ea8ebef3260b4e0ccf16a8b1ea8c2306fed",
+      "bytes": 166
+    },
+    {
+      "source": "01_编译阶段排序与强化学习调优/46-Learning Combine Instructions LLVM. arXiv 2022/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/01_编译阶段排序与强化学习调优/46-Learning Combine Instructions LLVM. arXiv 2022/source.txt",
+      "sha256": "cf387e0a57a5a6472bfb87d26d1fd0e152ab444936a430f392f7b8a251b5d497",
+      "bytes": 152
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/04-Compiler-R1 Towards Agentic Compiler Auto-tuning with Reinforcement Learning. arXiv 2025/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/04-Compiler-R1 Towards Agentic Compiler Auto-tuning with Reinforcement Learning. arXiv 2025/source.txt",
+      "sha256": "a938131d13946a821674f42b0596cbb19e6fe705cc957008edfabb5d516d0bc5",
+      "bytes": 601
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/07-Meta Large Language Model Compiler Foundation Models of Compiler Optimization. arXiv 2024/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/07-Meta Large Language Model Compiler Foundation Models of Compiler Optimization. arXiv 2024/source.txt",
+      "sha256": "10573d36df5e4cc50fa43a6da3836b733adaf1f4154e07304c16a45179195839",
+      "bytes": 603
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/08-Foundation Language Models for Compiler Optimization. 2025/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/08-Foundation Language Models for Compiler Optimization. 2025/source.txt",
+      "sha256": "3ed6cb4281b998792573f0c02fce07ed0a73d838aba79a51df5e6fd9cd6c9bbf",
+      "bytes": 374
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/09-A Survey on the Synergy of LLMs and Compilers. arXiv 2026/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/09-A Survey on the Synergy of LLMs and Compilers. arXiv 2026/source.txt",
+      "sha256": "c21892566f2890534b7773e44c5917ab1f521b62b8d777b41fef11d8448cb6dd",
+      "bytes": 571
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/10-Compiler Optimization via LLM Reasoning for Efficient Model Serving. arXiv 2025/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/10-Compiler Optimization via LLM Reasoning for Efficient Model Serving. arXiv 2025/source.txt",
+      "sha256": "cc6182cc490e4cd469827a80bdcb89d62ef9d90190c1f5d9d56b6459856af593",
+      "bytes": 593
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/11-Agentic Code Optimization via Compiler-LLM Cooperation. arXiv 2026/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/11-Agentic Code Optimization via Compiler-LLM Cooperation. arXiv 2026/source.txt",
+      "sha256": "5b7851d24c79954bda6a72208055a8009cab8d54b17ec62997ff208b9b7a9991",
+      "bytes": 579
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/12-Fixing-Broken-Graphs-DNN-ASE2025/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/12-Fixing-Broken-Graphs-DNN-ASE2025/source.txt",
+      "sha256": "81f454897f931e469417b52f9ddc886454a8edf69b43333de180ccd9a0c39ac7",
+      "bytes": 344
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/16-Beyond Pass-by-Pass Optimization Intent-Driven IR Optimization with Large Language Models. arXi/Intent-Driven IR.pdf",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/16-Beyond Pass-by-Pass Optimization Intent-Driven IR Optimization with Large Language Models. arXi/Intent-Driven IR.pdf",
+      "sha256": "bdfd1fe65c767295d01f6e7ccff789ce006c00254ace0a71cca2d206fcf86b13",
+      "bytes": 742007
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/16-Beyond Pass-by-Pass Optimization Intent-Driven IR Optimization with Large Language Models. arXi/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/16-Beyond Pass-by-Pass Optimization Intent-Driven IR Optimization with Large Language Models. arXi/source.txt",
+      "sha256": "f10d672765a6e742b919a1cb67a9b246241fc24e44b2f50aa388a40a38f12973",
+      "bytes": 616
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/38-Compiler generated feedback for Large Language Models. arXiv 2024/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/38-Compiler generated feedback for Large Language Models. arXiv 2024/source.txt",
+      "sha256": "912c6cbf84322539d648a059461379b4811f3d0b997d4b0e6988ba426c3a1caa",
+      "bytes": 579
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/40-VecTrans Enhancing Compiler Auto-Vectorization through LLM-Assisted Code Transformations. arXiv/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/40-VecTrans Enhancing Compiler Auto-Vectorization through LLM-Assisted Code Transformations. arXiv/source.txt",
+      "sha256": "36e63544e114219e625d1222a45af0f7a5bd013c5292c0f08313722567481ade",
+      "bytes": 614
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/42-CompilerGPT Leveraging Large Language Models for Analyzing and Acting on Compiler Optimization/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/42-CompilerGPT Leveraging Large Language Models for Analyzing and Acting on Compiler Optimization/source.txt",
+      "sha256": "c6ebc37a09cd188a122123b57af62957114796c1ca8be8dafb2b378a31059ab0",
+      "bytes": 628
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/45-Program Synthesis with LLMs. arXiv 2021/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/45-Program Synthesis with LLMs. arXiv 2021/source.txt",
+      "sha256": "f9873432315d3690d8fc3a92c9670a9bacbbc27f3e73d7a679b1df7649279c3e",
+      "bytes": 147
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/46-Learning C to x86 Translation. arXiv 2021/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/46-Learning C to x86 Translation. arXiv 2021/source.txt",
+      "sha256": "7be5436bc539968e9e4752eefbef19bd2af9f03a570698a2599c1249fb0aee27",
+      "bytes": 151
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/47-Introducing Compiler Semantics LLMs. EMNLP 2024/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/47-Introducing Compiler Semantics LLMs. EMNLP 2024/source.txt",
+      "sha256": "c66ad1c5217e4b9f6b07cb313641ad8b6e233502226d3f123e8790184ff88247",
+      "bytes": 177
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/48-LEGO-Compiler Neural Compilation. arXiv 2025/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/48-LEGO-Compiler Neural Compilation. arXiv 2025/source.txt",
+      "sha256": "0173c6086e4e235ca1787a6b231bdc26f20b7532eb2fae49816004a9b26c9af1",
+      "bytes": 169
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/49-Rectifier Code Translation LLMs. arXiv 2024/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/49-Rectifier Code Translation LLMs. arXiv 2024/source.txt",
+      "sha256": "64d757dd024ef044792d16e1c36dd360de79c2e516b0392cb58e39e194dd2cc2",
+      "bytes": 155
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/50-Virtual Compiler Assembly Search. ACL 2024/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/50-Virtual Compiler Assembly Search. ACL 2024/source.txt",
+      "sha256": "4a9944238f8029b2552c5db979b505b54ee6501f03faf3f39e56647424557d9f",
+      "bytes": 170
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/51-Iterative Refinement Compiler Feedback. ACL 2024/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/51-Iterative Refinement Compiler Feedback. ACL 2024/source.txt",
+      "sha256": "7a29ecd6fc52e5d0292d9c46620c98d9c880ed1ff822b96cb79565b22fdc3c07",
+      "bytes": 180
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/52-LLM4Decompile Decompiling Binary. EMNLP 2024/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/52-LLM4Decompile Decompiling Binary. EMNLP 2024/source.txt",
+      "sha256": "a1f9a2c61d8a8235a9bf21873643c12f6c0b5778ead0b2ee6eacd3de47678bf5",
+      "bytes": 164
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/53-LMPA Decompilation LLM+Program Analysis. arXiv 2023/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/53-LMPA Decompilation LLM+Program Analysis. arXiv 2023/source.txt",
+      "sha256": "e739e45bd147485140da133b47222bbe30d6e14cf189c56b9f7c47875fe5f454",
+      "bytes": 157
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/54-AutoComp LLM Code Opt Tensor. arXiv 2025/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/54-AutoComp LLM Code Opt Tensor. arXiv 2025/source.txt",
+      "sha256": "b147644a214d76a49bd98cff8ec09ab39825f64b2425417428d67cccfe97a066",
+      "bytes": 165
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/55-ECO LLM Code Optimizer Warehouse. arXiv 2025/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/55-ECO LLM Code Optimizer Warehouse. arXiv 2025/source.txt",
+      "sha256": "86dbeac81dc76a81c43050dac07129ea6a7e255fac421f2d303ddd8dcd1384e9",
+      "bytes": 163
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/56-CUDA-L1 Contrastive RL CUDA. arXiv 2025/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/56-CUDA-L1 Contrastive RL CUDA. arXiv 2025/source.txt",
+      "sha256": "1b10da55c03f6fd38196c8110ec84893135625f5692b0cebfeac64bb4e9d7c5a",
+      "bytes": 158
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/57-SLADE Portable SLM Decompiler. arXiv 2024/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/57-SLADE Portable SLM Decompiler. arXiv 2024/source.txt",
+      "sha256": "b0ab303d75ee913bc1522269a67b0975d0bc126a8177ec095d95d08b9ee77d99",
+      "bytes": 151
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/58-CompileAgent Repo-Level Compilation. ACL 2025/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/58-CompileAgent Repo-Level Compilation. ACL 2025/source.txt",
+      "sha256": "f045bad1baadd4ed67e985f36c5e9e2189435648545ce43f7fe5287af54ada33",
+      "bytes": 174
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/59-AIOS Compiler LLM as Interpreter. arXiv 2024/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/59-AIOS Compiler LLM as Interpreter. arXiv 2024/source.txt",
+      "sha256": "12c964e3e730877f0e8345ca68026f62835b61367e8751ac6cae9e67119f0b1b",
+      "bytes": 170
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/60-Dont Transform Code Code Transforms. arXiv 2024/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/60-Dont Transform Code Code Transforms. arXiv 2024/source.txt",
+      "sha256": "95e2d18ecd2756658ca459e633490933618e9ae290b26f0f372726125388ae14",
+      "bytes": 148
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/61-STARK Strategic Team for Kernels. arXiv 2025/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/61-STARK Strategic Team for Kernels. arXiv 2025/source.txt",
+      "sha256": "3b1715aeea7b4504d2acc59afb579ae19c1a50fac54ef9aa7322f7e8f98b1072",
+      "bytes": 155
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/62-Evaluating LLMs Trained on Code. arXiv 2021/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/62-Evaluating LLMs Trained on Code. arXiv 2021/source.txt",
+      "sha256": "842f9bb0886b3597d66798feaf0646af5bc14929bc19f21e1eff559599d48d92",
+      "bytes": 151
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/63-DeepSeekMath Mathematical Reasoning. arXiv 2024/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/63-DeepSeekMath Mathematical Reasoning. arXiv 2024/source.txt",
+      "sha256": "a97fa83c08ba433884245cb7de3d6b1c878fa43975e75d55f30e3ad5b13e2c8b",
+      "bytes": 166
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/64-Algorithmic LMs Neurally Compiled. arXiv 2025/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/64-Algorithmic LMs Neurally Compiled. arXiv 2025/source.txt",
+      "sha256": "34880a1b8de62f5e02c226ea01863f8c6a2e8738b0fc7a3036567c5df945dfe9",
+      "bytes": 164
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/65-GPT-4 Technical Report. arXiv 2024/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/65-GPT-4 Technical Report. arXiv 2024/source.txt",
+      "sha256": "d22a418f66ca6faec9056847547fcf9aae5303973240e80e1503851cbe476d17",
+      "bytes": 125
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/66-Gemini Multimodal Models. arXiv 2023/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/66-Gemini Multimodal Models. arXiv 2023/source.txt",
+      "sha256": "a9b3b04bd3664930ef05dd4ec6801c003544d30cccb780ff93692ac9c4ac449a",
+      "bytes": 155
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/67-LLMs as Compiler Arabic PL. arXiv 2024/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/67-LLMs as Compiler Arabic PL. arXiv 2024/source.txt",
+      "sha256": "70d4c7606b5d26662b35ac0b25e50c6c7e882f28345d4442151d8067803685eb",
+      "bytes": 152
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/68-AutoChip Automated HDL Generation. arXiv 2023/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/68-AutoChip Automated HDL Generation. arXiv 2023/source.txt",
+      "sha256": "374c10a89290a12c7f6c6ea36e8793b14aa3c53e96b570d51022c4287d4268d0",
+      "bytes": 158
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/69-Learning Perf-Improving Code Edits. arXiv 2023/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/69-Learning Perf-Improving Code Edits. arXiv 2023/source.txt",
+      "sha256": "efd197b7429b14852b5f8085565458ff63d07b8c8b47c14e101207cd702884ad",
+      "bytes": 144
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/70-SymRTLo RTL LLM Symbolic Reasoning. arXiv 2025/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/70-SymRTLo RTL LLM Symbolic Reasoning. arXiv 2025/source.txt",
+      "sha256": "0bb3be80f296cc6def78ce13783ae7efb007ff0af17fa6333e00ce4c24b4235a",
+      "bytes": 172
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/71-Rome Not Built Hierarchical Chip Design. arXiv 2024/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/71-Rome Not Built Hierarchical Chip Design. arXiv 2024/source.txt",
+      "sha256": "4e4ba0f5df249b1ce468cffe9d04f504b55e0b2aee4cffeb72c34cda421e43ce",
+      "bytes": 151
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/72-Make Every Move LLM RTL MCTS. arXiv 2024/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/72-Make Every Move LLM RTL MCTS. arXiv 2024/source.txt",
+      "sha256": "a32b3ac170833045326f503ba2e8990e26eee227cf988b9fb9375aadf47998ce",
+      "bytes": 166
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/73-Qimeng-xpiler Tensor Transcompile. arXiv 2025/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/73-Qimeng-xpiler Tensor Transcompile. arXiv 2025/source.txt",
+      "sha256": "b812614ec9803cc35fbc818d20f8aafa99a093f702967497add04452a7224b8d",
+      "bytes": 164
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/74-Kevin MultiTurn RL CUDA Kernels. arXiv 2025/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/74-Kevin MultiTurn RL CUDA Kernels. arXiv 2025/source.txt",
+      "sha256": "2f85ae5d7beb890d7f698906e587a1446c8a7eb4b348324c8790951c958d716d",
+      "bytes": 150
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/75-Insights Verification Verilog RL. arXiv 2025/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/75-Insights Verification Verilog RL. arXiv 2025/source.txt",
+      "sha256": "72d46c44fe96f7acd2fc58f24ef23854ce86faf8f31a0c9ed0180673c4c2c6a5",
+      "bytes": 160
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/76-Verilocc Cross-Arch Register Alloc. arXiv 2025/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/76-Verilocc Cross-Arch Register Alloc. arXiv 2025/source.txt",
+      "sha256": "17b8e93404c16e4d757cb8ff3ec985bb6739a9a319da2fe39cba3522c26a6486",
+      "bytes": 159
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/77-HPCTranCompile CUDA Dataset. arXiv 2025/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/77-HPCTranCompile CUDA Dataset. arXiv 2025/source.txt",
+      "sha256": "58a8ba0dfe526f5020a86c8b65fc58220ed594030a25407862623cd5122e5adc",
+      "bytes": 161
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/78-AVATAR Java-Python Translation. ACL 2023/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/78-AVATAR Java-Python Translation. ACL 2023/source.txt",
+      "sha256": "11eb8d3236e94ba8d39fa3ac20c3e0a2e0293524c677d9b22a4bb28a01d998a6",
+      "bytes": 178
+    },
+    {
+      "source": "02_LLM编译优化智能体与反馈驱动/79-Binary Code Summarization Benchmark. arXiv 2023/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/02_LLM编译优化智能体与反馈驱动/79-Binary Code Summarization Benchmark. arXiv 2023/source.txt",
+      "sha256": "6f8f8b566b25780d210d5d38ad8c42576d0f23f96a5c3df15615fca25374634e",
+      "bytes": 156
+    },
+    {
+      "source": "03_形式验证_超级优化与规则生成/12-LLM-VeriOpt Verification-Guided Reinforcement Learning for LLM-Based Compiler Optimization. CGO/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/03_形式验证_超级优化与规则生成/12-LLM-VeriOpt Verification-Guided Reinforcement Learning for LLM-Based Compiler Optimization. CGO/source.txt",
+      "sha256": "879c44470838008cfd0d496e06006530e4fca049a220ab9641074da469dfec80",
+      "bytes": 693
+    },
+    {
+      "source": "03_形式验证_超级优化与规则生成/14-Alive2 Bounded Translation Validation for LLVM. PLDI 2021/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/03_形式验证_超级优化与规则生成/14-Alive2 Bounded Translation Validation for LLVM. PLDI 2021/source.txt",
+      "sha256": "a0a6da78d0dbb1d83cbcf3d7ad97976df46e30abd293c4afebc2e8786fb086f9",
+      "bytes": 502
+    },
+    {
+      "source": "03_形式验证_超级优化与规则生成/15-Verified Learning for Compiler Optimization An LLM-Based Approach/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/03_形式验证_超级优化与规则生成/15-Verified Learning for Compiler Optimization An LLM-Based Approach/source.txt",
+      "sha256": "58a81a42b4199e284a4651bdcd4005158dd827a59b828adbb0dc67cf7f288291",
+      "bytes": 383
+    },
+    {
+      "source": "03_形式验证_超级优化与规则生成/17-Souper A Synthesizing Superoptimizer. arXiv 2017/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/03_形式验证_超级优化与规则生成/17-Souper A Synthesizing Superoptimizer. arXiv 2017/source.txt",
+      "sha256": "1b90832aad22c70caae024e1682f319a67e102cc2fa35efd185d2ae2610b6290",
+      "bytes": 562
+    },
+    {
+      "source": "03_形式验证_超级优化与规则生成/18-Souper GitHub Repository/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/03_形式验证_超级优化与规则生成/18-Souper GitHub Repository/source.txt",
+      "sha256": "ee8e4b5d1aa19fae0248296aee0e287976ade84f467dc86029f8952ba2957d00",
+      "bytes": 259
+    },
+    {
+      "source": "03_形式验证_超级优化与规则生成/19-STOKE Stochastic Superoptimization. ASPLOS 2013/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/03_形式验证_超级优化与规则生成/19-STOKE Stochastic Superoptimization. ASPLOS 2013/source.txt",
+      "sha256": "30625076c00f88c07022edc33fb537961c36f99e9039313ab933944f1f57062f",
+      "bytes": 559
+    },
+    {
+      "source": "03_形式验证_超级优化与规则生成/20-Minotaur A SIMD-Oriented Synthesizing Superoptimizer. 2024/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/03_形式验证_超级优化与规则生成/20-Minotaur A SIMD-Oriented Synthesizing Superoptimizer. 2024/source.txt",
+      "sha256": "fc48dd68aa270828e2dd5e63b4d61c4bbe067d661481cacbf65737e774507239",
+      "bytes": 472
+    },
+    {
+      "source": "03_形式验证_超级优化与规则生成/30-Alive Automatic LLVM InstCombine Verification. PLDI 2015/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/03_形式验证_超级优化与规则生成/30-Alive Automatic LLVM InstCombine Verification. PLDI 2015/source.txt",
+      "sha256": "fc28ddaef80c1ae5cf795909572b76d93b5d819944949aa70442861d53b0bc32",
+      "bytes": 500
+    },
+    {
+      "source": "03_形式验证_超级优化与规则生成/39-Enhancing Translation Validation of Compiler Transformations with Large Language Models. arXiv/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/03_形式验证_超级优化与规则生成/39-Enhancing Translation Validation of Compiler Transformations with Large Language Models. arXiv/source.txt",
+      "sha256": "1e7e2a7900c64e130fb4a7cb5ef47ab58fb2927169194932cae7c9fc47e7c4f8",
+      "bytes": 612
+    },
+    {
+      "source": "03_形式验证_超级优化与规则生成/41-Finding Missed Code Size Optimizations in Compilers using LLMs. arXiv 2025/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/03_形式验证_超级优化与规则生成/41-Finding Missed Code Size Optimizations in Compilers using LLMs. arXiv 2025/source.txt",
+      "sha256": "1f48b3166cbc73914f93ecf8e358453927cabed34aead248589a769992a84aac",
+      "bytes": 587
+    },
+    {
+      "source": "03_形式验证_超级优化与规则生成/43-Leveraging Large Language Models for Generalizing Peephole Optimizations. arXiv 2026/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/03_形式验证_超级优化与规则生成/43-Leveraging Large Language Models for Generalizing Peephole Optimizations. arXiv 2026/source.txt",
+      "sha256": "b0748131300319d3415778ab715245e34687d765812a3b746300d73b42dec4b6",
+      "bytes": 597
+    },
+    {
+      "source": "03_形式验证_超级优化与规则生成/44-Verified Code Transpilation LLMs. arXiv 2024/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/03_形式验证_超级优化与规则生成/44-Verified Code Transpilation LLMs. arXiv 2024/source.txt",
+      "sha256": "55f48ebbfdd6caf1eef9594639bbdbb3369e98c0a694e7b0c7e3b6a821def9c3",
+      "bytes": 140
+    },
+    {
+      "source": "03_形式验证_超级优化与规则生成/45-Test-Free Semantic Mistakes Localization. arXiv 2024/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/03_形式验证_超级优化与规则生成/45-Test-Free Semantic Mistakes Localization. arXiv 2024/source.txt",
+      "sha256": "a1a20882ac4aefa77229bcbe2b218ddd213eb1e8299cfde1e4563ad6198c4a19",
+      "bytes": 163
+    },
+    {
+      "source": "03_形式验证_超级优化与规则生成/46-Unsupervised Binary Code Security. EMNLP 2023/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/03_形式验证_超级优化与规则生成/46-Unsupervised Binary Code Security. EMNLP 2023/source.txt",
+      "sha256": "9d31339e85da4e999086be6eb905f4381d5b46c18f166ec034d710b0839e6e2f",
+      "bytes": 173
+    },
+    {
+      "source": "03_形式验证_超级优化与规则生成/47-TFix Text-Text Bug Fix. PMLR 2021/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/03_形式验证_超级优化与规则生成/47-TFix Text-Text Bug Fix. PMLR 2021/source.txt",
+      "sha256": "cd744dcb5c877637480fe594281e4a50deb49cf299383ec708ca14f86673377b",
+      "bytes": 190
+    },
+    {
+      "source": "03_形式验证_超级优化与规则生成/48-LLM Security Tests Generation. arXiv 2023/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/03_形式验证_超级优化与规则生成/48-LLM Security Tests Generation. arXiv 2023/source.txt",
+      "sha256": "2083305cb22f8a1f7cecd45dbc64ef74e50e8b4672e2c3b151acc08e3b52586a",
+      "bytes": 146
+    },
+    {
+      "source": "03_形式验证_超级优化与规则生成/49-Critical Review LLM on SE. arXiv 2023/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/03_形式验证_超级优化与规则生成/49-Critical Review LLM on SE. arXiv 2023/source.txt",
+      "sha256": "96f49199d16fc3b5c762b28adbd934d0d3a821334daafe31bbc1212a09c65378",
+      "bytes": 169
+    },
+    {
+      "source": "03_形式验证_超级优化与规则生成/50-Evaluating LLMs Compilation Errors. arXiv 2024/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/03_形式验证_超级优化与规则生成/50-Evaluating LLMs Compilation Errors. arXiv 2024/source.txt",
+      "sha256": "b1e993d0a49f296992ebcfcc2a82468ddbb336c587c1def4e56825ecfef99f98",
+      "bytes": 151
+    },
+    {
+      "source": "03_形式验证_超级优化与规则生成/51-Can LLMs Understand IR. arXiv 2025/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/03_形式验证_超级优化与规则生成/51-Can LLMs Understand IR. arXiv 2025/source.txt",
+      "sha256": "d453d90f5c110db60265d6f4d76872459ac914de65f0252f808167e01e30a610",
+      "bytes": 165
+    },
+    {
+      "source": "04_向量化与跨ISA代码迁移/13-LLM-Vectorizer LLM-Based Verified Loop Vectorizer. CGO 2025/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/04_向量化与跨ISA代码迁移/13-LLM-Vectorizer LLM-Based Verified Loop Vectorizer. CGO 2025/source.txt",
+      "sha256": "b17931a9fba0e12cb743ba78c2188728762c074d7d46cee062f640ecedee5453",
+      "bytes": 602
+    },
+    {
+      "source": "04_向量化与跨ISA代码迁移/26-IntrinTrans LLM-based Intrinsic Code Translator for RISC-V Vector. arXiv 2025/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/04_向量化与跨ISA代码迁移/26-IntrinTrans LLM-based Intrinsic Code Translator for RISC-V Vector. arXiv 2025/source.txt",
+      "sha256": "38ab7452cc5f2b34518d1ed2776ba378bc2b5372ce575d0cecdbbbcf30a7264e",
+      "bytes": 591
+    },
+    {
+      "source": "04_向量化与跨ISA代码迁移/27-VecIntrinBench Benchmarking Cross-Architecture Intrinsic Code Migration for RISC-V Vector. arXi/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/04_向量化与跨ISA代码迁移/27-VecIntrinBench Benchmarking Cross-Architecture Intrinsic Code Migration for RISC-V Vector. arXi/source.txt",
+      "sha256": "9e555e802a523cbe7fed580d33f6f85b09ac86e7a0f22aa0495c4b22ddd2da44",
+      "bytes": 615
+    },
+    {
+      "source": "04_向量化与跨ISA代码迁移/28-neon2rvv A Translator from ARM NEON Intrinsics to RISC-V Vector Extension/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/04_向量化与跨ISA代码迁移/28-neon2rvv A Translator from ARM NEON Intrinsics to RISC-V Vector Extension/source.txt",
+      "sha256": "49798033b7e3ba8f3c169cdc8263f4672a8172ca3b6668e7d400932a8dd5496e",
+      "bytes": 312
+    },
+    {
+      "source": "05_RISC-V_RVV编译器与真实后端/21-A Performance Analysis of Autovectorization on RVV RISC-V. 2025/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/05_RISC-V_RVV编译器与真实后端/21-A Performance Analysis of Autovectorization on RVV RISC-V. 2025/source.txt",
+      "sha256": "2af088f95556c1882dce62ace490e7894671b9ad483d39a3c2ae4186b777be64",
+      "bytes": 311
+    },
+    {
+      "source": "05_RISC-V_RVV编译器与真实后端/22-RISC-V Vectorization Coverage for HPC A TSVC-Based Analysis. 2025/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/05_RISC-V_RVV编译器与真实后端/22-RISC-V Vectorization Coverage for HPC A TSVC-Based Analysis. 2025/source.txt",
+      "sha256": "5d32961819bd813c1a72e2713094e5c62fa9f875cf6b58cdaf41b1bd1aa76e24",
+      "bytes": 319
+    },
+    {
+      "source": "05_RISC-V_RVV编译器与真实后端/23-Closer in the Gap Towards Portable Performance on RISC-V Vector Processors. arXiv 2026/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/05_RISC-V_RVV编译器与真实后端/23-Closer in the Gap Towards Portable Performance on RISC-V Vector Processors. arXiv 2026/source.txt",
+      "sha256": "bc2109b98ba2591c8d26535ed96ac8d3176679caee8aab16e6384d35746b4805",
+      "bytes": 600
+    },
+    {
+      "source": "05_RISC-V_RVV编译器与真实后端/24-Tensor Program Optimization for the RISC-V Vector Extension Using Probabilistic Programs. arXiv/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/05_RISC-V_RVV编译器与真实后端/24-Tensor Program Optimization for the RISC-V Vector Extension Using Probabilistic Programs. arXiv/source.txt",
+      "sha256": "fa4e59a3e1e82fce4fb5f566f75b7c3f57ff0a41a6cf4c89d5f493d51e6aa30b",
+      "bytes": 613
+    },
+    {
+      "source": "05_RISC-V_RVV编译器与真实后端/25-RISC-V LLVM backend optimization incubator RVCC discussion/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/05_RISC-V_RVV编译器与真实后端/25-RISC-V LLVM backend optimization incubator RVCC discussion/source.txt",
+      "sha256": "e1e2cf5607ef4e5a72378f2a9743139ca6cd6fe573e1ddfb96ae6a6c566fb2a1",
+      "bytes": 375
+    },
+    {
+      "source": "05_RISC-V_RVV编译器与真实后端/29-RISC-V Vector C Intrinsic Specification/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/05_RISC-V_RVV编译器与真实后端/29-RISC-V Vector C Intrinsic Specification/source.txt",
+      "sha256": "65a316ce0ab1a0bb7abd0c36eec12ccd42b0696e38fede581acce14cb529fea9",
+      "bytes": 310
+    },
+    {
+      "source": "06_多硬件编译_代价模型与IR基础设施/31-TVM An Automated End-to-End Optimizing Compiler for Deep Learning. OSDI 2018/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/06_多硬件编译_代价模型与IR基础设施/31-TVM An Automated End-to-End Optimizing Compiler for Deep Learning. OSDI 2018/source.txt",
+      "sha256": "3b5ab4f42af418ac86a2b4cecbe9a8c583dbcf8cf1a86f8eb2e213ab935cfd29",
+      "bytes": 300
+    },
+    {
+      "source": "06_多硬件编译_代价模型与IR基础设施/32-Learning to Optimize Tensor Programs. NeurIPS 2018/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/06_多硬件编译_代价模型与IR基础设施/32-Learning to Optimize Tensor Programs. NeurIPS 2018/source.txt",
+      "sha256": "116396286a6aa837332c402a18bd01292164f1886ff51e34a2999949da74a144",
+      "bytes": 519
+    },
+    {
+      "source": "06_多硬件编译_代价模型与IR基础设施/33-Ithemal Accurate, Portable and Fast Basic Block Throughput Estimation using Deep Neural Network/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/06_多硬件编译_代价模型与IR基础设施/33-Ithemal Accurate, Portable and Fast Basic Block Throughput Estimation using Deep Neural Network/source.txt",
+      "sha256": "770833d751c8a3d9c59a0f22cb4ef3aa322e5aa590b171d0fc9d4f761af7a6f0",
+      "bytes": 324
+    },
+    {
+      "source": "06_多硬件编译_代价模型与IR基础设施/34-ProGraML A Graph-based Program Representation for Data Flow Analysis and Compiler Optimizations/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/06_多硬件编译_代价模型与IR基础设施/34-ProGraML A Graph-based Program Representation for Data Flow Analysis and Compiler Optimizations/source.txt",
+      "sha256": "666da3808c06545e23355f36af9a1ddcf5b386428984cef66c06b4dd96d79375",
+      "bytes": 328
+    },
+    {
+      "source": "06_多硬件编译_代价模型与IR基础设施/35-MLIR Scaling Compiler Infrastructure for Domain Specific Computation. CGO 2021/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/06_多硬件编译_代价模型与IR基础设施/35-MLIR Scaling Compiler Infrastructure for Domain Specific Computation. CGO 2021/source.txt",
+      "sha256": "663c704a8dc31dc1368309c25ed209276624d319b42b826b746196ffd09c68ad",
+      "bytes": 429
+    },
+    {
+      "source": "06_多硬件编译_代价模型与IR基础设施/36-Ansor Generating High-Performance Tensor Programs for Deep Learning. OSDI 2020/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/06_多硬件编译_代价模型与IR基础设施/36-Ansor Generating High-Performance Tensor Programs for Deep Learning. OSDI 2020/source.txt",
+      "sha256": "5785f080d70b111e9bb3f8776d2e00acfef7303684dd453815314d86ed753630",
+      "bytes": 304
+    },
+    {
+      "source": "06_多硬件编译_代价模型与IR基础设施/37-XGrammar Structured Generation. arXiv 2024/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/06_多硬件编译_代价模型与IR基础设施/37-XGrammar Structured Generation. arXiv 2024/source.txt",
+      "sha256": "58649478c85f71f51973f0b911f75caf0faf15dbde15c4f4be5238802fd31114",
+      "bytes": 159
+    },
+    {
+      "source": "06_多硬件编译_代价模型与IR基础设施/38-Efficient Guided Generation LLMs. arXiv 2023/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/06_多硬件编译_代价模型与IR基础设施/38-Efficient Guided Generation LLMs. arXiv 2023/source.txt",
+      "sha256": "ac9bafe6c5c03b7ac9aa8864701317818f0a92e6c46aaa2a12c6d041cddf590f",
+      "bytes": 157
+    },
+    {
+      "source": "06_多硬件编译_代价模型与IR基础设施/39-CodeBLEU Code Synthesis Eval. arXiv 2020/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/06_多硬件编译_代价模型与IR基础设施/39-CodeBLEU Code Synthesis Eval. arXiv 2020/source.txt",
+      "sha256": "255980e3ad2cc13372d9a55e73b3b09a463b696e2578acf45069b16700003b1d",
+      "bytes": 165
+    },
+    {
+      "source": "06_多硬件编译_代价模型与IR基础设施/40-TritonBench Triton Operators. ACL 2025/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/06_多硬件编译_代价模型与IR基础设施/40-TritonBench Triton Operators. ACL 2025/source.txt",
+      "sha256": "7664b1be843b16838fdcce981c69985548f2564a351c96c9454d6a05744dc735",
+      "bytes": 168
+    },
+    {
+      "source": "06_多硬件编译_代价模型与IR基础设施/41-CodeNet Large-Scale AI Code. arXiv 2021/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/06_多硬件编译_代价模型与IR基础设施/41-CodeNet Large-Scale AI Code. arXiv 2021/source.txt",
+      "sha256": "21be943bc85e1b6ac9dc89154f3ed39b6f9f7484466267ccdad3ec49b7a17344",
+      "bytes": 146
+    },
+    {
+      "source": "06_多硬件编译_代价模型与IR基础设施/42-OMPar AI Source-to-Source Parallel. arXiv 2024/source.txt",
+      "archive": "archive/taxonomy_v1/legacy_six_category_assets/06_多硬件编译_代价模型与IR基础设施/42-OMPar AI Source-to-Source Parallel. arXiv 2024/source.txt",
+      "sha256": "c7e652390bc115b6073db2b6231c13738d8567c4f6d5bb2b54c4698ed43deec3",
+      "bytes": 162
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # taxonomy v2 link validation report
 
-- Local relative Markdown links scanned: **1312**
+- Local relative Markdown links scanned: **1332**
 - Current broken links: **363**
 - Legacy archive exemptions: **337**
 - Migration-introduced broken links: **0**
