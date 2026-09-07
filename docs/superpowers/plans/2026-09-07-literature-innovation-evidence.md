@@ -37,7 +37,7 @@
 ```powershell
 $ErrorActionPreference = 'Stop'
 $repo = Split-Path -Parent $PSScriptRoot
-python "$repo/scripts/validate_innovation_evidence.py" --repo "$repo"
+py -3 "$repo/scripts/validate_innovation_evidence.py" --repo "$repo"
 if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 ```
 
@@ -60,7 +60,7 @@ from pathlib import Path
 import csv, re, sys
 
 required_files = ["05_创新证据矩阵.md", "06_局限与反例证据表.md", "07_创新机会观察区.md"]
-paper_id_pattern = re.compile(r"\bPAPER-(\d{2,3})\b")
+paper_id_pattern = re.compile(r"\bPAPER-([A-Z]?\d{2,3})\b")
 
 def load_ids(repo: Path) -> set[str]:
     with (repo / "taxonomy_v2.csv").open(encoding="utf-8-sig", newline="") as f:
@@ -146,7 +146,7 @@ pwsh -File tests/test_innovation_evidence.ps1
 运行：
 
 ```powershell
-python scripts/validate_taxonomy_v2.py
+py -3 scripts/validate_taxonomy_v2.py
 pwsh -File tests/test_innovation_evidence.ps1
 ```
 
@@ -207,7 +207,7 @@ pwsh -File tests/test_innovation_evidence.ps1
 运行：
 
 ```powershell
-python scripts/validate_taxonomy_v2.py
+py -3 scripts/validate_taxonomy_v2.py
 pwsh -File tests/test_innovation_evidence.ps1
 git diff --check
 ```
@@ -261,3 +261,12 @@ git -C "C:\Users\2025111355\Desktop\文献\AI编译器与RISC-V优化相关文�
 - **Spec coverage:** Task 1 implements论文级事实与25–35篇首轮覆盖；Task 2 implements问题级局限、反例和事实/推导区分；Task 3 implements机会阈值和非方案化观察区；Task 4 implements可审阅范围说明。所有任务均不修改 taxonomy、PDF、笔记或研究方案。
 - **Placeholder scan:** 本计划不含 TBD、TODO 或“稍后实现”等未定义步骤；所有命令、路径、字段和验收输出均已明确。
 - **Consistency:** `PAPER-XX` 由 `taxonomy_v2.csv` 解析验证；`LIM-XX` 由 Task 2 定义并在 Task 3 消费；`OPP-XX` 由 Task 3 定义；同一 `tests/test_innovation_evidence.ps1` 始终调用只读验证器。
+
+## Execution Record
+
+- [x] Task 1：完成 33 篇论文级证据矩阵，并加入只读结构校验。
+- [x] Task 2：完成 5 项局限与反例证据聚合。
+- [x] Task 3：完成 5 项待人工判断的机会观察记录。
+- [x] Task 4：完成范围说明、Paper ID 校验、taxonomy 不变性校验与新增 Markdown 链接校验。
+
+> 环境修正：本机未注册 `python` 命令，实际校验统一使用 Windows Python Launcher：`py -3`。Paper ID 正则已修正为同时支持纯数字、`Cxx` 和 `Nxx` 编号。
