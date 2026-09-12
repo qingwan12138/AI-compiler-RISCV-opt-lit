@@ -14,7 +14,7 @@
 
 ## 2. 主类与二级类
 
-主类依照 [Taxonomy v2 规则](../../docs/taxonomy/taxonomy_v2_rules.md)：
+主类依照 [Taxonomy v2 规则](../../../docs/taxonomy/taxonomy_v2_rules.md)：
 
 | Primary_Category | 判定 | PDF 根目录 | 笔记根目录 |
 |---|---|---|---|
