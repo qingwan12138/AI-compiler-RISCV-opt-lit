@@ -1,0 +1,1373 @@
+{
+  "total_local_relative_links": 1143,
+  "broken": [
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/46_Large_Language_Models_for_Compiler_Optimization.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/46_Large_Language_Models_for_Compiler_Optimization.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/47_Priority_Sampling_of_LLMs_for_Compilers.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/47_Priority_Sampling_of_LLMs_for_Compilers.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C06_AwareCompiler_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C06_AwareCompiler_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C38_LiteCoOp_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C38_LiteCoOp_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/10_Compiler_Optimization_via_LLM_Reasoning_for_Efficient_Model_Serving_ar.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/10_Compiler_Optimization_via_LLM_Reasoning_for_Efficient_Model_Serving_ar.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/86_Verilocc_Cross_Architecture_Register_Allocation.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/86_Verilocc_Cross_Architecture_Register_Allocation.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/C40_RACL_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/C40_RACL_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C09_ECCO_Causal_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C09_ECCO_Causal_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C25_DeCOS_Compiler_Optimization_Selection_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C25_DeCOS_Compiler_Optimization_Selection_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/04_Compiler_R1_Towards_Agentic_Compiler_Auto_tuning_with_Reinforcement_Le.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/04_Compiler_R1_Towards_Agentic_Compiler_Auto_tuning_with_Reinforcement_Le.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C35_AutoPass_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C35_AutoPass_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N15_HintPilot_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N15_HintPilot_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/51_Problem_Oriented_Code_Optimization.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/51_Problem_Oriented_Code_Optimization.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/52_PerfRL_Small_Language_Model_Code_Optimization.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/52_PerfRL_Small_Language_Model_Code_Optimization.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/N02_Energy_Efficient_Code_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/N02_Energy_Efficient_Code_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/11_Agentic_Code_Optimization_via_Compiler_LLM_Cooperation_arXiv_2026.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/11_Agentic_Code_Optimization_via_Compiler_LLM_Cooperation_arXiv_2026.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/40_VecTrans_Enhancing_Compiler_Auto_Vectorization_through_LLM_Assisted_Co.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/40_VecTrans_Enhancing_Compiler_Auto_Vectorization_through_LLM_Assisted_Co.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/65_ECO_Warehouse_Scale_Code_Optimizer.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/65_ECO_Warehouse_Scale_Code_Optimizer.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/77_Arabic_Programming_Language_with_LLM.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/77_Arabic_Programming_Language_with_LLM.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/78_AutoChip_HDL_Feedback.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/78_AutoChip_HDL_Feedback.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/79_PIE_Performance_Improving_Code_Edits.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/79_PIE_Performance_Improving_Code_Edits.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/80_SymRTLO_Neuro_Symbolic_RTL_Optimization.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/80_SymRTLO_Neuro_Symbolic_RTL_Optimization.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/81_Hierarchical_Prompting_for_Chip_Design.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/81_Hierarchical_Prompting_for_Chip_Design.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/82_MCTS_RTL_Generation.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/82_MCTS_RTL_Generation.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/85_Verilog_RL_with_Testbench_Feedback.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/85_Verilog_RL_with_Testbench_Feedback.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N04_ECCO_Code_Efficiency_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N04_ECCO_Code_Efficiency_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N07_SBLLM_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N07_SBLLM_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N08_BITE_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N08_BITE_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N16_PerfCoder_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N16_PerfCoder_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N17_AutoVecCoder_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N17_AutoVecCoder_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N20_CODMAS_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N20_CODMAS_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/C07_Code_Optimise_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/C07_Code_Optimise_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/C34_T-LLM-Compiler_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/C34_T-LLM-Compiler_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/C42_POLO_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/C42_POLO_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/43_Problem_Oriented_Code_Optimization_Duplicate_Copy.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/43_Problem_Oriented_Code_Optimization_Duplicate_Copy.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/N25_CoV_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/N25_CoV_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/04_%E5%90%91%E9%87%8F%E5%8C%96%E4%B8%8E%E8%B7%A8ISA%E4%BB%A3%E7%A0%81%E8%BF%81%E7%A7%BB/13_LLM_Vectorizer_LLM_Based_Verified_Loop_Vectorizer_CGO_2025.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/04_%E5%90%91%E9%87%8F%E5%8C%96%E4%B8%8E%E8%B7%A8ISA%E4%BB%A3%E7%A0%81%E8%BF%81%E7%A7%BB/13_LLM_Vectorizer_LLM_Based_Verified_Loop_Vectorizer_CGO_2025.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/49_Reasoning_for_LLM_Peephole_Optimization.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/49_Reasoning_for_LLM_Peephole_Optimization.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/54_Neural_Instruction_Combiner_for_LLVM.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/54_Neural_Instruction_Combiner_for_LLVM.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/16_Beyond_Pass_by_Pass_Optimization_Intent_Driven_IR_Optimization_with_La.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/16_Beyond_Pass_by_Pass_Optimization_Intent_Driven_IR_Optimization_with_La.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/45_Beyond_Pass_by_Pass_Optimization_Intent_Driven_IR_Optimization_with_La.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/45_Beyond_Pass_by_Pass_Optimization_Intent_Driven_IR_Optimization_with_La.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/12_LLM_VeriOpt_Verification_Guided_Reinforcement_Learning_for_LLM_Based_C.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/12_LLM_VeriOpt_Verification_Guided_Reinforcement_Learning_for_LLM_Based_C.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/15_Verified_Learning_for_Compiler_Optimization_An_LLM_Based_Approach.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/15_Verified_Learning_for_Compiler_Optimization_An_LLM_Based_Approach.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/C39_SuperCoder_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/C39_SuperCoder_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/56_Learning_C_to_x86_Translation.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/56_Learning_C_to_x86_Translation.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/57_Compiler_Semantics_for_C_to_x86_LLMs.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/57_Compiler_Semantics_for_C_to_x86_LLMs.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/58_LEGO_Compiler_Composable_Neural_Compilation.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/58_LEGO_Compiler_Composable_Neural_Compilation.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/59_Rectifier_for_Code_Translation.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/59_Rectifier_for_Code_Translation.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/83_QiMeng_Xpiler_Neural_Symbolic_Transcompiler.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/83_QiMeng_Xpiler_Neural_Symbolic_Transcompiler.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N18_FSCM_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N18_FSCM_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/90_LLMLIFT_Verified_Code_Transpilation.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/90_LLMLIFT_Verified_Code_Transpilation.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/04_%E5%90%91%E9%87%8F%E5%8C%96%E4%B8%8E%E8%B7%A8ISA%E4%BB%A3%E7%A0%81%E8%BF%81%E7%A7%BB/26_IntrinTrans_LLM_based_Intrinsic_Code_Translator_for_RISC_V_Vector_arXi.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/04_%E5%90%91%E9%87%8F%E5%8C%96%E4%B8%8E%E8%B7%A8ISA%E4%BB%A3%E7%A0%81%E8%BF%81%E7%A7%BB/26_IntrinTrans_LLM_based_Intrinsic_Code_Translator_for_RISC_V_Vector_arXi.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C28_Guided_Tensor_Lifting_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C28_Guided_Tensor_Lifting_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/64_Autocomp_Tensor_Accelerator_Optimization.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/64_Autocomp_Tensor_Accelerator_Optimization.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/66_CUDA_L1_Contrastive_RL.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/66_CUDA_L1_Contrastive_RL.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/71_STARK_Multi_Agent_GPU_Kernels.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/71_STARK_Multi_Agent_GPU_Kernels.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/84_Kevin_Multi_Turn_RL_CUDA.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/84_Kevin_Multi_Turn_RL_CUDA.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N10_GraphGlue_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N10_GraphGlue_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N13_NPUEval_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N13_NPUEval_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N14_MEP_GPU_Optimization_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N14_MEP_GPU_Optimization_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/N23_OpenCL_Polyhedral_LLM_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/N23_OpenCL_Polyhedral_LLM_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/38_Compiler_generated_feedback_for_Large_Language_Models_arXiv_2024.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/38_Compiler_generated_feedback_for_Large_Language_Models_arXiv_2024.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/42_CompilerGPT_Leveraging_Large_Language_Models_for_Analyzing_and_Acting_.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/42_CompilerGPT_Leveraging_Large_Language_Models_for_Analyzing_and_Acting_.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/61_COCOGEN_Compiler_Feedback.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/61_COCOGEN_Compiler_Feedback.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/68_CompileAgent_Repo_Level_Compilation.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/68_CompileAgent_Repo_Level_Compilation.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N03_StepCoder_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N03_StepCoder_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/93_TFix_Text_to_Text_Bug_Repair.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/93_TFix_Text_to_Text_Bug_Repair.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/62_LLM4Decompile.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/62_LLM4Decompile.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/63_GENNM_Decompiler_Name_Recovery.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/63_GENNM_Decompiler_Name_Recovery.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/67_SLaDe_Portable_Decompiler.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/67_SLaDe_Portable_Decompiler.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N09_DecLLM_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N09_DecLLM_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N11_PtxDec_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N11_PtxDec_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/N22_Forklift_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/N22_Forklift_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/N24_BRIDGE_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/N24_BRIDGE_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/C36_PassNet_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/C36_PassNet_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/70_Code_the_Transforms.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/70_Code_the_Transforms.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N06_PyCraft_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N06_PyCraft_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/C37_Magellan_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/C37_Magellan_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/44_Leveraging_Large_Language_Models_for_Generalizing_Peephole_Optimizatio.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/44_Leveraging_Large_Language_Models_for_Generalizing_Peephole_Optimizatio.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/C08_LPO_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/C08_LPO_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/C17_EggMind_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/C17_EggMind_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/53_BenchDirect_Directed_Compiler_Benchmarks.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/53_BenchDirect_Directed_Compiler_Benchmarks.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/41_Finding_Missed_Code_Size_Optimizations_in_Compilers_using_LLMs_arXiv_2.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/41_Finding_Missed_Code_Size_Optimizations_in_Compilers_using_LLMs_arXiv_2.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/94_LLM_Security_Test_Generation.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/94_LLM_Security_Test_Generation.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/72_Codex_and_HumanEval.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/72_Codex_and_HumanEval.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/87_HPCTransCompile_CUDA_Transpilation_Dataset.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/87_HPCTransCompile_CUDA_Transpilation_Dataset.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/88_AVATAR_Java_Python_Translation.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/88_AVATAR_Java_Python_Translation.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/89_BinSum_Binary_Code_Summarization.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/89_BinSum_Binary_Code_Summarization.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/04_%E5%90%91%E9%87%8F%E5%8C%96%E4%B8%8E%E8%B7%A8ISA%E4%BB%A3%E7%A0%81%E8%BF%81%E7%A7%BB/27_VecIntrinBench_Benchmarking_Cross_Architecture_Intrinsic_Code_Migratio.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/04_%E5%90%91%E9%87%8F%E5%8C%96%E4%B8%8E%E8%B7%A8ISA%E4%BB%A3%E7%A0%81%E8%BF%81%E7%A7%BB/27_VecIntrinBench_Benchmarking_Cross_Architecture_Intrinsic_Code_Migratio.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/101_TritonBench.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/101_TritonBench.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/102_CodeNet.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/102_CodeNet.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C33_SeGaBench_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C33_SeGaBench_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C41_LLVM-Bench_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C41_LLVM-Bench_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/03_CompilerGym_Robust_Performant_Compiler_Optimization_Environments_for_A.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/03_CompilerGym_Robust_Performant_Compiler_Optimization_Environments_for_A.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/14_Alive2_Bounded_Translation_Validation_for_LLVM_PLDI_2021.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/14_Alive2_Bounded_Translation_Validation_for_LLVM_PLDI_2021.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/17_Souper_A_Synthesizing_Superoptimizer_arXiv_2017.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/17_Souper_A_Synthesizing_Superoptimizer_arXiv_2017.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/18_Souper_GitHub_Repository.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/18_Souper_GitHub_Repository.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/20_Minotaur_A_SIMD_Oriented_Synthesizing_Superoptimizer_2024.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/20_Minotaur_A_SIMD_Oriented_Synthesizing_Superoptimizer_2024.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/30_Alive_Automatic_LLVM_InstCombine_Verification_PLDI_2015.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/30_Alive_Automatic_LLVM_InstCombine_Verification_PLDI_2015.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/C01_Dynamic_Allocations_Translation_Validation_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/C01_Dynamic_Allocations_Translation_Validation_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/C16_Foresight_Equality_Saturation_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/C16_Foresight_Equality_Saturation_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/C18_E_Path_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/C18_E_Path_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/C27_Towards_Removing_Undef_Values_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/C27_Towards_Removing_Undef_Values_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/31_TVM_An_Automated_End_to_End_Optimizing_Compiler_for_Deep_Learning_OSDI.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/31_TVM_An_Automated_End_to_End_Optimizing_Compiler_for_Deep_Learning_OSDI.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/34_ProGraML_A_Graph_based_Program_Representation_for_Data_Flow_Analysis_a.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/34_ProGraML_A_Graph_based_Program_Representation_for_Data_Flow_Analysis_a.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/35_MLIR_Scaling_Compiler_Infrastructure_for_Domain_Specific_Computation_C.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/35_MLIR_Scaling_Compiler_Infrastructure_for_Domain_Specific_Computation_C.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/98_XGrammar_Structured_Generation.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/98_XGrammar_Structured_Generation.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/99_Efficient_Guided_Generation.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/99_Efficient_Guided_Generation.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C02_MLIR_Transform_Dialect_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C02_MLIR_Transform_Dialect_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C03_High_Performance_AI_Compiler_MLIR_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C03_High_Performance_AI_Compiler_MLIR_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C14_MLIR_Latency_Hiding_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C14_MLIR_Latency_Hiding_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/37_Faster_sorting_algorithms_discovered_using_deep_reinforcement_learning.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/37_Faster_sorting_algorithms_discovered_using_deep_reinforcement_learning.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/07_Meta_Large_Language_Model_Compiler_Foundation_Models_of_Compiler_Optim.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/07_Meta_Large_Language_Model_Compiler_Foundation_Models_of_Compiler_Optim.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/08_Foundation_Language_Models_for_Compiler_Optimization_2025.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/08_Foundation_Language_Models_for_Compiler_Optimization_2025.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/55_Program_Synthesis_with_Large_Language_Models.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/55_Program_Synthesis_with_Large_Language_Models.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/60_Virtual_Compiler_for_Assembly_Search.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/60_Virtual_Compiler_for_Assembly_Search.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/73_DeepSeekMath_and_GRPO.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/73_DeepSeekMath_and_GRPO.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/74_Algorithmic_LMs_with_Neurally_Compiled_Libraries.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/74_Algorithmic_LMs_with_Neurally_Compiled_Libraries.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/75_GPT_4_Technical_Report.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/75_GPT_4_Technical_Report.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/76_Gemini_Multimodal_Models.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/76_Gemini_Multimodal_Models.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/01_AutoPhase_Juggling_HLS_Phase_Orderings_in_Random_Forests_with_Deep_Rei.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/01_AutoPhase_Juggling_HLS_Phase_Orderings_in_Random_Forests_with_Deep_Rei.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/02_Compiler_Phase_Ordering_for_High_Level_Synthesis_with_Deep_Reinforceme.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/02_Compiler_Phase_Ordering_for_High_Level_Synthesis_with_Deep_Reinforceme.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/05_MileStone_A_Multi_Objective_Compiler_Phase_Ordering_Framework_arXiv_20.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/05_MileStone_A_Multi_Objective_Compiler_Phase_Ordering_Framework_arXiv_20.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/06_Exploiting_Booster_Pass_Chain_for_Compiler_Phase_Ordering_2025.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/06_Exploiting_Booster_Pass_Chain_for_Compiler_Phase_Ordering_2025.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/48_CompilerDream_World_Model.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/48_CompilerDream_World_Model.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/50_AI_Powered_Compiler_Techniques_for_DL.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/50_AI_Powered_Compiler_Techniques_for_DL.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C05_CITROEN_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C05_CITROEN_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C10_Protean_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C10_Protean_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C22_MLIR_RL_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C22_MLIR_RL_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C24_Pearl_Automatic_Code_Optimization_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C24_Pearl_Automatic_Code_Optimization_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C30_RACE_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C30_RACE_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C31_Poseidon_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C31_Poseidon_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/92_UnsupervisedBinTrans_Cross_ISA_Binary_Translation.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/92_UnsupervisedBinTrans_Cross_ISA_Binary_Translation.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/C19_STENSO_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/C19_STENSO_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/04_%E5%90%91%E9%87%8F%E5%8C%96%E4%B8%8E%E8%B7%A8ISA%E4%BB%A3%E7%A0%81%E8%BF%81%E7%A7%BB/C21_OML_vect_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/04_%E5%90%91%E9%87%8F%E5%8C%96%E4%B8%8E%E8%B7%A8ISA%E4%BB%A3%E7%A0%81%E8%BF%81%E7%A7%BB/C21_OML_vect_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/24_Tensor_Program_Optimization_for_the_RISC_V_Vector_Extension_Using_Prob.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/24_Tensor_Program_Optimization_for_the_RISC_V_Vector_Extension_Using_Prob.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/32_Learning_to_Optimize_Tensor_Programs_NeurIPS_2018.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/32_Learning_to_Optimize_Tensor_Programs_NeurIPS_2018.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/33_Ithemal_Accurate_Portable_and_Fast_Basic_Block_Throughput_Estimation_u.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/33_Ithemal_Accurate_Portable_and_Fast_Basic_Block_Throughput_Estimation_u.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/36_Ansor_Generating_High_Performance_Tensor_Programs_for_Deep_Learning_OS.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/36_Ansor_Generating_High_Performance_Tensor_Programs_for_Deep_Learning_OS.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/103_OMPar_OpenMP_Parallelization.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/103_OMPar_OpenMP_Parallelization.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C04_Korch_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C04_Korch_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C13_TCL_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C13_TCL_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C15_RIFS_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C15_RIFS_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C29_Neptune_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C29_Neptune_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N19_Ditto_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N19_Ditto_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/04_%E5%90%91%E9%87%8F%E5%8C%96%E4%B8%8E%E8%B7%A8ISA%E4%BB%A3%E7%A0%81%E8%BF%81%E7%A7%BB/28_neon2rvv_A_Translator_from_ARM_NEON_Intrinsics_to_RISC_V_Vector_Extens.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/04_%E5%90%91%E9%87%8F%E5%8C%96%E4%B8%8E%E8%B7%A8ISA%E4%BB%A3%E7%A0%81%E8%BF%81%E7%A7%BB/28_neon2rvv_A_Translator_from_ARM_NEON_Intrinsics_to_RISC_V_Vector_Extens.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/21_A_Performance_Analysis_of_Autovectorization_on_RVV_RISC_V_2025.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/21_A_Performance_Analysis_of_Autovectorization_on_RVV_RISC_V_2025.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/22_RISC_V_Vectorization_Coverage_for_HPC_A_TSVC_Based_Analysis_2025.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/22_RISC_V_Vectorization_Coverage_for_HPC_A_TSVC_Based_Analysis_2025.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/23_Closer_in_the_Gap_Towards_Portable_Performance_on_RISC_V_Vector_Proces.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/23_Closer_in_the_Gap_Towards_Portable_Performance_on_RISC_V_Vector_Proces.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/25_RISC_V_LLVM_backend_optimization_incubator_RVCC_discussion.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/25_RISC_V_LLVM_backend_optimization_incubator_RVCC_discussion.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/29_RISC_V_Vector_C_Intrinsic_Specification.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/29_RISC_V_Vector_C_Intrinsic_Specification.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/C12_MLIR_xDSL_RVV_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/C12_MLIR_xDSL_RVV_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/C20_%E6%8C%87%E4%BB%A4%E9%80%89%E6%8B%A9%E5%90%8E%E7%AB%AF%E7%BB%BC%E5%90%88_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/C20_%E6%8C%87%E4%BB%A4%E9%80%89%E6%8B%A9%E5%90%8E%E7%AB%AF%E7%BB%BC%E5%90%88_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/C23_Multilevel_RISCV_Backend_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/C23_Multilevel_RISCV_Backend_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C32_NEURA_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C32_NEURA_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/N01_Should_AI_Optimize_Your_Code_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/N01_Should_AI_Optimize_Your_Code_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/09_A_Survey_on_the_Synergy_of_LLMs_and_Compilers_arXiv_2026.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/09_A_Survey_on_the_Synergy_of_LLMs_and_Compilers_arXiv_2026.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/69_AIOS_Compiler_Natural_Language_Programming.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/69_AIOS_Compiler_Natural_Language_Programming.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N05_Judging_Code_Efficiency_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N05_Judging_Code_Efficiency_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N12_ZeroShot_Parallelization_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N12_ZeroShot_Parallelization_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N21_Compiler_Agent_Impact_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N21_Compiler_Agent_Impact_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/19_STOKE_Stochastic_Superoptimization_ASPLOS_2013.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/19_STOKE_Stochastic_Superoptimization_ASPLOS_2013.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/39_Enhancing_Translation_Validation_of_Compiler_Transformations_with_Larg.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/39_Enhancing_Translation_Validation_of_Compiler_Transformations_with_Larg.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/91_EISP_Test_Free_Semantic_Localization.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/91_EISP_Test_Free_Semantic_Localization.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/95_EvalGPTFix_Data_Leakage_Aware_Repair.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/95_EvalGPTFix_Data_Leakage_Aware_Repair.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/96_LLMs_for_Compilation_Errors.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/96_LLMs_for_Compilation_Errors.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/97_LLM_Understanding_of_Compiler_IR.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/97_LLM_Understanding_of_Compiler_IR.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/04_%E5%90%91%E9%87%8F%E5%8C%96%E4%B8%8E%E8%B7%A8ISA%E4%BB%A3%E7%A0%81%E8%BF%81%E7%A7%BB/C11_TRACE_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/04_%E5%90%91%E9%87%8F%E5%8C%96%E4%B8%8E%E8%B7%A8ISA%E4%BB%A3%E7%A0%81%E8%BF%81%E7%A7%BB/C11_TRACE_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md"
+    },
+    {
+      "key": "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/100_CodeBLEU.md",
+      "source": "00_三大类分类索引_v2.md",
+      "destination": "%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/100_CodeBLEU.md"
+    },
+    {
+      "key": "EPAS/01_核心研究框架/00_六类论文创新点总览.md::01_Pass调优_跨架构效应解耦的少样本策略迁移.md",
+      "source": "EPAS/01_核心研究框架/00_六类论文创新点总览.md",
+      "destination": "01_Pass调优_跨架构效应解耦的少样本策略迁移.md"
+    },
+    {
+      "key": "EPAS/01_核心研究框架/00_六类论文创新点总览.md::02_编译智能体_真实后端实现对齐的意图反馈学习.md",
+      "source": "EPAS/01_核心研究框架/00_六类论文创新点总览.md",
+      "destination": "02_编译智能体_真实后端实现对齐的意图反馈学习.md"
+    },
+    {
+      "key": "EPAS/01_核心研究框架/00_六类论文创新点总览.md::03_优化规则_证明收益双证据的跨架构知识库.md",
+      "source": "EPAS/01_核心研究框架/00_六类论文创新点总览.md",
+      "destination": "03_优化规则_证明收益双证据的跨架构知识库.md"
+    },
+    {
+      "key": "EPAS/01_核心研究框架/00_六类论文创新点总览.md::04_代码翻译_向量语义中间层驱动的可伸缩跨ISA迁移.md",
+      "source": "EPAS/01_核心研究框架/00_六类论文创新点总览.md",
+      "destination": "04_代码翻译_向量语义中间层驱动的可伸缩跨ISA迁移.md"
+    },
+    {
+      "key": "EPAS/01_核心研究框架/00_六类论文创新点总览.md::05_RVV后端_硬件反例驱动的代价模型自校准.md",
+      "source": "EPAS/01_核心研究框架/00_六类论文创新点总览.md",
+      "destination": "05_RVV后端_硬件反例驱动的代价模型自校准.md"
+    },
+    {
+      "key": "EPAS/02_其余五类候选创新/01_Pass调优_跨架构效应解耦的少样本策略迁移.md::06_多硬件编译_效应保持的最小架构增量知识特化.md",
+      "source": "EPAS/02_其余五类候选创新/01_Pass调优_跨架构效应解耦的少样本策略迁移.md",
+      "destination": "06_多硬件编译_效应保持的最小架构增量知识特化.md"
+    },
+    {
+      "key": "EPAS/02_其余五类候选创新/02_编译智能体_真实后端实现对齐的意图反馈学习.md::06_多硬件编译_效应保持的最小架构增量知识特化.md",
+      "source": "EPAS/02_其余五类候选创新/02_编译智能体_真实后端实现对齐的意图反馈学习.md",
+      "destination": "06_多硬件编译_效应保持的最小架构增量知识特化.md"
+    },
+    {
+      "key": "EPAS/02_其余五类候选创新/04_代码翻译_向量语义中间层驱动的可伸缩跨ISA迁移.md::06_多硬件编译_效应保持的最小架构增量知识特化.md",
+      "source": "EPAS/02_其余五类候选创新/04_代码翻译_向量语义中间层驱动的可伸缩跨ISA迁移.md",
+      "destination": "06_多硬件编译_效应保持的最小架构增量知识特化.md"
+    },
+    {
+      "key": "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/00_逐篇阅读目录.md",
+      "source": "EPAS/04_文献分析/研究方向综合分析.md",
+      "destination": "文献逐篇阅读/00_逐篇阅读目录.md"
+    },
+    {
+      "key": "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/01_AutoPhase_Juggling_HLS_Phase_Orderings_in_Random_Forests_with_Deep_Rei.md",
+      "source": "EPAS/04_文献分析/研究方向综合分析.md",
+      "destination": "文献逐篇阅读/01_AutoPhase_Juggling_HLS_Phase_Orderings_in_Random_Forests_with_Deep_Rei.md"
+    },
+    {
+      "key": "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/03_CompilerGym_Robust_Performant_Compiler_Optimization_Environments_for_A.md",
+      "source": "EPAS/04_文献分析/研究方向综合分析.md",
+      "destination": "文献逐篇阅读/03_CompilerGym_Robust_Performant_Compiler_Optimization_Environments_for_A.md"
+    },
+    {
+      "key": "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/04_Compiler_R1_Towards_Agentic_Compiler_Auto_tuning_with_Reinforcement_Le.md",
+      "source": "EPAS/04_文献分析/研究方向综合分析.md",
+      "destination": "文献逐篇阅读/04_Compiler_R1_Towards_Agentic_Compiler_Auto_tuning_with_Reinforcement_Le.md"
+    },
+    {
+      "key": "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/11_Agentic_Code_Optimization_via_Compiler_LLM_Cooperation_arXiv_2026.md",
+      "source": "EPAS/04_文献分析/研究方向综合分析.md",
+      "destination": "文献逐篇阅读/11_Agentic_Code_Optimization_via_Compiler_LLM_Cooperation_arXiv_2026.md"
+    },
+    {
+      "key": "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/12_LLM_VeriOpt_Verification_Guided_Reinforcement_Learning_for_LLM_Based_C.md",
+      "source": "EPAS/04_文献分析/研究方向综合分析.md",
+      "destination": "文献逐篇阅读/12_LLM_VeriOpt_Verification_Guided_Reinforcement_Learning_for_LLM_Based_C.md"
+    },
+    {
+      "key": "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/16_Beyond_Pass_by_Pass_Optimization_Intent_Driven_IR_Optimization_with_La.md",
+      "source": "EPAS/04_文献分析/研究方向综合分析.md",
+      "destination": "文献逐篇阅读/16_Beyond_Pass_by_Pass_Optimization_Intent_Driven_IR_Optimization_with_La.md"
+    },
+    {
+      "key": "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/23_Closer_in_the_Gap_Towards_Portable_Performance_on_RISC_V_Vector_Proces.md",
+      "source": "EPAS/04_文献分析/研究方向综合分析.md",
+      "destination": "文献逐篇阅读/23_Closer_in_the_Gap_Towards_Portable_Performance_on_RISC_V_Vector_Proces.md"
+    },
+    {
+      "key": "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/24_Tensor_Program_Optimization_for_the_RISC_V_Vector_Extension_Using_Prob.md",
+      "source": "EPAS/04_文献分析/研究方向综合分析.md",
+      "destination": "文献逐篇阅读/24_Tensor_Program_Optimization_for_the_RISC_V_Vector_Extension_Using_Prob.md"
+    },
+    {
+      "key": "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/26_IntrinTrans_LLM_based_Intrinsic_Code_Translator_for_RISC_V_Vector_arXi.md",
+      "source": "EPAS/04_文献分析/研究方向综合分析.md",
+      "destination": "文献逐篇阅读/26_IntrinTrans_LLM_based_Intrinsic_Code_Translator_for_RISC_V_Vector_arXi.md"
+    },
+    {
+      "key": "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/31_TVM_An_Automated_End_to_End_Optimizing_Compiler_for_Deep_Learning_OSDI.md",
+      "source": "EPAS/04_文献分析/研究方向综合分析.md",
+      "destination": "文献逐篇阅读/31_TVM_An_Automated_End_to_End_Optimizing_Compiler_for_Deep_Learning_OSDI.md"
+    },
+    {
+      "key": "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/36_Ansor_Generating_High_Performance_Tensor_Programs_for_Deep_Learning_OS.md",
+      "source": "EPAS/04_文献分析/研究方向综合分析.md",
+      "destination": "文献逐篇阅读/36_Ansor_Generating_High_Performance_Tensor_Programs_for_Deep_Learning_OS.md"
+    },
+    {
+      "key": "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/37_Faster_sorting_algorithms_discovered_using_deep_reinforcement_learning.md",
+      "source": "EPAS/04_文献分析/研究方向综合分析.md",
+      "destination": "文献逐篇阅读/37_Faster_sorting_algorithms_discovered_using_deep_reinforcement_learning.md"
+    },
+    {
+      "key": "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/44_Leveraging_Large_Language_Models_for_Generalizing_Peephole_Optimizatio.md",
+      "source": "EPAS/04_文献分析/研究方向综合分析.md",
+      "destination": "文献逐篇阅读/44_Leveraging_Large_Language_Models_for_Generalizing_Peephole_Optimizatio.md"
+    },
+    {
+      "key": "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/00_逐篇阅读目录.md",
+      "source": "EPAS/04_文献分析/研究方向综合分析.md",
+      "destination": "文献逐篇阅读/00_逐篇阅读目录.md"
+    },
+    {
+      "key": "多平台自适应编译优化框架/04_实验进展/01_P0候选管线与正确性记录/01_P0候选管线与正确性记录_实施计划.md::../03_设计与实施计划/MAPO-Pass_P0数据与实验设计规格.md",
+      "source": "多平台自适应编译优化框架/04_实验进展/01_P0候选管线与正确性记录/01_P0候选管线与正确性记录_实施计划.md",
+      "destination": "../03_设计与实施计划/MAPO-Pass_P0数据与实验设计规格.md"
+    },
+    {
+      "key": "多平台自适应编译优化框架/04_实验进展/01_P0候选管线与正确性记录/01_P0候选管线与正确性记录_实施计划.md::../MAPO-Pass_预实验实施方案.md",
+      "source": "多平台自适应编译优化框架/04_实验进展/01_P0候选管线与正确性记录/01_P0候选管线与正确性记录_实施计划.md",
+      "destination": "../MAPO-Pass_预实验实施方案.md"
+    },
+    {
+      "key": "多平台自适应编译优化框架/04_实验进展/01_P0候选管线与正确性记录/01_P0候选管线与正确性记录_实施计划.md::00_协同执行与反馈规范.md",
+      "source": "多平台自适应编译优化框架/04_实验进展/01_P0候选管线与正确性记录/01_P0候选管线与正确性记录_实施计划.md",
+      "destination": "00_协同执行与反馈规范.md"
+    }
+  ],
+  "broken_keys": [
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/01_AutoPhase_Juggling_HLS_Phase_Orderings_in_Random_Forests_with_Deep_Rei.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/02_Compiler_Phase_Ordering_for_High_Level_Synthesis_with_Deep_Reinforceme.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/03_CompilerGym_Robust_Performant_Compiler_Optimization_Environments_for_A.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/05_MileStone_A_Multi_Objective_Compiler_Phase_Ordering_Framework_arXiv_20.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/06_Exploiting_Booster_Pass_Chain_for_Compiler_Phase_Ordering_2025.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/37_Faster_sorting_algorithms_discovered_using_deep_reinforcement_learning.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/46_Large_Language_Models_for_Compiler_Optimization.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/47_Priority_Sampling_of_LLMs_for_Compilers.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/48_CompilerDream_World_Model.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/49_Reasoning_for_LLM_Peephole_Optimization.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/50_AI_Powered_Compiler_Techniques_for_DL.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/51_Problem_Oriented_Code_Optimization.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/52_PerfRL_Small_Language_Model_Code_Optimization.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/53_BenchDirect_Directed_Compiler_Benchmarks.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/54_Neural_Instruction_Combiner_for_LLVM.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C05_CITROEN_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C06_AwareCompiler_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C09_ECCO_Causal_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C10_Protean_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C22_MLIR_RL_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C24_Pearl_Automatic_Code_Optimization_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C25_DeCOS_Compiler_Optimization_Selection_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C30_RACE_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C31_Poseidon_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C35_AutoPass_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C38_LiteCoOp_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/N01_Should_AI_Optimize_Your_Code_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/N02_Energy_Efficient_Code_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/04_Compiler_R1_Towards_Agentic_Compiler_Auto_tuning_with_Reinforcement_Le.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/07_Meta_Large_Language_Model_Compiler_Foundation_Models_of_Compiler_Optim.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/08_Foundation_Language_Models_for_Compiler_Optimization_2025.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/09_A_Survey_on_the_Synergy_of_LLMs_and_Compilers_arXiv_2026.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/10_Compiler_Optimization_via_LLM_Reasoning_for_Efficient_Model_Serving_ar.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/11_Agentic_Code_Optimization_via_Compiler_LLM_Cooperation_arXiv_2026.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/16_Beyond_Pass_by_Pass_Optimization_Intent_Driven_IR_Optimization_with_La.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/38_Compiler_generated_feedback_for_Large_Language_Models_arXiv_2024.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/40_VecTrans_Enhancing_Compiler_Auto_Vectorization_through_LLM_Assisted_Co.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/42_CompilerGPT_Leveraging_Large_Language_Models_for_Analyzing_and_Acting_.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/45_Beyond_Pass_by_Pass_Optimization_Intent_Driven_IR_Optimization_with_La.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/55_Program_Synthesis_with_Large_Language_Models.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/56_Learning_C_to_x86_Translation.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/57_Compiler_Semantics_for_C_to_x86_LLMs.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/58_LEGO_Compiler_Composable_Neural_Compilation.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/59_Rectifier_for_Code_Translation.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/60_Virtual_Compiler_for_Assembly_Search.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/61_COCOGEN_Compiler_Feedback.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/62_LLM4Decompile.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/63_GENNM_Decompiler_Name_Recovery.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/64_Autocomp_Tensor_Accelerator_Optimization.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/65_ECO_Warehouse_Scale_Code_Optimizer.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/66_CUDA_L1_Contrastive_RL.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/67_SLaDe_Portable_Decompiler.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/68_CompileAgent_Repo_Level_Compilation.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/69_AIOS_Compiler_Natural_Language_Programming.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/70_Code_the_Transforms.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/71_STARK_Multi_Agent_GPU_Kernels.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/72_Codex_and_HumanEval.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/73_DeepSeekMath_and_GRPO.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/74_Algorithmic_LMs_with_Neurally_Compiled_Libraries.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/75_GPT_4_Technical_Report.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/76_Gemini_Multimodal_Models.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/77_Arabic_Programming_Language_with_LLM.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/78_AutoChip_HDL_Feedback.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/79_PIE_Performance_Improving_Code_Edits.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/80_SymRTLO_Neuro_Symbolic_RTL_Optimization.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/81_Hierarchical_Prompting_for_Chip_Design.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/82_MCTS_RTL_Generation.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/83_QiMeng_Xpiler_Neural_Symbolic_Transcompiler.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/84_Kevin_Multi_Turn_RL_CUDA.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/85_Verilog_RL_with_Testbench_Feedback.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/86_Verilocc_Cross_Architecture_Register_Allocation.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/87_HPCTransCompile_CUDA_Transpilation_Dataset.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/88_AVATAR_Java_Python_Translation.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/89_BinSum_Binary_Code_Summarization.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/C07_Code_Optimise_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/C34_T-LLM-Compiler_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/C36_PassNet_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/C37_Magellan_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/C40_RACL_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/C42_POLO_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N03_StepCoder_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N04_ECCO_Code_Efficiency_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N05_Judging_Code_Efficiency_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N06_PyCraft_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N07_SBLLM_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N08_BITE_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N09_DecLLM_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N10_GraphGlue_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N11_PtxDec_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N12_ZeroShot_Parallelization_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N13_NPUEval_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N14_MEP_GPU_Optimization_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N15_HintPilot_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N16_PerfCoder_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N17_AutoVecCoder_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N18_FSCM_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N19_Ditto_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N20_CODMAS_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N21_Compiler_Agent_Impact_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/12_LLM_VeriOpt_Verification_Guided_Reinforcement_Learning_for_LLM_Based_C.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/14_Alive2_Bounded_Translation_Validation_for_LLVM_PLDI_2021.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/15_Verified_Learning_for_Compiler_Optimization_An_LLM_Based_Approach.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/17_Souper_A_Synthesizing_Superoptimizer_arXiv_2017.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/18_Souper_GitHub_Repository.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/19_STOKE_Stochastic_Superoptimization_ASPLOS_2013.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/20_Minotaur_A_SIMD_Oriented_Synthesizing_Superoptimizer_2024.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/30_Alive_Automatic_LLVM_InstCombine_Verification_PLDI_2015.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/39_Enhancing_Translation_Validation_of_Compiler_Transformations_with_Larg.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/41_Finding_Missed_Code_Size_Optimizations_in_Compilers_using_LLMs_arXiv_2.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/43_Problem_Oriented_Code_Optimization_Duplicate_Copy.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/44_Leveraging_Large_Language_Models_for_Generalizing_Peephole_Optimizatio.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/90_LLMLIFT_Verified_Code_Transpilation.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/91_EISP_Test_Free_Semantic_Localization.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/92_UnsupervisedBinTrans_Cross_ISA_Binary_Translation.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/93_TFix_Text_to_Text_Bug_Repair.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/94_LLM_Security_Test_Generation.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/95_EvalGPTFix_Data_Leakage_Aware_Repair.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/96_LLMs_for_Compilation_Errors.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/97_LLM_Understanding_of_Compiler_IR.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/C01_Dynamic_Allocations_Translation_Validation_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/C08_LPO_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/C16_Foresight_Equality_Saturation_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/C17_EggMind_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/C18_E_Path_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/C19_STENSO_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/C27_Towards_Removing_Undef_Values_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/C39_SuperCoder_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/N22_Forklift_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/N23_OpenCL_Polyhedral_LLM_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/N24_BRIDGE_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/N25_CoV_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/04_%E5%90%91%E9%87%8F%E5%8C%96%E4%B8%8E%E8%B7%A8ISA%E4%BB%A3%E7%A0%81%E8%BF%81%E7%A7%BB/13_LLM_Vectorizer_LLM_Based_Verified_Loop_Vectorizer_CGO_2025.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/04_%E5%90%91%E9%87%8F%E5%8C%96%E4%B8%8E%E8%B7%A8ISA%E4%BB%A3%E7%A0%81%E8%BF%81%E7%A7%BB/26_IntrinTrans_LLM_based_Intrinsic_Code_Translator_for_RISC_V_Vector_arXi.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/04_%E5%90%91%E9%87%8F%E5%8C%96%E4%B8%8E%E8%B7%A8ISA%E4%BB%A3%E7%A0%81%E8%BF%81%E7%A7%BB/27_VecIntrinBench_Benchmarking_Cross_Architecture_Intrinsic_Code_Migratio.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/04_%E5%90%91%E9%87%8F%E5%8C%96%E4%B8%8E%E8%B7%A8ISA%E4%BB%A3%E7%A0%81%E8%BF%81%E7%A7%BB/28_neon2rvv_A_Translator_from_ARM_NEON_Intrinsics_to_RISC_V_Vector_Extens.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/04_%E5%90%91%E9%87%8F%E5%8C%96%E4%B8%8E%E8%B7%A8ISA%E4%BB%A3%E7%A0%81%E8%BF%81%E7%A7%BB/C11_TRACE_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/04_%E5%90%91%E9%87%8F%E5%8C%96%E4%B8%8E%E8%B7%A8ISA%E4%BB%A3%E7%A0%81%E8%BF%81%E7%A7%BB/C21_OML_vect_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/21_A_Performance_Analysis_of_Autovectorization_on_RVV_RISC_V_2025.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/22_RISC_V_Vectorization_Coverage_for_HPC_A_TSVC_Based_Analysis_2025.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/23_Closer_in_the_Gap_Towards_Portable_Performance_on_RISC_V_Vector_Proces.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/24_Tensor_Program_Optimization_for_the_RISC_V_Vector_Extension_Using_Prob.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/25_RISC_V_LLVM_backend_optimization_incubator_RVCC_discussion.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/29_RISC_V_Vector_C_Intrinsic_Specification.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/C12_MLIR_xDSL_RVV_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/C20_%E6%8C%87%E4%BB%A4%E9%80%89%E6%8B%A9%E5%90%8E%E7%AB%AF%E7%BB%BC%E5%90%88_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/C23_Multilevel_RISCV_Backend_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/100_CodeBLEU.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/101_TritonBench.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/102_CodeNet.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/103_OMPar_OpenMP_Parallelization.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/31_TVM_An_Automated_End_to_End_Optimizing_Compiler_for_Deep_Learning_OSDI.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/32_Learning_to_Optimize_Tensor_Programs_NeurIPS_2018.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/33_Ithemal_Accurate_Portable_and_Fast_Basic_Block_Throughput_Estimation_u.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/34_ProGraML_A_Graph_based_Program_Representation_for_Data_Flow_Analysis_a.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/35_MLIR_Scaling_Compiler_Infrastructure_for_Domain_Specific_Computation_C.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/36_Ansor_Generating_High_Performance_Tensor_Programs_for_Deep_Learning_OS.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/98_XGrammar_Structured_Generation.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/99_Efficient_Guided_Generation.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C02_MLIR_Transform_Dialect_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C03_High_Performance_AI_Compiler_MLIR_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C04_Korch_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C13_TCL_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C14_MLIR_Latency_Hiding_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C15_RIFS_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C28_Guided_Tensor_Lifting_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C29_Neptune_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C32_NEURA_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C33_SeGaBench_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C41_LLVM-Bench_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "EPAS/01_核心研究框架/00_六类论文创新点总览.md::01_Pass调优_跨架构效应解耦的少样本策略迁移.md",
+    "EPAS/01_核心研究框架/00_六类论文创新点总览.md::02_编译智能体_真实后端实现对齐的意图反馈学习.md",
+    "EPAS/01_核心研究框架/00_六类论文创新点总览.md::03_优化规则_证明收益双证据的跨架构知识库.md",
+    "EPAS/01_核心研究框架/00_六类论文创新点总览.md::04_代码翻译_向量语义中间层驱动的可伸缩跨ISA迁移.md",
+    "EPAS/01_核心研究框架/00_六类论文创新点总览.md::05_RVV后端_硬件反例驱动的代价模型自校准.md",
+    "EPAS/02_其余五类候选创新/01_Pass调优_跨架构效应解耦的少样本策略迁移.md::06_多硬件编译_效应保持的最小架构增量知识特化.md",
+    "EPAS/02_其余五类候选创新/02_编译智能体_真实后端实现对齐的意图反馈学习.md::06_多硬件编译_效应保持的最小架构增量知识特化.md",
+    "EPAS/02_其余五类候选创新/04_代码翻译_向量语义中间层驱动的可伸缩跨ISA迁移.md::06_多硬件编译_效应保持的最小架构增量知识特化.md",
+    "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/00_逐篇阅读目录.md",
+    "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/01_AutoPhase_Juggling_HLS_Phase_Orderings_in_Random_Forests_with_Deep_Rei.md",
+    "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/03_CompilerGym_Robust_Performant_Compiler_Optimization_Environments_for_A.md",
+    "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/04_Compiler_R1_Towards_Agentic_Compiler_Auto_tuning_with_Reinforcement_Le.md",
+    "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/11_Agentic_Code_Optimization_via_Compiler_LLM_Cooperation_arXiv_2026.md",
+    "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/12_LLM_VeriOpt_Verification_Guided_Reinforcement_Learning_for_LLM_Based_C.md",
+    "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/16_Beyond_Pass_by_Pass_Optimization_Intent_Driven_IR_Optimization_with_La.md",
+    "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/23_Closer_in_the_Gap_Towards_Portable_Performance_on_RISC_V_Vector_Proces.md",
+    "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/24_Tensor_Program_Optimization_for_the_RISC_V_Vector_Extension_Using_Prob.md",
+    "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/26_IntrinTrans_LLM_based_Intrinsic_Code_Translator_for_RISC_V_Vector_arXi.md",
+    "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/31_TVM_An_Automated_End_to_End_Optimizing_Compiler_for_Deep_Learning_OSDI.md",
+    "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/36_Ansor_Generating_High_Performance_Tensor_Programs_for_Deep_Learning_OS.md",
+    "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/37_Faster_sorting_algorithms_discovered_using_deep_reinforcement_learning.md",
+    "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/44_Leveraging_Large_Language_Models_for_Generalizing_Peephole_Optimizatio.md",
+    "多平台自适应编译优化框架/04_实验进展/01_P0候选管线与正确性记录/01_P0候选管线与正确性记录_实施计划.md::../03_设计与实施计划/MAPO-Pass_P0数据与实验设计规格.md",
+    "多平台自适应编译优化框架/04_实验进展/01_P0候选管线与正确性记录/01_P0候选管线与正确性记录_实施计划.md::../MAPO-Pass_预实验实施方案.md",
+    "多平台自适应编译优化框架/04_实验进展/01_P0候选管线与正确性记录/01_P0候选管线与正确性记录_实施计划.md::00_协同执行与反馈规范.md"
+  ],
+  "archive_exempt": [],
+  "migration_introduced": [
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/01_AutoPhase_Juggling_HLS_Phase_Orderings_in_Random_Forests_with_Deep_Rei.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/02_Compiler_Phase_Ordering_for_High_Level_Synthesis_with_Deep_Reinforceme.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/03_CompilerGym_Robust_Performant_Compiler_Optimization_Environments_for_A.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/05_MileStone_A_Multi_Objective_Compiler_Phase_Ordering_Framework_arXiv_20.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/06_Exploiting_Booster_Pass_Chain_for_Compiler_Phase_Ordering_2025.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/37_Faster_sorting_algorithms_discovered_using_deep_reinforcement_learning.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/46_Large_Language_Models_for_Compiler_Optimization.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/47_Priority_Sampling_of_LLMs_for_Compilers.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/48_CompilerDream_World_Model.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/49_Reasoning_for_LLM_Peephole_Optimization.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/50_AI_Powered_Compiler_Techniques_for_DL.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/51_Problem_Oriented_Code_Optimization.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/52_PerfRL_Small_Language_Model_Code_Optimization.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/53_BenchDirect_Directed_Compiler_Benchmarks.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/54_Neural_Instruction_Combiner_for_LLVM.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C05_CITROEN_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C06_AwareCompiler_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C09_ECCO_Causal_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C10_Protean_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C22_MLIR_RL_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C24_Pearl_Automatic_Code_Optimization_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C25_DeCOS_Compiler_Optimization_Selection_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C30_RACE_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C31_Poseidon_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C35_AutoPass_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/C38_LiteCoOp_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/N01_Should_AI_Optimize_Your_Code_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/01_%E7%BC%96%E8%AF%91%E9%98%B6%E6%AE%B5%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%B0%83%E4%BC%98/N02_Energy_Efficient_Code_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/04_Compiler_R1_Towards_Agentic_Compiler_Auto_tuning_with_Reinforcement_Le.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/07_Meta_Large_Language_Model_Compiler_Foundation_Models_of_Compiler_Optim.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/08_Foundation_Language_Models_for_Compiler_Optimization_2025.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/09_A_Survey_on_the_Synergy_of_LLMs_and_Compilers_arXiv_2026.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/10_Compiler_Optimization_via_LLM_Reasoning_for_Efficient_Model_Serving_ar.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/11_Agentic_Code_Optimization_via_Compiler_LLM_Cooperation_arXiv_2026.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/16_Beyond_Pass_by_Pass_Optimization_Intent_Driven_IR_Optimization_with_La.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/38_Compiler_generated_feedback_for_Large_Language_Models_arXiv_2024.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/40_VecTrans_Enhancing_Compiler_Auto_Vectorization_through_LLM_Assisted_Co.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/42_CompilerGPT_Leveraging_Large_Language_Models_for_Analyzing_and_Acting_.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/45_Beyond_Pass_by_Pass_Optimization_Intent_Driven_IR_Optimization_with_La.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/55_Program_Synthesis_with_Large_Language_Models.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/56_Learning_C_to_x86_Translation.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/57_Compiler_Semantics_for_C_to_x86_LLMs.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/58_LEGO_Compiler_Composable_Neural_Compilation.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/59_Rectifier_for_Code_Translation.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/60_Virtual_Compiler_for_Assembly_Search.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/61_COCOGEN_Compiler_Feedback.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/62_LLM4Decompile.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/63_GENNM_Decompiler_Name_Recovery.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/64_Autocomp_Tensor_Accelerator_Optimization.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/65_ECO_Warehouse_Scale_Code_Optimizer.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/66_CUDA_L1_Contrastive_RL.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/67_SLaDe_Portable_Decompiler.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/68_CompileAgent_Repo_Level_Compilation.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/69_AIOS_Compiler_Natural_Language_Programming.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/70_Code_the_Transforms.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/71_STARK_Multi_Agent_GPU_Kernels.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/72_Codex_and_HumanEval.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/73_DeepSeekMath_and_GRPO.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/74_Algorithmic_LMs_with_Neurally_Compiled_Libraries.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/75_GPT_4_Technical_Report.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/76_Gemini_Multimodal_Models.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/77_Arabic_Programming_Language_with_LLM.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/78_AutoChip_HDL_Feedback.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/79_PIE_Performance_Improving_Code_Edits.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/80_SymRTLO_Neuro_Symbolic_RTL_Optimization.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/81_Hierarchical_Prompting_for_Chip_Design.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/82_MCTS_RTL_Generation.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/83_QiMeng_Xpiler_Neural_Symbolic_Transcompiler.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/84_Kevin_Multi_Turn_RL_CUDA.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/85_Verilog_RL_with_Testbench_Feedback.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/86_Verilocc_Cross_Architecture_Register_Allocation.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/87_HPCTransCompile_CUDA_Transpilation_Dataset.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/88_AVATAR_Java_Python_Translation.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/89_BinSum_Binary_Code_Summarization.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/C07_Code_Optimise_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/C34_T-LLM-Compiler_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/C36_PassNet_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/C37_Magellan_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/C40_RACL_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/C42_POLO_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N03_StepCoder_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N04_ECCO_Code_Efficiency_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N05_Judging_Code_Efficiency_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N06_PyCraft_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N07_SBLLM_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N08_BITE_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N09_DecLLM_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N10_GraphGlue_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N11_PtxDec_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N12_ZeroShot_Parallelization_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N13_NPUEval_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N14_MEP_GPU_Optimization_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N15_HintPilot_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N16_PerfCoder_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N17_AutoVecCoder_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N18_FSCM_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N19_Ditto_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N20_CODMAS_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/02_LLM%E7%BC%96%E8%AF%91%E4%BC%98%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8E%E5%8F%8D%E9%A6%88%E9%A9%B1%E5%8A%A8/N21_Compiler_Agent_Impact_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/12_LLM_VeriOpt_Verification_Guided_Reinforcement_Learning_for_LLM_Based_C.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/14_Alive2_Bounded_Translation_Validation_for_LLVM_PLDI_2021.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/15_Verified_Learning_for_Compiler_Optimization_An_LLM_Based_Approach.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/17_Souper_A_Synthesizing_Superoptimizer_arXiv_2017.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/18_Souper_GitHub_Repository.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/19_STOKE_Stochastic_Superoptimization_ASPLOS_2013.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/20_Minotaur_A_SIMD_Oriented_Synthesizing_Superoptimizer_2024.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/30_Alive_Automatic_LLVM_InstCombine_Verification_PLDI_2015.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/39_Enhancing_Translation_Validation_of_Compiler_Transformations_with_Larg.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/41_Finding_Missed_Code_Size_Optimizations_in_Compilers_using_LLMs_arXiv_2.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/43_Problem_Oriented_Code_Optimization_Duplicate_Copy.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/44_Leveraging_Large_Language_Models_for_Generalizing_Peephole_Optimizatio.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/90_LLMLIFT_Verified_Code_Transpilation.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/91_EISP_Test_Free_Semantic_Localization.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/92_UnsupervisedBinTrans_Cross_ISA_Binary_Translation.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/93_TFix_Text_to_Text_Bug_Repair.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/94_LLM_Security_Test_Generation.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/95_EvalGPTFix_Data_Leakage_Aware_Repair.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/96_LLMs_for_Compilation_Errors.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/97_LLM_Understanding_of_Compiler_IR.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/C01_Dynamic_Allocations_Translation_Validation_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/C08_LPO_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/C16_Foresight_Equality_Saturation_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/C17_EggMind_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/C18_E_Path_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/C19_STENSO_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/C27_Towards_Removing_Undef_Values_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/C39_SuperCoder_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/N22_Forklift_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/N23_OpenCL_Polyhedral_LLM_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/N24_BRIDGE_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/03_%E5%BD%A2%E5%BC%8F%E9%AA%8C%E8%AF%81_%E8%B6%85%E7%BA%A7%E4%BC%98%E5%8C%96%E4%B8%8E%E8%A7%84%E5%88%99%E7%94%9F%E6%88%90/N25_CoV_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/04_%E5%90%91%E9%87%8F%E5%8C%96%E4%B8%8E%E8%B7%A8ISA%E4%BB%A3%E7%A0%81%E8%BF%81%E7%A7%BB/13_LLM_Vectorizer_LLM_Based_Verified_Loop_Vectorizer_CGO_2025.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/04_%E5%90%91%E9%87%8F%E5%8C%96%E4%B8%8E%E8%B7%A8ISA%E4%BB%A3%E7%A0%81%E8%BF%81%E7%A7%BB/26_IntrinTrans_LLM_based_Intrinsic_Code_Translator_for_RISC_V_Vector_arXi.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/04_%E5%90%91%E9%87%8F%E5%8C%96%E4%B8%8E%E8%B7%A8ISA%E4%BB%A3%E7%A0%81%E8%BF%81%E7%A7%BB/27_VecIntrinBench_Benchmarking_Cross_Architecture_Intrinsic_Code_Migratio.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/04_%E5%90%91%E9%87%8F%E5%8C%96%E4%B8%8E%E8%B7%A8ISA%E4%BB%A3%E7%A0%81%E8%BF%81%E7%A7%BB/28_neon2rvv_A_Translator_from_ARM_NEON_Intrinsics_to_RISC_V_Vector_Extens.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/04_%E5%90%91%E9%87%8F%E5%8C%96%E4%B8%8E%E8%B7%A8ISA%E4%BB%A3%E7%A0%81%E8%BF%81%E7%A7%BB/C11_TRACE_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/04_%E5%90%91%E9%87%8F%E5%8C%96%E4%B8%8E%E8%B7%A8ISA%E4%BB%A3%E7%A0%81%E8%BF%81%E7%A7%BB/C21_OML_vect_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/21_A_Performance_Analysis_of_Autovectorization_on_RVV_RISC_V_2025.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/22_RISC_V_Vectorization_Coverage_for_HPC_A_TSVC_Based_Analysis_2025.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/23_Closer_in_the_Gap_Towards_Portable_Performance_on_RISC_V_Vector_Proces.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/24_Tensor_Program_Optimization_for_the_RISC_V_Vector_Extension_Using_Prob.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/25_RISC_V_LLVM_backend_optimization_incubator_RVCC_discussion.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/29_RISC_V_Vector_C_Intrinsic_Specification.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/C12_MLIR_xDSL_RVV_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/C20_%E6%8C%87%E4%BB%A4%E9%80%89%E6%8B%A9%E5%90%8E%E7%AB%AF%E7%BB%BC%E5%90%88_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/05_RISC-V_RVV%E7%BC%96%E8%AF%91%E5%99%A8%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%90%8E%E7%AB%AF/C23_Multilevel_RISCV_Backend_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/100_CodeBLEU.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/101_TritonBench.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/102_CodeNet.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/103_OMPar_OpenMP_Parallelization.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/31_TVM_An_Automated_End_to_End_Optimizing_Compiler_for_Deep_Learning_OSDI.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/32_Learning_to_Optimize_Tensor_Programs_NeurIPS_2018.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/33_Ithemal_Accurate_Portable_and_Fast_Basic_Block_Throughput_Estimation_u.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/34_ProGraML_A_Graph_based_Program_Representation_for_Data_Flow_Analysis_a.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/35_MLIR_Scaling_Compiler_Infrastructure_for_Domain_Specific_Computation_C.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/36_Ansor_Generating_High_Performance_Tensor_Programs_for_Deep_Learning_OS.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/98_XGrammar_Structured_Generation.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/99_Efficient_Guided_Generation.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C02_MLIR_Transform_Dialect_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C03_High_Performance_AI_Compiler_MLIR_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C04_Korch_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C13_TCL_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C14_MLIR_Latency_Hiding_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C15_RIFS_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C28_Guided_Tensor_Lifting_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C29_Neptune_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C32_NEURA_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C33_SeGaBench_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "00_三大类分类索引_v2.md::%E6%96%87%E7%8C%AE%E9%80%90%E7%AF%87%E9%98%85%E8%AF%BB/06_%E5%A4%9A%E7%A1%AC%E4%BB%B6%E7%BC%96%E8%AF%91_%E4%BB%A3%E4%BB%B7%E6%A8%A1%E5%9E%8B%E4%B8%8EIR%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/C41_LLVM-Bench_%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB%E6%80%BB%E7%BB%93.md",
+    "EPAS/01_核心研究框架/00_六类论文创新点总览.md::01_Pass调优_跨架构效应解耦的少样本策略迁移.md",
+    "EPAS/01_核心研究框架/00_六类论文创新点总览.md::02_编译智能体_真实后端实现对齐的意图反馈学习.md",
+    "EPAS/01_核心研究框架/00_六类论文创新点总览.md::03_优化规则_证明收益双证据的跨架构知识库.md",
+    "EPAS/01_核心研究框架/00_六类论文创新点总览.md::04_代码翻译_向量语义中间层驱动的可伸缩跨ISA迁移.md",
+    "EPAS/01_核心研究框架/00_六类论文创新点总览.md::05_RVV后端_硬件反例驱动的代价模型自校准.md",
+    "EPAS/02_其余五类候选创新/01_Pass调优_跨架构效应解耦的少样本策略迁移.md::06_多硬件编译_效应保持的最小架构增量知识特化.md",
+    "EPAS/02_其余五类候选创新/02_编译智能体_真实后端实现对齐的意图反馈学习.md::06_多硬件编译_效应保持的最小架构增量知识特化.md",
+    "EPAS/02_其余五类候选创新/04_代码翻译_向量语义中间层驱动的可伸缩跨ISA迁移.md::06_多硬件编译_效应保持的最小架构增量知识特化.md",
+    "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/00_逐篇阅读目录.md",
+    "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/01_AutoPhase_Juggling_HLS_Phase_Orderings_in_Random_Forests_with_Deep_Rei.md",
+    "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/03_CompilerGym_Robust_Performant_Compiler_Optimization_Environments_for_A.md",
+    "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/04_Compiler_R1_Towards_Agentic_Compiler_Auto_tuning_with_Reinforcement_Le.md",
+    "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/11_Agentic_Code_Optimization_via_Compiler_LLM_Cooperation_arXiv_2026.md",
+    "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/12_LLM_VeriOpt_Verification_Guided_Reinforcement_Learning_for_LLM_Based_C.md",
+    "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/16_Beyond_Pass_by_Pass_Optimization_Intent_Driven_IR_Optimization_with_La.md",
+    "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/23_Closer_in_the_Gap_Towards_Portable_Performance_on_RISC_V_Vector_Proces.md",
+    "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/24_Tensor_Program_Optimization_for_the_RISC_V_Vector_Extension_Using_Prob.md",
+    "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/26_IntrinTrans_LLM_based_Intrinsic_Code_Translator_for_RISC_V_Vector_arXi.md",
+    "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/31_TVM_An_Automated_End_to_End_Optimizing_Compiler_for_Deep_Learning_OSDI.md",
+    "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/36_Ansor_Generating_High_Performance_Tensor_Programs_for_Deep_Learning_OS.md",
+    "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/37_Faster_sorting_algorithms_discovered_using_deep_reinforcement_learning.md",
+    "EPAS/04_文献分析/研究方向综合分析.md::文献逐篇阅读/44_Leveraging_Large_Language_Models_for_Generalizing_Peephole_Optimizatio.md",
+    "多平台自适应编译优化框架/04_实验进展/01_P0候选管线与正确性记录/01_P0候选管线与正确性记录_实施计划.md::../03_设计与实施计划/MAPO-Pass_P0数据与实验设计规格.md",
+    "多平台自适应编译优化框架/04_实验进展/01_P0候选管线与正确性记录/01_P0候选管线与正确性记录_实施计划.md::../MAPO-Pass_预实验实施方案.md",
+    "多平台自适应编译优化框架/04_实验进展/01_P0候选管线与正确性记录/01_P0候选管线与正确性记录_实施计划.md::00_协同执行与反馈规范.md"
+  ]
+}

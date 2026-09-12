@@ -9,11 +9,11 @@ import sys
 from pathlib import Path
 
 REQUIRED_FILES = (
-    "05_创新证据矩阵.md",
-    "06_局限与反例证据表.md",
-    "07_创新机会观察区.md",
-    "08_近邻工作与创新边界表.md",
-    "09_机制增量与可做性门控.md",
+    "研究框架/00_通用证据与框架筛选/05_创新证据矩阵.md",
+    "研究框架/00_通用证据与框架筛选/06_局限与反例证据表.md",
+    "研究框架/00_通用证据与框架筛选/07_创新机会观察区.md",
+    "研究框架/00_通用证据与框架筛选/08_近邻工作与创新边界表.md",
+    "研究框架/00_通用证据与框架筛选/09_机制增量与可做性门控.md",
 )
 PAPER_RE = re.compile(r"\bPAPER-([A-Z]?\d{2,3})\b")
 MATRIX_RE = re.compile(r"^## PAPER-([A-Z]?\d{2,3})[：:]", re.MULTILINE)
@@ -65,7 +65,7 @@ def main() -> int:
     for name, content in contents.items():
         check_references(content, known_ids, name, errors)
 
-    matrix = contents["05_创新证据矩阵.md"]
+    matrix = contents[REQUIRED_FILES[0]]
     matrix_ids = [match.group(1).upper() for match in MATRIX_RE.finditer(matrix)]
     if not 25 <= len(matrix_ids) <= 35:
         errors.append(f"matrix paper blocks must be 25-35, got {len(matrix_ids)}")
@@ -77,7 +77,7 @@ def main() -> int:
             if marker not in block:
                 errors.append(f"matrix block missing {marker}: {block.splitlines()[0]}")
 
-    limitations = contents["06_局限与反例证据表.md"]
+    limitations = contents[REQUIRED_FILES[1]]
     lim_blocks = blocks(limitations, LIM_RE)
     if not lim_blocks:
         errors.append("no LIM blocks found")
@@ -88,7 +88,7 @@ def main() -> int:
         if not PAPER_RE.search(block):
             errors.append(f"limitation block has no Paper_ID: {block.splitlines()[0]}")
 
-    opportunities = contents["07_创新机会观察区.md"]
+    opportunities = contents[REQUIRED_FILES[2]]
     opp_blocks = blocks(opportunities, OPP_RE)
     if not opp_blocks:
         errors.append("no OPP blocks found")
@@ -111,7 +111,7 @@ def main() -> int:
     if found_opp_ids != expected_opp_ids:
         errors.append("opportunity IDs must be OPP-01 through OPP-05")
 
-    neighbor_audits = contents["08_近邻工作与创新边界表.md"]
+    neighbor_audits = contents[REQUIRED_FILES[3]]
     neighbor_blocks = blocks(neighbor_audits, NEIGHBOR_RE)
     neighbor_ids = [match.group(1) for match in NEIGHBOR_RE.finditer(neighbor_audits)]
     if set(neighbor_ids) != expected_opp_ids or len(neighbor_ids) != len(expected_opp_ids):
@@ -124,7 +124,7 @@ def main() -> int:
         if not 3 <= len(ids) <= 5:
             errors.append(f"nearest-work block needs 3-5 distinct Paper_ID references: {block.splitlines()[0]}")
 
-    gates = contents["09_机制增量与可做性门控.md"]
+    gates = contents[REQUIRED_FILES[4]]
     gate_blocks = blocks(gates, GATE_RE)
     gate_ids = [match.group(1) for match in GATE_RE.finditer(gates)]
     if set(gate_ids) != expected_opp_ids or len(gate_ids) != len(expected_opp_ids):
