@@ -1,0 +1,4 @@
+interface:
+  display_name: "编译器科研创新点分析"
+  short_description: "从 Taxonomy v2 三角色证据推导并验证唯一研究主线"
+  default_prompt: "使用 $developing-compiler-innovations 基于 taxonomy_v2.csv、逐篇笔记和论文正文，按 SELECTOR、TRANSLATOR、GENERATOR 分析候选，以 SUPPORTING 文献作证据支撑，检查横向标签与近邻碰撞，并推荐唯一论文主线。"
