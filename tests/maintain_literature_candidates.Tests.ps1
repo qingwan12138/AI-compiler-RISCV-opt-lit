@@ -37,13 +37,13 @@ Describe '文献候选缓存操作' {
         $report.retryable | Should Be 1
     }
 
-    It '不将年份筛选清单中的未完成候选误判为已入库' {
+    It '依据当前 taxonomy 总账识别已入库论文而不依赖年份清单状态' {
         $cache = Join-Path $TestDrive 'c26.jsonl'
         '{"run_id":"test","checked_at":"2026-07-20T00:00:00Z","title":"Reductive Analysis with Compiler-Guided Large Language Models for Input-Centric Code Optimizations","normalized_title":"reductive analysis with compiler guided large language models for input centric code optimizations","doi":"10.1145/3729282","status":"needs_user_session_download"}' | Set-Content -LiteralPath $cache -Encoding utf8
         $repoRoot = Split-Path -Parent $PSScriptRoot
         $report = & $scriptPath -Mode Report -Root $repoRoot -CachePath $cache
-        $report.existing_index_match | Should Be 0
-        $report.retryable | Should Be 1
+        $report.existing_index_match | Should Be 1
+        $report.retryable | Should Be 0
     }
 }
 
@@ -57,7 +57,7 @@ Describe 'PDF 预检' {
 
     It '接受现有的可解析论文 PDF 并返回页数' {
         $repoRoot = Split-Path -Parent $PSScriptRoot
-        $pdf = Join-Path $repoRoot '03_形式验证_超级优化与规则生成/C27-Removing-Undef-PLDI2026/paper.pdf'
+        $pdf = Join-Path $repoRoot '02_LLM_as_Translator/02_IR_ASM_Optimization_Superoptimization/C39-SuperCoder-2025/paper.pdf'
         $result = Test-PdfCandidate -PdfPath $pdf
         $result.IsPdf | Should Be $true
         ($result.Pages -gt 0) | Should Be $true

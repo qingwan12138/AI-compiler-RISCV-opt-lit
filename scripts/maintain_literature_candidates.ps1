@@ -44,13 +44,27 @@ function Test-CandidateRecord([hashtable]$Candidate) {
 
 function Get-CorpusCandidateKeys([string]$CorpusRoot) {
     $keys = [System.Collections.Generic.HashSet[string]]::new([System.StringComparer]::OrdinalIgnoreCase)
-    foreach ($relative in @('00_分类索引.md', '文献逐篇阅读/00_逐篇阅读目录.md')) {
+    foreach ($relative in @('00_三大类分类索引_v2.md', '文献逐篇阅读/00_逐篇阅读目录.md')) {
         $path = Join-Path $CorpusRoot $relative
         if (-not (Test-Path -LiteralPath $path)) { continue }
         $text = Get-Content -LiteralPath $path -Raw
-        foreach ($title in [regex]::Matches($text, '\[([^\]]+)\]\(')) { [void]$keys.Add("title:$(Normalize-LiteratureTitle $title.Groups[1].Value)") }
+        foreach ($line in (Get-Content -LiteralPath $path)) {
+            if ($line -notmatch '^\|\s*([A-Za-z]+\d+|\d+)\s*\|') { continue }
+            $cells = @($line.Trim().Trim('|').Split('|') | ForEach-Object { $_.Trim() })
+            if ($cells.Count -lt 4) { continue }
+            $title = [regex]::Match($cells[3], '^\[([^\]]+)\]\(')
+            if ($title.Success) { [void]$keys.Add("title:$(Normalize-LiteratureTitle $title.Groups[1].Value)") }
+        }
         foreach ($doi in [regex]::Matches($text, '(?i)10\.\d{4,9}/[-._;()/:a-z0-9]+')) { [void]$keys.Add("doi:$($doi.Value.ToLowerInvariant())") }
         foreach ($arxiv in [regex]::Matches($text, '(?i)(?:arXiv:|arxiv\.org/abs/)(\d{4}\.\d{4,5})')) { [void]$keys.Add("arxiv:$($arxiv.Groups[1].Value.ToLowerInvariant())") }
+    }
+    $taxonomyPath = Join-Path $CorpusRoot 'taxonomy_v2.csv'
+    if (Test-Path -LiteralPath $taxonomyPath -PathType Leaf) {
+        foreach ($row in (Import-Csv -LiteralPath $taxonomyPath)) {
+            if (-not [string]::IsNullOrWhiteSpace($row.Title)) {
+                [void]$keys.Add("title:$(Normalize-LiteratureTitle $row.Title)")
+            }
+        }
     }
     return $keys
 }

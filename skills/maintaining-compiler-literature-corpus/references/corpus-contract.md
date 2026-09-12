@@ -1,184 +1,140 @@
-# 编译器文献语料库合同
+# Taxonomy v2 语料库维护合同
 
-## 目录
+## 1. 文件职责与权威顺序
 
-1. 输入与固定文件
-2. 六类主分类
-3. 关键词矩阵
-4. 检索与证据
-5. 年份与去重
-6. 编号和文件命名
-7. 候选字段与状态机
-8. 优先级
-9. 下载与阅读
-10. 三个状态文件
-11. 完成条件和失败处理
-12. GitHub 交付
+| 文件 | 用途 | 写入规则 |
+|---|---|---|
+| `taxonomy_v2.csv` | Paper_ID、主/二级分类、标签、优先级、复核状态、当前 PDF/笔记路径的机器可读总账 | 每篇论文一行；以本文件字段为准 |
+| `00_三大类分类索引_v2.md` | 当前角色与二级分类的人类可读索引 | 新论文在对应二级分类表中增加一行 |
+| `文献逐篇阅读/00_逐篇阅读目录.md` | 全部笔记的可浏览目录 | 保留历史六类行；新论文追加到 `Taxonomy v2 新增记录` 区，并填写当前主/二级分类 |
+| `文献逐篇阅读/2024-2026_文献年份筛选清单.md` | 候选发现、核验、下载、阅读状态及失败原因 | 新候选先登记，再按状态推进 |
+| `文献逐篇阅读/候选处理缓存.jsonl` | 可审计的候选处理事件及重试辅助信息 | 仅由 `RecordCandidate` 模式追加，不代替任何索引或总账 |
 
-## 1. 输入与固定文件
+旧分类索引 `00_分类索引.md` 和迁移字段归档仅供历史审计。它们不用于新增论文的分类、去重或完成判定。
 
-任务输入至少包含研究方向和语料库根目录。根目录内维护：
+## 2. 主类与二级类
 
-- `01_...` 至 `06_...`：论文 PDF 目录。
-- `文献逐篇阅读/01_...` 至 `06_...`：阅读笔记。
-- `00_分类索引.md`：按主类别组织的总索引。
-- `文献逐篇阅读/00_逐篇阅读目录.md`：全部阅读笔记目录。
-- `文献逐篇阅读/2024-2026_文献年份筛选清单.md`：检索批次、年份和处理状态。
+主类依照 [Taxonomy v2 规则](../../docs/taxonomy/taxonomy_v2_rules.md)：
 
-目录名与固定文件不完全一致时，先定位同功能文件并向用户报告，不创建第二套索引。
-
-## 2. 六类主分类
-
-每篇只选择一个主类别，交叉主题进入关键词。
-
-| 类别 | 主问题 | 典型纳入主题 | 不应仅因何而纳入 |
+| Primary_Category | 判定 | PDF 根目录 | 笔记根目录 |
 |---|---|---|---|
-| 01 编译阶段排序与强化学习调优 | 如何选择、排序或搜索编译优化动作 | phase ordering、autotuning、RL/BO/搜索、pass 归因 | 只提到 LLVM pass |
-| 02 LLM 编译优化智能体与反馈驱动 | LLM 如何利用编译/运行反馈改进代码或优化决策 | compiler agent、反馈闭环、偏好学习、代码性能优化 | 一般代码生成 |
-| 03 形式验证、超级优化与规则生成 | 如何证明等价、发现 missed optimization 或生成可验证规则 | Alive2、SMT、translation validation、superoptimization | 只有测试通过 |
-| 04 向量化与跨 ISA 代码迁移 | 如何产生/迁移显式向量代码或跨架构代码 | SIMD、intrinsic translation、cross-ISA、效率评测 | 只在某 ISA 上运行 |
-| 05 RISC-V、RVV 编译器与真实后端 | RISC-V/RVV 后端、真机向量化与工具链问题 | RVV lowering、autovectorization、后端、真机性能 | 仅使用 RISC-V 数据集 |
-| 06 多硬件编译、代价模型与 IR 基础设施 | 如何跨硬件建模、调度、降低 IR 或构建编译基础设施 | MLIR、TVM、cost model、tensor compiler、kernel orchestration | 只使用 GPU 实验 |
+| `SELECTOR` | 模型输出 pass、phase、flag、schedule、配置、候选、策略或工具动作，现有编译器/工具执行变换 | `01_LLM_as_Selector` | `文献逐篇阅读/01_LLM_as_Selector` |
+| `TRANSLATOR` | 模型直接输出变换后的源码、IR、汇编、kernel、修复、翻译或低层恢复结果 | `02_LLM_as_Translator` | `文献逐篇阅读/02_LLM_as_Translator` |
+| `GENERATOR` | 模型输出可复用的编译器能力，如 pass、规则、后端组件、工具、测试或 fuzzer | `03_LLM_as_Generator` | `文献逐篇阅读/03_LLM_as_Generator` |
+| `SUPPORTING` | 基准、数据集、基础设施、LLM/RL 基础、传统编译器 ML、硬件背景、综述或评测方法 | `90_Supporting` | `文献逐篇阅读/90_Supporting` |
 
-无法可靠归类时标记 `待分类`，不能擅自新增第七类。
+Supporting 是有效主类，不是证据不足时的兜底。Agent、RL、验证工具、LLVM/MLIR、RISC-V/RVV、GPU、多硬件和反馈机制均作为横向标签或证据维度。
 
-## 3. 关键词矩阵
+二级类使用 `taxonomy_v2.csv` 中与主类兼容的受控值，例如 `S1_Pass_Phase_Flag_Selection`、`T3_Translation_CrossLanguage_CrossISA`、`G2_Optimization_Rule_Transform_Generation`、`B5_Hardware_ISA_Compiler_Background`。新增值先更新并校验受控分类规则，不从论文主题临时造新主类。
 
-先从用户研究方向生成五维词表，再组合查询。每个查询通常包含主题词、对象词和方法/证据/目标词各一个。
+## 3. 目录和路径
 
-| 维度 | 示例 |
-|---|---|
-| 主题 | compiler optimization、code optimization、tensor compiler、AI compiler |
-| 编译对象 | LLVM IR、MLIR、compiler pass、loop、kernel、intrinsic、binary |
-| 方法 | LLM agent、reinforcement learning、Bayesian optimization、continual learning、search |
-| 证据 | compiler feedback、profiling、translation validation、formal verification、PMU |
-| 硬件/IR | RISC-V、RVV、cross-ISA、CPU、GPU、NPU、multi-hardware |
-
-为核心词扩展缩写、全称、连字符变体和相邻术语。例如 `RVV` 同时扩展为 `RISC-V Vector Extension`；`phase ordering` 同时检索 `pass ordering`。生成排除词以降低纯硬件、一般代码生成和无编译器贡献结果。
-
-默认目标是去重后 10–20 篇高相关候选；用户指定数量时服从用户。若高相关结果不足，如实报告，不用弱相关论文凑数。
-
-## 4. 检索与证据
-
-必须联网检索。来源优先级：
-
-1. 会议/期刊正式论文页、出版社或 proceedings。
-2. arXiv、ACL Anthology、OpenReview、USENIX 等正文页。
-3. 作者或机构论文主页。
-4. DBLP、Crossref 用于辅助核对元数据。
-
-搜索结果摘要、博客和聚合转载不能单独承担题名、年份、渠道或 PDF 可用性的最终判断。技术事实在阅读阶段只来自论文正文。
-
-候选至少核验：完整题名、作者、首次公开年份、正式渠道、稳定页面链接、直接 PDF 链接、DOI/arXiv ID（存在时）、摘要相关性。
-
-### 候选选择顺序
-
-1. **硬门槛**：主题与六类主线直接相关、年份合规、元数据可核验、正文可得。任何渠道声望都不能替代这些条件。
-2. **强优先**：在通过硬门槛的候选中，优先已正式发表或由会议/期刊官方页面确认接收于本领域高水平渠道的论文。典型渠道包括 PLDI、ASPLOS、CGO、OOPSLA、CC、TACO、TOPLAS、MICRO、HPCA、ISCA；该列表用于检索扩展，不是硬白名单。
-3. **同等条件排序**：研究相关性、证据质量和正文完整性相当时，正式发表候选优先于仅有 arXiv、OpenReview 等预印本记录的独立候选。
-4. **受控回退**：若高水平正式发表的新论文不足用户要求数量，再选择高度相关、元数据和正文均可核验的高质量预印本。不得选择弱相关论文凑数，也不得因为论文来自顶刊顶会就放宽主题相关性。
-
-“已接收”必须由会议/期刊官方论文页、正式 proceedings 或出版社记录确认；仅在预印本正文或作者自述中声称接收，不足以承担该排序依据。
-
-## 5. 年份与去重
-
-- 纳入窗口固定为 2024、2025、2026。
-- 年份列采用首次可靠公开年份；发表渠道列记录正式会议/期刊年份。
-- 例如 2025 年 arXiv、ASPLOS 2026 接收的同一论文，年份列写 2025，渠道写 ASPLOS 2026。
-- 无法可靠确认年份时标记 `年份待确认`，不进入下载队列。
-
-按以下顺序去重：DOI 完全相同、arXiv ID 完全相同、规范化题名相同、作者与方法高度一致且能确认是版本关系。预印本和正式版保留一个条目；本地已有同题论文时更新元数据，不创建副本。
-
-## 6. 编号和文件命名
-
-先扫描现有补充编号前缀并分配下一个未使用的零填充编号，不复用已删除编号。当前语料库使用 `N`、`C` 等补充前缀时，应延续当前批次约定；不确定时先询问用户。
+物理二级目录用两位数字加去掉角色字母的标签名：
 
 ```text
-PDF目录：<编号>-<短英文Slug>-<渠道或年份>/paper.pdf
-笔记文件：<编号>_<短英文题名>_文献阅读总结.md
+SELECTOR / S1_Pass_Phase_Flag_Selection
+  -> 01_LLM_as_Selector/01_Pass_Phase_Flag_Selection/
+  -> 文献逐篇阅读/01_LLM_as_Selector/01_Pass_Phase_Flag_Selection/
 ```
 
-Slug 只使用字母、数字和连字符；笔记路径放在与 PDF 相同的主类别下。文件名变化后立即同步两个索引，不能留下悬空链接。
+统一布局：
 
-## 7. 候选字段与状态机
+```text
+<Primary directory>/<Secondary directory>/<Paper-ID>-<slug>-<venue-or-year>/paper.pdf
+文献逐篇阅读/<Primary directory>/<Secondary directory>/<Paper-ID>_<note-slug>_文献阅读总结.md
+```
 
-为避免跨批次重复核验，可维护 `文献逐篇阅读/候选处理缓存.jsonl`。每行是一次候选处理事件，至少含 `run_id`、`checked_at`、`title`、`normalized_title`、`status`，可含 DOI、arXiv ID、稳定页、PDF 链接与失败原因。缓存仅辅助去重、失败重试和预检，不能替代年份筛选清单、两个索引或阅读笔记；不得存储 Cookie、令牌、密码或其他凭据。
+路径写入 CSV 时相对仓库根目录、使用 `/` 分隔符。没有本地论文 PDF 的源材料受限记录使用 `SOURCE_LIMITED_NO_LOCAL_PDF`，其 Note_Path 仍指向明确标注材料限制的笔记。
 
-新检索批次在年份清单中使用：
+## 4. 当前 CSV 字段
 
-| 编号 | 年份 | 类别 | 文献 | PDF | 发表渠道 | 关键词 | 优先级 | 状态 | 核验来源 |
-|---|---:|---|---|---|---|---|---|---|---|
+保留以下顺序和字段；迁移专用旧字段只存在归档副本中：
 
-- 文献链接指向稳定论文页。
-- PDF 在下载前指向直接在线 PDF；下载后改为或补充本地 PDF 链接。
-- 核验来源记录用于确认年份/渠道的一手页面。
+```text
+Paper_ID,Year,Title,Primary_Category,Secondary_Category,Role,Method,Task,
+Input_Level,Output_Level,Platform,Feedback,Verification,Benchmark,Tool,
+Agentic,Priority,Classification_Confidence,Classification_Rationale,
+Needs_Review,PDF_Path,Note_Path
+```
 
-成功状态严格按顺序推进：
+`taxonomy_v2.csv` 的 `Paper_ID` 必须唯一。`Primary_Category`、`Secondary_Category` 依据论文实际系统输出与方法证据填写；`Classification_Rationale` 记录可核验依据，`Classification_Confidence` 使用 `HIGH`、`MEDIUM` 或 `LOW`，`Needs_Review` 使用 `YES` 或 `NO`。来源受限或主要角色不清楚时降低置信度并标记复核。
 
-`发现候选 → 元数据已核验 → 已下载 → PDF有效 → 阅读完成 → 逐篇目录已加入 → 分类索引已加入 → 年份清单已完成`
+## 5. 关键词、检索与候选筛选
 
-失败状态：`重复项`、`年份不符`、`年份待确认`、`下载失败`、`需要用户会话下载`、`正文不可得`、`PDF无效`、`阅读失败`、`待分类`。失败状态后用简短文本说明原因；`需要用户会话下载` 是可重试状态，不能伪装为已下载。
+将研究方向拆成主题、编译对象、方法、反馈/验证证据、硬件/IR 五组词，再组合英文检索式并加入排除词。当前年份候选以年份筛选清单标题和用户指定范围为准；仓库现行窗口为 2024–2026，若用户给出新范围则按用户范围记录本轮口径。
 
-不得用“候选”“已处理”等模糊词替代精确状态，也不得在文件已完成后保留“当前语料库之外”“尚未纳入”等过期描述。
+必须联网核验候选。来源优先正式 proceedings、出版社或会议/期刊主页，再用 arXiv、ACL Anthology、OpenReview、USENIX、作者主页及 DBLP/Crossref 补充。至少核实题名、作者、首次公开年份、正式渠道、稳定页面、PDF 地址或正文可得性、DOI/arXiv ID（存在时）和主题相关性。
 
-## 8. 优先级
+候选硬门槛为直接相关、年份合规、元数据可核验、正文可获得。满足门槛后优先正式发表或被官方渠道确认接收的成果；相关性和证据相当时正式版优先。高质量预印本用于补足相关工作，不用弱相关论文凑数。年份列记首次可靠公开年份，发表渠道列另记正式渠道年份；预印本与正式版属于同一工作时保留一个 Paper_ID。
 
-| 优先级 | 判断标准 |
+## 6. 去重与缓存
+
+候选去重顺序：DOI、arXiv ID、规范化题名、作者与方法相符的版本关系。检索前运行：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/maintain_literature_candidates.ps1 -Mode Report -Root <仓库根目录> -CachePath <候选缓存路径>
+```
+
+该脚本从 taxonomy 总账、当前角色索引和逐篇目录识别已收录条目。年份清单中的未完成候选不因已登记而算作入库。缓存每行至少含 `run_id`、`checked_at`、`title`、`normalized_title`、`status`；不得写入 Cookie、令牌、密码等凭据。
+
+## 7. 候选字段与状态
+
+年份筛选清单至少记录：Paper_ID、年份、主类/二级类、题名、稳定文献链接、直接 PDF 链接或受限原因、发表渠道、关键词、优先级、状态和一手核验来源。
+
+成功状态依次为：
+
+`发现候选 → 元数据已核验 → 已下载 → PDF有效 → 阅读完成 → taxonomy 已登记 → 角色索引已登记 → 逐篇目录已登记 → 年份清单已完成`
+
+失败状态使用 `重复项`、`年份不符`、`年份待确认`、`下载失败`、`需要用户会话下载`、`正文不可得`、`PDF无效`、`阅读失败` 或 `待分类`，并附一句原因。`需要用户会话下载` 可重试，但不得标为已下载。
+
+## 8. PDF 与阅读
+
+下载前用候选脚本的 `ProbePdf` 模式检查直接链接：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/maintain_literature_candidates.ps1 -Mode ProbePdf -PdfUrl <直接PDF链接>
+```
+
+保存后检查 `%PDF-` 签名并使用 PDF 解析器确认页数。登录页、HTML、错误页和不可解析文件均不得进入有效 PDF 状态。复用已有有效 PDF，不重复下载。
+
+**REQUIRED SUB-SKILL:** 使用 `reading-compiler-literature` 逐篇阅读。事实只来自可读正文；准确数字标明对照对象、数据集、指标和统计口径。正文不可得时保留失败/受限状态，不能伪装为全文阅读。逐篇笔记使用 13 节合同；最小可行 Demo 只在后续创新方案阶段集中设计。
+
+## 9. 同步索引
+
+同一批次内依次完成以下写入：
+
+1. 更新 CSV 中的当前路径字段 `PDF_Path`、`Note_Path` 和分类证据字段。
+2. 在 `00_三大类分类索引_v2.md` 的目标二级分类表中加入文献笔记链接、本地 PDF 链接和元数据。
+3. 在逐篇阅读目录中保留所有旧历史行，并将新条目追加到 `Taxonomy v2 新增记录` 区；其类别栏写 `PRIMARY / SECONDARY`。
+4. 更新年份筛选清单状态和本轮计数；失败项保留原因。
+
+两个当前目录都必须能跳转到 Note_Path；有本地 PDF 的条目必须能跳转到 PDF_Path。源材料受限条目明确写“资料受限（无本地 PDF）”。类别、Paper_ID、笔记和 PDF 路径必须与 CSV 一致。
+
+## 10. 优先级和复核
+
+| 优先级 | 依据 |
 |---|---|
-| 高 | 核心竞品、关键方法、关键基础设施，直接影响研究主线或创新性判断 |
-| 中高 | 可直接组合的方法、强实验基线或高复现价值材料 |
+| 高 | 核心竞品、关键方法或基础设施，直接影响研究主线或新颖性判断 |
+| 中高 | 可组合方法、强实验基线或高复现价值材料 |
 | 中 | 重要支撑、评测或工程参考 |
-| 低 | 背景性、通用性或与编译器主线关系较弱 |
+| 低 | 背景或与编译器主线关系较弱 |
 
-源材料受限条目不标为高。优先级依据研究价值，不以某个预设框架是否需要它来决定。
+渠道声望不直接决定研究优先级。源材料受限条目不标为高。分类或路径无法可靠确认时设置 `Needs_Review=YES`，并在报告中列出人工确认项。
 
-发表渠道优先用于候选选择和同等条件排序，不直接决定条目的“高/中高/中/低”研究优先级。顶刊顶会论文若与主线关系弱，不能自动标为高；高度相关的预印本仍可因核心竞品、关键方法或关键基础设施价值标为高。
+## 11. 验证与完成条件
 
-## 9. 下载与阅读
+完成批次前运行：
 
-下载前先用 `scripts/maintain_literature_candidates.ps1 -Mode ProbePdf` 临时预检 URL，确认其不是登录页、错误页或 HTML；该预检不得写入语料库目录。保存后检查前五字节为 `%PDF-`，再用 PDF 解析器读取页数。两项通过后才能标记 `PDF有效`。
+```powershell
+py -3 scripts/validate_taxonomy_v2.py
+py -3 scripts/validate_taxonomy_links.py
+powershell -ExecutionPolicy Bypass -File scripts/validate_literature_corpus.ps1 -Root <仓库根目录>
+```
 
-**REQUIRED SUB-SKILL:** 使用 `reading-compiler-literature` 逐篇阅读。正文不可得时保持失败状态；只有用户明确接受且证据足够时，才生成“源材料受限”笔记，并在两个索引中明确标注。
+必要时还运行 `tests/maintain_literature_candidates.Tests.ps1` 和创新证据验证。语料库校验要求 taxonomy、当前角色索引、逐篇目录和年份清单存在；CSV 与两个目录的 Paper_ID 集合一致；分类与 Note_Path/PDF_Path 一致；笔记满足 13 节；本地 PDF 签名有效；所有索引链接有效。
 
-## 10. 三个状态文件
+完成数须满足：候选数 = 成功数 + 保留失败数；每条新增 taxonomy 记录在两个目录均有对应 ID；有效 PDF 数等于可解析的新 PDF 数；成功笔记数等于合格的新笔记数。任一验证未通过时，报告未完成的阶段与证据。
 
-### 年份筛选清单
+## 12. Git 边界
 
-先登记候选，再随处理推进状态。保留检索日期、研究方向、关键词组、纳入/排除口径、去重基准、候选表和失败项。
-
-### 逐篇阅读目录
-
-列格式固定为：
-
-`编号 | 年份 | 类别 | 文献 | PDF | 发表渠道 | 关键词 | 优先级`
-
-文献题名链接到阅读笔记，PDF 链接到本地 `paper.pdf`。更新分类数量、完整 PDF 阅读、源材料受限和优先级统计。
-
-### 分类索引
-
-使用相同八列，按唯一主类别组织。链接相对于根目录解析；统计必须与逐篇阅读目录一致。
-
-三个文件是同一事务：任一个未更新或状态矛盾，本批次仍未完成。
-
-## 11. 完成条件和失败处理
-
-完成时必须同时满足：
-
-- 候选去重后数量等于成功项加失败项。
-- `PDF有效` 数等于可解析新增 PDF 数。
-- `阅读完成` 数等于合格新增笔记数。
-- 两个索引的编号集合和总条目数一致。
-- 新增成功编号均出现在两个索引，并在年份清单达到 `年份清单已完成`。
-- 所有本地笔记/PDF链接存在，笔记满足 13 节合同；逐篇笔记不包含最小可行 Demo，该内容只在六类创新分析中针对最终推荐方案集中设计。
-- 验证脚本退出码为 0。
-- 本轮相关文件已使用 `由Codex提交：<中文摘要>` 提交并推送至 `origin/main`，本地与远端 ahead/behind 为 0。
-
-单篇失败不阻塞批次其余论文。最终报告逐项列出失败编号、阶段和原因；不要删除失败记录，也不要用未验证的替代论文静默补位。
-
-## 12. GitHub 交付
-
-- 开始时先 `git fetch origin`，只允许对干净工作区执行安全快进；存在无关改动、认证失败、分支冲突或远端分叉时停止。
-- 验证通过后使用明确路径精准暂存本轮文件，不使用会混入无关文件的笼统暂存。
-- 提交标题固定以 `由Codex提交：` 开头，后接简洁中文变更摘要。
-- 提交后再次 `git fetch origin`；若 `origin/main` 已前进或分叉，停止并报告，不 rebase、不强推、不混合提交。
-- 远端未变化时直接推送 `main`，不创建 PR；推送后核对 `HEAD` 与 `origin/main` 哈希一致，ahead/behind 为 0。
+常规入库任务在本地完成并验证后交付状态摘要。只有用户明确要求 Git 交付时，才执行暂存、提交、fetch 或 push；届时仅暂存本轮相关文件，遵守仓库 `AGENTS.md` 的提交信息格式和安全规则。远端领先或分叉时停止并报告，不强推、不重写历史。

@@ -1,38 +1,34 @@
 ---
 name: maintaining-compiler-literature-corpus
-description: Use when expanding a compiler research direction into a maintained 2024–2026 literature corpus, especially when keyword generation, online paper discovery, metadata verification, categorized PDF downloads, standardized Chinese reading notes, or synchronized literature indexes are requested.
+description: Use when discovering, verifying, downloading, classifying, or adding compiler papers to a maintained literature corpus with PDF files, reading notes, and synchronized indexes.
 ---
 
-# 编译器文献语料库全流程维护
+# 编译器文献语料库维护
 
-## 核心原则
+把新论文从候选到正式入库视为一个状态事务。当前分类依据和文件位置以仓库中的 `taxonomy_v2.csv` 为准；分类规则见 `docs/taxonomy/taxonomy_v2_rules.md`，具体字段与更新约定见 [references/corpus-contract.md](references/corpus-contract.md)。开始前读取这两份文件并检查当前工作区状态。
 
-把“发现、下载、阅读、入库”视为一个有状态事务。论文文件、阅读笔记、逐篇目录、分类索引和年份清单全部一致之前，任务仍未完成。
+## 当前仓库入口
 
-开始前完整读取 [references/corpus-contract.md](references/corpus-contract.md)。该文件规定分类、关键词、证据、命名、状态和索引格式。
+- 机器可读总账：`taxonomy_v2.csv`
+- 当前角色索引：`00_三大类分类索引_v2.md`
+- 阅读笔记目录：`文献逐篇阅读/00_逐篇阅读目录.md`
+- 候选状态：`文献逐篇阅读/2024-2026_文献年份筛选清单.md`
+- 可选处理日志：`文献逐篇阅读/候选处理缓存.jsonl`
+- PDF 和笔记按 `SELECTOR`、`TRANSLATOR`、`GENERATOR`、`SUPPORTING` 主类镜像存放。
+
+`taxonomy_v2.csv` 是主类、二级类、Paper_ID 和本地路径的权威来源。Agent、RL、形式验证、LLVM/MLIR、RISC-V/RVV、GPU 与反馈属于横向标签，不替代主类。
 
 ## 工作流程
 
-1. **Git 预检**：确认工作区、当前 `main`、`origin/main` 和远端认证状态；先 `fetch`，只允许安全快进。发现无关未提交改动、分支冲突、认证失败或远端分叉时停止，不覆盖、不重置、不混合提交。
-2. **重建现状**：清点六类目录、PDF、笔记、`00_分类索引.md`、`文献逐篇阅读/00_逐篇阅读目录.md` 和年份筛选清单。以文件系统为准，不依赖聊天记忆。
-3. **扩展关键词**：把用户研究方向拆为主题、编译对象、方法、证据和硬件/IR 五维矩阵，生成同义词和英文组合；不得围绕预设框架定向搜证。
-4. **联网检索**：必须搜索互联网，只纳入首次公开或正式发表时间为 2024–2026 的成果。候选先满足主题直接相关、年份合规、元数据可核验和正文可得，再强优先已正式发表或由官方页面确认接收于本领域高水平会议/期刊的论文（如 PLDI、ASPLOS、CGO、OOPSLA、CC、TACO、TOPLAS、MICRO、HPCA、ISCA；示例不是硬白名单）。相关性和证据质量相当时，正式发表候选优先于仅有预印本的独立候选；此类新论文不足时，才回退到高度相关且可核验的高质量预印本。不得用弱相关顶会论文或弱相关预印本凑数。元数据核验优先论文主页、正式 proceedings、出版社、arXiv、ACL Anthology、OpenReview 和作者主页。
-5. **核验与去重**：先运行 `scripts/maintain_literature_candidates.ps1 -Mode Report -Root <语料库根目录> -CachePath <候选缓存>`，复用已核验结果并识别可重试失败项；再核对题名、作者、年份、渠道、DOI/arXiv ID、摘要、PDF 链接和正式版关系。用规范化题名、DOI、arXiv ID 三重去重。
-6. **先登记候选**：将合格候选写入年份筛选清单，分配未使用编号并标记 `元数据已核验` 或明确失败状态。此时不能写成已下载或已阅读。
-7. **分类下载**：先用 `scripts/maintain_literature_candidates.ps1 -Mode ProbePdf -PdfUrl <直接PDF链接>` 预检响应，拒绝 HTML、登录页和不可解析 PDF；再按唯一主类别创建论文目录，保存为 `paper.pdf`，检查 `%PDF-` 签名并用 PDF 解析器读取页数，成功后推进状态。
-8. **逐篇阅读**：**REQUIRED SUB-SKILL:** 使用 `reading-compiler-literature`。只以 PDF 正文为事实依据生成统一 13 节中文笔记；逐篇笔记不设计最小可行 Demo，六类创新分析只对最终推荐方案集中设计 Demo；正文不可得时不得伪装为全文阅读。
-9. **同步入库**：同一批次更新逐篇阅读目录、分类索引、年份候选状态，以及分类、完整 PDF、源材料受限和优先级统计。两个索引都必须提供可点击的笔记和本地 PDF 链接。
-10. **验证交付**：运行 `scripts/validate_literature_corpus.ps1 -Root <语料库根目录>`。只有退出码为 0 才能进入 Git 交付。
-11. **提交 GitHub**：只精准暂存本轮相关文件，提交信息使用 `由Codex提交：<中文摘要>`。再次 `fetch` 并确认 `origin/main` 未前进后直接推送 `main`，不创建 PR；推送后确认本地 `HEAD` 与 `origin/main` 哈希相同且 ahead/behind 为 0。
-
-## 中断续跑
-
-- 已有有效 PDF 不重复下载；已有合格 13 节笔记不重写。
-- 候选缓存 `文献逐篇阅读/候选处理缓存.jsonl` 仅记录可审计处理事件，不替代年份清单或两个索引；只有 `RecordCandidate` 模式可以追加它。
-- 每次恢复时按状态机找第一个未完成阶段，从那里继续。
-- 单篇失败不阻塞其他论文，但必须在年份清单和最终报告中保留原因。
-- 正式版与预印本为同一工作时只保留一个语料条目，并同时记录首次公开年份与正式渠道。
+1. 按用户给定的研究方向生成多维关键词并联网检索。候选须主题直接相关、年份与当前筛选范围相符、元数据可核验且正文可获得；按 DOI、arXiv ID 和规范化题名检查重复。
+2. 依据论文中语言模型的最终编译系统角色提出一个 `Primary_Category` 和一个兼容的 `Secondary_Category`。对不确定条目设置 `Needs_Review=YES`，并记录证据与置信度。
+3. 先在年份清单登记候选及精确状态；分配未用的 Paper_ID。重复或不合格条目保留原因，不进入本地 PDF 和笔记路径。
+4. 下载前预检 PDF 响应；保存到目标二级分类目录的 `paper.pdf`，验证 PDF 签名和可解析页数。复用已有有效文件。
+5. **REQUIRED SUB-SKILL:** 对可获得的正文使用 `reading-compiler-literature` 生成 13 节笔记。只依据正文记录论文事实；源材料受限时明确标注。
+6. 将完整新条目同步至 `taxonomy_v2.csv`、当前角色索引和年份清单；同时把笔记加入逐篇阅读目录。旧六类目录中的历史行按现有内容保留；新笔记目录行放入文献阅读目录的 Taxonomy v2 新增区，并以 taxonomy 的主类/二级类标注。
+7. 运行 taxonomy、索引链接、候选缓存和语料库验证。任何 Paper_ID、分类、PDF、笔记或链接不一致时，修复后再报告完成。
+8. Git 提交或推送只在用户明确要求时进行；只暂存本批次文件，提交信息遵守仓库 `AGENTS.md` 约定。
 
 ## 完成报告
 
-摘要列出检索关键词组、发现数、去重后候选数、下载成功数、有效 PDF 数、完成笔记数、三个状态文件的计数变化、失败项、验证摘要、commit 哈希和 GitHub 推送结果。除非用户要求，不输出完整文件清单或大段 diff。数量不一致、提交失败或推送后哈希不一致时报告实际状态，不声称完成。
+报告检索关键词组、发现与去重数量、成功/失败项、PDF 和笔记计数、四个状态文件的变化、验证结果，以及尚需人工复核事项。未通过校验时清楚报告失败阶段，不声称入库完成。
