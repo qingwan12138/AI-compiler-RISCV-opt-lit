@@ -1,5 +1,20 @@
 # Taxonomy v2 rules
 
+## Current corpus ledger
+
+`taxonomy_v2.csv` is the canonical machine-readable ledger for current paper IDs,
+primary and secondary categories, tags, review state, and local files. Its active
+path columns are `PDF_Path` and `Note_Path`. The Markdown role index is
+`00_三大类分类索引_v2.md`; `文献逐篇阅读/00_逐篇阅读目录.md` is the reading-note
+catalog. The old six-category index and migration-only columns are historical
+records, not inputs to new-paper processing.
+
+The ledger has one row per paper. When adding an item, assign a new `Paper_ID`,
+set one valid primary and compatible secondary category, then record paths under
+the matching primary/secondary directories. Keep the existing CSV field order.
+Historical old-category and old-path mappings are preserved in
+`archive/taxonomy_v2_迁移过程/taxonomy_v2_with_migration_fields_2026-09-12.csv`.
+
 ## Primary decision rule
 
 Classify the **final compiler-system role of the LM**, not its training method,
