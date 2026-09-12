@@ -1,0 +1,4 @@
+interface:
+  display_name: "编译器文献逐篇阅读"
+  short_description: "按 Taxonomy v2 路径精读论文并生成有证据的中文笔记"
+  default_prompt: "使用 $reading-compiler-literature 阅读论文；若属于当前语料库，按 taxonomy_v2.csv 的 Paper_ID 与 Note_Path 处理笔记，并将新论文登记和索引同步交给维护技能。"
