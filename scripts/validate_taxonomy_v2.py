@@ -74,8 +74,8 @@ def main() -> int:
         errors.append("missing headers: " + ", ".join(sorted(missing_headers)))
     if legacy_headers:
         errors.append("legacy migration headers are not allowed in the current ledger: " + ", ".join(sorted(legacy_headers)))
-    if len(rows) != 169:
-        errors.append(f"expected 169 rows, got {len(rows)}")
+    if len(rows) != 171:
+        errors.append(f"expected 171 rows, got {len(rows)}")
     ids = [row.get("Paper_ID", "").strip() for row in rows]
     duplicates = sorted({paper_id for paper_id in ids if ids.count(paper_id) > 1})
     if duplicates:
