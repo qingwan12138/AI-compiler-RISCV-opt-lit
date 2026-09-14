@@ -183,7 +183,8 @@ if ($classText -notmatch '条目总数[：:]\s*\*\*(\d+)\*\*' -or [int]$Matches[
     Add-ValidationError '角色索引条目总数与 taxonomy_v2.csv 不一致'
 }
 foreach ($category in $roleDistribution.Keys) {
-    if ($classText -notmatch "$category[：:]\s*\*\*(\d+)\*\*" -or [int]$Matches[1] -ne $roleDistribution[$category]) {
+    $categoryPattern = ([regex]::Escape($category) + '[：:]\s*\*\*(\d+)\*\*')
+    if ($classText -notmatch $categoryPattern -or [int]$Matches[1] -ne $roleDistribution[$category]) {
         Add-ValidationError "角色索引 $category 数量与 taxonomy_v2.csv 不一致"
     }
 }
