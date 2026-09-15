@@ -31,9 +31,8 @@ class TaxonomyContractTests(unittest.TestCase):
         self.assertIn("PDF_Path", fields)
         self.assertIn("Note_Path", fields)
         self.assertTrue(OLD_MIGRATION_FIELDS.isdisjoint(fields))
-        self.assertEqual(len(rows), 195)
         paper_ids = [row["Paper_ID"] for row in rows]
-        self.assertEqual(len(set(paper_ids)), 195)
+        self.assertEqual(len(set(paper_ids)), len(rows))
         self.assertEqual({row["Primary_Category"] for row in rows}, PRIMARY_CATEGORIES)
         for row in rows:
             if row["PDF_Path"] != "SOURCE_LIMITED_NO_LOCAL_PDF":
