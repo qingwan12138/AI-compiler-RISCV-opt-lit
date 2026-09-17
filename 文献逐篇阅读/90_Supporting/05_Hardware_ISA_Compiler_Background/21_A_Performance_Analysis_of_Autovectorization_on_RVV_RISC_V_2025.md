@@ -3,7 +3,7 @@
 论文题目：**A Performance Analysis of Autovectorization on RVV RISC-V**
 作者：因源材料受限，作者名待确认（IEEE Xplore 条目）
 发表时间：2025年
-发表平台：IEEE 会议/期刊
+发表平台：未核验 / IEEE 会议或期刊（具体 venue 未确认）
 论文链接或编号：https://ieeexplore.ieee.org/document/10974828
 关键词：RISC-V向量扩展、自动向量化、性能分析、编译器后端、HPC
 

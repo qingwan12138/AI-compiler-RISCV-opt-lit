@@ -3,7 +3,7 @@
 论文题目：**RISC-V Vectorization Coverage for HPC: A TSVC-Based Analysis**
 作者：因源材料受限，作者名待确认（ACM 条目）
 发表时间：2025年
-发表平台：ACM 会议/期刊
+发表平台：未核验 / ACM 会议或期刊（具体 venue 未确认）
 论文链接或编号：https://dl.acm.org/doi/abs/10.1145/3731599.3767535
 关键词：RISC-V向量扩展、TSVC基准测试、向量化覆盖率、HPC、编译器自动向量化
 

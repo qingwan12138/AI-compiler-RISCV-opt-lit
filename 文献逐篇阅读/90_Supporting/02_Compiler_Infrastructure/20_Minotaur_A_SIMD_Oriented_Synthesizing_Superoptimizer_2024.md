@@ -3,7 +3,7 @@
 论文题目：**Minotaur: A SIMD-Oriented Synthesizing Superoptimizer**
 作者：Alexey Zhikhartsev, Aravind Kolli, Pavel Panchekha, Zachary Tatlock
 发表时间：2024年
-发表平台：arXiv / PLDI 2024（待确认）
+发表平台：未核验 / arXiv 预印本；PLDI 2024 未证实
 论文链接或编号：arXiv:2401.xxxxx（待确认完整编号）
 关键词：SIMD超优化、程序合成、Alive2验证、LLVM向量化、x86 SIMD、编译器优化
 
